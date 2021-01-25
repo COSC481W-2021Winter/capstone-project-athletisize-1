@@ -16,7 +16,7 @@ Occupation: Sales representative
 Busy single Dad
 
 
-![Michael Scott](capstone-project-athletisize-1/GettyImages-1030913102-1.jpg)
+![Michael Scott](https://ibb.co/rHR2J6s)
 
 
 
