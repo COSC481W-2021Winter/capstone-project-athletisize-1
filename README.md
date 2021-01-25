@@ -1,7 +1,6 @@
 # capstone-project-athletisize-1
 capstone-project-athletisize-1 created by GitHub Classroom
 
-Google Docs Link (w/ picture): https://docs.google.com/document/d/1JBsN7qCVSY7XHalpUKmDHMI8ACQTa-zAAK9MoR5lBiA/edit?usp=sharing
 
 Weekly meeting times: Fridays @ 4:00pm
 Team Name: AthletiSize
