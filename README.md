@@ -15,14 +15,13 @@ Occupation: Sales representative
 Busy single Dad
 
 
-![Michael Scott](GettyImages-1030913102-1.jpg)
+<img src="GettyImages-1030913102-1.jpg" width="130" height="130" align="left" /><br>
 
+<br>
+<br>
+<br>
 
-
-
-
-
-Screening Questions:
+<br>Screening Questions:
 What sport do they play?
 Are they a beginner or have they previously played?
 Height, weight, shoe size, age?
