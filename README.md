@@ -6,6 +6,17 @@ Weekly meeting times: Fridays @ 4:00pm
 Team Name: AthletiSize
 Project Name: AthletiSize
 
+<br>
+<b><u>Description of Prototype</b></u><br>
+1. Users will arrive at our home page, where they can log in or sign up for an account, or just get started quickly as an anonymous user<br>
+2. The Home page also has a toolbar at the top for a listing of sports and the required equipment for each, an about us page, contact us page, and a home button to return back to the home screen<br>
+3. Clicking "Get Started" will take the user to a multi-tabbed page where they will choose options on each tab, which will determine what shows up on the next tab. Starting with choosing what sport they are playing, they then select what gear they need, and then sizing options and information will appear in the next tab. The final tab will be the results of what they need and what size they need it in. <br>
+4. The "About Us" page will be a short description of our product and team, along with bios of each team member. "Contact Us" will have a contact form the user can fill out.<br>
+5. The web interface will be HTML/CSS based, with possibly some Javascript elements, and the back end will feature a SQL database. <br>
+
+
+
+
 Persona
 
 Name: Michael Scott
