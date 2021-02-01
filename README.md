@@ -12,7 +12,7 @@ Project Name: AthletiSize
 2. The Home page also has a toolbar at the top for a listing of sports and the required equipment for each, an about us page, contact us page, and a home button to return back to the home screen<br>
 3. Clicking "Sports" will take the user to a page where they will get a list of sports, where they can choose one and it will give a listing of all of the required equipment for that sport. <br>
 4. The "About Us" page will be a short description of our product and team, along with bios of each team member. "Contact Us" will have our contact information.<br>
-5. The web interface will be HTML/CSS based, with some Javascript elements, and the back end will feature a PHP/SQL database. For the prototype we will only have a small table with ~10 users, and basic framework for the static elements of the website. <br>
+5. The web interface will be HTML/CSS based, with some Javascript elements, and the back end will feature a PHP/SQL database. For the prototype we will only have a small table with ~10 users, as well as a table for each sport, and basic framework for the static elements of the website. <br>
 
 
 
