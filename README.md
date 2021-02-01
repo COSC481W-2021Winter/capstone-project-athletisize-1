@@ -11,8 +11,8 @@ Project Name: AthletiSize
 1. Users will arrive at our home page, where they can log in or sign up for an account, or just get started quickly as an anonymous user<br>
 2. The Home page also has a toolbar at the top for a listing of sports and the required equipment for each, an about us page, contact us page, and a home button to return back to the home screen<br>
 3. Clicking "Get Started" will take the user to a multi-tabbed page where they will choose options on each tab, which will determine what shows up on the next tab. Starting with choosing what sport they are playing, they then select what gear they need, and then sizing options and information will appear in the next tab. The final tab will be the results of what they need and what size they need it in. For the prototype, we will have a limited amount of sports available <br>
-4. The "About Us" page will be a short description of our product and team, along with bios of each team member. "Contact Us" will have a contact form the user can fill out.<br>
-5. The web interface will be HTML/CSS based, with possibly some Javascript elements, and the back end will feature a SQL database. For the prototype we will only have a small table with ~10 users, and basic framework for the static elements of the website. <br>
+4. The "About Us" page will be a short description of our product and team, along with bios of each team member. "Contact Us" will have our contact information.<br>
+5. The web interface will be HTML/CSS based, with some Javascript elements, and the back end will feature a PHP/SQL database. For the prototype we will only have a small table with ~10 users, and basic framework for the static elements of the website. <br>
 
 
 
