@@ -2,9 +2,10 @@
 capstone-project-athletisize-1 created by GitHub Classroom
 
 
-Weekly meeting times: Fridays @ 4:00pm <br>
-Team Name: AthletiSize<br>
-Project Name: AthletiSize
+
+<b>Team Name:</b> AthletiSize<br>
+<b>Project Name:</b> AthletiSize<br>
+<b>Weekly meeting times:</b> Fridays @ 4:00pm 
 
 <br>
 <b><u>Description of Prototype</b></u><br>
@@ -17,27 +18,29 @@ Project Name: AthletiSize
 
 
 
-Persona
+<b> PERSONA </b>
+<img src="GettyImages-1030913102-1.jpg" width="200" height="200" align="left" />
 
-Name: Michael Scott
-Age: 28
-Location: Ann Arbor, Michigan
-Occupation: Sales representative 
-Busy single Dad
+<b>Name:</b> Michael Scott <br>
+<b>Age:</b> 28 <br>
+<b>Location:</b> Ann Arbor, Michigan <br>
+<b>Occupation:</b> Sales representative <br>
+Busy single Dad <br>
 
 
-<img src="GettyImages-1030913102-1.jpg" width="130" height="130" align="left" /><br>
 
 <br>
 <br>
 <br>
 
-<br>Screening Questions:
-What sport do they play?
-Are they a beginner or have they previously played?
-Height, weight, shoe size, age?
 
-Michael Scott is a busy single father who has a daughter playing soccer for the first time. He has never played organized sports and doesn’t have many friends who do, or have children in any sports leagues. Knowing he has to buy equipment for his daughter, he has no resources on how to figure out what exactly he needs to buy, and what sizes he would need as well as limited time. He wants to make sure that he is purchasing the correct gear at the right price but doesn’t have time to go into a store and doesn’t want to waste time talking to a sales representative.
+Michael Scott is a busy single father who has a daughter playing soccer for the first time. He has never played organized sports and doesn’t have many friends who do, or have children in any sports leagues. Knowing he has to buy equipment for his daughter, he has no resources on how to figure out what exactly he needs to buy, and what sizes he would need as well as limited time. He wants to make sure that he is purchasing the correct gear at the right price but doesn’t have time to go into a store and doesn’t want to waste time talking to a sales representative. <br>
+
+<b>Screening Questions:</b>
+What sport do they play?<br>
+Are they a beginner or have they previously played?<br>
+Height, weight, shoe size, age?<br>
+
 
 Values: Lack of experience/knowledge on sports equipment, busy lifestyle
 
