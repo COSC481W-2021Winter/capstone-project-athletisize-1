@@ -8,7 +8,7 @@ Project Name:AthletiSize
 Weekly meeting times: Fridays @ 4:00pm 
 
 <br>
-## Description of Prototype<br>
+## Description of Prototype: <br>
 1. Users will arrive at our home page, where they can log in or sign up for an account, or just get started quickly as an anonymous user<br>
 2. The Home page also has a toolbar at the top for a listing of sports and the required equipment for each, an about us page, contact us page, and a home button to return back to the home screen<br>
 3. Clicking "Sports" will take the user to a page where they will get a list of sports, where they can choose one and it will give a listing of all of the required equipment for that sport. <br>
