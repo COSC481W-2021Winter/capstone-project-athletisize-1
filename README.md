@@ -18,7 +18,7 @@ Weekly meeting times: Fridays @ 4:00pm
 
 
 
-## PERSONA
+## Persona:
 <img src="GettyImages-1030913102-1.jpg" width="200" height="200" align="left" />'
 
 ***Name:*** Michael Scott<br>
