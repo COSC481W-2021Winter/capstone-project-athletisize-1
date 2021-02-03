@@ -2,8 +2,8 @@
 capstone-project-athletisize-1 created by GitHub Classroom
 
 
-Weekly meeting times: Fridays @ 4:00pm
-Team Name: AthletiSize
+Weekly meeting times: Fridays @ 4:00pm <br>
+Team Name: AthletiSize<br>
 Project Name: AthletiSize
 
 <br>
