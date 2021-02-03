@@ -39,7 +39,9 @@ Michael Scott is a busy single father who has a daughter playing soccer for the 
 - Height, weight, shoe size, age?<br>
 
 
-<b>Values:</b> Lack of experience/knowledge on sports equipment, busy lifestyle
+## Values: 
+- Lack of experience/knowledge on sports equipment
+- busy lifestyle
 
 ## Update questions:
 - How old is his daughter? (It's not in GitHub.)
