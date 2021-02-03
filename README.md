@@ -1,11 +1,11 @@
-# capstone-project-athletisize-1
+# **AthletiSize**
 capstone-project-athletisize-1 created by GitHub Classroom
 
 
 
-<b>Team Name:</b> AthletiSize<br>
-<b>Project Name:</b> AthletiSize<br>
-<b>Weekly meeting times:</b> Fridays @ 4:00pm 
+Team Name: AthletiSize
+Project Name:AthletiSize
+Weekly meeting times: Fridays @ 4:00pm 
 
 <br>
 <b><u>Description of Prototype</b></u><br>
@@ -18,34 +18,37 @@ capstone-project-athletisize-1 created by GitHub Classroom
 
 
 
-<b> PERSONA </b>
-<img src="GettyImages-1030913102-1.jpg" width="200" height="200" align="left" />
+## PERSONA
+<img src="GettyImages-1030913102-1.jpg" width="200" height="200" align="left" />'
 
-<b>Name:</b> Michael Scott <br>
-<b>Age:</b> 28 <br>
-<b>Location:</b> Ann Arbor, Michigan <br>
-<b>Occupation:</b> Sales representative <br>
-Busy single Dad <br>
-
-
+***Name:*** Michael Scott<br>
+***Sex:*** Male<br>
+***Age:*** 28<br>
+***Occupation:*** Sales Representative<br>
+***Location:*** Ann Arbor, Michigan<br>
+***Marital Status:*** Single<br>
 
 <br>
 <br>
-<br>
-
 
 Michael Scott is a busy single father who has a daughter playing soccer for the first time. He has never played organized sports and doesn’t have many friends who do, or have children in any sports leagues. Knowing he has to buy equipment for his daughter, he has no resources on how to figure out what exactly he needs to buy, and what sizes he would need as well as limited time. He wants to make sure that he is purchasing the correct gear at the right price but doesn’t have time to go into a store and doesn’t want to waste time talking to a sales representative. <br>
 
-<b>Screening Questions:</b>
-What sport do they play?<br>
-Are they a beginner or have they previously played?<br>
-Height, weight, shoe size, age?<br>
+## Screening Questions:
+- What sport do they play?
+- Are they a beginner or have they previously played?
+- Height, weight, shoe size, age?<br>
 
 
 <b>Values:</b> Lack of experience/knowledge on sports equipment, busy lifestyle
 
-<b>Update questions:</b>
-How old is his daughter? (It's not in GitHub.) What's her name? Where does she play? Who teaches her soccer? Is her couch nice? Does the coach communicate with the parents often? How often does she play? Where would she store/use all her equipment? Does she have any friends who play, too? Where do her friends buy the equipment?
+## Update questions:
+- How old is his daughter? (It's not in GitHub.)
+- What's her name? Where does she play? Who teaches her soccer?
+- Is her couch nice? Does the coach communicate with the parents often?
+- How often does she play?
+- Where would she store/use all her equipment?
+- Does she have any friends who play, too?
+- Where do her friends buy the equipment?
 
 Her name is Ashley Scott, she is 7 years old..She plays on her school team. The coach teaches her soccer. The coach only communicates with the parents when there is a practice or a game coming up, when told to buy equipment, the coach didn’t state what kind or where to buy it from. She only plays at practice and at games. 
 
