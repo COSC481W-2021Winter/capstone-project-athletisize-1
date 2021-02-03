@@ -13,7 +13,7 @@ capstone-project-athletisize-1 created by GitHub Classroom
 2. The Home page also has a toolbar at the top for a listing of sports and the required equipment for each, an about us page, contact us page, and a home button to return back to the home screen<br>
 3. Clicking "Sports" will take the user to a page where they will get a list of sports, where they can choose one and it will give a listing of all of the required equipment for that sport. <br>
 4. The "About Us" page will be a short description of our product and team, along with bios of each team member. "Contact Us" will have our contact information.<br>
-5. The web interface will be HTML/CSS based, with some Javascript elements, and the back end will feature a PHP/SQL database. For the prototype we will only have a small table with ~10 users, as well as a table for each sport, and basic framework for the static elements of the website. <br>
+5. The web interface will be HTML/CSS based, with some Javascript elements, and the back end will feature a PHP/SQL database. For the prototype we will only have a small table with ~10 users, as well as a table for each sport, and basic framework for the static elements of the website. <br><br><br>
 
 
 
@@ -42,9 +42,9 @@ Are they a beginner or have they previously played?<br>
 Height, weight, shoe size, age?<br>
 
 
-Values: Lack of experience/knowledge on sports equipment, busy lifestyle
+<b>Values:</b> Lack of experience/knowledge on sports equipment, busy lifestyle
 
-Update questions:
+<b>Update questions:</b>
 How old is his daughter? (It's not in GitHub.) What's her name? Where does she play? Who teaches her soccer? Is her couch nice? Does the coach communicate with the parents often? How often does she play? Where would she store/use all her equipment? Does she have any friends who play, too? Where do her friends buy the equipment?
 
 Her name is Ashley Scott, she is 7 years old..She plays on her school team. The coach teaches her soccer. The coach only communicates with the parents when there is a practice or a game coming up, when told to buy equipment, the coach didn’t state what kind or where to buy it from. She only plays at practice and at games. 
