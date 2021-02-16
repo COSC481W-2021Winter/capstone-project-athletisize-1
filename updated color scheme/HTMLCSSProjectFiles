@@ -1,0 +1,255 @@
+
+// Home Page (HTML)
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <<link rel="stylesheet" href="project.css"/>>
+    </head>
+
+    <body>
+        <header>
+            <label class="logo">ATHLIESIZE</label>
+            <nav>
+                <ul class = "nav">
+                    <li><a href="C:\Users\aghal\Desktop\481 project\project.html" >HOME</a></li>
+                    <li><a href="#" >SPORTS</a></li>
+                    <li><a href="#" >ABOUT</a></li>
+                    <li><a href="C:\Users\aghal\Desktop\481 project\Log_in.html" >LOGIN</a></li>
+                    <li><a href="C:\Users\aghal\Desktop\481 project\Sign_Up.html" >SIGNUP</a></li>
+                </ul> 
+            </nav>
+            <a href="#" class="cta"><button>CONTACT US</button></a>
+        </header>
+        <section>
+            <div class="sec">
+                <h1>Welcome to ATHLIESIZE!</h1>
+            </div>
+            <img class="image1" src="b.jpg" alt="Sports" width="1000" height="500">
+            <h4 class="info">Michael Scott is a busy single father who has a daughter
+                playing soccer for the first time. He has never played organized sports 
+                and doesn’t have many friends who do, or have children in any sports leagues. 
+                Knowing he has to buy equipment for his daughter, he has no resources on how to
+                 figure out what exactly he needs to buy, and what sizes he would need as well as 
+                 limited time. He wants to make sure that he is purchasing the correct gear at the
+                  right price but doesn’t have time to go into a store and doesn’t want to waste 
+                  time talking to a sales representative.<br>
+                  <span class="getinfo">Need information without contacting a sales representative? <br>
+                  click the button below!
+                 </span>
+            </h4>
+            <a href="#" class="started"><button>Get Started!</button></a>
+        </section>
+    </body>
+</html>
+
+
+
+
+
+// Sign up page (HTML)
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="project.css"/>
+    </head>
+
+    <body>
+        <header>
+                <label class="logo">ATHLIESIZE</label>
+                <nav>
+                    <ul class = "nav">
+                        <li><a href="C:\Users\aghal\Desktop\481 project\project.html" >HOME</a></li>
+                        <li><a href="#" >SPORTS</a></li>
+                        <li><a href="#" >ABOUT</a></li>
+                        <li><a href="C:\Users\aghal\Desktop\481 project\Log_in.html" >LOGIN</a></li>
+                        <li><a href="C:\Users\aghal\Desktop\481 project\Sign_Up.html" >SIGNUP</a></li>
+                    </ul> 
+                </nav>
+                <a href="#" class="cta"><button>CONTACT US</button></a>
+        </header>
+        
+        <form action="/action_page.php" style="border:1px solid #ccc">
+            <div class="container">
+              <h1>Sign Up</h1>
+              <hr>
+              <label for="email" ><b>Email</b></label>
+              <input type="text" placeholder="Enter your Email" name="email" required>
+          
+              <label for="psw" ><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+          
+              <label for="psw-repeat"><b>Repeat Password</b></label>
+              <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+              
+              <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+          
+              <div class="started">
+                <button type="submit" class="signupbtn">Submit</button>
+              </div>
+            </div>
+          </form>
+    </body>
+</html>
+
+
+//Project.css (CSS) file.
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li, a, button
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    color:#00ff00;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.nav{
+    list-style-type: none;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 0px 
+}
+
+.nav li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav li a:hover{
+    color: #0088a9
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button: hover{
+    background-color: rgba(0,136,169,0)
+}
+
+.sec{
+    text-align: center;
+}
+
+.sec h1{
+    color:white;
+    font-size:60px;
+    text-align: center;
+    font-weight: 500;    
+    text-decoration: underline;
+}
+
+.sec h2{
+    color:white;
+    font-size:60px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.image1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+}
+
+.info{
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 430px;
+    padding-right: 400px;
+    font-weight:200;
+    padding-top:15px;
+}
+
+.started button{
+    font-family: "promixa nova";
+    font-weight: 100px;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    margin-left: 830px;
+    margin-top: 30px;
+    padding-left: 40;
+    padding-right: 40;
+}
+
+.getinfo{
+    text-align: center;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+.container h1{
+    font-family: "promixa nova";
+    font-size: 56px;
+    color:white;
+    text-align: center;
+}
+
+.container input{
+    width: 80%;
+    padding: 30px;
+    margin-top: 40px;
+    margin-left: 300px;
+    display: inline-block;
+    border: none;
+    background: #09BCC8f1;
+}
+
+.container input:focus{
+   background-color: #ddd;
+   outline: none;
+}
+
+.container label{
+    font-size: 36px;
+    margin-left: 100px;
+    margin-top: 150px;
+    color:white;
+}
+
+.container p{
+    margin-top: 100px;
+    text-align: center;
+    color: red;
+}
+
+
