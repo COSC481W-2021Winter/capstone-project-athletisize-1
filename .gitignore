@@ -1,5 +1,5 @@
 ## Ignore db files
-.DB
+*.DB
 
 ## Packages
-.zip
+*.zip
