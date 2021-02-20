@@ -19,7 +19,7 @@ Weekly meeting times: Fridays @ 4:00pm <br>
 
 
 ## Persona:
-<img src="website_code/images/Michael.png" width="200" height="200" align="left" />'
+<img src="src/images/Michael.png" width="200" height="200" align="left" />'
 
 ***Name:*** Michael Scott<br>
 ***Sex:*** Male<br>
