@@ -1,26 +1,17 @@
-<!DOCTYPE html>
+<?php
+  include_once 'header.php';
+?>
+
+
 <html>
     <head>
-        <title>Sports</title>
+        <title>About us</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../style/stylesheet.css"/>
+        <<link rel="stylesheet" href="../style/stylesheet.css"/>>
     </head>
 
     <body>
-        <div class="top">
-            <img class="image2" src="../images/logo.jpg" alt="Sports" width="200" height="100">
-
-  	        <div class="top">
-                <a href="contact.html">Contact us!</a>
-                <a href="about.html">About</a>
-                <a href="signup.html">Sign up</a>
-                <a href="login.html">Login</a>
-                <a href="sports.html">Sports</a>
-                <a href="../index.html">Home</a>
-            </div>
-	    </div>
-
-        <div align="center">
+           <div align="center">
 
             <section class="contact">
                 <h1>About us</h1><br>
@@ -100,4 +91,7 @@
             </section>
         </div>
     </body>
-</html>
+
+<?php
+  include_once 'footer.php';
+?>

@@ -1,31 +1,43 @@
 <?php
-  include_once 'header.php';
+include_once 'header.php';
 ?>
 
 <html>
-    <head>
-        <title>Sports - Soccer</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="project.css"/>
-    </head>
+<head>
+    <title>Sports - Soccer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style/stylesheet.css"/>
+</head>
 
-    <body>
-        <section>
-            <h1 class="info">Soccer</h1>
-			<h2 class="sportlisthead">Player</h2>
-				<ul class="sportlist">
-					<li>Cleats</li>
-					<li>Shin Guards</li>
-					<li>Athletic Socks</li>
-				</ul>
-			<h2 class="sportlisthead">Goalie</h2>
-				<ul class="sportlist">
-					<li>Goalie Gloves</li>
-				</ul>
-        </section>
-    </body>
+<body>
+   <div class="Soccer">
+    <h1>Soccer</h1>
+    <form>
+
+      <label class="container">
+          <input type="checkbox">
+          <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cleats
+      </label>
+      
+      <label class="container">
+          <input type="checkbox">
+          <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shin Guards
+      </label>
+
+      <label class="container">
+          <input type="checkbox">
+          <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Athietic Socks
+      </label>
+      <label class="container">
+          <input type="checkbox">
+          <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Goalkeeper Gloves
+      </label>
+
+  </form>
+</div>
+</body>
 </html>
 
 <?php
-  include_once 'footer.php';
+include_once 'footer.php';
 ?>

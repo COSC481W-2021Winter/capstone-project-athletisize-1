@@ -1,26 +1,16 @@
-<!DOCTYPE html>
+<?php
+  include_once 'header.php';
+?>
+
 <html>
     <head>
-        <title>Baseball\Softball</title>
+        <title>Sports - Baseball/Softball</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../style/stylesheet.css"/>
     </head>
 
     <body>
-        <div class="top">
-            <img class="image2" src="../images/logo.jpg" alt="Sports" width="200" height="100">
-
-  	        <div class="top">
-              <a href="contact.html">Contact us!</a>
-                <a href="about.html">About</a>
-                <a href="signup.html">Sign up</a>
-                <a href="login.html">Login</a>
-                <a href="sports.html">Sports</a>
-                <a href="../index.html">Home</a>
-  	        </div>
-	    </div>
-
-        <div class="snow">
+      <div class="snow">
             <h1>Baseball\Softball</h1>
             <form>
                 <div class = "container2">
@@ -99,7 +89,7 @@
                          </li>
                           
                          <li>
-                            <label class="container2">Shin Guards
+                       s     <label class="container2">Shin Guards
                               <input type="checkbox">
                               <span class="checkmark2"></span>
                             </label>
@@ -134,3 +124,7 @@
         </div>
     </body>
 </html>
+
+<?php
+  include_once 'footer.php';
+?>

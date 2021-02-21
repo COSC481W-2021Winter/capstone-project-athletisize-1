@@ -6,38 +6,156 @@
     <head>
         <title>Sports - Hockey</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="project.css"/>
+        <link rel="stylesheet" href="../style/stylesheet.css"/>
     </head>
 
-    <body>
-        <section>
-            <h1 class="info">Hockey</h1>
-			<h2 class="sportlisthead">Skater</h2>
-				<ul class="sportlist">
-					<li>Helmet</li>
-					<li>Shoulder Pads</li>
-					<li>Neck Guard</li>
-					<li>Elbow Pads</li>
-					<li>Gloves</li>
-					<li>Pants</li>
-					<li>Shin Guards</li>
-					<li>Skates</li>
-					<li>Protective Cup</li>
-					<li>Mouth Guard</li>
-					<li>Hockey Socks</li>
-					<li>Stick</li>
-				</ul>
-			<h2 class="sportlisthead">Goalie</h2>
-				<ul class="sportlist">
-					<li>Helmet</li>
-					<li>Chest Protector</li>
-					<li>Leg Pads</li>
-					<li>Catcher</li>
-					<li>Blocker</li>
-					<li>Stick</li>
-				</ul>
-        </section>
-    </body>
+<body>
+        <div class="hockey">
+            <h1>Hockey</h1>
+            <form>
+
+            <div class = "container2">
+            <div class="row">
+            <div class="col-12">
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
+            <ul>
+        
+       
+
+          <li>
+            <label class="container2">Helmet
+              <input type="checkbox">
+              <span class="checkmark2"></span>
+            </label>
+          </li>
+
+          <li>
+            <label class="container2">Shoulder Pads
+              <input type="checkbox">
+              <span class="checkmark2"></span>
+            </label>
+            </li>
+        
+          <li>
+            <label class="container2">Neck Guard
+              <input type="checkbox">
+              <span class="checkmark2"></span>
+            </label>
+          </li>
+        
+          <li>
+            <label class="container2">Elbow Pads
+              <input type="checkbox">
+              <span class="checkmark2"></span>
+            </label>
+          </li>
+        
+         <li>
+            <label class="container2">Glovs
+              <input type="checkbox">
+              <span class="checkmark2"></span>
+            </label>
+          </li>
+        
+          <li>
+            <label class="container2">Pants
+              <input type="checkbox">
+              <span class="checkmark2"></span>
+            </label>
+          </li>
+        
+          <li>
+            <label class="container2">Shin Guards
+              <input type="checkbox">
+              <span class="checkmark2"></span>
+            </label>
+          </li>
+        
+          <li>
+            <label class="container2">Skates
+              <input type="checkbox">
+              <span class="checkmark2"></span>
+            </label>
+          </li>
+        
+          <li>
+            <label class="container2">Protective Cup
+              <input type="checkbox">
+              <span class="checkmark2"></span>
+            </label>
+          </li>
+        
+          <li>
+            <label class="container2">Mouth Guard
+              <input type="checkbox">
+              <span class="checkmark2"></span>
+            </label>
+          </li>
+        
+          <li>
+           <label class="container2">Hockey Socks
+             <input type="checkbox">
+              <span class="checkmark2"></span>
+            </label>
+          </li>
+        
+        <li>
+            <label class="container2">Stick
+              <input type="checkbox">
+              <span class="checkmark2"></span>
+            </label>
+        </li>
+
+        
+        <li>
+            <label class="container2"><h3>Goalie:<h3>
+            </label>
+        </li>
+       
+        <li>
+            <label class="container2">Helmet
+              <input type="checkbox">
+              <span class="checkmark2"></span>
+            </label>
+        </li>
+       
+        <li>
+          <label class="container2">Chest Protector
+            <input type="checkbox">
+            <span class="checkmark2"></span>
+          </label>
+       </li>
+      
+        <li>
+          <label class="container2">Leg Pads
+            <input type="checkbox">
+            <span class="checkmark2"></span>
+          </label>
+       </li>
+      
+        <li>
+          <label class="container2">Catcher & Blocker
+            <input type="checkbox">
+            <span class="checkmark2"></span>
+          </label>
+       </li>
+    
+        <li>
+          <label class="container2">Stick
+            <input type="checkbox">
+            <span class="checkmark2"></span>
+          </label>
+        </li>
+      </ul>
+      </div>
+      </div>
+      </div>
+      </form>      
+    </div>
+  </body>
 </html>
 
 <?php
