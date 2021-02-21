@@ -6,7 +6,7 @@
     <head>
         <title>Sports</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="project.css"/>
+        <link rel="stylesheet" href="../style/stylesheet.css"/>
     </head>
 
     <body>
@@ -16,11 +16,10 @@
             <ul>
 			<li><a href="hockey.php">Hockey</a><li>
 			<li><a href="soccer.php">Soccer</a><li>
-			<li><a href="bbsb.php">Baseball/Softball</a><li>
-			<li><a href="alpine.php">Alpine Ski</a><li>
-			<li><a href="xcski.php">Cross Country Ski</a><li>
+			<li><a href="baseball_softball.php">Baseball/Softball</a><li>
+			<li><a href="ski.php">Ski</a><li>
 			<li><a href="snowboard.php">Snowboard</a><li>
-			<li><a href="lax.php">Lacrosse</a><li>
+			<li><a href="lacrosse.php">Lacrosse</a><li>
 			
         </section>
     </body>

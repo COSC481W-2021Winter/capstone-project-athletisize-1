@@ -10,7 +10,7 @@
     <meta charset="utf-8">
         <title>Athletisize Home</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="project.css"/>
+        <link rel="stylesheet" href="../style/stylesheet.css"/>
   </head>
   <body>
 
@@ -22,12 +22,12 @@
                 <ul class = "nav">
                     <li><a href="index.php" >HOME</a></li>
                     <li><a href="sports.php" >SPORTS</a></li>
-                    <li><a href="about_us.php" >ABOUT</a></li>
+                    <li><a href="about.php" >ABOUT</a></li>
                     <li><a href="login.php" >LOG IN</a></li>
-                    <li><a href="Sign_Up.php" >SIGN UP</a></li>
+                    <li><a href="signup.php" >SIGN UP</a></li>
                 </ul> 
             </nav>
-            <a href="contact_us.php" class=""><button>CONTACT US</button></a>
+            <a href="contact.php" class=""><button>CONTACT US</button></a>
         </header>
 		
         
