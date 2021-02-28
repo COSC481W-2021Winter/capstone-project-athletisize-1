@@ -9,7 +9,6 @@
         <link rel="stylesheet" href="../style/stylesheet.css"/>
   </head>
   <body>
-
     <nav>
       <div class="wrapper">
         <header>
@@ -31,5 +30,5 @@
         </ul>
       </div>
     </nav>
-
 <div class="wrapper">
+  
