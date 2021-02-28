@@ -6,7 +6,7 @@
     <head>
         <title>Sports</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../style/stylesheet.css"/>
+        <link rel="stylesheet" href="stylesheet.css"/>
     </head>
 
     <body>
