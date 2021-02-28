@@ -127,7 +127,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Submit">
+<<<<<<< Updated upstream
                 <input type="reset" class="btn btn-default" value="Reset">
+=======
+                <input type="reset" name="reset" class="btn btn-default" value="Reset">
+>>>>>>> Stashed changes
             </div>
             <p>Already have an account? <a href="login.php">Login here</a>.</p>
         </form>

@@ -1,8 +1,4 @@
-<?php
-  session_start();
-  include_once 'includes/functions.inc.php';
-  include_once 'includes/dbh.inc.php';
-?>
+
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -17,7 +13,7 @@
     <nav>
       <div class="wrapper">
         <header>
-            <label class="logo">ATHLETISIZE</label>
+            <img class="image2" src="../images/logo.jpg" alt="Sports" width="200" height="100">
             <nav>
                 <ul class = "nav">
                     <li><a href="index.php" >HOME</a></li>
@@ -25,9 +21,10 @@
                     <li><a href="about.php" >ABOUT</a></li>
                     <li><a href="login.php" >LOG IN</a></li>
                     <li><a href="signup.php" >SIGN UP</a></li>
+					<li><a href="contact.php" >CONTACT US</a></li>
                 </ul> 
             </nav>
-            <a href="contact.php" class=""><button>CONTACT US</button></a>
+           
         </header>
 		
         

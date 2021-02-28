@@ -2,13 +2,21 @@
 // Initialize the session
 session_start();
  
+<<<<<<< Updated upstream
 // Check if the user is already logged in, if yes then redirect him to welcome page
+=======
+// Check if the user is already logged in, if yes then redirect them to welcome page
+>>>>>>> Stashed changes
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     header("location: welcome.php");
     exit;
 }
  
+<<<<<<< Updated upstream
 // Include config file
+=======
+// Include config and header file
+>>>>>>> Stashed changes
 require_once "config.php";
 include_once "header.php";
  
@@ -118,7 +126,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Login">
             </div>
+<<<<<<< Updated upstream
             <p>Don't have an account? <a href="register.php">Sign up now</a>.</p>
+=======
+            <p>Don't have an account? <a href="signup.php">Sign up now</a>.</p>
+>>>>>>> Stashed changes
         </form>
     </div>    
 </body>
