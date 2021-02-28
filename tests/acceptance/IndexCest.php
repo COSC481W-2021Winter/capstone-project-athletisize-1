@@ -71,14 +71,14 @@ class IndexCest
         $I->amOnpage('/contact.php');
         $I->click('HOME');
         $I->amOnpage('/index.php');
-    }  
-  /*
+    } 
+    
+    /*
     //image test
     public function bodyimage(AcceptanceTester $I)
     {
         $I->amOnpage('/index.php');
         $I->seeElement('//img[@src="b.jpg"]');
-        $I->seeImage('/b.jpg');
     }
     */
 }
