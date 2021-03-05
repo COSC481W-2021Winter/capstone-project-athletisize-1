@@ -12,7 +12,7 @@
     <nav>
       <div class="wrapper">
         <header>
-            <img class="image2" src="../images/logo.jpg" alt="Sports" width="200" height="100">
+            <img class="image2" src="../images/as_logo_white.png" alt="Sports" width="200" height="100">
             <nav>
                 <ul class = "nav">
                     <li><a href="index.php" >HOME</a></li>
