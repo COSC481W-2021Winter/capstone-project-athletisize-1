@@ -10,45 +10,75 @@
     </head>
 
     <body>
-        <div class="lac">
+        <div class="sports2">
             <h1>Lacrosse</h1>
-            <form>
-              <label class="container">
-                <input type="checkbox" >
-                <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Helmet
-              </label>
-               
-              <label class="container">
-                <input type="checkbox">
-                <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shoulder
-              </label>
-              <label class="container">
-                <input type="checkbox">
-                <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Arm Guards
-              </label>
-              <label class="container">
-                <input type="checkbox">
-                <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cleats
-              </label>
-              
-              <label class="container">
-                <input type="checkbox">
-                <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stick
-              </label>
-              
-              <label class="container">
-                <input type="checkbox">
-                <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mouth Guard
-              </label>
-              
-              <label class="container">
-                <input type="checkbox">
-                <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protective Cup
-                
-            </form>
-            
-        </div>
-    </body>
+			
+				<div class="pdflink">
+					<a href="../pdfs/lacrosse_equipment_checklist.pdf" target="_blank">PDF Version</a>
+				</div>
+				
+				<div class="row">
+					<div class="column"></div>
+					<div class="column"></div>
+				</div>
+				
+			<form>
+				<div class = "container2">
+          
+					<ul>
+						<li>
+							<label class="container2">Helmet
+								<input type="checkbox">
+								<span class="checkmark2"></span>
+							</label>
+						</li>
+
+						<li>
+							<label class="container2">Shoulder Pads
+								<input type="checkbox">
+								<span class="checkmark2"></span>
+							</label>
+						</li>
+				
+						<li>
+							<label class="container2">Arm Guards
+								<input type="checkbox">
+								<span class="checkmark2"></span>
+							</label>
+						</li>
+				
+						<li>
+							<label class="container2">Cleats
+								<input type="checkbox">
+								<span class="checkmark2"></span>
+							</label>
+						</li>
+					
+						<li>
+							<label class="container2">Stick
+								<input type="checkbox">
+								<span class="checkmark2"></span>
+							</label>
+						 </li>
+						 
+						 <li>
+							<label class="container2">Mouth Guard
+								<input type="checkbox">
+								<span class="checkmark2"></span>
+							</label>
+						 </li>
+						 
+						 <li>
+							<label class="container2">Protective Cup
+								<input type="checkbox">
+								<span class="checkmark2"></span>
+							</label>
+						 </li>
+					</ul>
+				</div>
+			</form> 
+		</div>
+	</body>
 </html>
 
 <?php
