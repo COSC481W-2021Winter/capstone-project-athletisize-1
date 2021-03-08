@@ -12,7 +12,12 @@
 <body>
         <div class="hockey">
             <h1>Hockey</h1>
-            <form>
+			
+            <div class="pdflink">
+			<a href="../pdfs/hockey_equipment_checktdst.pdf" target="_blank">PDF Version</a>
+			</div>
+			
+			<form>
 
             <div class = "container2">
             <div class="row">
