@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/* main setting */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+#top{
+    border-top: white solid 8px;
+}
+
+#hometop{
+    border-top: white solid 8px;
+}
+
+li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+.top{
+    overflow: hidden;
+    background-color: #50B2C0;
+    padding: 20px 10px;
+}
+.top a{
+    color: black;
+    float: right;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+a:hover {
+    background-color: #201E1F;
+    color: #FEEFDD;
+}
+a:active {
+    background-color: #ff0000;
+    color: white;
+}
+/* logo in header setting */
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    color:#00ff00;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.homebutton{
+    margin-left: 840px;
+}
+#hb{
+    margin-top: 30px;
+    color: white;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#hb:hover{
+    background-color: black;
+    color: white;
+}
+.sec{
+    text-align: center;
+}
+
+.image1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+}
+.image2{
+    float:left;
+}
+.info{
+    color: black;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 430px;
+    padding-right: 400px;
+    font-weight:200;
+    padding-top:15px;
+}
+.started button:hover{
+    background-color: black;
+    color: white;
+}
+.started button{
+    font-family: "promixa nova";
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    margin-left: 830px;
+    margin-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.getinfo{
+    text-align: center;
+}
+
+.image1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+}
+/*=====================================================================================================================================================================*/
+/*header page*/
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+.nav{
+    list-style-type: none;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 0px;
+}
+
+.nav li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0)
+}
+/*=====================================================================================================================================================================*/
+/* sports page */
+.sport{
+    border-top: white solid 8px;
+}
+.sport h1{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 50px;
+}
+.sport a h2{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin-top: 60px;
+    text-decoration: underline;
+}
+.sport a h2:hover{
+    background-color: blueviolet;
+    color: white;
+}
+/*=====================================================================================================================================================================*/
+/* about us page */
+
+.about{
+    border-top: white solid 8px;
+}
+.about h1{
+    text-align: center;
+    margin-top: 30px;
+    color: #00ff00;
+    font-weight: bold;
+    font-size: 56px;
+}
+.about h2{
+    margin-left: 150px;
+    margin-top: 25px;
+    margin-right: 150px;
+    color: white;
+    font-weight: 500;
+    font-size: 33px;
+}
+.about img{
+    display: block;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-top: 15px;
+}
+
+td.name{
+    font-size: 18px;
+    align-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+td.info_about_us{
+    margin-top: 40px;
+    /*height: px;*/
+    width: 500px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.about img{
+    display: block;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-top: 15px;
+    object-fit: contain;
+}
+.crop img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-top: 15px;
+    object-fit: cover;
+}
+
+/*=====================================================================================================================================================================*/
+/* login and register */
+.form-control {
+    display: block;
+    width: 25%;
+    align-content: center;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #737373;
+}
+
+
+/*=====================================================================================================================================================================*/
+/*contact*/
+.contact{
+    border-top: white solid 8px;
+}
+.contact h1{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    color: #00ff00;
+    margin-top: 50px;
+}
+.contact h2{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
+#goalie{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    color: blue;
+    margin-top: 70px;
+}
+
+.contact{
+    border-top: white solid 8px;
+}
+
+/*=====================================================================================================================================================================*/
+/* Sports pages */
+.sports2 h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 500;
+    margin: 16px 0;
+    border: 5px solid black;
+    padding-left: 16px;
+    text-align: center;
+    /*background-image: url(lackr.jpg) ;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*=====================================================================================================================================================================*/
+/* ADDITIONAL STYLING */
+/* The container */
+.container2 {
+    display: block;
+    font-family: Montserrat;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    margin-top: 35px;
+    cursor: pointer;
+    font-size: 25px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Hide the browser's default checkbox */
+.container2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+/* Create a custom checkbox */
+.checkmark2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    font-size: 12px;
+}
+/* When the checkbox is checked, add a blue background */
+.container2 input:checked ~ .checkmark2 {
+    background-color: #2196F3;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark2:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+/* Show the checkmark when checked */
+.container2 input:checked ~ .checkmark2:after {
+    display: block;
+}
+/* Style the checkmark/indicator */
+.container2 .checkmark2:after {
+    left: 7px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+ul {
+    column-count: 2;
+    column-gap: 2rem;
+    list-style: none;
+}
+/*=====================================================================================================================================================================*/
+/*index page*/
+.sec h1{
+    margin-top: 30px;
+    color: #00ff00;
+    font-size:60px;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.sec h2{
+    color:white;
+    font-size:60px;
+    text-align: center;
+    font-weight: 500;
+}
+/*=====================================================================================================================================================================*/
+/*Login page*/
+.login{
+    border-top: solid 10px white;
+}
+.login h1{
+    margin-top: 100px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #00ff00;
+}
+.login .wrapper {
+    margin-top: 75px;
+    margin-left: 550px;
+}
+.login .wrapper label{
+    font-size: 60px;
+    font-weight: 500;
+    color: white
+}
+.login .wrapper input{
+    background-color: lightseagreen;
+    padding-top:25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 25px;
+    font-size: 25px;
+}
+.login .wrapper a h2{
+    margin-left: 350px;
+    margin-top: 16px;
+    color: red;
+}
+.login .wrapper .btn{
+    background-color: lightseagreen;
+    padding-top:25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 25px;
+    margin-top: 100px;
+    margin-left: 400px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+.login .wrapper a h3{
+    margin-left: 300px;
+    margin-top: 16px;
+    color: red;
+    font-weight: bold;
+    text-decoration: underline red;
+}
+
+/*=====================================================================================================================================================================*/
+/*sport page*/
+.sport{
+    border-top: white solid 8px;
+}
+.sport h1{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    color: #00ff00;
+    margin-top: 50px;
+}
+.sport a h2{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+    text-decoration: underline;
+}
+.sportlist {
+    list-style-type: square;
+    text-align: center;
+    color: white;
+    padding-left: 300px;
+}
+.sportlisthead {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 300px;
+    color: white;
+}
+.pdflink {
+    text-align: center;
+
+
+}
+

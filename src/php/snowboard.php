@@ -10,53 +10,28 @@
     </head>
 
     <body>
-       <div class="sports2">
-        <h1>Snowboard</h1>
-			
-			<div class="pdflink">
-				<a href="../pdfs/snowboard_equipment_checklist.pdf" target="_blank">PDF Version</a>
-			</div>
-            
-			<div class="row">
-				<div class="column"></div>
-				<div class="column"></div>
-			</div>
-			
-			<form>
-
-				<div class = "container2">
-				  
-					<ul>
-						<li>
-							<label class="container2">Snowboard
-								<input type="checkbox">
-								<span class="checkmark2"></span>
-							</label>
-						</li>
-
-						<li>
-							<label class="container2">Boots
-								<input type="checkbox">
-								<span class="checkmark2"></span>
-							</label>
-						</li>
-						
-						<li>
-							<label class="container2">Helmet
-								<input type="checkbox">
-								<span class="checkmark2"></span>
-							</label>
-						</li>
-						
-						<li>
-							<label class="container2">Goggles
-								<input type="checkbox">
-								<span class="checkmark2"></span>
-							</label>
-						</li>
-					</ul>
-				</div>
-			</form>
+       <div class="snow">
+            <h1>Snowboard</h1>
+            <form>
+                  <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Snowboard
+                  </label>
+                   
+                  <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Boots
+                  </label>
+                  <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Helmet
+                  </label>
+                  
+                  <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Goggles
+                  </label>  
+            </form>
         </div>
     </body>
 </html>

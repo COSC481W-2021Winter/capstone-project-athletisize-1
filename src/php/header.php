@@ -1,34 +1,29 @@
-
-
+<?php
+session_start();
+include_once '../includes/functions.inc.php';
+include_once '../includes/dbh.inc.php';
+?>
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-        <title>Athletisize Home</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../style/stylesheet.css"/>
-  </head>
-  <body>
-    <nav>
-      <div class="wrapper">
-        <header>
-            <img class="image2" src="../images/as_logo_white.png" alt="Sports" width="200" height="100">
-            <nav>
-                <ul class = "nav">
-                    <li><a href="index.php" >HOME</a></li>
-                    <li><a href="sports.php" >SPORTS</a></li>
-                    <li><a href="about.php" >ABOUT</a></li>
-                    <li><a href="login.php" >LOG IN</a></li>
-                    <li><a href="signup.php" >SIGN UP</a></li>
-					<li><a href="contact.php" >CONTACT US</a></li>
-                </ul> 
-            </nav>
-           
-        </header>
-		
-        
-        </ul>
-      </div>
-    </nav>
-<div class="wrapper">
-  
+<html lang ="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>ATHLETISIZE </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head> 
+<nav>
+	<ul>
+		<li style ="float:left; padding: 10px 10px;"><a href="index.php"> <img src="../images/as_logo_white.png" alt="as_logo" style= "width:40px"></a></li>
+		<li><a href="signup.php" class ="nav-bar"> SIGN UP</a></li>
+		<li><a href="login.php" class ="nav-bar"> LOGIN</a></li>
+		<li><a href="sports.php" class ="nav-bar"> SPORTS</a></li>
+		<li><a href="contact.php" class ="nav-bar"> CONTACT</a></li>
+		<li><a href="about.php" class ="nav-bar"> ABOUT </a></li>
+		<li><a href="index.php" class ="nav-bar"> HOME</a></li>
+	</ul> 
+</nav>
+
+<body style="font-family: 'Oswald', sans-serif;">
+</body>
+</html>
+

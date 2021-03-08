@@ -1,7 +1,6 @@
 <?php
-  include_once 'header.php';
+include_once 'header.php';
 ?>
-
 <html>
     <head>
         <title>Sports</title>
@@ -10,22 +9,15 @@
     </head>
 
     <body>
-        <section class="sports">
-            <h1 class="info">Sports</h1>
-            <h2 class="info">Please choose a sport to see what equipment is required</h2>
-            <ul>
-			<li><a href="hockey.php">Hockey</a><li>
-			<li><a href="soccer.php">Soccer</a><li>
-			<li><a href="baseball_softball.php">Baseball/Softball</a><li>
-			<li><a href="ski.php">Ski</a><li>
-			<li><a href="snowboard.php">Snowboard</a><li>
-			<li><a href="lacrosse.php">Lacrosse</a><li>
-			
+        <section class="sport">
+            <h1>What equipment is required for each sport?</h1>
+            <a href="baseball_softball.php"><h2>Baseball/Softball</h2></a>
+            <a href="hockey.php"><h2>Hockey </h2></a>
+            <a href="lacrosse.php"><h2>Lacrosse</h2></a>
+            <a href="ski.php"><h2>Ski</h2></a>
+            <a href="snowboard.php"><h2>Snowboard</h2></a>
+            <a href="soccer.php"><h2>Soccer</h2></a>
+            
         </section>
     </body>
 </html>
-
-
-<?php
-  include_once 'footer.php';
-?>
