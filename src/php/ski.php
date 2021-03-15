@@ -12,6 +12,11 @@
     <body>
           <div class="apline">
             <h1>Ski</h1>
+			
+			<div class="pdflink">
+			<a href="../pdfs/ski_equipment_checklist.pdf" target="_blank">PDF Version</a>
+			</div>
+			
             <form>
                 <label class="container">
                     <input type="checkbox">

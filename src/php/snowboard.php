@@ -12,6 +12,11 @@
     <body>
        <div class="snow">
             <h1>Snowboard</h1>
+			
+			<div class="pdflink">
+			<a href="../pdfs/snowboard_equipment_checklist.pdf" target="_blank">PDF Version</a>
+			</div>
+			
             <form>
                   <label class="container">
                     <input type="checkbox">

@@ -12,7 +12,12 @@ include_once 'header.php';
 <body>
    <div class="Soccer">
     <h1>Soccer</h1>
-    <form>
+    
+	<div class="pdflink">
+			<a href="../pdfs/soccer_equipment_checklist.pdf" target="_blank">PDF Version</a>
+	</div>
+	
+	<form>
 
       <label class="container">
           <input type="checkbox">

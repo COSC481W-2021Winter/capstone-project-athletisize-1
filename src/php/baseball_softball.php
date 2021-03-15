@@ -13,7 +13,12 @@ include_once 'header.php';
 
         <div class="snow">
             <h1>Baseball\Softball</h1>
-            <form>
+            
+			<div class="pdflink">
+			<a href="../pdfs/baseball_equipment_checklist.pdf" target="_blank">PDF Version</a>
+			</div>
+			
+			<form>
                 <div class = "container2">
                     <div class="row">
                       <div class="col-12">
