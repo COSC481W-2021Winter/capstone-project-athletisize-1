@@ -12,6 +12,8 @@ include_once 'header.php';
 </head> 
 </head> 
 <body>
+
+<!-- working on making the modal part functional. Goal = modal pops up with a little paragraph about each person -->
 <script>
 // Get the modal
 var modal = document.getElementById("myModal");
@@ -39,13 +41,14 @@ window.onclick = function(event) {
   }
 }
 </script>
+
 <section>
     <section class="team-page-section">
         <div class="container">
             <!-- Sec Title -->
             <div class="sec-title centered">
-                <h1 style="color:#009999">MEET THE TEAM</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum sit amet nulla ac tristique. Pellentesque gravida nisl nec ullamcorper hendrerit. Etiam id quam aliquet, accumsan dui in, maximus mauris. Pellentesque placerat ut felis nec commodo. In neque massa, consectetur ac odio non, dictum commodo lorem. </p>
+                <h1 style="color:#36c7d0 ">MEET THE TEAM</h1>
+                <p style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum sit amet nulla ac tristique. Pellentesque gravida nisl nec ullamcorper hendrerit. Etiam id quam aliquet, accumsan dui in, maximus mauris. Pellentesque placerat ut felis nec commodo. In neque massa, consectetur ac odio non, dictum commodo lorem. </p>
                 <hr>
             </div>
 
@@ -60,6 +63,7 @@ window.onclick = function(event) {
                         </ul>
                         <div class="image">
                             <img src="../images/Josh.jpg" id="myBtn">
+                            <!-- trying to add the modal feature here -->
                             <div id="myModal" class="modal">
 
                               <!-- Modal content -->
@@ -70,6 +74,7 @@ window.onclick = function(event) {
 
                         </div>
                     </div>
+                    <!-- adding the modal feature here  -->
                     <div class="lower-content">
                         <h3><a href="#">Josh</a></h3>
                         <div class="designation">Backend Developer</div>

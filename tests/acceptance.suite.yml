@@ -8,6 +8,6 @@ actor: AcceptanceTester
 modules:
     enabled:
         - PhpBrowser:
-            url: http://localhost/capstone-project-athletisize-1/src/php
+            url: http://localhost/myapp
         - \Helper\Acceptance
 step_decorators: ~        

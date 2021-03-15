@@ -28,7 +28,7 @@ nav li {
 /*=====================================================================================================================================================================*/
 /*index page*/
 .hero-image {
-  background-image: url("../images/night_city.JPG");
+  background-image: url("../images/night_city.jpg");
   background-color: #000000;
   height: 900px;
   background-position: center;
@@ -333,3 +333,5 @@ body {
     font-weight: bold;
     text-decoration: underline red;
 }
+
+

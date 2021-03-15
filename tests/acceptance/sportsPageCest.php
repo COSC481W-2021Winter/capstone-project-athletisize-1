@@ -1,23 +1,21 @@
 <?php 
 
-class sportsCest
+class sportsPageCest
 {
 	public function _before(AcceptanceTester $I)
 	{
 	}
-
-	//dont currently have an image on the sports page but we will 
-	//so I tested for it on the home apge
-	public function testImage(AcceptanceTester $I){
-		$I->amOnPage('/index.php');
-		$I->seeElement('//img[@src="../images/b.jpg"]');
+	
+	public function testLogo(AcceptanceTester $I){
+		$I->amOnPage('/sports.php');
+		$I->seeElement('//img[@src="../images/as_logo_white.png"]');
 	}
 
 	public function testNavBar(AcceptanceTester $I){
 		$I->amOnPage('/header.php');
 		$I->click('HOME');
 		$I->amOnPage('/index.php');
-		$I->see('Figure');
+		$I->see('Get');
 		$I->amOnPage('/header.php');
 		$I->click('SPORTS');
 		$I->amOnPage('/sports.php');
