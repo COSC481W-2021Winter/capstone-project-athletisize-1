@@ -61,4 +61,10 @@ class registerCest
         $I->click('Submit');
         $I->see('This username is already taken.');
     }
+
+    public function logotest(AcceptanceTester $I) {
+        $I->amOnPage('/header.php');
+		$I->see('ATHLETISIZE');
+		$I->seeElement('//img[@src="../images/as_logo_white.png"]');
+    }
 }
