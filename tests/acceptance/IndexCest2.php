@@ -71,7 +71,7 @@ class IndexCest
         $I->click('SIGN UP');
         $I->amOnpage('/signup.php');
         $I->click('HOME');
-        $I->amOnpage('/index.php');*/
+        $I->amOnpage('/index.php');
         $I->click('CONTACT');
         $I->amOnpage('/contact.php');
         $I->click('HOME');
@@ -82,6 +82,6 @@ class IndexCest
     public function logoimage(AcceptanceTester $I)
     {
         $I->amOnpage('/index.php');
-        $I->seeElement('//img[@src="as_logo_white.png"]');
+        $I->seeElement('//img[@src="src/images/as_logo_white.png"]');
     }
 }
