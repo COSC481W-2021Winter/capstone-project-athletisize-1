@@ -51,7 +51,7 @@ class ContactCest
         $I->amOnpage('/about.php');
         $I->click('CONTACT');
         $I->amOnpage('/contact.php');
-        /*
+        
         //login
         $I->click('LOGIN');
         $I->amOnpage('/login.php');
@@ -63,7 +63,7 @@ class ContactCest
         $I->amOnpage('/signup.php');
         $I->click('CONTACT');
         $I->amOnpage('/contact.php');
-        */
+        
     } 
     
 
@@ -72,7 +72,7 @@ class ContactCest
     public function logoimage(AcceptanceTester $I)
     {
         $I->amOnpage('/index.php');
-        $I->seeElement('//img[@src="as_logo_white.png"]');
+        $I->seeElement('//img[@src="src/images/as_logo_white.png"]');
     }
 
     //header loads
