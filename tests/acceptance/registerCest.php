@@ -2,62 +2,59 @@
 
 class registerCest
 {
-    public function _before(AcceptanceTester $I)
-    {
-    }
 
     // tests
     public function signup(AcceptanceTester $I)
     {
-        $I->amOnPage('/signup');
-        $I->fillField('username', 'joshtest3');
-        $I->fillField('password', 'joshtest3');
-        $I->fillField('confirm_password', 'joshtest3');
+        $I->amOnPage('signup.php');
+        $I->fillField(['name' => 'username'], 'joshtest12');
+        $I->fillField(['name' => 'password'], 'joshtest12');
+        $I->fillField(['name' => 'confirm_password'], 'joshtest12');
         $I->click('Submit');
         $I->see('Log In');
     }
 
     public function passmatch(AcceptanceTester $I) {
-        $I->amOnPage('signup');
-        $I->fillField('username', 'passtest');
-        $I->fillField('password', 'passtest');
-        $I->fillField('confirm_password', 'notpass');
+        $I->amOnPage('signup.php');
+        $I->fillField(['name' => 'username'], 'passtest');
+        $I->fillField(['name' => 'password'], 'passtest');
+        $I->fillField(['name' => 'confirm_password'], 'notpass');
         $I->click('Submit');
         $I->see('Password did not match');
     }
 
     public function loginlink(AcceptanceTester $I) {
-        $I->amOnPage('signup');
+        $I->amOnPage('signup.php');
         $I->click('Login here');
         $I->see('Please fill in your credentials to login.');
     }
 
     public function headerlinks(AcceptanceTester $I) {
-        $I->amOnPage('header');
+        $I->amOnPage('signup.php');
         $I->click('HOME');
-        $I->see('For beginner');
-        $I->amOnPage('header');
+        $I->see('Get started');
+        $I->amOnPage('/header.php');
         $I->click('SPORTS');
-        $I->see('Please choose a sport');
-        $I->amOnPage('header');
+        $I->see('What equipment is required for each sport?');
+        $I->amOnPage('/header.php');
         $I->click('ABOUT');
-        $I->see('Josh Roznowski');
-        $I->amOnPage('header');
-        $I->click('LOG IN');
+        $I->see('MEET THE TEAM');
+        $I->amOnPage('/header.php');
+        $I->click('LOGIN');
         $I->see('Please fill in your credentials to login.');
-        $I->amOnPage('header');
+        $I->amOnPage('/header.php');
         $I->click('SIGN UP');
         $I->see('Please fill this form to create an account.');
-        $I->amOnPage('header');
-        $I->click('CONTACT US');
+        $I->amOnPage('/header.php');
+        $I->click('CONTACT');
         $I->see('Best time to contact');
     }
 
     public function usernametaken(AcceptanceTester $I) {
-        $I->amOnPage('signup');
-        $I->fillField('username', 'joshtest');
-        $I->fillField('password', 'testpass');
-        $I->fillfield('confirm_password', 'testpass');
+        $I->amOnPage('signup.php');
+        $I->fillField(['name' => 'username'], 'joshtest');
+        $I->fillField(['name' =>'password'], 'testpass');
+        $I->fillfield(['name' => 'confirm_password'], 'testpass');
         $I->click('Submit');
         $I->see('This username is already taken.');
     }
