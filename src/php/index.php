@@ -14,8 +14,9 @@ include_once 'header.php';
       <div class="hero-text">
         <h1 style="font-size:50px">ATHLETISIZE</h1>
         <h3>
-<<<<<<< HEAD
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum sit amet nulla ac tristique. Pellentesque gravida nisl nec ullamcorper hendrerit. Etiam id quam aliquet, accumsan dui in, maximus mauris. Pellentesque placerat ut felis nec commodo. In neque massa, consectetur ac odio non, dictum commodo lorem. Praesent luctus ipsum a libero maximus, sed hendrerit turpis pulvinar. Nam mattis laoreet nibh vel sollicitudin. Ut feugiat auctor neque, ut laoreet dui porta lacinia. Phasellus tempus odio nulla, sed condimentum purus lobortis non. Duis nec augue non sem euismod ultricies.</h3>
+
+        Welcome to AthletiSize.com! We are a website availabe for beginner, intermediate, and advanced athletes. We are here to help people easily access information about and sports equipment while avoiding the typical busy crowds at stores. Click on the get started button below to find the right sports equipment for you!
+      </h3>
        
   </div>
     
