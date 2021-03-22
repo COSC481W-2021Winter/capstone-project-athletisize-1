@@ -27,7 +27,14 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 		<div class="page-header">
 			<h1>Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to our site.</h1>
 		</div>
-		
+		<br>
+		<h1>Here are your selected sports.</h1>
+		<p>
+			<a href="soccer.php" class="btn btn-primary">Soccer</a>
+		</p>
+		<br><br><br><br><br>
+		<h1>Account Details</h1>
+		<p>Username, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b></p>
 		<p>
 			<a href="reset-password.php" class="btn btn-primary">Reset Your Password</a>
 			<a href="logout.php" class="btn btn-primary">Sign Out of Your Account</a>
