@@ -14,7 +14,7 @@
             <h1>Hockey</h1>
 			
             <div class="pdflink">
-			<a href="../pdfs/hockey_equipment_checktdst.pdf" target="_blank">PDF Version</a>
+			<a href="../pdfs/hockey_equipment_checklist.pdf" target="_blank">PDF Version</a>
 			</div>
 			
 			<form>

@@ -35,11 +35,12 @@ nav li {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  display: block;
 
 }
 .hero-text {
   text-align: center;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -59,7 +60,7 @@ nav li {
   margin-bottom: 30px;
   cursor: pointer;
   display: inline-block;
-
+  position: absolute;
 }
 
 .button-4 {
@@ -84,7 +85,25 @@ nav li {
     transform: scale(1);
   }
 }
+.modal-button {
+    display: block;
+	width:20%;
+	margin: 0 auto;
+	position: relative;
+	font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+	cursor: pointer;
+	color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    position: absolute;
 
+}
+.containhome{
+	position: relative;
+}
 /*=====================================================================================================================================================================*/
 /*sports page*/
 .sport{
