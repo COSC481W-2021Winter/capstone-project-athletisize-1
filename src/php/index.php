@@ -14,7 +14,7 @@ include_once 'header.php';
       <div class="hero-text">
         <h1 style="font-size:50px">ATHLETISIZE</h1>
         <h3>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum sit amet nulla ac tristique. Pellentesque gravida nisl nec ullamcorper hendrerit. Etiam id quam aliquet, accumsan dui in, maximus mauris. Pellentesque placerat ut felis nec commodo. In neque massa, consectetur ac odio non, dictum commodo lorem. Praesent luctus ipsum a libero maximus, sed hendrerit turpis pulvinar. Nam mattis laoreet nibh vel sollicitudin. Ut feugiat auctor neque, ut laoreet dui porta lacinia. Phasellus tempus odio nulla, sed condimentum purus lobortis non. Duis nec augue non sem euismod ultricies.</h3>
+          Welcome to AthletiSize! We have information on all kinds of sports. You name it, we have info on it. Our goal was to get rid of the lengthy process of buying sports equipment and bring the shopping to you. This is a site open to beginners, intermediate, and advanced athletes. Press the button below to get started on finding your sports equipment. Good luck!</h3>
         <div class="button button-4" onclick = "window.location.href='sports.php';">GET STARTED</div>
     </body>
     </html>
