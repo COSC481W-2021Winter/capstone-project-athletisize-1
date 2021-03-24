@@ -5,7 +5,7 @@ include_once 'header.php';
     <head>
         <title>Baseball\Softball</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../style/stylesheet.css"/>
+        <link rel="stylesheet" href="../style/sports_pages.css"/>
     </head>
 
     <body>
@@ -14,120 +14,79 @@ include_once 'header.php';
         <div class="snow">
             <h1>Baseball\Softball</h1>
             
-			<div class="pdflink">
+			<div id="pdf">
 			<a href="../pdfs/baseball_equipment_checklist.pdf" target="_blank">PDF Version</a>
 			</div>
 			
-			<form>
-                <div class = "container2">
-                    <div class="row">
-                      <div class="col-12">
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-12">
-                        <ul>
-                          
-                         <li>
-                            <label class="container2">Glove
-                              <input type="checkbox">
-                              <span class="checkmark2"></span>
-                            </label>
-                         </li>
-                          
-                         <li>
-                            <label class="container2">Bat
-                              <input type="checkbox">
-                              <span class="checkmark2"></span>
-                            </label>
-                         </li>
-                          
-                         <li>
-                            <label class="container2">Batting Helmet
-                              <input type="checkbox">
-                              <span class="checkmark2"></span>
-                            </label>
-                         </li>
-                          
-                         <li>
-                            <label class="container2">Batting Gloves
-                              <input type="checkbox">
-                              <span class="checkmark2"></span>
-                            </label>
-                         </li>
-                          
-                           <li>
-                            <label class="container2">Cleats
-                              <input type="checkbox">
-                              <span class="checkmark2"></span>
-                            </label>
-                         </li>
-                          
-                          <li>
-                            <label class="container2"><h3>Softball Specific:<h3>
-                            </label>
-                         </li>
-                           
-                          
-                             <li>
-                            <label class="container2">Fielder's Mask
-                              <input type="checkbox">
-                              <span class="checkmark2"></span>
-                            </label>
-                         </li>
-                          
-                         <li>
-                            <label class="container2"><h3>Catcher:<h3>
-                            </label>
-                         </li>
-                          
-                            <li>
-                            <label class="container2">Catcher's Mask
-                              <input type="checkbox">
-                              <span class="checkmark2"></span>
-                            </label>
-                         </li>
-                          <li>
-                            <label class="container2">Chest Protector
-                              <input type="checkbox">
-                              <span class="checkmark2"></span>
-                            </label>
-                         </li>
-                          
-                         <li>
-                            <label class="container2">Shin Guards
-                              <input type="checkbox">
-                              <span class="checkmark2"></span>
-                            </label>
-                         </li>
-                  
-                            <li>
-                            <label class="container2">Protective Cup
-                              <input type="checkbox">
-                              <span class="checkmark2"></span>
-                            </label>
-                         </li>
-                          
-                         
-                         
-                          <li>
-                            <label class="container2">Catcher's Glove
-                              <input type="checkbox">
-                              <span class="checkmark2"></span>
-                            </label>
-                         </li>
-                         
-                          
-                        
-                         
-                         </ul>
-                      </div>
-                    </div>
-                  </div>
-                   
-            </form>
+			<form id="hockeyform">
+
+         <div class="firstside"> <label class="container2">
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gloves
+               </label>
+
+               <label class="container2">
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bat
+               </label>
+
+               <label class="container2">
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Batting Helmet
+               </label>
+
+               <label class="container2">
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Batting Gloves
+               </label>
+
+               <label class="container2">
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cleats
+               </label>
+
+          </div>
+
+
+          <div class="secondside">
+              <label class="container3">Softball Specific:</label>
+              <label class="container3">
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feild's Mask
+               </label>
+          </div>
+
+
+          <div class="thirdside">
+          <label class="container4">Catcher:</label>
+              <label class="container4">
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Catcher's Mask
+               </label>
+
+               <label class="container4">
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chest Protector
+               </label>
+
+               <label class="container4">
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shin Guards
+               </label>
+
+               <label class="container4">
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protective Cup
+               </label>
+               <label class="container4">
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Catcher's Glove
+               </label>
+          </div>
+
+        </form>
             
-        </div>
+      </div>
     </body>
 </html>
     <?php

@@ -6,14 +6,14 @@
     <head>
         <title>Sports - Lacrosse</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../style/stylesheet.css"/>
+        <link rel="stylesheet" href="../style/sports_pages.css"/>
     </head>
 
-    <body>
+    <body class="lacrosse">
         <div class="lac">
             <h1>Lacrosse</h1>
             
-			<div class="pdflink">
+			<div id="pdf">
 			<a href="../pdfs/lacrosse_equipment_checklist.pdf" target="_blank">PDF Version</a>
 			</div>
 			

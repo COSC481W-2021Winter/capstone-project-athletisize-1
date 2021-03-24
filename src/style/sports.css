@@ -38,7 +38,7 @@ nav ul {
     background-color: sliver; 
     margin: 25px;
     display: inline-block;
-    padding-right: 50px;
+    padding-right: 25px;
     position: relative;
   }
 
@@ -50,7 +50,7 @@ nav ul {
     position: absolute;
     top:0;
     left:0;
-    width: 100%;
+    width: 95%;
     height: 100%;
     background:rgba(0,0,0,0.6);
     color: #ffffff;
@@ -59,10 +59,10 @@ nav ul {
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: opacity 0.25s;
+    transition: opacity 1.25s;
   }
   .baseball a:hover{
-    opacity: 1;
+    opacity: 2;
   }
 
 
@@ -89,7 +89,7 @@ nav ul {
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: opacity 0.25s;
+    transition: opacity 1.25s;
   }
 
   .hockey a:hover{
@@ -127,7 +127,7 @@ nav ul {
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: opacity 0.25s;
+    transition: opacity 1.25s;
   }
 
   .lacrosse a:hover{
@@ -153,7 +153,7 @@ nav ul {
     position: absolute;
     top:0;
     left:0;
-    width: 100%;
+    width: 96%;
     height: 100%;
     background:rgba(0,0,0,0.6);
     color: #ffffff;
@@ -162,7 +162,7 @@ nav ul {
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: opacity 0.25s;
+    transition: opacity 1.25s;
   }
 
   .ski a:hover{
@@ -193,7 +193,7 @@ nav ul {
     position: absolute;
     top:0;
     left:0;
-    width: 100%;
+    width: 96.0%;
     height: 100%;
     background:rgba(0,0,0,0.6);
     color: #ffffff;
@@ -202,7 +202,7 @@ nav ul {
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: opacity 0.25s;
+    transition: opacity 1.25s;
   }
 
   .snowboard a:hover{
@@ -225,7 +225,7 @@ nav ul {
     position: absolute;
     top:0;
     left:0;
-    width: 100%;
+    width: 96.5%;
     height: 100%;
     background:rgba(0,0,0,0.6);
     color: #ffffff;
@@ -234,7 +234,7 @@ nav ul {
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: opacity 0.25s;
+    transition: opacity 1.25s;
   }
 
   .soccer a:hover{
@@ -242,22 +242,53 @@ nav ul {
   }
   
   .sport a h2{
-    font-size: 36px;
+    font-size: 38px;
     font-weight: bold;
-    color: dimgray;
-    border: 4px black dashed ;
+    background-color: whitesmoke;
+    color: rgb(124, 124, 124);
+    border: 1.5px black dashed ;
     text-decoration: underline;
   }
   
 
   .sport a h2:hover{
     background-color: black;
-    color: white;
+    color:  rgb(175, 175, 197);
+    font-weight: bold;
     text-decoration: underline;
+    border: 1.5px rgb(116, 116, 116) dashed ;
   }
-  
+
   body{
     background-color: black;
   }
   
+  .sport{
+    background-image: url(https://images.unsplash.com/photo-1585433011469-26542b941cd9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1376&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    align-items: center;
+  }
+  
+  .imgsb{
+    border-radius: 7%;  
+  }
 
+  .imgl{
+    border-radius: 7%;
+
+  }
+
+  .imgh{
+    border-radius: 7%;
+  }
+
+  .imgb{
+    border-radius: 7%;
+  }
+  
+  .imgs, .imgsk {
+    border-radius: 7%;
+  }
+  

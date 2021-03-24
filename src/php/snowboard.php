@@ -6,18 +6,19 @@
     <head>
         <title>Sports - Snowboard</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../style/stylesheet.css"/>
+        <link rel="stylesheet" href="../style/sports_pages.css"/>
     </head>
 
     <body>
-       <div class="snow">
-            <h1>Snowboard</h1>
-			
-			<div class="pdflink">
-			<a href="../pdfs/snowboard_equipment_checklist.pdf" target="_blank">PDF Version</a>
-			</div>
-			
-            <form>
+      <div id="s">
+              <h1>Snowboard</h1>
+        <div id="pdf">
+			        <a href="../pdfs/snowboard_equipment_checklist.pdf" target="_blank">PDF Version</a>
+			  
+        </div>
+
+        <div>
+              <form>
                   <label class="container">
                     <input type="checkbox">
                     <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Snowboard
@@ -27,6 +28,7 @@
                     <input type="checkbox">
                     <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Boots
                   </label>
+
                   <label class="container">
                     <input type="checkbox">
                     <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Helmet
@@ -38,9 +40,6 @@
                   </label>  
             </form>
         </div>
+      </div>
     </body>
 </html>
-
-<?php
-  include_once 'footer.php';
-?>
