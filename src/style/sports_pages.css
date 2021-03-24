@@ -1,0 +1,374 @@
+/*header page*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  nav li {
+    float: right;
+  }
+  .nav-bar {
+    display: block;
+    color: #000;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: bold;
+  }
+  .nav-bar:hover {
+    background-color: #009999;
+    color: white;
+  }
+
+
+
+body{
+    background-color: black;
+}
+
+
+.Soccer{
+    background-image: url(https://images.unsplash.com/photo-1585433011469-26542b941cd9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1376&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40%;
+    padding-top: 10%;
+}
+
+.Soccer h1, .hockey h1{
+    color: lightskyblue;
+    font-weight: bolder;
+    font-size: 100px;
+    text-align: center;
+    text-decoration: teal;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10%;
+    margin-top: 75px;
+    margin-left: 10px;
+    background-color: whitesmoke;
+    
+}
+
+#apline h1{
+    color: lightskyblue;
+    font-weight: bolder;
+    font-size: 100px;
+    text-align: center;
+    text-decoration: teal;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10%;
+    margin-top: 85px;
+    margin-left: 10px;
+    background-color: whitesmoke;
+}
+
+.lac h1, #s h1, .snow h1{
+    color: lightskyblue;
+    font-weight: bolder;
+    font-size: 100px;
+    text-align: center;
+    text-decoration: teal;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10%;
+    margin-top: 85px;
+    margin-left: 10px;
+    background-color: whitesmoke;
+}
+
+#pdf{
+    font: darkgrey;
+    font-weight: bold;
+    font-size: 56px;
+    text-align: center;
+    padding: 0.01%;
+    margin-top: 5px;
+    border: 3px skyblue soild;
+    background-color: skyblue;
+    margin-left: 600px;
+    margin-right: 600px;
+
+}
+#pdf a{
+    color: whitesmoke;
+}
+
+#pdf a:hover{
+    color: darkslateblue;
+}
+
+
+
+.container {
+    display: block;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: lightskyblue;
+    padding-right: 60%;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    left: 400px;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .container:hover{
+      background-color: whitesmoke;
+  }
+  .container2:hover{
+    background-color: whitesmoke;
+  }
+  .container3:hover{
+    background-color: whitesmoke;
+ }
+ .container4:hover{
+    background-color: whitesmoke;
+}
+
+ 
+
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    padding-left: 0px;
+    height: 45px;
+    width: 40px;
+    background-color:  #D1D0CE;
+  
+  }
+
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+  .container2:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  .container3:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+  .container4:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  .container2 input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+
+  .container3 input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+
+  .container4 input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .container2 input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .container3 input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .container4 input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 5px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .container2 .checkmark:after {
+    left: 5px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .container3 .checkmark:after {
+    left: 5px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .container4 .checkmark:after {
+    left: 5px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+
+  /* ski */
+  #apline{
+  background-image: url(https://images.unsplash.com/photo-1585433011469-26542b941cd9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1376&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 15%;
+  padding-top: 10%;
+  }
+
+  /* lacrosse */
+  .lac, #s, .hockey, .top{
+    background-image: url(https://images.unsplash.com/photo-1585433011469-26542b941cd9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1376&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 15%;
+    padding-top: 10%;
+  }
+
+  #hockeyform{
+      display: flex;
+  }
+
+  .firstside{
+      margin-left: 350px;
+  }
+
+  .secondside{
+      margin-left: 20px;
+  }
+
+  .thirdside{
+      margin-left: 20px;
+  }
+
+  .container2 {
+    display: block;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: lightskyblue;
+  }
+
+  /* Hide the browser's default checkbox */
+  .container2 input {
+    position: absolute;
+    left: 400px;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    
+  }
+
+  .container3 {
+    display: block;
+    position: relative;
+    margin-top: 50px;
+    font-size: 40px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: lightskyblue;
+  }
+
+  /* Hide the browser's default checkbox */
+  .container3 input {
+    position: absolute;
+    left: 400px;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    
+  }
+
+  .container4 {
+    display: block;
+    position: relative;
+    margin-top: 50px;
+    font-size: 40px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: lightskyblue;
+  }
+
+  /* Hide the browser's default checkbox */
+  .container4 input {
+    position: absolute;
+    left: 400px;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
