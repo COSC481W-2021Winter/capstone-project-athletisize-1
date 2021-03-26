@@ -10,14 +10,14 @@ class aboutCest
     public function logo(AcceptanceTester $I)
     {
 		//logo
-		$I->amOnPage('/header.php');
-		$I->see('ATHLETISIZE');
+		$I->amOnPage('/index.php');
+		$I->seeElement('//img[@src="../images/as_logo_white.png"]');
 		
 	}
 	public function about(AcceptanceTester $I)
 	{
 		//about page
-		$I->amOnPage('/About.php');
+		$I->amOnPage('/about.php');
 		$I->see('Emily');
 		$I->seeElement('//img[@src="../images/Emily.JPG"]');
 		$I->see('Jonathan');
@@ -41,27 +41,29 @@ class aboutCest
 		//home
 		$I->amOnPage('/header.php');
 		$I->click('HOME');
-		$I->see('beginner');
+		$I->see('ATHLETISIZE');
+		//about
+		$I->amOnPage('/header.php');
+		$I->click('ABOUT');
+		$I->see('MEET THE TEAM');
+		//contact us
+		$I->amOnPage('/header.php');
+		$I->click('CONTACT');
+		$I->see('Phone Number');
 		//sports
 		$I->amOnPage('/header.php');
 		$I->click('SPORTS');
 		$I->see('Lacrosse');
 		//log in
 		$I->amOnPage('/header.php');
-		$I->click('LOG IN');
-		$I->see('Log In');
+		$I->click('LOGIN');
+		$I->see('Login');
 		//sign up
 		$I->amOnPage('/header.php');
 		$I->click('SIGN UP');
 		$I->see('Sign Up');
-		//about
-		$I->amOnPage('/header.php');
-		$I->click('ABOUT');
-		$I->see('back-end');
-		//contact us
-		$I->amOnPage('/header.php');
-		$I->click('CONTACT US');
-		$I->see('Phone Number');
+		
+		
 	}
     }
 
