@@ -26,10 +26,10 @@ include_once 'header.php';
       <form method="post" action="includes/subscriberform.php" align="center">
 
 
-        <textarea name ="fname" rows="2" cols="50" placeholder="First Name" contenteditable="true" style="background-color: black"></textarea> <br>
-        <textarea name ="lname" rows="2" cols="50" placeholder="Last Name" contenteditable="true"style="background-color: black"></textarea><br>
-        <textarea name ="subject" rows="2" cols="50" placeholder="Subject" contenteditable="true"style="background-color: black"></textarea><br>
-        <textarea name="message" rows="10" cols="50" placeholder="Body" required style="background-color: black"></textarea><br>
+        <textarea name ="fname" rows="2" cols="50" placeholder="First Name" contenteditable="true"></textarea> <br>
+        <textarea name ="lname" rows="2" cols="50" placeholder="Last Name" contenteditable="true"></textarea><br>
+        <textarea name ="subject" rows="2" cols="50" placeholder="Subject" contenteditable="true"></textarea><br>
+        <textarea name="message" rows="10" cols="50" placeholder="Body" required ></textarea><br>
 
 
         <input type="submit">
