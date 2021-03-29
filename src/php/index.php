@@ -17,10 +17,15 @@ include_once 'header.php';
         <h1 style="font-size:50px">ATHLETISIZE</h1>
         <h3>Welcome to AthletiSize.com! We are a website availabe for beginner, intermediate, and advanced athletes. We are here to help people easily access information about and sports equipment while avoiding the typical busy crowds at stores. Click on the get started button below to find the right sports equipment for you!
       </h3>
-      <div class="button button-4" onclick = "window.location.href='sports.php';">GET STARTED</div>
+      <div>
+    <button type="button" class="modal-button" onclick="document.location='sizing.php'">GET STARTED</button>
+    </div>
        
   </div>
     
+
+    
+  
     </body>
     </html>
     
