@@ -36,13 +36,13 @@ $mail->Body .= $_POST['message'];
 //$mail->MsgHTML(\http\Message\Body::);
 if(!$mail->Send()) {
     echo "Error while sending Email.";
-    header("refresh:2;url=../contact.php");
+    header("refresh:2;url=../php/contact.php");
     var_dump($mail);
 } else {
     //echo "<script>alert('Email sent successfully');</script>";
     //echo "<script>location.href='index.php';</script>";
     echo "Email sent successfully";
-    header("refresh:2;url=../index.php");
+    header("refresh:2;url=../php/index.php");
     //echo '<script language="javascript">setTimeout("location.href = index.php;", 10);</script>';
 }
 
