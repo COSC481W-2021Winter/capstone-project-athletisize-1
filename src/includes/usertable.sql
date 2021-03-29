@@ -6,17 +6,17 @@ usersUid varchar(128) NOT NULL,
 usersPwd varchar(128) NOT NULL
 );
 CREATE TABLE profile (
-profileId int,
+id int,
 imagePath varchar(128) NOT NULL,
-FOREIGN KEY (profileId) REFERENCES users(id)
+FOREIGN KEY (id) REFERENCES users(id)
 );
 CREATE TABLE mySports (
-mySportsId int,
+id int,
 baseball int NOT NULL,
 hockey int NOT NULL,
 lacrosse int NOT NULL,
 ski int NOT NULL,
 snowboard int NOT NULL,
 soccer int NOT NULL,
-FOREIGN KEY (mySportsId) REFERENCES users(id)
+FOREIGN KEY (id) REFERENCES users(id)
 );
