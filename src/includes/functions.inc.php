@@ -74,9 +74,48 @@ function uidExists($conn, $username) {
 	mysqli_stmt_close($stmt);
 }
 
+//Insert data into profile table
+function addProfile($conn, $imagePath){
+	$sql = "INSERT INTO profile (imagePath) VALUES(?);";
+
+	$stmt = mysqli_stmt_init($conn);
+	if (!mysqli_stmt_prepare($stmt, $sql)) {
+	 	header("location: ../signup.php?error=stmtfailed");
+		exit();
+	}
+	
+	mysqli_stmt_bind_param($stmt, "s", $imagePath);
+	mysqli_stmt_execute($stmt);
+	mysqli_stmt_close($stmt);
+	
+	mysqli_close($conn);
+	header("location: ../signup.php?error=none");
+	exit();
+}
+
+//Insert data to the mysports table
+function addSports($conn, $baseball, $hockey, $lacrosse, $ski, $snowboard, $soccer){
+	$sql = "INSERT INTO mysports (baseball, hockey, lacrosse, ski, snowboard, soccer) VALUES(?, ?, ?, ?, ?, ?);";
+	
+	$stmt = mysqli_stmt_init($conn);
+	if (!mysqli_stmt_prepare($stmt, $sql)) {
+	 	header("location: ../signup.php?error=stmtfailed");
+		exit();
+	}
+	
+	mysqli_stmt_bind_param($stmt, "iiiiii", $baseball, $hockey, $lacrosse, $ski, $snowboard, $soccer);
+	mysqli_stmt_execute($stmt);
+	mysqli_stmt_close($stmt);
+	
+	mysqli_close($conn);
+	header("location: ../signup.php?error=none");
+	exit();
+}
+
 // Insert new user into database
 function createUser($conn, $name, $email, $username, $pwd) {
-  $sql = "INSERT INTO users (usersName, usersEmail, usersUid, usersPwd) VALUES (?, ?, ?, ?);";
+	//Insert into the users table
+	$sql = "INSERT INTO users (usersName, usersEmail, usersUid, usersPwd) VALUES (?, ?, ?, ?);";
 
 	$stmt = mysqli_stmt_init($conn);
 	if (!mysqli_stmt_prepare($stmt, $sql)) {
@@ -89,6 +128,26 @@ function createUser($conn, $name, $email, $username, $pwd) {
 	mysqli_stmt_bind_param($stmt, "ssss", $name, $email, $username, $hashedPwd);
 	mysqli_stmt_execute($stmt);
 	mysqli_stmt_close($stmt);
+	
+	//Insert into the profile table
+	//addProfile($conn2, "image path2");
+	
+	
+	//$stmt2 = mysqli_stmt_init($conn);
+	//$sql2 = "INSERT INTO `profile` (`imagePath`) VALUES (\'image path2\')";
+	//mysqli_query($conn, $sql2);
+	
+	
+	//Insert into the sports table
+	//addSports($conn3, '1', '1', '1', '1', '1', '1');
+	
+	
+	//$stmt3 = mysqli_stmt_init($conn);
+	//$sql3 = "INSERT INTO `mysports` (`baseball`, `hockey`, `lacrosse`, `ski`, `snowboard`, `soccer`) VALUES (\'1\', \'1\', \'1\', \'1\', \'1\', \'1\')";
+	//mysqli_query($conn, $sql3);
+	
+	
+	//Close the current connection
 	mysqli_close($conn);
 	header("location: ../signup.php?error=none");
 	exit();

@@ -46,6 +46,8 @@ if (isset($_POST["submit"])) {
 
   // Now we insert the user into the database
   createUser($conn, $name, $email, $username, $pwd);
+  addProfile($conn2, "image path2");
+  addSports($conn3, 1, 1, 1, 1, 1, 1);
 
 } else {
 	header("location: ../signup.php");
