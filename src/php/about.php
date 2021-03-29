@@ -29,8 +29,8 @@ include_once 'header.php';
                 <div class="team-block col-lg-4 col-md-6 col-sm-12">
                     <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <ul class="social-icons">
-                            <li><a href="#"><i class="fab fa-github"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://github.com/JRoz89"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/josh-roznowski/"><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
                     <div class="image">
                         <a href="#"><img src="../images/Josh.jpg" alt="" /></a>
@@ -49,8 +49,8 @@ include_once 'header.php';
             <div class="team-block col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <ul class="social-icons">
-                        <li><a href="#"><i class="fab fa-github"></i></a></li>
-                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://github.com/etracht"><i class="fab fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/etracht/"><i class="fab fa-linkedin-in"></i></a></li>
                     </ul>
                     <div class="image">
                         <a href="#"><img src="../images/Emily.jpg" alt="" /></a>
@@ -67,8 +67,8 @@ include_once 'header.php';
             <div class="team-block col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <ul class="social-icons">
-                      <li><a href="#"><i class="fab fa-github"></i></a></li>
-                      <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                      <li><a href="https://github.com/YaozeZ"><i class="fab fa-github"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/yaoze-zhang-58647120a/"><i class="fab fa-linkedin-in"></i></a></li>
                   </ul>
                   <div class="image">
                     <a href="#"><img src="../images/Yaoze.jpg" alt="" /></a>
@@ -85,8 +85,8 @@ include_once 'header.php';
         <div class="team-block col-lg-4 col-md-6 col-sm-12">
             <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                 <ul class="social-icons">
-                 <li><a href="#"><i class="fab fa-github"></i></a></li>
-                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                 <li><a href="https://github.com/DylanBerquist"><i class="fab fa-github"></i></a></li>
+                 <li><a href="https://www.linkedin.com/in/dylan-berquist-004b841a0/"><i class="fab fa-linkedin-in"></i></a></li>
              </ul>
              <div class="image">
                 <a href="#"><img src="../images/Dylan.jpg" alt="" /></a>
@@ -103,8 +103,8 @@ include_once 'header.php';
     <div class="team-block col-lg-4 col-md-6 col-sm-12">
         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
             <ul class="social-icons">
-                <li><a href="#"><i class="fab fa-github"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://github.com/JonathanNemchak"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/jonathan-nemchak-7977aa20a/"><i class="fab fa-linkedin-in"></i></a></li>
             </ul>
             <div class="image">
                 <a href="#"><img src="../images/Jonathan.jpg" alt="" /></a>
@@ -122,7 +122,7 @@ include_once 'header.php';
     <div class="team-block col-lg-4 col-md-6 col-sm-12">
         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
             <ul class="social-icons">
-             <li><a href="#"><i class="fab fa-github"></i></a></li>
+             <li><a href="https://github.com/alighaleb1"><i class="fab fa-github"></i></a></li>
              <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
          </ul>
          <div class="image">
