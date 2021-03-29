@@ -18,7 +18,7 @@ include_once 'header.php';
         <h3>Welcome to AthletiSize.com! We are a website availabe for beginner, intermediate, and advanced athletes. We are here to help people easily access information about and sports equipment while avoiding the typical busy crowds at stores. Click on the get started button below to find the right sports equipment for you!
       </h3>
       <div>
-    <button type="button" class="modal-button" onclick="document.location='sizing.php'">GET STARTED</button>
+        <div class="button button-4" onclick="document.location='sizing.php'">GET STARTED</div>
     </div>
        
   </div>
