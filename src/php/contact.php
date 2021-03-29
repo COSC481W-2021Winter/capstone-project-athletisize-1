@@ -23,7 +23,7 @@ include_once 'header.php';
   <div class="row">
     <div class ="col-3"><br></div>
     <div class="col-4">
-      <form method="post" action="includes/subscriberform.php" align="center">
+      <form method="post" action="../includes/subscriberform.php" align="center">
 
 
         <textarea name ="fname" rows="2" cols="50" placeholder="First Name" contenteditable="true"></textarea> <br>
