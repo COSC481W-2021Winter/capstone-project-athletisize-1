@@ -11,26 +11,51 @@
 }
 .hero-text {
   text-align: center;
-  padding-top: 300px;
+  position: absolute;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
-  opacity: 1.0;
+  font-family: 'Lato', sans-serif;
 }
 
-.modal-button {
-    display: block;
-	width:20%;
-	margin: 0 auto;
-	position: relative;
-	font-size: 14px;
-    font-weight: normal;
-    line-height: 1.42857143;
-    text-align: center;
-	cursor: pointer;
-	color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4;
-    position: relative;
+.button {
+  width: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block;
 
+}
+
+.button-4 {
+  background-color: #009999;
+  border: 3px solid #009999;
+  color: white;
+  transition: .3s;
+
+}
+.button-4:hover {
+  animation: pulse 1s infinite;
+  transition: .3s;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(.9);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 /*=====================================================================================================================================================================*/
 /*header page*/
@@ -40,21 +65,31 @@ nav ul {
   padding: 0;
   overflow: hidden;
   background-color: #000000;
+  text-decoration: none
 }
 nav li {
   float: right;
+  text-decoration: none
 }
 .nav-bar {
   display: block;
   color: #000;
   padding: 25px 20px;
   text-decoration: none;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: white;
   font-weight: bold;
+  text-decoration: none
 }
 
 .nav-bar:hover {
   background-color: #009999;
   color: white;
+  text-decoration: none
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    /*background-color:#262833*/
+
 }

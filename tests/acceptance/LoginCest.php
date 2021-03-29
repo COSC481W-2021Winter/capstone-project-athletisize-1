@@ -2,49 +2,48 @@
 
 class LoginCest
 {
-    public function _before(AcceptanceTester $I)
+    // tests
+	public function _before(AcceptanceTester $I)
     {
     }
-
-    // tests
-    public function tryToTest(AcceptanceTester $I)
+	
+    public function TestTextBox(AcceptanceTester $I)
+    {
+        $I->amOnPage('/login.php');
+		$I->see('Username');
+		$I->see('Password');
+		$I->click('LOGIN');
+		$I->see('Please fill');
+	}
+	public function navBar(AcceptanceTester $I)
     {
 		//Nav Bar testing
 		$I->amOnPage('/header.php');
 		$I->click('HOME');
-		$I->seeInCurrentUrl('index');
+		$I->see('beginner');
 		
 		$I->amOnPage('/header.php');
 		$I->click('SPORTS');
-		$I->seeInCurrentUrl('sports');
+		$I->see('Hockey');
 		
 		$I->amOnPage('/header.php');
-		$I->click('LOG IN');
-		$I->seeInCurrentUrl('login');
+		$I->click('LOGIN');
+		$I->see('Login');
 		
 		$I->amOnPage('/header.php');
 		$I->click('SIGN UP');
-		$I->seeInCurrentUrl('signup');
+		$I->see('Sign Up');
 		
 		$I->amOnPage('/header.php');
 		$I->click('ABOUT');
-		$I->seeInCurrentUrl('about');
+		$I->see('new talent');
 		
 		$I->amOnPage('/header.php');
-		$I->click('CONTACT US');
-		$I->seeInCurrentUrl('contact');
+		$I->click('CONTACT');
+		$I->see('Contact us');
 		
 		//TOP LEFT LOGO 
 		$I->amOnPage('/header.php');
-		$I->see('ATHLETISIZE');
-		$I->seeElement('//img[@src="../images/logo.JPG"]'); //Fails bc the logo is not in the php version yet
-
-		//Forgot password
-		$I->amOnPage('/login.php');
-		$I->see('forgot password'); //Fails bc this doesn't exist in the php version yet
-		
-		//Already have an account
-		$I->amOnPage('/login.php');
-		$I->see('already have an account'); //Fails bc this doesn't exist in the php version yet
+		$I->seeElement('//img[@src="../images/as_logo_white.png"]');
     }
 }

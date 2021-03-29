@@ -65,9 +65,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     // Check input errors before inserting in database
     if(empty($username_err) && empty($password_err) && empty($confirm_password_err)){
         
-        // Prepare an insert statement
+        // Prepare insert statements
         $sql = "INSERT INTO users (username, password) VALUES (?, ?)";
-         
+        $sql2 = "INSERT INTO profile (imagePath) VALUES(?);";
+		$sql3 = "INSERT INTO mysports (baseball, hockey, lacrosse, ski, snowboard, soccer) VALUES(?, ?, ?, ?, ?, ?);";
+		
+		//Add user to users table
         if($stmt = mysqli_prepare($link, $sql)){
             // Bind variables to the prepared statement as parameters
             mysqli_stmt_bind_param($stmt, "ss", $param_username, $param_password);
@@ -75,6 +78,51 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             // Set parameters
             $param_username = $username;
             $param_password = password_hash($password, PASSWORD_DEFAULT); // Creates a password hash
+            
+            // Attempt to execute the prepared statement
+            if(mysqli_stmt_execute($stmt)){
+                // Redirect to login page
+                header("location: login.php");
+            } else{
+                echo "Something went wrong. Please try again later.";
+            }
+
+            // Close statement
+            mysqli_stmt_close($stmt);
+        }
+		
+		//Add image path to the profile table
+		if($stmt = mysqli_prepare($link, $sql2)){
+            // Bind variables to the prepared statement as parameters
+            mysqli_stmt_bind_param($stmt, "s", $imagePath);
+            
+            // Set parameters
+            $imagePath = "../images/default_profile_picture.png";
+            
+            // Attempt to execute the prepared statement
+            if(mysqli_stmt_execute($stmt)){
+                // Redirect to login page
+                header("location: login.php");
+            } else{
+                echo "Something went wrong. Please try again later.";
+            }
+
+            // Close statement
+            mysqli_stmt_close($stmt);
+        }
+		
+		//Add sports to mysports table
+		if($stmt = mysqli_prepare($link, $sql3)){
+            // Bind variables to the prepared statement as parameters
+            mysqli_stmt_bind_param($stmt, "iiiiii", $baseball, $hockey, $lacrosse, $ski, $snowboard, $soccer);
+            
+            // Set parameters
+            $baseball = 1;
+			$hockey = 1; 
+			$lacrosse = 1;
+			$ski = 1;
+			$snowboard = 1;
+			$soccer = 1;
             
             // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)){
