@@ -346,7 +346,7 @@ body{
     cursor: pointer;
     height: 0;
     width: 0;
-    
+    border-r
   }
 
   .container4 {
@@ -372,3 +372,14 @@ body{
     width: 0;
   }
 
+
+.addtosports{
+   margin-top: 40px; margin-left:850px; background-color:
+lightskyblue; color: white; border-radius: 20%;
+}
+
+.addtosports:hover{
+  background-color: whitesmoke ;
+  color: lightblue;
+  font-weight: bold;
+}
