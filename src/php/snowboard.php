@@ -18,6 +18,17 @@
         </div>
 
         <div>
+            <?php
+                session_start();
+                if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true)
+                {
+                    echo' <a href=""> <button class="addtosports"> <h2> Add to sports</h2><button></a> ';
+                }
+            ?> 
+
+        </div>
+
+        <div>
               <form>
                   <label class="container">
                     <input type="checkbox">
@@ -39,6 +50,7 @@
                     <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Goggles
                   </label>  
             </form>
+            
         </div>
       </div>
     </body>

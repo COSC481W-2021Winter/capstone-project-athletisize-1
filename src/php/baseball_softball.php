@@ -17,6 +17,17 @@ include_once 'header.php';
 			<div id="pdf">
 			<a href="../pdfs/baseball_equipment_checklist.pdf" target="_blank">PDF Version</a>
 			</div>
+
+         <div>
+            <?php
+                session_start();
+                if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true)
+                {
+                    echo' <a href=""> <button class="addtosports"> <h2> Add to sports</h2><button></a> ';
+                }
+            ?> 
+
+        </div>
 			
 			<form id="hockeyform">
 
@@ -78,14 +89,14 @@ include_once 'header.php';
                   <input type="checkbox" >
                   <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protective Cup
                </label>
+
                <label class="container4">
                   <input type="checkbox" >
                   <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Catcher's Glove
                </label>
           </div>
-
         </form>
-            
+        </div>
       </div>
     </body>
 </html>
