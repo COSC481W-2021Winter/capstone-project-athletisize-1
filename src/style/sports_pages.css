@@ -375,9 +375,14 @@ body{
 
 .addtosports{
    margin-top: 40px; margin-left:60px; background-color:
-lightskyblue; color: white; border-radius: 20%;
+   lightskyblue; color: white; border-radius: 20%;
 }
 
+.addtosports2{
+    margin-top: 40px; margin-left: 870px; background-color:
+    lightskyblue; color: white; border-radius: 20%;
+}
+}
 .addtosports:hover{
   background-color: whitesmoke ;
   color: lightblue;
