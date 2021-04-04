@@ -22,7 +22,7 @@
                 session_start();
                 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true)
                 {
-                    echo' <a href=""> <button class="addtosports"> <h2> Add to sports</h2><button></a> ';
+                    echo' <a href=""> <button class="addtosports2"> <h2> Add to sports</h2><button></a> ';
                 }
             ?> 
 
