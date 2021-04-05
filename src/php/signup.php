@@ -160,11 +160,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 			
 			<p>Please fill this form to create an account.</p>
 			
-			<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+			<form id="register" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
 				
 				<div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
-					<label>Username</label>
-						<input type="text" name="username" class="form-control" value="<?php echo $username; ?>">
+					<label for="username">Username</label>
+						<input type="text" id="username" name="username" class="form-control" value="<?php echo $username; ?>">
 						<span class="help-block"><?php echo $username_err; ?></span>
 				</div> 
 				

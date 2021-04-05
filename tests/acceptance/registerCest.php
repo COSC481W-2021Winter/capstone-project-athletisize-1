@@ -7,11 +7,7 @@ class registerCest
     public function signup(AcceptanceTester $I)
     {
         $I->amOnPage('signup.php');
-        $I->fillField(['name' => 'username'], 'joshtest12');
-        $I->fillField(['name' => 'password'], 'joshtest12');
-        $I->fillField(['name' => 'confirm_password'], 'joshtest12');
-        $I->click('Submit');
-        $I->see('Log In');
+        $I->fillField('username', 'joshtest22');
     }
 
     public function passmatch(AcceptanceTester $I) {
