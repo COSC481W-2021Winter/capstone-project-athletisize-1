@@ -14,7 +14,7 @@ include_once 'header.php';
 
 <body>
   <h1>CONTACT US</h1>
-  <hr class="hr-50">
+  <hr>
 
   <br>
   <br>

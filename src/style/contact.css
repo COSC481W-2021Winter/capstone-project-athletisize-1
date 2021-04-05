@@ -86,16 +86,12 @@ p{
 * {
   box-sizing: border-box;
 }
-.hr-50 {
+hr {
   border: 1px solid white;
   border-radius: 5px;
   width:50%;
 }
 
-hr {
-  border: 1px solid white;
-  border-radius: 5px;
-}
 
 iframe {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */

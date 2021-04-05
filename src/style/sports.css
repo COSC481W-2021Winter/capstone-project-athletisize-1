@@ -2,39 +2,49 @@
 
 /*header page*/
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #000000;
-  }
-  nav li {
-    float: right;
-  }
-  .nav-bar {
-    display: block;
-    color: #000;
-    padding: 25px 20px;
-    text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  text-decoration: none
+}
+nav li {
+  float: right;
+  text-decoration: none
+}
+.nav-bar {
+  display: block;
+  color: #000;
+  padding: 25px 20px;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-weight: bold;
+  text-decoration: none
+}
+
+.nav-bar:hover {
+  background-color: #009999;
+  color: white;
+  text-decoration: none
+}
+
+body {
     font-family: 'Lato', sans-serif;
-    color: white;
-    font-weight: bold;
-  }
-  
-  .nav-bar:hover {
-    background-color: #009999;
-    color: white;
-  }
+    background: #000;
+
+}
 
 /*sports page */
 
 .col1{
     display: flex;
-    margin-top: 30px;
-    margin-left: 320px;
+    margin-top: 50px;
+    margin-left: 85px;
   }
   
-  .baseball{
+  .sports {
     background-color: sliver; 
     margin: 25px;
     display: inline-block;
@@ -42,11 +52,17 @@ nav ul {
     position: relative;
   }
 
-  .baseball img{
+  .sports img{
+    position:relative;
     display: block;
-  }
+    width:500px;
+    height:400px;
+    object-fit:cover;
+    border: 1px solid white;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 2px 11px 1px #7D7D7D; 
+box-shadow: 0px 10px 13px -7px #000000, 1px 2px 11px 1px #7D7D7D;  }
   
-  .baseball a{
+  .sports a{
     position: absolute;
     top:0;
     left:0;
@@ -59,236 +75,29 @@ nav ul {
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: opacity 1.25s;
+    transition: opacity 1.0s;
+    text-decoration: none;
   }
-  .baseball a:hover{
-    opacity: 2;
+  .sport a:hover{
+    opacity: 100%;
   }
-
-
-  .hockey{
-    display: inline-block;
-    margin: 25px;
-    position: relative;
-  }
-
-  .hockey img{
-    display: block;
-  }
-  
-  .hockey a{
-    position: absolute;
-    top:0;
-    left:0;
-    width: 100%;
-    height: 100%;
-    background:rgba(0,0,0,0.6);
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 1.25s;
-  }
-
-  .hockey a:hover{
-    opacity: 1;
-  }
-  
-  
-  /* **************** */
-  .col2{
-    display: flex;
-    margin-top: 30px;
-    margin-left: 320px;
-  }
-
-  .lacrosse{
-    display: inline-block;
-    margin: 25px;
-    position: relative;
-  }
-
-  .lacrosse img{
-    display: block;
-  }
-  
-  .lacrosse a{
-    position: absolute;
-    top:0;
-    left:0;
-    width: 100%;
-    height: 100%;
-    background:rgba(0,0,0,0.6);
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 1.25s;
-  }
-
-  .lacrosse a:hover{
-    opacity: 1;
-  }
-
- 
-
-  
-  .ski{
-    background-color: sliver; 
-    float: left;
-    margin: 25px;
-    padding-right: 20px;
-    position: relative;
-  }
-
-  .ski img{
-    display: block;
-  }
-  
-  .ski a{
-    position: absolute;
-    top:0;
-    left:0;
-    width: 96%;
-    height: 100%;
-    background:rgba(0,0,0,0.6);
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 1.25s;
-  }
-
-  .ski a:hover{
-    opacity: 1;
-  }
-
- 
-  
-  /* *************** */
-  .col3{
-    display: flex;
-    margin-top: 30px;
-    margin-left: 320px;
-  }
-
-  .snowboard{
-    float: left;
-    margin: 25px;
-    padding-right: 20px;
-    position: relative;
-  }
-  
-  .snowboard img{
-    display: block;
-  }
-  
-  .snowboard a{
-    position: absolute;
-    top:0;
-    left:0;
-    width: 96.0%;
-    height: 100%;
-    background:rgba(0,0,0,0.6);
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 1.25s;
-  }
-
-  .snowboard a:hover{
-    opacity: 1;
-  }
-
-  
-  .soccer{
-    float: right;
-    margin: 25px;
-    padding-right: 20px;
-    position: relative;
-  }
-
-  .soccer img:hover{
-    background: darkgrey;
-  }
-
-  .soccer a{
-    position: absolute;
-    top:0;
-    left:0;
-    width: 96.5%;
-    height: 100%;
-    background:rgba(0,0,0,0.6);
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 1.25s;
-  }
-
-  .soccer a:hover{
-    opacity: 1;
-  }
-  
   .sport a h2{
-    font-size: 38px;
+    font-size: 42px;
     font-weight: bold;
-    background-color: whitesmoke;
-    color: rgb(124, 124, 124);
-    border: 1.5px black dashed ;
-    text-decoration: underline;
-  }
-  
+    color: white;
+    text-decoration: none; 
+     }
 
-  .sport a h2:hover{
-    background-color: black;
-    color:  rgb(175, 175, 197);
-    font-weight: bold;
-    text-decoration: underline;
-    border: 1.5px rgb(116, 116, 116) dashed ;
-  }
+hr {
+  border: 1px solid white;
+  border-radius: 5px;
+  width:90%;
+}
 
-  body{
-    background-color: black;
-  }
-  
-  .sport{
-    background-image: url(https://images.unsplash.com/photo-1585433011469-26542b941cd9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1376&q=80);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 40px;
-    align-items: center;
-  }
-  
-  .imgsb{
-    border-radius: 7%;  
-  }
-
-  .imgl{
-    border-radius: 7%;
-
-  }
-
-  .imgh{
-    border-radius: 7%;
-  }
-
-  .imgb{
-    border-radius: 7%;
-  }
-  
-  .imgs, .imgsk {
-    border-radius: 7%;
-  }
-  
+h1{
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  color: #009999;
+  margin-top: 50px;
+}

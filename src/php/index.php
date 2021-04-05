@@ -9,9 +9,11 @@ include_once 'header.php';
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../style/indexstyle.css"/>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 
 <body>
+
   <div class="back-image">
       <div class="hero-text">
         <h1 style="font-size:50px">ATHLETISIZE</h1>
@@ -22,10 +24,9 @@ include_once 'header.php';
     </div>
        
   </div>
-    
+</div>
 
-    
-  
+
     </body>
     </html>
     
