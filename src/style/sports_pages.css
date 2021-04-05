@@ -382,8 +382,9 @@ body{
     margin-top: 40px; margin-left: 870px; background-color:
     lightskyblue; color: white; border-radius: 20%;
 }
+
 }
-.addtosports:hover{
+.addtosports:hover, .addtosports2:hover{
   background-color: whitesmoke ;
   color: lightblue;
   font-weight: bold;
