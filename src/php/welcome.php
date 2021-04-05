@@ -15,7 +15,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 	<head>
 		<meta charset="UTF-8">
 		<title>Welcome</title>
-			<link rel="stylesheet" href="../style/stylesheet.css">
+			<link rel="stylesheet" href="../style/welcome.css">
 			
 			<style type="text/css">
 				body{ color: white; }
@@ -24,7 +24,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 	</head>
 	<body>
 	
-		<div class="page-header">
+	<div class="page-header">
 			<h1>Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to our site.</h1>
 		</div>
 		<br>
@@ -36,8 +36,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 		<h1>Account Details</h1>
 		<p>Username, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b></p>
 		<p>
-			<a href="reset-password.php" class="btn btn-primary">Reset Your Password</a>
-			<a href="logout.php" class="btn btn-primary">Sign Out of Your Account</a>
+			<a href="reset-password.php" class="btn1 btn-primary">Reset Your Password</a>
+			<a href="logout.php" class="btn1 btn-primary">Sign Out of Your Account</a>
 		</p>
 	</body>
 </html>
