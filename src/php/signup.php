@@ -3,6 +3,21 @@
 require_once "config.php";
 include_once "header.php";
  
+ /**********************************************************
+			//EXAMPLE CODE FOR CALLING AN UPDATE SPORT FUNCTION
+			$sql = "SELECT id
+					FROM users
+					WHERE username = (?);";
+					
+			if($stmt = mysqli_prepare($link, $sql)){
+				// Bind variables to the prepared statement as parameters
+				mysqli_stmt_bind_param($stmt, "s", $username);
+			}
+
+			$userID = mysqli_stmt_execute($stmt)
+			updateHockey(1, $userID);
+**********************************************************/
+ 
 // Define variables and initialize with empty values
 $username = $password = $confirm_password = "";
 $username_err = $password_err = $confirm_password_err = "";
@@ -117,12 +132,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             mysqli_stmt_bind_param($stmt, "iiiiii", $baseball, $hockey, $lacrosse, $ski, $snowboard, $soccer);
             
             // Set parameters
-            $baseball = 1;
-			$hockey = 1; 
-			$lacrosse = 1;
-			$ski = 1;
-			$snowboard = 1;
-			$soccer = 1;
+            $baseball = 0;
+			$hockey = 0; 
+			$lacrosse = 0;
+			$ski = 0;
+			$snowboard = 0;
+			$soccer = 0;
             
             // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)){
@@ -137,6 +152,144 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         }
     }
     
+	//Update the Hockey boolean
+	function updateHockey($hockeyValue, $idValue){
+		$sql = "UPDATE mysports
+				SET hockey = (?)
+				WHERE id = (?);";
+				
+		if($stmt = mysqli_prepare($link, $sql)){
+			// Bind variables to the prepared statement as parameters
+			mysqli_stmt_bind_param($stmt, "ii", $hockeyValue, $idValue);
+            
+			// Attempt to execute the prepared statement
+			if(mysqli_stmt_execute($stmt)){
+				// Redirect to login page
+				header("location: login.php");
+			} else{
+				echo "Something went wrong. Please try again later.";
+			}
+
+			// Close statement
+			mysqli_stmt_close($stmt);
+        }
+	}
+	
+	//Update the baseball boolean
+	function updateBaseball($baseballValue, $idValue){
+		$sql = "UPDATE mysports
+				SET baseball = (?)
+				WHERE id = (?);";
+				
+		if($stmt = mysqli_prepare($link, $sql)){
+			// Bind variables to the prepared statement as parameters
+			mysqli_stmt_bind_param($stmt, "ii", $baseballValue, $idValue);
+            
+			// Attempt to execute the prepared statement
+			if(mysqli_stmt_execute($stmt)){
+				// Redirect to login page
+				header("location: login.php");
+			} else{
+				echo "Something went wrong. Please try again later.";
+			}
+
+			// Close statement
+			mysqli_stmt_close($stmt);
+        }
+	}
+	
+	//Update the Lacrosse boolean
+	function updateLacrosse($lacrosseValue, $idValue){
+		$sql = "UPDATE mysports
+				SET lacrosse = (?)
+				WHERE id = (?);";
+				
+		if($stmt = mysqli_prepare($link, $sql)){
+			// Bind variables to the prepared statement as parameters
+			mysqli_stmt_bind_param($stmt, "ii", $lacrosseValue, $idValue);
+            
+			// Attempt to execute the prepared statement
+			if(mysqli_stmt_execute($stmt)){
+				// Redirect to login page
+				header("location: login.php");
+			} else{
+				echo "Something went wrong. Please try again later.";
+			}
+
+			// Close statement
+			mysqli_stmt_close($stmt);
+        }
+	}
+	
+	//Update the Ski boolean
+	function updateSki($skiValue, $idValue){
+		$sql = "UPDATE mysports
+				SET ski = (?)
+				WHERE id = (?);";
+				
+		if($stmt = mysqli_prepare($link, $sql)){
+			// Bind variables to the prepared statement as parameters
+			mysqli_stmt_bind_param($stmt, "ii", $skiValue, $idValue);
+            
+			// Attempt to execute the prepared statement
+			if(mysqli_stmt_execute($stmt)){
+				// Redirect to login page
+				header("location: login.php");
+			} else{
+				echo "Something went wrong. Please try again later.";
+			}
+
+			// Close statement
+			mysqli_stmt_close($stmt);
+        }
+	}
+	
+	//Update the Snowboard boolean
+	function updateSnowboard($snowboardValue, $idValue){
+		$sql = "UPDATE mysports
+				SET snowboard = (?)
+				WHERE id = (?);";
+				
+		if($stmt = mysqli_prepare($link, $sql)){
+			// Bind variables to the prepared statement as parameters
+			mysqli_stmt_bind_param($stmt, "ii", $snowboardValue, $idValue);
+            
+			// Attempt to execute the prepared statement
+			if(mysqli_stmt_execute($stmt)){
+				// Redirect to login page
+				header("location: login.php");
+			} else{
+				echo "Something went wrong. Please try again later.";
+			}
+
+			// Close statement
+			mysqli_stmt_close($stmt);
+        }
+	}
+	
+	//Update the Soccer boolean
+	function updateSoccer($soccerValue, $idValue){
+		$sql = "UPDATE mysports
+				SET soccer = (?)
+				WHERE id = (?);";
+				
+		if($stmt = mysqli_prepare($link, $sql)){
+			// Bind variables to the prepared statement as parameters
+			mysqli_stmt_bind_param($stmt, "ii", $soccerValue, $idValue);
+            
+			// Attempt to execute the prepared statement
+			if(mysqli_stmt_execute($stmt)){
+				// Redirect to login page
+				header("location: login.php");
+			} else{
+				echo "Something went wrong. Please try again later.";
+			}
+
+			// Close statement
+			mysqli_stmt_close($stmt);
+        }
+	}
+	
     // Close connection
     mysqli_close($link);
 }
