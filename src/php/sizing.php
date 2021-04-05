@@ -5,240 +5,327 @@ include_once 'header.php';
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../style/sizingstyle.css"/>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<title>Sizing</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../style/sizingstyle.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 
 
 <body>
-
-<form id="regForm" action="">
-
+	
 <h1>Size me!</h1>
+<form id="regForm" action=""> 
+	
 
 <!-- One "tab" for each step in the form: -->
 <div class="tab"><h2>Choose Sports:</h2>
   <form>
-	<label for="hockey" onclick="showHockeyForm()" >
-	<input type="checkbox" id="hockey" />
-	Hockey
-	</label><br>
-	<label for="soccer" onclick="showSoccerForm()" >
+	  Hockey 
+	<label class="checkbox-label" for="hockey" onclick="showHockeyForm()" >
+	<input type="checkbox" id="hockey"/> 
+	<span class="checkbox-custom"></span>
+	</label><br><br>
+	  
+	  Soccer
+	<label class="checkbox-label" for="soccer" onclick="showSoccerForm()" >
 	<input type="checkbox" id="soccer" />
-	Soccer
-	</label><br>
-	<label for="bbsb" onclick="showBbsbForm()" >
+	<span class="checkbox-custom"></span>
+	</label><br><br>
+	  
+	  Baseball/Softball
+	<label class="checkbox-label" for="bbsb" onclick="showBbsbForm()" >
 	<input type="checkbox" id="bbsb" />
-	Baseball/Softball
-	</label><br>
-	<label for="lacrosse" onclick="showLacrosseForm()" >
+	<span class="checkbox-custom"></span>
+	</label><br><br>
+	  
+	  Lacrosse
+	<label class="checkbox-label" for="lacrosse" onclick="showLacrosseForm()" >
 	<input type="checkbox" id="lacrosse" />
-	Lacrosse
-	</label><br>
-	<label for="ski" onclick="showSkiForm()" >
+	<span class="checkbox-custom"></span>
+	</label><br><br>
+	  
+	  Downhill Ski
+	<label class="checkbox-label" for="ski" onclick="showSkiForm()" >
 	<input type="checkbox" id="ski" />
-	Downhill Ski
-	</label><br>
-	<label for="snowboard" onclick="showSnowboardForm()" >
+	<span class="checkbox-custom"></span>
+	</label><br><br>
+	  
+	  Snowboard
+	<label class="checkbox-label" for="snowboard" onclick="showSnowboardForm()" >
 	<input type="checkbox" id="snowboard" />
-	Snowboard
+	<span class="checkbox-custom"></span>
 	</label><br></form>
+	
 </div>
 
-<div class="tab"><h2>Choose Equipment:</h2>
-  <div id="heqform" style="display: none">
+<div class="tab" style="display: none"><h2>Choose Equipment:</h2>
+ <div id="heqform"  style="display: none">
   <form>
-	<label for="hhelmet" >
-	<input type="checkbox" id="hhelmet" name="hhelmet"/>
 	Helmet
-	</label><br>
-	<label for="hshoulder" >
-	<input type="checkbox" id="hshoulder" name="hshoulder"/>
+	<label class="checkbox-label" for="hhelmet" >
+	<input type="checkbox" id="hhelmet" name="hhelmet"/>
+    <span class="checkbox-custom"></span>
+	</label><br><br>
+	  
 	Shoulder Pads
-	</label><br>
-	<label for="helbow" >
-	<input type="checkbox" id="helbow" name="helbow"/>
-	Elbow Pads
-	</label><br>
-	<label for="hglove" >
-	<input type="checkbox" id="hglove" name="hglove"/>
-	Gloves
-	</label><br>
-	<label for="hpant" >
-	<input type="checkbox" id="hpant" name="hpant"/>
-	Hockey Pants
-	</label><br>
-	<label for="hshin" >
-	<input type="checkbox" id="hshin" name="hshin"/>
-	Shin Guards
-	</label><br>
-	<label for="hskates" >
-	<input type="checkbox" id="hskates" name="hskates"/>
-	Skates
-	</label><br>
+	<label class="checkbox-label" for="hshoulder" >
+	<input type="checkbox" id="hshoulder" name="hshoulder"/>
+	<span class="checkbox-custom"></span>
 	
-	</form>
+	</label><br><br>
+	 Elbow Pads
+	<label class="checkbox-label" for="helbow" >
+	<input type="checkbox" id="helbow" name="helbow"/>
+	<span class="checkbox-custom"></span>
+		
+	</label><br><br>
+	 Gloves 
+	<label class="checkbox-label" for="hglove" >
+	<input type="checkbox" id="hglove" name="hglove"/>
+	<span class="checkbox-custom"></span>
+	
+	</label><br><br>
+	 Hockey Pants
+	<label class="checkbox-label" for="hpant" >
+	<input type="checkbox" id="hpant" name="hpant"/>
+	<span class="checkbox-custom"></span>
+	
+	</label><br><br>
+	 Shin Guards
+	<label class="checkbox-label" for="hshin" >
+	<input type="checkbox" id="hshin" name="hshin"/>
+	<span class="checkbox-custom"></span>
+	
+	</label><br><br>
+	Skates
+	<label class="checkbox-label" for="hskates" >
+	<input type="checkbox" id="hskates" name="hskates"/>
+	<span class="checkbox-custom"></span>
+	
+	</label><br></form>
 	</div>
 
 
  <div id="soceqform" style="display: none">
   <form>
-	<label for="scleats" >
+	 Cleats
+	<label class="checkbox-label" for="scleats" >
 	<input type="checkbox" id="scleats" name="scleats"/>
-	Cleats
-	</label><br>
-	<label for="sshin" >
+	<span class="checkbox-custom"></span>
+	
+	</label><br><br>
+	  Shin Guards
+	<label class="checkbox-label" for="sshin" >
 	<input type="checkbox" id="sshin" name="sshin"/>
-	Shin Guards
-	</label><br>
-	<label for="ssocks" >
+	<span class="checkbox-custom"></span>
+	
+	</label><br><br>
+	  Athletic Socks
+	<label class="checkbox-label" for="ssocks" >
 	<input type="checkbox" id="ssocks" name="ssocks"/>
-	Athletic Socks
-	</label><br>
-	<label for="sgoal" >
+	<span class="checkbox-custom"></span>
+	
+	</label><br><br>
+	  Goalkeeper Gloves
+	<label class="checkbox-label" for="sgoal" >
 	<input type="checkbox" id="sgoal" name="sgoal"/>
-	Goalkeeper Gloves
-	</label><br>
+	<span class="checkbox-custom"></span>
+	
+	</label><br><br>
 	</form>
 	</div>
 	
  <div id="bbeqform" style="display: none">
   <form>
-	<label for="bglove" >
+	  Glove
+	<label class="checkbox-label" for="bglove" >
 	<input type="checkbox" id="bglove" name="bglove"/>
-	Glove
-	</label><br>
-	<label for="bbat" >
+	<span class="checkbox-custom"></span>
+	</label><br><br>
+	  
+	  Bat
+	<label class="checkbox-label" for="bbat" >
 	<input type="checkbox" id="bbat" name="bbat"/>
-	Bat
-	</label><br>
-	<label for="bhelm" >
+	<span class="checkbox-custom"></span>
+	</label><br><br>
+	  
+	  Batting Helmet
+	<label class="checkbox-label" for="bhelm" >
 	<input type="checkbox" id="bhelm" name="bhelm"/>
-	Batting Helmet
-	</label><br>
-	<label for="bglovebat" >
+	<span class="checkbox-custom"></span>	
+	</label><br><br>
+	  
+	  Batting Gloves
+	<label class="checkbox-label" for="bglovebat" >
 	<input type="checkbox" id="bglovebat" name="bglovebat"/>
-	Batting Gloves
-	</label><br>
-	<label for="bcleat" >
-	<input type="checkbox" id="bcleat" name="bcleat"/>
-	Cleats
-	</label><br>
+	<span class="checkbox-custom"></span>	
+	</label><br><br>
 	
-	<h3> Softball Specific </h3><br>
-	<label for="bfieldmask" >
+	  Cleats
+	<label class="checkbox-label" for="bcleat" >
+	<input type="checkbox" id="bcleat" name="bcleat"/>
+	<span class="checkbox-custom"></span>	
+	</label><br><br><br>
+	
+	<h3> Softball Specific </h3>
+	  
+	  Fielder's Mask
+	<label class="checkbox-label" for="bfieldmask" >
 	<input type="checkbox" id="bfieldmask" name="bfieldmask"/>
-	Fielder's Mask
-	</label><br>
+	<span class="checkbox-custom"></span>
+	</label><br><br><br>
 	
 	<h3> Catcher </h3>
-	<label for="bcatchmask" >
+	  
+	  Catcher's Mask
+	<label class="checkbox-label" for="bcatchmask" >
 	<input type="checkbox" id="bcatchmask" name="bcatchmask"/>
-	Catcher's Mask
-	</label><br>
-	<label for="bchestp" >
+	<span class="checkbox-custom"></span>	
+	</label><br><br>
+	 
+	  Chest Protector
+	<label class="checkbox-label" for="bchestp" >
 	<input type="checkbox" id="bchestp" name="bchestp"/>
-	Chest Protector
-	</label><br>
-	<label for="bshin" >
+	<span class="checkbox-custom"></span>
+	</label><br><br>
+	  
+	  Shin Guards
+	<label class="checkbox-label" for="bshin" >
 	<input type="checkbox" id="bshin" name="bshin"/>
-	Shin Guards
-	</label><br>
-	<label for="bcup" >
+	<span class="checkbox-custom"></span>	
+	</label><br><br>
+	  
+	  Protective Cup
+	<label class="checkbox-label" for="bcup" >
 	<input type="checkbox" id="bcup" name="bcup"/>
-	Protective Cup
-	</label><br>
-	<label for="bglovecatch" >
+	<span class="checkbox-custom"></span>
+	</label><br><br>
+	  
+	  Catcher's Glove
+	<label class="checkbox-label" for="bglovecatch" >
 	<input type="checkbox" id="bglovecatch" name="bglovecatch"/>
-	Catcher's Glove
+	<span class="checkbox-custom"></span>
+	
 	</label><br>
 	</form>
 	</div>
 	
-	 <div id="laxeqform" style="display: none">
+ <div id="laxeqform" style="display: none">
   <form>
-	<label for="lhelm" >
+	  Helmet
+	<label class="checkbox-label" for="lhelm" >
 	<input type="checkbox" id="lhelm" name="lhelm"/>
-	Helmet
-	</label><br>
-	<label for="lshoulder" >
+	<span class="checkbox-custom"></span>
+	</label><br><br>
+	  
+	  Shoulder Pads
+	<label class="checkbox-label" for="lshoulder" >
 	<input type="checkbox" id="lshoulder" name="lshoulder"/>
-	Shoulder Pads
-	</label><br>
-	<label for="larm" >
+	<span class="checkbox-custom"></span>
+	</label><br><br>
+	
+	  Arm Guards
+	<label class="checkbox-label" for="larm" >
 	<input type="checkbox" id="larm" name="larm"/>
-	Arm Guards
-	</label><br>
-	<label for="lcleat" >
+	<span class="checkbox-custom"></span>
+	</label><br><br>
+	
+	 Cleats
+	<label class="checkbox-label" for="lcleat" >
 	<input type="checkbox" id="lcleat" name="lcleat"/>
-	Cleats
-	</label><br>
+	<span class="checkbox-custom"></span>
+	</label><br><br>
+	  
+	 Stick
+	<label class="checkbox-label" for="lstick" >
 	<input type="checkbox" id="lstick" name="lstick"/>
-	Stick
-	</label><br>
+	<span class="checkbox-custom"></span>
+	</label><br><br>
+	 
+	 Mouth Guard
+	 <label class="checkbox-label" for="lmouth" >
 	<input type="checkbox" id="lmouth" name="lmouth"/>
-	Mouth Guard
-	</label><br>
-	<input type="checkbox" id="lcup" name="lcup"/>
+	<span class="checkbox-custom"></span>
+	</label><br><br>
+	
 	Protective Cup
+	<label class="checkbox-label" for="lcup" >
+	<input type="checkbox" id="lcup" name="lcup"/>
+    <span class="checkbox-custom"></span>
+	
 	</label><br>
 	</form>
 	</div>
 	
-	 <div id="skieqform" style="display: none">
+ <div id="skieqform" style="display: none">
   <form>
-	<label for="sski" >
+	  Skis
+	<label class="checkbox-label" for="sski" >
 	<input type="checkbox" id="sski" name="sski"/>
-	Skis
-	</label><br>
-	<label for="sboot" >
+	<span class="checkbox-custom"></span>
+	</label><br><br>
+	  
+	  Boots
+	<label class="checkbox-label" for="sboot" >
 	<input type="checkbox" id="sboot" name="sboot"/>
-	Boots
-	</label><br>
-	<label for="spole" >
+	<span class="checkbox-custom"></span>
+	</label><br><br>
+	  
+	  Poles
+	<label class="checkbox-label" for="spole" >
 	<input type="checkbox" id="spole" name="spole"/>
-	Poles
-	</label><br>
-	<label for="shelm" >
+	<span class="checkbox-custom"></span>
+	</label><br><br>
+	  
+	  Helmet
+	<label class="checkbox-label" for="shelm" >
 	<input type="checkbox" id="shelm" name="shelm"/>
-	Helmet
-	</label><br>
-	<label for="sgoggle" >
+	<span class="checkbox-custom"></span>
+	</label><br><br>
+	
+	  Goggles
+	<label class="checkbox-label" for="sgoggle" >
 	<input type="checkbox" id="sgoggle" name="sgoggle"/>
-	Goggles
+	<span class="checkbox-custom"></span>
 	</label><br>
+	  
 	</form>
 	</div>
 	
-	 <div id="sbeqform" style="display: none">
+ <div id="sbeqform" style="display: none">
   <form>
-	<label for="sbboard" >
+	  Cleats
+	<label class="checkbox-label" for="sbboard" >
 	<input type="checkbox" id="sboard" name="sboard"/>
-	Cleats
-	</label><br>
-	<label for="sbboot" >
+	<span class="checkbox-custom"></span>
+	</label><br><br>
+	  
+	  Boots
+	<label class="checkbox-label" for="sbboot" >
 	<input type="checkbox" id="sbboot" name="sbboot"/>
-	Boots
-	</label><br>
-	<label for="sbhelm" >
+	<span class="checkbox-custom"></span>
+	</label><br><br>
+	  
+	  Helmet
+	<label class="checkbox-label" for="sbhelm" >
 	<input type="checkbox" id="sbhelm" name="sbhelm"/>
-	Helmet
-	</label><br>
-	<label for="sbgoggle" >
+	<span class="checkbox-custom"></span>
+	</label><br><br>
+	  
+	  Goggles
+	<label class="checkbox-label" for="sbgoggle" >
 	<input type="checkbox" id="sbgoggle" name="sbgoggle"/>
-	Goggles
+	<span class="checkbox-custom"></span>
 	</label><br>
+	  
 	</form>
 	</div>
-
-
-
 </div>
 
-<div class="tab"><h2>Measurements</h2>
+<div class="tab" style="display: none"><h2>Measurements</h2>
 	<h3>Head Measurement:</h3>
   <p><input placeholder="e.g. 53cm" oninput="this.className = ''"></p>
 	<h3>Chest Measurement:</h3>
@@ -247,14 +334,14 @@ include_once 'header.php';
   <p><input placeholder="e.g. 20in" oninput="this.className = ''"></p>
 </div>
 
-<div class="tab"><h2>Results</h2>
+<div class="tab" style="display: none"><h2>Results</h2>
   <p><input placeholder="Results" oninput="this.className = ''"></p>
 </div>
 
 <div style="overflow:auto;">
   <div style="float:right;">
-    <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
-    <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+    <button type="button" class="myButton" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+    <button type="button" class="myButton" id="nextBtn" onclick="nextPrev(1)">Next</button>
   </div>
 </div>
 
@@ -280,7 +367,7 @@ function showTab(n) {
   if (n == 0) {
     document.getElementById("prevBtn").style.display = "none";
   } else {
-    document.getElementById("prevBtn").style.display = "inline";
+    document.getElementById("prevBtn").style.display = "";
   }
   if (n == (x.length - 1)) {
     document.getElementById("nextBtn").innerHTML = "Submit";
@@ -347,7 +434,7 @@ function showHockeyForm() {
 	var heqforms = document.getElementById("heqform");
 	
 	if (hockeyChk.checked == true){
-		heqforms.style.display = "inline";
+		heqforms.style.display = "block";
 	} else {
 		heqforms.style.display = "none";
 	}
@@ -358,7 +445,7 @@ function showSoccerForm() {
 	var soceqforms = document.getElementById("soceqform");
 	
 	if (soccerChk.checked == true){
-		soceqforms.style.display = "inline";
+		soceqforms.style.display = "block";
 	} else {
 		soceqforms.style.display = "none";
 	}
@@ -369,7 +456,7 @@ function showBbsbForm() {
 	var bbsbeqforms = document.getElementById("bbeqform");
 	
 	if (bbsbChk.checked == true){
-		bbsbeqforms.style.display = "inline";
+		bbsbeqforms.style.display = "block";
 	} else {
 		bbsbeqforms.style.display = "none";
 	}
@@ -380,7 +467,7 @@ function showLacrosseForm() {
 	var laxeqforms = document.getElementById("laxeqform");
 	
 	if (lacrosseChk.checked == true){
-		laxeqforms.style.display = "inline";
+		laxeqforms.style.display = "block";
 	} else {
 		laxeqforms.style.display = "none";
 	}
@@ -391,7 +478,7 @@ function showSkiForm() {
 	var skieqforms = document.getElementById("skieqform");
 	
 	if (skiChk.checked == true){
-		skieqforms.style.display = "inline";
+		skieqforms.style.display = "block";
 	} else {
 		skieqforms.style.display = "none";
 	}
@@ -402,13 +489,12 @@ function showSnowboardForm() {
 	var sbeqforms = document.getElementById("sbeqform");
 	
 	if (snowboardChk.checked == true){
-		sbeqforms.style.display = "inline";
+		sbeqforms.style.display = "block";
 	} else {
 		sbeqforms.style.display = "none";
 	}
 }
 
 </script>
-
 </body>
 </html>
