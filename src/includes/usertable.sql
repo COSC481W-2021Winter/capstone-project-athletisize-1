@@ -20,3 +20,16 @@ snowboard int NOT NULL,
 soccer int NOT NULL,
 FOREIGN KEY (id) REFERENCES users(id)
 );
+
+CREATE TABLE measurements(
+id int,
+height DOUBLE(10,2) NOT NULL,
+weight DOUBLE(10,2) NOT NULL,
+FOREIGN KEY(id) REFERENCES users(id)
+);
+
+CREATE TABLE sports(
+id int,
+sports varchar(128) NOT NULL,
+FOREIGN KEY(id) REFERENCES users(id)
+);
