@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/header page/
+  nav ul {
+      list-style-type: none;
+      overflow: hidden;
+      background-color: #000000;
+    }
+    nav li {
+      float: right;
+    }
+    .nav-bar {
+      display: block;
+      color: #000;
+      padding: 25px 20px;
+      text-decoration: none;
+      font-family: 'Lato', sans-serif;
+      color: white;
+      font-weight: bold;
+    }
+    
+    .nav-bar:hover {
+      background-color: #009999;
+      color: white;
+    }
+
+ /***************/
+  body{
+    background-image: url('https://i.postimg.cc/RFcFWmfx/Emirates-UAE-Dubai-451666.jpg');
+    background-repeat: none;
+    background-size: cover;
+  }
+ 
+  .btn-primary {
+    color: #fff;
+    background-color: #279e98;
+    border-color: #101111;
+}
+.btn-primary:hover {
+    background-color: #020202;
+    color: white;
+  }
+  
+
+.btn {
+    display: inline-block;
+    padding: 10px 12px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin: 0;
+    position: absolute;
+    
+    
+    
+    
+}
+
+
+.btn1 {
+    display: inline-block;
+    padding: 10px 12px;
+    margin-bottom: 0;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #737373;
+}
+
+
+ .page-header{
+    margin-top: 40px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5%;
+  }
+
+ 
+  .page-header h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px ;
+  }
+
+  .page-header h2{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: rgb(214, 229, 238);
+  }
+  
+  .page-header h3{
+    text-align: right;
+    margin-right: 175px;
+    
+  }
+
+  .page-header p{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    color: rgb(235, 242, 243);
+  }
+
+  
+
+  #sports{
+    text-align: center;
+  }
+
