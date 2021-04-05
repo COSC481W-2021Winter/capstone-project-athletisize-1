@@ -16,11 +16,14 @@ include_once 'header.php';
         <div class="container">
             <!-- Sec Title -->
             <div class="sec-title centered">
-                <h1 style="color:#009999">MEET THE TEAM</h1>
-                <p style = "color: white">
+                <h1>MEET THE TEAM</h1>
+                <p class ="paragraph">
                     Meet our team here at AthletiSize! The people behind the scenes of
                     creating a website to meet your sports equipment needs. If you would like to join our team head over to contact us and fill out the form. We are always looking for new talent. </p>
                 <hr>
+                <br>
+                <br>
+
             </div>
 
             <div class="row clearfix">
