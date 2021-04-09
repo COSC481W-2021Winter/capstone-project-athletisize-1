@@ -16,8 +16,72 @@
             <div id="pdf">
 			        <a href="../pdfs/hockey_equipment_checklist.pdf" target="_blank">PDF Version</a>
 			      </div>
+
+        <div>
+            <?php
+				require_once "config.php";
+				session_start();
+				
+				//Update the Hockey boolean
+				function updateHockey($hockeyValue, $idValue, $conn){
+					$sql = "UPDATE mysports SET hockey = (?) WHERE id = (?);";
+							
+					if($stmt = mysqli_prepare($conn, $sql)){
+						// Bind variables to the prepared statement as parameters
+						mysqli_stmt_bind_param($stmt, "ii", $hockeyValue, $idValue);
+						
+						// Attempt to execute the prepared statement
+						if(mysqli_stmt_execute($stmt)){
+							// Redirect to login page
+							echo "<p align=center>Updated Successfully </p>";
+						} else{
+							echo "Something went wrong. Please try again later.";
+						}
+
+						// Close statement
+						mysqli_stmt_close($stmt);
+					}
+				}
+				
+				//Get the value for a given sport
+				function getValue($sport, $idValue, $conn){
+
+					$result = mysqli_fetch_array(mysqli_query($conn, "SELECT ($sport) FROM mysports WHERE id = ($idValue);"));
+					$value = $result[0];
+
+					return $value; 
+				}
+
+				//Get the user id for the session, and call the update database function when button is pressed
+				if(isset($_POST['btn-atms'])){
+					
+					$userID = $_SESSION["id"];
+					updateHockey(1, $userID, $link);
+					
+				}
+				if(isset($_POST['btn-rfms'])){
+					
+					$userID = $_SESSION["id"];
+					updateHockey(0, $userID, $link);
+					
+				}
+				
+				$value = getValue("hockey", $_SESSION["id"], $link);
+				
+				//Create 'add to my Sports' button if logged in
+                if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true)
+                {
+					if($value == 0){
+						echo' <form method="post"> <input type="submit" name="btn-atms" value="Add to my Sports" class="addtosports2"> </form> ';
+					} else {
+						echo' <form method="post"> <input type="submit" name="btn-rfms" value="Remove from my Sports" class="addtosports2"> </form> ';
+					}
+                }
+            ?> 
+
+        </div>
 			
-			  <form id="hockeyform">
+			    <form id="hockeyform">
             <div class="firstside">
                <label class="container2">
                   <input type="checkbox" >
@@ -111,148 +175,8 @@
                   <span class="checkmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stick
               </label>
             </div>
-
-          <!--
-            <div class = "container2">
-            <div class="row">
-            <div class="col-12">
-            </div>
-            </div>
-            <div class="row">
-            <div class="col-12">
-            <ul>
-        
-       
-
-          <li>
-            <label class="container2">Helmet
-              <input type="checkbox">
-              <span class="checkmark2"></span>
-            </label>
-          </li>
-
-          <li>
-            <label class="container2">Shoulder Pads
-              <input type="checkbox">
-              <span class="checkmark2"></span>
-            </label>
-            </li>
-        
-          <li>
-            <label class="container2">Neck Guard
-              <input type="checkbox">
-              <span class="checkmark2"></span>
-            </label>
-          </li>
-        
-          <li>
-            <label class="container2">Elbow Pads
-              <input type="checkbox">
-              <span class="checkmark2"></span>
-            </label>
-          </li>
-        
-         <li>
-            <label class="container2">Gloves
-              <input type="checkbox">
-              <span class="checkmark2"></span>
-            </label>
-          </li>
-        
-          <li>
-            <label class="container2">Pants
-              <input type="checkbox">
-              <span class="checkmark2"></span>
-            </label>
-          </li>
-        
-          <li>
-            <label class="container2">Shin Guards
-              <input type="checkbox">
-              <span class="checkmark2"></span>
-            </label>
-          </li>
-        
-          <li>
-            <label class="container2">Skates
-              <input type="checkbox">
-              <span class="checkmark2"></span>
-            </label>
-          </li>
-        
-          <li>
-            <label class="container2">Protective Cup
-              <input type="checkbox">
-              <span class="checkmark2"></span>
-            </label>
-          </li>
-        
-          <li>
-            <label class="container2">Mouth Guard
-              <input type="checkbox">
-              <span class="checkmark2"></span>
-            </label>
-          </li>
-        
-          <li>
-           <label class="container2">Hockey Socks
-             <input type="checkbox">
-              <span class="checkmark2"></span>
-            </label>
-          </li>
-        
-        <li>
-            <label class="container2">Stick
-              <input type="checkbox">
-              <span class="checkmark2"></span>
-            </label>
-        </li>
-
-        
-        <li>
-            <label class="container2"><h3>Goalie:<h3>
-            </label>
-        </li>
-       
-        <li>
-            <label class="container2">Helmet
-              <input type="checkbox">
-              <span class="checkmark2"></span>
-            </label>
-        </li>
-       
-        <li>
-          <label class="container2">Chest Protector
-            <input type="checkbox">
-            <span class="checkmark2"></span>
-          </label>
-       </li>
+      </form>  
       
-        <li>
-          <label class="container2">Leg Pads
-            <input type="checkbox">
-            <span class="checkmark2"></span>
-          </label>
-       </li>
-      
-        <li>
-          <label class="container2">Catcher & Blocker
-            <input type="checkbox">
-            <span class="checkmark2"></span>
-          </label>
-       </li>
-    
-        <li>
-          <label class="container2">Stick
-            <input type="checkbox">
-            <span class="checkmark2"></span>
-          </label>
-        </li>
-      </ul>
-      </div>
-      </div>
-      </div> -->
-      </form>      
     </div>
   </body>
 </html>
