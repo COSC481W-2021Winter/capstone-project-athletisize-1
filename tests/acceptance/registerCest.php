@@ -6,12 +6,12 @@ class registerCest
     // tests
     public function signup(AcceptanceTester $I)
     {
-        $I->amOnPage('signup.php');
+        $I->amOnPage('/login_signup.php');
         $I->fillField('username', 'joshtest22');
     }
 
     public function passmatch(AcceptanceTester $I) {
-        $I->amOnPage('signup.php');
+        $I->amOnPage('/login_signup.php');
         $I->fillField(['name' => 'username'], 'passtest');
         $I->fillField(['name' => 'password'], 'passtest');
         $I->fillField(['name' => 'confirm_password'], 'notpass');
@@ -20,13 +20,13 @@ class registerCest
     }
 
     public function loginlink(AcceptanceTester $I) {
-        $I->amOnPage('signup.php');
+        $I->amOnPage('/login_signup.php');
         $I->click('Login here');
         $I->see('Please fill in your credentials to login.');
     }
 
     public function headerlinks(AcceptanceTester $I) {
-        $I->amOnPage('signup.php');
+        $I->amOnPage('login_signup.php');
         $I->click('HOME');
         $I->see('Get started');
         $I->amOnPage('/header.php');
@@ -47,7 +47,7 @@ class registerCest
     }
 
     public function usernametaken(AcceptanceTester $I) {
-        $I->amOnPage('signup.php');
+        $I->amOnPage('login_signup.php');
         $I->fillField(['name' => 'username'], 'joshtest');
         $I->fillField(['name' =>'password'], 'testpass');
         $I->fillfield(['name' => 'confirm_password'], 'testpass');
@@ -56,7 +56,7 @@ class registerCest
     }
 
     public function logotest(AcceptanceTester $I) {
-        $I->amOnPage('/header.php');
+        $I->amOnPage('login_signup.php');
 		$I->see('ATHLETISIZE');
 		$I->seeElement('//img[@src="../images/as_logo_white.png"]');
     }
