@@ -51,7 +51,7 @@ include_once 'header.php';
 
 
 
-<iframe width="1920" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=1920&amp;height=400&amp;hl=en&amp;q=900%20oakwood%20y%20ypsilanti+(Athletisize)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.add-map.net/'>adding google map to website</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=3c3f1301a1c676e6c653305d2c90580de923a929'></script>>
+<iframe width="1920" height="399" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=1920&amp;height=399&amp;hl=en&amp;q=eastern%20michigan%20ypsilanti+()&amp;t=p&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.symptoma.ro/'>Symptom Checker Romanian</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=74725cf098982e2d173ce54aae6fecf3e5215c22'></script>
 
 
 

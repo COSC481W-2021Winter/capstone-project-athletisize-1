@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Work+Sans:ital,wght@1,900&display=swap');
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  text-decoration: none
+}
+nav li {
+  float: right;
+  text-decoration: none
+}
+.nav-bar {
+  display: block;
+  color: #000;
+  padding: 25px 20px;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none
+}
+
+.nav-bar:hover {
+  background-color: #009999;
+  color: white;
+  text-decoration: none
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background: #000;
+
+}
+
+/*the rest of the page ---------------------------------------------------*/
+h1{
+  font-size: 70px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #009999;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+
+
+.button {
+  width: 130px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  position:relative;
+  cursor: pointer;
+  display: inline-block;s
+  border-radius: 10px;
+  color: black;
+
+}
+
+.button {
+  background-color: #000;
+  border: 1px solid white;
+  color: white;
+  transition: .3s;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, .2), 0 10px 10px rgba(0, 0, 0, .2);
+
+}
+.button:hover {
+  animation: pulse 1s infinite;
+  transition: .3s;
+}
+.sports ul {
+  list-style-type: none;
+  color: white;
+  font-size: 24px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  position: relative;
+
+}
+
+.col-1 {width: 7.75%;}
+.col-2 {width: 17.66%;}
+.col-3 {width: 21%;}
+.col-4 {width: 37.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 47%;}
+.col-7 {width: 43.33%;}
+.col-8 {width: 10.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+hr {
+  border: 1px solid white;
+  border-radius: 5px;
+  width:41%;
+  margin:auto;
+}
+
+#box {
+  box-sizing: border-box; 
+  width: 800px;
+  height: 340px;
+  padding: 12px;  
+  padding-top: 20px;
+  /*border: 5px solid white;*/
+  border-radius: 20px;
+  margin: auto;
+
+
+  background-image: -ms-linear-gradient(top, #7e8ce0  0%, #4acfac 100%);
+    background-image: -moz-linear-gradient(top, #7e8ce0  0%, #4acfac 100%);
+    background-image: -o-linear-gradient(top, #7e8ce0  0%, #4acfac 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #7e8ce0 ), color-stop(100, #ff9600));
+    background-image: -webkit-linear-gradient(top, #7e8ce0  0%, #4acfac 100%);
+    background-image: linear-gradient(to bottom, #7e8ce0  0%, #4acfac 100%);
+}
+  .sports img{
+    position:relative;
+    display: block;
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(255, 255, 255, .2), 0 10px 10px rgba(255, 255, 255, .2);
+  }
+  .paragraph {
+  font-size: 24px;
+  text-align: left;
+  color: white;
+}

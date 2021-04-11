@@ -117,7 +117,7 @@ include_once 'header.php';
                 <h3><a href="#">Jonathan</a></h3>
                 <div class="designation">Front End Developer </div>
                 <p style ="font-size: 12px;"> I’m in charge of design elements. Some of my hobbies and interests include learning about war history, playing video games, and hanging out with friends. Most recent book I’ve been reading is “The art of war and other classics of eastern philosophy”.
-                    <br><br><br></p>
+                    <br><br></p>
             </div>
         </div>
     </div>
