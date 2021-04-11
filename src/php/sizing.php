@@ -15,13 +15,14 @@ include_once 'header.php';
 
 
 <body>
-	
-<h1>Size me!</h1>
 <form id="regForm" action=""> 
 	
 
 <!-- One "tab" for each step in the form: -->
-<div class="tab"><h2>Choose Sports:</h2>
+<div class="tab">
+	<h1>Select your Sport!</h1>
+	<hr>
+	<div class="box">
   <form>
 	  Hockey 
 	<label class="checkbox-label" for="hockey" onclick="showHockeyForm()" >
@@ -58,11 +59,13 @@ include_once 'header.php';
 	<input type="checkbox" id="snowboard" />
 	<span class="checkbox-custom"></span>
 	</label><br></form>
-	
+	</div>
 </div>
 
-<div class="tab" style="display: none"><h2>Choose Equipment:</h2>
- 
+<div class="tab" style="display: none">
+	<h1>Choose Equipment:</h1>
+	<hr>
+ <div class="box">
  <div id="heqform"  style="display: none">
   <form>
 	Helmet
@@ -323,9 +326,12 @@ include_once 'header.php';
 	  
 	</form>
 	</div>
-</div>
+	</div>
+	</div>
 
-<div class="tab" style="display: none"><h2>Measurements</h2>
+<div class="tab" style="display: none"><h1>Measurements</h1>
+	<hr>
+	<div class="box">
 	<div id="hockeymeasurments">
 	
 	<div id="hhlmmeasure" style="display: none">
@@ -2652,13 +2658,15 @@ include_once 'header.php';
 	</form>
 	<br>
 	<hr>
+		</div>
 	</div>
 	</div>
 	
 </div>
 
-<div class="tab" style="display: none"><h2>Results</h2>
-  
+<div class="tab" style="display: none"><h1>Results</h1>
+	<hr>
+  <div class="box">
   <div id="hockeyresults">
  
  <div id="hockeyhlmresults">
@@ -2778,7 +2786,7 @@ include_once 'header.php';
 	<br>
 	<hr>
 	</div>
-  
+	  </div>
   </div>
   
   </div>
@@ -3571,6 +3579,7 @@ function showHShldSrxlResult() {
 
 
 </script>
-</body>
+	</div>
+	</body>
 </html>
 
