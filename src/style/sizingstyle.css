@@ -185,9 +185,11 @@ nav ul {
   padding: 0;
   overflow: hidden;
   background-color: #000000;
+  text-decoration: none
 }
 nav li {
   float: right;
+  text-decoration: none
 }
 .nav-bar {
   display: block;
@@ -196,10 +198,13 @@ nav li {
   text-decoration: none;
   font-family: 'Oswald', sans-serif;
   color: white;
+  font-size: 25px;
   font-weight: bold;
+  text-decoration: none
 }
 
 .nav-bar:hover {
   background-color: #009999;
   color: white;
+  text-decoration: none
 }
