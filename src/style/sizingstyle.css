@@ -247,3 +247,8 @@ nav li {
   color: white;
   text-decoration: none
 }
+
+.grid {
+display: grid;
+grid-template-columns: 1fr 1fr;		
+}

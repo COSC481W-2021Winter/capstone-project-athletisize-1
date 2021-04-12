@@ -342,12 +342,13 @@ include_once 'header.php';
 <h1>Measurements</h1>
 	<hr>
 	<div class="box">
-	<div id="hockeymeasurments">
+	<div id="hockeymeasurements">
 	
 	<div id="hhlmmeasure" style="display: none">
 	<h3>Helmet</h3>
 	<br>
 	<h4>Head circumference in inches:</h4>
+	<div class="grid">
 	<form>
 	
 	19.2" or less
@@ -387,7 +388,11 @@ include_once 'header.php';
 	</label><br><br>
 	</form>
 	<br>
-	<hr>
+
+	<p>How to measure your head circumference: Take a cm tape measure and hold it snugly, but not too tightly, around the widest part of the
+back of your head and over the centre of your forehead above your eyebrows. The tape
+measure should be around 1 cm above your ears</p> 
+	<hr></div>
 	</div>
 	
 	<div id="hsldmeasure" style="display: none">
@@ -459,6 +464,8 @@ include_once 'header.php';
 	
 	</form>
 	<br>
+	<p>How to measure chest circumference: Place one end of the tape measure at the fullest part of your bust, wrap it around (under your
+armpits, around your shoulder blades, and back to the front) to get the measurement</p>
 	<hr>
 	</div>
 	
@@ -530,6 +537,9 @@ include_once 'header.php';
 	
 	</form>
 	<br>
+	<p>How to measure arm length: Measure from your shoulder to just past your wrist bone to where you would like your shirt cuff
+to sit. Always slightly bend the elbow when measuring to allow for extra ease. If you do not do
+this your sleeve length will be short because the natural position of your arm is slightly bent</p>
 	<hr>
 	</div>
 	
@@ -589,6 +599,8 @@ include_once 'header.php';
 	
 	</form>
 	<br>
+	<p>How to measure hand length: Measure the distance from the fold in your wrist below the palm to the tip of your middle finger
+when your hand is flat. </p>
 	<hr>
 	</div>
 	
@@ -666,6 +678,10 @@ include_once 'header.php';
 	
 	</form>
 	<br>
+	<p>How to measure waist circumference: Using a flexible measuring tape with your feet slightly apart, place the measuring tape above
+your belly button at the smallest part of your waist. Relax your stomach and wrap the tape
+around your waist. Make sure to keep the tape snug, but not tight, and ensure that the tape
+measure is parallel to the floor.</p>
 	<hr>
 	</div>
 	
@@ -749,6 +765,8 @@ include_once 'header.php';
 	
 	</form>
 	<br>
+	<p>How to measure shin length: Measure the distance from your ankle joint to the bottom of your knee, measure the
+circumference of both legs around the thickest part of your calf as well</p>
 	<hr>
 	</div>
 	
@@ -995,6 +1013,13 @@ include_once 'header.php';
 	
 	</form>
 	<br>
+	<p>How to measure shoe size: Get a ruler, pen, and piece of paper. Place the piece of paper flat on the ground and stand on it.
+Make sure your foot is flat. Make a mark behind your heel and another in front of your longest
+toe. If one of your feet is larger than the other, use the longer foot to measure your size.
+Measure the distance between the two lines in inches or centimeters. Find your measurement
+on <a href="../images/measurement photos/shoesizechart.jpg" target="_blank">this</a> size chart to determine your correct size. If your measurement falls in between two
+sizes, round up.
+</p>
 	<hr>
 	</div>
 	
@@ -1215,6 +1240,13 @@ include_once 'header.php';
 	
 	</form>
 	<br>
+	<p>How to measure shoe size: Get a ruler, pen, and piece of paper. Place the piece of paper flat on the ground and stand on it.
+Make sure your foot is flat. Make a mark behind your heel and another in front of your longest
+toe. If one of your feet is larger than the other, use the longer foot to measure your size.
+Measure the distance between the two lines in inches or centimeters. Find your measurement
+on <a href="../images/measurement photos/shoesizechart.jpg" target="_blank">this</a> size chart to determine your correct size. If your measurement falls in between two
+sizes, round up.
+</p>
 	<hr>
 	</div>
 	
@@ -1273,6 +1305,11 @@ include_once 'header.php';
 	</label><br><br>
 	</form>
 	<br>
+	<p>How to measure height: To measure height, the person helping can either place a flat straight object flat on the head and
+mark the wall, as before, or simply hold a pencil flat against the top of the person's head and
+mark the wall directly. Measure the distance from the floor to the spot on the wall to find out the
+height.
+</p>
 	<hr>
 	</div>
 	
@@ -1313,6 +1350,13 @@ include_once 'header.php';
 	</label><br><br>
 	</form>
 	<br>
+	<p>How to measure shoe size: Get a ruler, pen, and piece of paper. Place the piece of paper flat on the ground and stand on it.
+Make sure your foot is flat. Make a mark behind your heel and another in front of your longest
+toe. If one of your feet is larger than the other, use the longer foot to measure your size.
+Measure the distance between the two lines in inches or centimeters. Find your measurement
+on <a href="../images/measurement photos/shoesizechart.jpg" target="_blank">this</a> size chart to determine your correct size. If your measurement falls in between two
+sizes, round up.
+</p>
 	<hr>
 	</div>
 	
@@ -1371,6 +1415,8 @@ include_once 'header.php';
 	</label><br><br>
 	</form>
 	<br>
+	<p>How to measure hand length: Measure the distance from the fold in your wrist below the palm to the tip of your middle finger
+when your hand is flat. </p>
 	<hr>
 	</div>
 	
@@ -1467,6 +1513,11 @@ include_once 'header.php';
 	</label><br><br>
 	</form>
 	<br>
+	<p>How to measure height: To measure height, the person helping can either place a flat straight object flat on the head and
+mark the wall, as before, or simply hold a pencil flat against the top of the person's head and
+mark the wall directly. Measure the distance from the floor to the spot on the wall to find out the
+height.
+</p>
 	<hr>
 	</div>
 	
@@ -1507,6 +1558,9 @@ include_once 'header.php';
 	</label><br><br>
 	</form>
 	<br>
+	<p>How to measure your head circumference: Take a cm tape measure and hold it snugly, but not too tightly, around the widest part of the
+back of your head and over the centre of your forehead above your eyebrows. The tape
+measure should be around 1 cm above your ears</p> 
 	<hr>
 	</div>
 	
@@ -1565,6 +1619,8 @@ include_once 'header.php';
 	</label><br><br>
 	</form>
 	<br>
+	<p>How to measure hand length: Measure the distance from the fold in your wrist below the palm to the tip of your middle finger
+when your hand is flat. </p>
 	<hr>
 	</div>
 	
@@ -1780,6 +1836,13 @@ include_once 'header.php';
 	</label><br><br>
 	</form>
 	<br>
+	<p>How to measure shoe size: Get a ruler, pen, and piece of paper. Place the piece of paper flat on the ground and stand on it.
+Make sure your foot is flat. Make a mark behind your heel and another in front of your longest
+toe. If one of your feet is larger than the other, use the longer foot to measure your size.
+Measure the distance between the two lines in inches or centimeters. Find your measurement
+on <a href="../images/measurement photos/shoesizechart.jpg" target="_blank">this</a> size chart to determine your correct size. If your measurement falls in between two
+sizes, round up.
+</p>
 	<hr>
 	</div>
 	
@@ -1802,6 +1865,8 @@ include_once 'header.php';
 	</label><br><br>
 	</form>
 	<br>
+	<p>How to measure chin to forehead: Using a flexible tape measure (or a piece of string). Measure from the bridge of your nose to
+under your chin (about 1-inch from under the tip of your chin).</p>
 	<hr>
 	</div>
 	
@@ -1878,6 +1943,9 @@ include_once 'header.php';
 	</label><br><br>
 	</form>
 	<br>
+	<p>How to measure your head circumference: Take a cm tape measure and hold it snugly, but not too tightly, around the widest part of the
+back of your head and over the centre of your forehead above your eyebrows. The tape
+measure should be around 1 cm above your ears</p> 
 	<hr>
 	</div>
 	
@@ -2052,6 +2120,10 @@ include_once 'header.php';
 	</label><br><br>
 	</form>
 	<br>
+	<p>How to measure waist circumference: Using a flexible measuring tape with your feet slightly apart, place the measuring tape above
+your belly button at the smallest part of your waist. Relax your stomach and wrap the tape
+around your waist. Make sure to keep the tape snug, but not tight, and ensure that the tape
+measure is parallel to the floor.</p>
 	<hr>
 	</div>
 	
@@ -2112,6 +2184,9 @@ include_once 'header.php';
 	</label><br><br>
 	</form>
 	<br>
+	<p>How to measure your head circumference: Take a cm tape measure and hold it snugly, but not too tightly, around the widest part of the
+back of your head and over the centre of your forehead above your eyebrows. The tape
+measure should be around 1 cm above your ears</p> 
 	<hr>
 	</div>
 	
@@ -2152,6 +2227,9 @@ include_once 'header.php';
 	</label><br><br>
 	</form>
 	<br>
+	<p>How to measure chest circumference: Place one end of the tape measure at the fullest part of your bust, wrap it around (under your
+armpits, around your shoulder blades, and back to the front) to get the measurement</p>
+	<hr>
 	<hr>
 	</div>
 	
@@ -2192,6 +2270,11 @@ include_once 'header.php';
 	</label><br><br>
 	</form>
 	<br>
+	<p>How to measure height: To measure height, the person helping can either place a flat straight object flat on the head and
+mark the wall, as before, or simply hold a pencil flat against the top of the person's head and
+mark the wall directly. Measure the distance from the floor to the spot on the wall to find out the
+height.
+</p>
 	<hr>
 	</div>
 	
@@ -2441,6 +2524,13 @@ include_once 'header.php';
 	</label><br><br>
 	</form>
 	<br>
+	<p>How to measure shoe size: Get a ruler, pen, and piece of paper. Place the piece of paper flat on the ground and stand on it.
+Make sure your foot is flat. Make a mark behind your heel and another in front of your longest
+toe. If one of your feet is larger than the other, use the longer foot to measure your size.
+Measure the distance between the two lines in inches or centimeters. Find your measurement
+on <a href="../images/measurement photos/shoesizechart.jpg" target="_blank">this</a> size chart to determine your correct size. If your measurement falls in between two
+sizes, round up.
+</p>
 	<hr>
 	</div>
 	
@@ -2567,6 +2657,10 @@ include_once 'header.php';
 	</label><br><br>
 	</form>
 	<br>
+	<p>How to measure waist circumference: Using a flexible measuring tape with your feet slightly apart, place the measuring tape above
+your belly button at the smallest part of your waist. Relax your stomach and wrap the tape
+around your waist. Make sure to keep the tape snug, but not tight, and ensure that the tape
+measure is parallel to the floor.</p>
 	<hr>
 	</div>
 	
@@ -2659,6 +2753,11 @@ include_once 'header.php';
 	</label><br><br>
 	</form>
 	<br>
+	<p>How to measure height: To measure height, the person helping can either place a flat straight object flat on the head and
+mark the wall, as before, or simply hold a pencil flat against the top of the person's head and
+mark the wall directly. Measure the distance from the floor to the spot on the wall to find out the
+height.
+</p>
 	<hr>
 	</div>
 	
@@ -2849,6 +2948,13 @@ include_once 'header.php';
 	</label><br><br>
 	</form>
 	<br>
+	<p>How to measure shoe size: Get a ruler, pen, and piece of paper. Place the piece of paper flat on the ground and stand on it.
+Make sure your foot is flat. Make a mark behind your heel and another in front of your longest
+toe. If one of your feet is larger than the other, use the longer foot to measure your size.
+Measure the distance between the two lines in inches or centimeters. Find your measurement
+on <a href="../images/measurement photos/shoesizechart.jpg" target="_blank">this</a> size chart to determine your correct size. If your measurement falls in between two
+sizes, round up.
+</p>
 	<hr>
 	</div>
 	
@@ -2937,6 +3043,11 @@ include_once 'header.php';
 	</label><br>
 	</form>
 	<br>
+	<p>How to measure height: To measure height, the person helping can either place a flat straight object flat on the head and
+mark the wall, as before, or simply hold a pencil flat against the top of the person's head and
+mark the wall directly. Measure the distance from the floor to the spot on the wall to find out the
+height.
+</p>
 	<hr>
 	</div>
 	
@@ -2977,6 +3088,9 @@ include_once 'header.php';
 	</label><br><br>
 	</form>
 	<br>
+	<p>How to measure your head circumference: Take a cm tape measure and hold it snugly, but not too tightly, around the widest part of the
+back of your head and over the centre of your forehead above your eyebrows. The tape
+measure should be around 1 cm above your ears</p> 
 	<hr>
 	</div>
 	
@@ -3252,6 +3366,13 @@ include_once 'header.php';
 	</label><br><br>
 	</form>
 	<br>
+	<p>How to measure shoe size: Get a ruler, pen, and piece of paper. Place the piece of paper flat on the ground and stand on it.
+Make sure your foot is flat. Make a mark behind your heel and another in front of your longest
+toe. If one of your feet is larger than the other, use the longer foot to measure your size.
+Measure the distance between the two lines in inches or centimeters. Find your measurement
+on <a href="../images/measurement photos/shoesizechart.jpg" target="_blank">this</a> size chart to determine your correct size. If your measurement falls in between two
+sizes, round up.
+</p>
 	<hr>
 	</div>
 		
@@ -3292,6 +3413,9 @@ include_once 'header.php';
 	</label><br><br>
 	</form>
 	<br>
+	<p>How to measure your head circumference: Take a cm tape measure and hold it snugly, but not too tightly, around the widest part of the
+back of your head and over the centre of your forehead above your eyebrows. The tape
+measure should be around 1 cm above your ears</p> 
 	<hr>
 	</div>
 	
