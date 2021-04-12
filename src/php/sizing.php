@@ -234,6 +234,12 @@ include_once 'header.php';
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
+	  Gloves
+	<label class="checkbox-label" for="lglv" onclick="showLaxMeas()">
+	<input type="checkbox" id="lglv" name="lglv"/>
+	<span class="checkbox-custom"></span>
+	</label><br><br>
+	
 	 Cleats
 	<label class="checkbox-label" for="lcleat" onclick="showLaxMeas()">
 	<input type="checkbox" id="lcleat" name="lcleat"/>
@@ -298,8 +304,8 @@ include_once 'header.php';
 	
  <div id="sbeqform" style="display: none">
   <form>
-	  Cleats
-	<label class="checkbox-label" for="sbboard" onclick="showSbMeas()">
+	  Snowboard
+	<label class="checkbox-label" for="sboard" onclick="showSbMeas()">
 	<input type="checkbox" id="sboard" name="sboard"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -996,49 +1002,49 @@ include_once 'header.php';
 	
 	<h5>Youth</h5>
 	6.0
-	<label for="scleatyth6"  class="checkbox-label">
+	<label for="scleatyth6"  class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatyth6" name="scleatyth6"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7.0
-	<label for="scleatyth7" class="checkbox-label">
+	<label for="scleatyth7" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatyth7" name="scleatyth7"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	8.0
-	<label for="scleatyth8" class="checkbox-label">
+	<label for="scleatyth8" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatyth8" name="scleatyth8"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9.0
-	<label for="scleatyth9" class="checkbox-label">
+	<label for="scleatyth9" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatyth9" name="scleatyth9"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	10.0
-	<label for="scleatyth10" class="checkbox-label">
+	<label for="scleatyth10" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatyth10" name="scleatyth10"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11.0
-	<label for="scleatyth11" class="checkbox-label">
+	<label for="scleatyth11" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatyth11" name="scleatyth11"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	12.0
-	<label for="scleatyth12" class="checkbox-label" >
+	<label for="scleatyth12" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatyth12" name="scleatyth12"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	13.0
-	<label for="scleatyth13" class="checkbox-label">
+	<label for="scleatyth13" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatyth13" name="scleatyth13"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -1047,61 +1053,61 @@ include_once 'header.php';
 	<h5>Junior</h5>
 	
 	1.0
-	<label for="scleatjr135" class="checkbox-label">
+	<label for="scleatjr135" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatjr135" name="scleatjr135"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	1.5
-	<label for="scleatjr1" class="checkbox-label">
+	<label for="scleatjr1" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatjr1" name="scleatjr1"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	2.0
-	<label for="scleatjr15" class="checkbox-label">
+	<label for="scleatjr15" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatjr15" name="scleatjr15"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	2.5
-	<label for="scleatjr2" class="checkbox-label">
+	<label for="scleatjr2" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatjr2" name="scleatjr2"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	3.0
-	<label for="scleatjr25" class="checkbox-label">
+	<label for="scleatjr25" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatjr25" name="scleatjr25"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	3.5
-	<label for="scleatjr3" class="checkbox-label">
+	<label for="scleatjr3" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatjr3" name="scleatjr3"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	4.0
-	<label for="scleatjr35" class="checkbox-label">
+	<label for="scleatjr35" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatjr35" name="scleatjr35"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	4.5
-	<label for="scleatjr4" class="checkbox-label">
+	<label for="scleatjr4" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatjr4" name="scleatjr4"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	5.0
-	<label for="scleatjr45" class="checkbox-label">
+	<label for="scleatjr45" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatjr45" name="scleatjr45"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	5.5
-	<label for="scleatjr5" class="checkbox-label">
+	<label for="scleatjr5" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatjr5" name="scleatjr5"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -1109,91 +1115,91 @@ include_once 'header.php';
 	<h5>Senior</h5>
 	
 	6.0
-	<label for="scleatsr55" class="checkbox-label">
+	<label for="scleatsr55" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatsr55" name="scleatsr55"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	6.5
-	<label for="scleatsr6" class="checkbox-label">
+	<label for="scleatsr6" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatsr6" name="scleatsr6"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7.0
-	<label for="scleatsr65" class="checkbox-label">
+	<label for="scleatsr65" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatsr65" name="scleatsr65"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7.5
-	<label for="scleatsr7" class="checkbox-label">
+	<label for="scleatsr7" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatsr7" name="scleatsr7"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	8.0
-	<label for="scleatsr75" class="checkbox-label">
+	<label for="scleatsr75" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatsr75" name="scleatsr75"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	8.5
-	<label for="scleatsr8" class="checkbox-label">
+	<label for="scleatsr8" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatsr8" name="scleatsr8"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9.0
-	<label for="scleatsr85" class="checkbox-label">
+	<label for="scleatsr85" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatsr85" name="scleatsr85"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9.5
-	<label for="scleatsr9" class="checkbox-label">
+	<label for="scleatsr9" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatsr9" name="scleatsr9"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	10.0
-	<label for="scleatsr95" class="checkbox-label">
+	<label for="scleatsr95" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatsr95" name="scleatsr95"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	10.5
-	<label for="scleatsr10" class="checkbox-label">
+	<label for="scleatsr10" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatsr10" name="scleatsr10"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11.0
-	<label for="scleatsr105" class="checkbox-label">
+	<label for="scleatsr105" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatsr105" name="scleatsr105"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11.5
-	<label for="scleatsr11" class="checkbox-label">
+	<label for="scleatsr11" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatsr11" name="scleatsr11"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	12.0
-	<label for="scleatsr115" class="checkbox-label">
+	<label for="scleatsr115" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatsr115" name="scleatsr115"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	12.5
-	<label for="scleatsr12" class="checkbox-label">
+	<label for="scleatsr12" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatsr12" name="scleatsr12"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	13.0
-	<label for="scleatsr125" class="checkbox-label">
+	<label for="scleatsr125" class="checkbox-label" onclick="showScleatResult()">
 	<input type="checkbox" id="scleatsr125" name="scleatsr125"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -1210,49 +1216,49 @@ include_once 'header.php';
 	<form>
 	
 	48" - 51"
-	<label for="sshinythsm" class="checkbox-label">
+	<label for="sshinythsm" class="checkbox-label" onclick="showSshinResult()">
 	<input type="checkbox" id="sshinythsm" name="sshinythsm"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	51" - 55"
-	<label for="sshinythmd" class="checkbox-label">
+	<label for="sshinythmd" class="checkbox-label" onclick="showSshinResult()">
 	<input type="checkbox" id="sshinythmd" name="sshinythmd"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	55" - 57"
-	<label for="sshinythlg" class="checkbox-label">
+	<label for="sshinythlg" class="checkbox-label" onclick="showSshinResult()">
 	<input type="checkbox" id="sshinythlg" name="sshinythlg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	57" - 59"
-	<label for="sshinsrxs" class="checkbox-label">
+	<label for="sshinsrxs" class="checkbox-label" onclick="showSshinResult()">
 	<input type="checkbox" id="sshinsrxs" name="sshinsrxs"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	59" - 63"
-	<label for="sshinsrsm" class="checkbox-label">
+	<label for="sshinsrsm" class="checkbox-label" onclick="showSshinResult()">
 	<input type="checkbox" id="sshinsrsm" name="sshinsrsm"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	63" - 67"
-	<label for="sshinsrmd" class="checkbox-label">
+	<label for="sshinsrmd" class="checkbox-label" onclick="showSshinResult()">
 	<input type="checkbox" id="sshinsrmd" name="sshinsrmd"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	67" - 71"
-	<label for="sshinsrlg" class="checkbox-label">
+	<label for="sshinsrlg" class="checkbox-label" onclick="showSshinResult()">
 	<input type="checkbox" id="sshinsrlg" name="sshinsrlg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	71" - 79"
-	<label for="sshinsrxl" class="checkbox-label">
+	<label for="sshinsrxl" class="checkbox-label" onclick="showSshinResult()">
 	<input type="checkbox" id="sshinsrxl" name="sshinsrxl"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -1268,31 +1274,31 @@ include_once 'header.php';
 	<form>
 	
 	12.0T - 2.0
-	<label for="ssockxs" class="checkbox-label">
+	<label for="ssockxs" class="checkbox-label" onclick="showSsockResult()">
 	<input type="checkbox" id="ssockxs" name="ssockxs"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	2.0 - 5.0
-	<label for="ssocksm" class="checkbox-label">
+	<label for="ssocksm" class="checkbox-label" onclick="showSsockResult()">
 	<input type="checkbox" id="ssocksm" name="ssocksm"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	5.0 - 9.0
-	<label for="ssockmd" class="checkbox-label">
+	<label for="ssockmd" class="checkbox-label" onclick="showSsockResult()">
 	<input type="checkbox" id="ssockmd" name="ssockmd"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9.0 - 11.0
-	<label for="ssocklg" class="checkbox-label">
+	<label for="ssocklg" class="checkbox-label" onclick="showSsockResult()">
 	<input type="checkbox" id="ssocklg" name="ssocklg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11.0 or greater
-	<label for="ssockxl" class="checkbox-label">
+	<label for="ssockxl" class="checkbox-label" onclick="showSsockResult()">
 	<input type="checkbox" id="ssockxl" name="ssockxl"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -1308,49 +1314,49 @@ include_once 'header.php';
 	<form>
 	
 	5.5"
-	<label for="sgoal5" class="checkbox-label">
+	<label for="sgoal5" class="checkbox-label" onclick="showSgoalResult()">
 	<input type="checkbox" id="sgoal5" name="sgoal5"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	6"
-	<label for="sgoal6" class="checkbox-label">
+	<label for="sgoal6" class="checkbox-label" onclick="showSgoalResult()">
 	<input type="checkbox" id="sgoal6" name="sgoal6"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	6.5"
-	<label for="sgoal7" class="checkbox-label">
+	<label for="sgoal7" class="checkbox-label" onclick="showSgoalResult()">
 	<input type="checkbox" id="sgoal7" name="sgoal7"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7"
-	<label for="sgoal8" class="checkbox-label">
+	<label for="sgoal8" class="checkbox-label" onclick="showSgoalResult()">
 	<input type="checkbox" id="sgoal8" name="sgoal8"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7.5"
-	<label for="sgoal9" class="checkbox-label">
+	<label for="sgoal9" class="checkbox-label" onclick="showSgoalResult()">
 	<input type="checkbox" id="sgoal9" name="sgoal9"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	8"
-	<label for="sgoal10" class="checkbox-label">
+	<label for="sgoal10" class="checkbox-label" onclick="showSgoalResult()">
 	<input type="checkbox" id="sgoal10" name="sgoal10"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	8.5"
-	<label for="sgoal11" class="checkbox-label">
+	<label for="sgoal11" class="checkbox-label" onclick="showSgoalResult()">
 	<input type="checkbox" id="sgoal11" name="sgoal11"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9"
-	<label for="sgoal12" class="checkbox-label">
+	<label for="sgoal12" class="checkbox-label" onclick="showSgoalResult()">
 	<input type="checkbox" id="sgoal12" name="sgoal12"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -1370,25 +1376,25 @@ include_once 'header.php';
 	<form>
 	
 	Under 7
-	<label for="bbsb7" class="checkbox-label">
+	<label for="bbsb7" class="checkbox-label" onclick="showBbsbglvResult()">
 	<input type="checkbox" id="bbsb7" name="bbsb7"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	8 - 10
-	<label for="bbsb810" class="checkbox-label">
+	<label for="bbsb810" class="checkbox-label" onclick="showBbsbglvResult()">
 	<input type="checkbox" id="bbsb810" name="bbsb810"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11 - 13
-	<label for="bbsb1113" class="checkbox-label">
+	<label for="bbsb1113" class="checkbox-label" onclick="showBbsbglvResult()">
 	<input type="checkbox" id="bbsb1113" name="bbsb1113"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	Over 14
-	<label for="bbsb14" class="checkbox-label">
+	<label for="bbsb14" class="checkbox-label" onclick="showBbsbglvResult()">
 	<input type="checkbox" id="bbsb14" name="bbsb14"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -1404,49 +1410,49 @@ include_once 'header.php';
 	<form>
 	
 	36" - 41"
-	<label for="bbsbbat27" class="checkbox-label">
+	<label for="bbsbbat27" class="checkbox-label" onclick="showBbsbBatResult()">
 	<input type="checkbox" id="bbsbbat27" name="bbsbbat27"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	41" - 48"
-	<label for="bbsbbat28" class="checkbox-label">
+	<label for="bbsbbat28" class="checkbox-label" onclick="showBbsbBatResult()">
 	<input type="checkbox" id="bbsbbat28" name="bbsbbat28"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	48" - 54"
-	<label for="bbsbbat29" class="checkbox-label">
+	<label for="bbsbbat29" class="checkbox-label" onclick="showBbsbBatResult()">
 	<input type="checkbox" id="bbsbbat29" name="bbsbbat29"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	54" - 60"
-	<label for="bbsbbat30" class="checkbox-label">
+	<label for="bbsbbat30" class="checkbox-label" onclick="showBbsbBatResult()">
 	<input type="checkbox" id="bbsbbat30" name="bbsbbat30"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	60" - 64"
-	<label for="bbsbbat31" class="checkbox-label">
+	<label for="bbsbbat31" class="checkbox-label" onclick="showBbsbBatResult()">
 	<input type="checkbox" id="bbsbbat31" name="bbsbbat31"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	64" - 67"
-	<label for="bbsbbat32" class="checkbox-label">
+	<label for="bbsbbat32" class="checkbox-label" onclick="showBbsbBatResult()">
 	<input type="checkbox" id="bbsbbat32" name="bbsbbat32"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	67" - 71"
-	<label for="bbsbbat33" class="checkbox-label">
+	<label for="bbsbbat33" class="checkbox-label" onclick="showBbsbBatResult()">
 	<input type="checkbox" id="bbsbbat33" name="bbsbbat33"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	71" or greater
-	<label for="bbsbbat34" class="checkbox-label">
+	<label for="bbsbbat34" class="checkbox-label" onclick="showBbsbBatResult()">
 	<input type="checkbox" id="bbsbbat34" name="bbsbbat34"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -1462,31 +1468,31 @@ include_once 'header.php';
 	<form>
 	
 	20" - 20.5"
-	<label for="bbsbhlmxs" class="checkbox-label">
+	<label for="bbsbhlmxs" class="checkbox-label" onclick="showBbsbHlmResult()">
 	<input type="checkbox" id="bbsbhlmxs" name="bbsbhlmxs"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	20.75" - 21.5"
-	<label for="bbsbhlmsm" class="checkbox-label">
+	<label for="bbsbhlmsm" class="checkbox-label" onclick="showBbsbHlmResult()">
 	<input type="checkbox" id="bbsbhlmsm" name="bbsbhlmsm"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	21.5" - 22"
-	<label for="bbsbhlmmd" class="checkbox-label">
+	<label for="bbsbhlmmd" class="checkbox-label" onclick="showBbsbHlmResult()">
 	<input type="checkbox" id="bbsbhlmmd" name="bbsbhlmmd"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	22.25" - 22.75"
-	<label for="bbsbhlmlg" class="checkbox-label">
+	<label for="bbsbhlmlg" class="checkbox-label" onclick="showBbsbHlmResult()">
 	<input type="checkbox" id="bbsbhlmlg" name="bbsbhlmlg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	23" - 23.5"
-	<label for="bbsbhlmxl" class="checkbox-label">
+	<label for="bbsbhlmxl" class="checkbox-label" onclick="showBbsbHlmResult()">
 	<input type="checkbox" id="bbsbhlmxl" name="bbsbhlmxl"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -1502,49 +1508,49 @@ include_once 'header.php';
 	<form>
 	
 	6" - 6.25"
-	<label for="bbsbbtglvythsm" class="checkbox-label">
+	<label for="bbsbbtglvythsm" class="checkbox-label" onclick="showBbsbBatGlvResult()">
 	<input type="checkbox" id="bbsbbtglvythsm" name="bbsbbtglvythsm"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	6.25" - 6.5"
-	<label for="bbsbbtglvythmd" class="checkbox-label">
+	<label for="bbsbbtglvythmd" class="checkbox-label" onclick="showBbsbBatGlvResult()">
 	<input type="checkbox" id="bbsbbtglvythmd" name="bbsbbtglvythmd"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	6.5" - 6.75"
-	<label for="bbsbbtglvythlg" class="checkbox-label">
+	<label for="bbsbbtglvythlg" class="checkbox-label" onclick="showBbsbBatGlvResult()">
 	<input type="checkbox" id="bbsbbtglvythlg" name="bbsbbtglvythlg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	6.75" - 7"
-	<label for="bbsbbtglvsrsm" class="checkbox-label">
+	<label for="bbsbbtglvsrsm" class="checkbox-label" onclick="showBbsbBatGlvResult()">
 	<input type="checkbox" id="bbsbbtglvsrsm" name="bbsbbtglvsrsm"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7" - 7.25"
-	<label for="bbsbbtglvsrmd" class="checkbox-label">
+	<label for="bbsbbtglvsrmd" class="checkbox-label" onclick="showBbsbBatGlvResult()">
 	<input type="checkbox" id="bbsbbtglvsrmd" name="bbsbbtglvsrmd"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7.5" - 7.75"
-	<label for="bbsbbtglvsrlg" class="checkbox-label">
+	<label for="bbsbbtglvsrlg" class="checkbox-label" onclick="showBbsbBatGlvResult()">
 	<input type="checkbox" id="bbsbbtglvsrlg" name="bbsbbtglvsrlg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7.75" - 8"
-	<label for="bbsbbtglvsrxl" class="checkbox-label">
+	<label for="bbsbbtglvsrxl" class="checkbox-label" onclick="showBbsbBatGlvResult()">
 	<input type="checkbox" id="bbsbbtglvsrxl" name="bbsbbtglvsrxl"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	8" - 8.25"
-	<label for="bbsbbtglvsrxxl" class="checkbox-label">
+	<label for="bbsbbtglvsrxxl" class="checkbox-label" onclick="showBbsbBatGlvResult()">
 	<input type="checkbox" id="bbsbbtglvsrxxl" name="bbsbbtglvsrxxl"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -1562,112 +1568,112 @@ include_once 'header.php';
 	<h5>Youth</h5>
 	
 	6.0
-	<label for="bbsbcleatyth6" class="checkbox-label">
+	<label for="bbsbcleatyth6" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatyth6" name="bbsbcleatyth6"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7.0
-	<label for="bbsbcleatyth7" class="checkbox-label">
+	<label for="bbsbcleatyth7" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatyth7" name="bbsbcleatyth7"/>
 	<span class="checkbox-custom"></span>
-	</label><br>
+	</label><br><br>
 	
 	8.0
-	<label for="bbsbcleatyth8" class="checkbox-label">
+	<label for="bbsbcleatyth8" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatyth8" name="bbsbcleatyth8"/>
 	<span class="checkbox-custom"></span>
-	</label><br>
+	</label><br><br>
 	
 	9.0
-	<label for="bbsbcleatyth9" class="checkbox-label">
+	<label for="bbsbcleatyth9" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatyth9" name="bbsbcleatyth9"/>
 	<span class="checkbox-custom"></span>
-	</label><br>
+	</label><br><br>
 	
 	10.0
-	<label for="bbsbcleatyth10" class="checkbox-label">
+	<label for="bbsbcleatyth10" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatyth10" name="bbsbcleatyth10"/>
 	<span class="checkbox-custom"></span>
-	</label><br>
+	</label><br><br>
 	
 	11.0
-	<label for="bbsbcleatyth11" class="checkbox-label">
+	<label for="bbsbcleatyth11" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatyth11" name="bbsbcleatyth11"/>
 	<span class="checkbox-custom"></span>
-	</label><br>
+	</label><br><br>
 	
 	12.0
-	<label for="bbsbcleatyth12" class="checkbox-label">
+	<label for="bbsbcleatyth12" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatyth12" name="bbsbcleatyth12"/>
 	<span class="checkbox-custom"></span>
-	</label><br>
+	</label><br><br>
 	
 	13.0
-	<label for="bbsbcleatyth13" class="checkbox-label">
+	<label for="bbsbcleatyth13" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatyth13" name="bbsbcleatyth13"/>
 	<span class="checkbox-custom"></span>
-	</label><br>
+	</label><br><br>
 	
 	
 	<h5>Junior</h5>
 	
 	1.0
-	<label for="bbsbcleatjr1" class="checkbox-label">
+	<label for="bbsbcleatjr1" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatjr1" name="bbsbcleatjr1"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	1.5
-	<label for="bbsbcleatjr15" class="checkbox-label">
+	<label for="bbsbcleatjr15" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatjr15" name="bbsbcleatjr15"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	2.0
-	<label for="bbsbcleatjr2" class="checkbox-label">
+	<label for="bbsbcleatjr2" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatjr2" name="bbsbcleatjr2"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	2.5
-	<label for="bbsbcleatjr25" class="checkbox-label">
+	<label for="bbsbcleatjr25" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatjr25" name="bbsbcleatjr25"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	3.0
-	<label for="bbsbcleatjr3" class="checkbox-label">
+	<label for="bbsbcleatjr3" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatjr3" name="bbsbcleatjr3"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	3.5
-	<label for="bbsbcleatjr35" class="checkbox-label">
+	<label for="bbsbcleatjr35" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatjr35" name="bbsbcleatjr35"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	4.0
-	<label for="bbsbcleatjr4" class="checkbox-label">
+	<label for="bbsbcleatjr4" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatjr4" name="bbsbcleatjr4"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	4.5
-	<label for="bbsbcleatjr45" class="checkbox-label">
+	<label for="bbsbcleatjr45" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatjr45" name="bbsbcleatjr45"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	5.0
-	<label for="bbsbcleatjr5" class="checkbox-label">
+	<label for="bbsbcleatjr5" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatjr5" name="bbsbcleatjr5"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	5.5
-	<label for="bbsbcleatjr55" class="checkbox-label">
+	<label for="bbsbcleatjr55" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatjr55" name="bbsbcleatjr55"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -1675,91 +1681,91 @@ include_once 'header.php';
 	<h5>Senior</h5>
 	
 	6.0
-	<label for="bbsbcleatsr6" class="checkbox-label">
+	<label for="bbsbcleatsr6" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatsr6" name="bbsbcleatsr6"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	6.5
-	<label for="bbsbcleatsr65" class="checkbox-label">
+	<label for="bbsbcleatsr65" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatsr65" name="bbsbcleatsr65"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7.0
-	<label for="bbsbcleatsr7" class="checkbox-label">
+	<label for="bbsbcleatsr7" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatsr7" name="bbsbcleatsr7"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7.5
-	<label for="bbsbcleatsr75" class="checkbox-label">
+	<label for="bbsbcleatsr75" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatsr75" name="bbsbcleatsr75"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	8.0
-	<label for="bbsbcleatsr8" class="checkbox-label">
+	<label for="bbsbcleatsr8" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatsr8" name="bbsbcleatsr8"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	8.5
-	<label for="bbsbcleatsr85" class="checkbox-label">
+	<label for="bbsbcleatsr85" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatsr85" name="bbsbcleatsr85"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9.0
-	<label for="bbsbcleatsr9" class="checkbox-label">
+	<label for="bbsbcleatsr9" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatsr9" name="bbsbcleatsr9"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9.5
-	<label for="bbsbcleatsr95" class="checkbox-label">
+	<label for="bbsbcleatsr95" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatsr95" name="bbsbcleatsr95"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	10.0
-	<label for="bbsbcleatsr10" class="checkbox-label">
+	<label for="bbsbcleatsr10" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatsr10" name="bbsbcleatsr10"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	10.5
-	<label for="bbsbcleatsr105" class="checkbox-label">
+	<label for="bbsbcleatsr105" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatsr105" name="bbsbcleatsr105"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11.0
-	<label for="bbsbcleatsr11" class="checkbox-label">
+	<label for="bbsbcleatsr11" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatsr11" name="bbsbcleatsr11"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11.5
-	<label for="bbsbcleatsr115" class="checkbox-label">
+	<label for="bbsbcleatsr115" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatsr115" name="bbsbcleatsr115"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	12.0
-	<label for="bbsbcleatsr12" class="checkbox-label">
+	<label for="bbsbcleatsr12" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatsr12" name="bbsbcleatsr12"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	12.5
-	<label for="bbsbcleatsr125" class="checkbox-label">
+	<label for="bbsbcleatsr125" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatsr125" name="bbsbcleatsr125"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	13.0
-	<label for="bbsbcleatsr13" class="checkbox-label">
+	<label for="bbsbcleatsr13" class="checkbox-label" onclick="showBbsbcleatResult()">
 	<input type="checkbox" id="bbsbcleatsr13" name="bbsbcleatsr13"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -1775,13 +1781,13 @@ include_once 'header.php';
 	<form>
 	
 	4.5" - 5.5"
-	<label for="bbsbfldyth" class="checkbox-label">
+	<label for="bbsbfldyth" class="checkbox-label" onclick="showBbsbFldResult()">
 	<input type="checkbox" id="bbsbfldyth" name="bbsbfldyth"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	5.5" or greater
-	<label for="bbsbfldsr" class="checkbox-label">
+	<label for="bbsbfldsr" class="checkbox-label" onclick="showBbsbFldResult()">
 	<input type="checkbox" id="bbsbfldsr" name="bbsbfldsr"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -1797,67 +1803,67 @@ include_once 'header.php';
 	<form>
 	
 	19 3/4"
-	<label for="bbsbcmask614" class="checkbox-label">
+	<label for="bbsbcmask614" class="checkbox-label" onclick="showBbsbCmaskResult()">
 	<input type="checkbox" id="bbsbcmask614" name="bbsbcmask614"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	20 1/8"
-	<label for="bbsbcmask638" class="checkbox-label">
+	<label for="bbsbcmask638" class="checkbox-label" onclick="showBbsbCmaskResult()">
 	<input type="checkbox" id="bbsbcmask638" name="bbsbcmask638"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	20 1/2"
-	<label for="bbsbcmask612" class="checkbox-label">
+	<label for="bbsbcmask612" class="checkbox-label" onclick="showBbsbCmaskResult()">
 	<input type="checkbox" id="bbsbcmask612" name="bbsbcmask612"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	20 7/8"
-	<label for="bbsbcmask658" class="checkbox-label">
+	<label for="bbsbcmask658" class="checkbox-label" onclick="showBbsbCmaskResult()">
 	<input type="checkbox" id="bbsbcmask658" name="bbsbcmask658"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	21 1/4"
-	<label for="bbsbcmask634" class="checkbox-label">
+	<label for="bbsbcmask634" class="checkbox-label" onclick="showBbsbCmaskResult()">
 	<input type="checkbox" id="bbsbcmask634" name="bbsbcmask634"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	21 5/8"
-	<label for="bbsbcmask678" class="checkbox-label">
+	<label for="bbsbcmask678" class="checkbox-label" onclick="showBbsbCmaskResult()">
 	<input type="checkbox" id="bbsbcmask678" name="bbsbcmask678"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	22"
-	<label for="bbsbcmask7" class="checkbox-label">
+	<label for="bbsbcmask7" class="checkbox-label" onclick="showBbsbCmaskResult()">
 	<input type="checkbox" id="bbsbcmask7" name="bbsbcmask7"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	22 3/8"
-	<label for="bbsbcmask718" class="checkbox-label">
+	<label for="bbsbcmask718" class="checkbox-label" onclick="showBbsbCmaskResult()">
 	<input type="checkbox" id="bbsbcmask718" name="bbsbcmask718"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	22 3/4"
-	<label for="bbsbcmask714" class="checkbox-label">
+	<label for="bbsbcmask714" class="checkbox-label" onclick="showBbsbCmaskResult()">
 	<input type="checkbox" id="bbsbcmask714" name="bbsbcmask714"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	23 1/8"
-	<label for="bbsbcmask738" class="checkbox-label">
+	<label for="bbsbcmask738" class="checkbox-label" onclick="showBbsbCmaskResult()">
 	<input type="checkbox" id="bbsbcmask738" name="bbsbcmask738"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	23 1/2"
-	<label for="bbsbcmask712" class="checkbox-label">
+	<label for="bbsbcmask712" class="checkbox-label" onclick="showBbsbCmaskResult()">
 	<input type="checkbox" id="bbsbcmask712" name="bbsbcmask712"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -1873,31 +1879,31 @@ include_once 'header.php';
 	<form>
 	
 	5 - 7
-	<label for="bbsbcchesttball" class="checkbox-label">
+	<label for="bbsbcchesttball" class="checkbox-label" onclick="showBbsbCchestResult()">
 	<input type="checkbox" id="bbsbcchesttball" name="bbsbcchesttball"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7 - 9
-	<label for="bbsbcchestyth" class="checkbox-label">
+	<label for="bbsbcchestyth" class="checkbox-label" onclick="showBbsbCchestResult()">
 	<input type="checkbox" id="bbsbcchestyth" name="bbsbcchestyth"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9 - 12
-	<label for="bbsbcchestjr" class="checkbox-label">
+	<label for="bbsbcchestjr" class="checkbox-label" onclick="showBbsbCchestResult()">
 	<input type="checkbox" id="bbsbcchestjr" name="bbsbcchestjr"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	12 - 16
-	<label for="bbsbcchestsr" class="checkbox-label">
+	<label for="bbsbcchestsr" class="checkbox-label" onclick="showBbsbCchestResult()">
 	<input type="checkbox" id="bbsbcchestsr" name="bbsbcchestsr"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	16 and over
-	<label for="bbsbcchestad" class="checkbox-label">
+	<label for="bbsbcchestad" class="checkbox-label" onclick="showBbsbCchestResult()">
 	<input type="checkbox" id="bbsbcchestad" name="bbsbcchestad"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -1913,46 +1919,46 @@ include_once 'header.php';
 	<form>
 	
 	9.5" - 10.5"
-	<label for="bbsbccshin10" class="checkbox-label">
+	<label for="bbsbcshin10" class="checkbox-label" onclick="showBbsbCshinResult()">
 	<input type="checkbox" id="bbsbccshin10" name="bbsbccshin10"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	10.5" - 12"
-	<label for="bbsbccshin115" class="checkbox-label">
+	<label for="bbsbcshin115" class="checkbox-label" onclick="showBbsbCshinResult()">
 	<input type="checkbox" id="bbsbccshin115" name="bbsbccshin115"/>
 	<span class="checkbox-custom"></span>
-	</label><br>
+	</label><br><br>
 	
 	12" - 13.5"
-	<label for="bbsbccshin13" class="checkbox-label">
+	<label for="bbsbcshin13" class="checkbox-label" onclick="showBbsbCshinResult()">
 	<input type="checkbox" id="bbsbccshin13" name="bbsbccshin13"/>
 	<span class="checkbox-custom"></span>
-	</label><br>
+	</label><br><br>
 	
 	14" - 15"
-	<label for="bbsbccshin145" class="checkbox-label">
+	<label for="bbsbcshin145" class="checkbox-label" onclick="showBbsbCshinResult()">
 	<input type="checkbox" id="bbsbccshin145" name="bbsbccshin145"/>
 	<span class="checkbox-custom"></span>
-	</label><br>
+	</label><br><br>
 	
 	15" - 16"
-	<label for="bbsbccshin155" class="checkbox-label">
+	<label for="bbsbcshin155" class="checkbox-label" onclick="showBbsbCshinResult()">
 	<input type="checkbox" id="bbsbccshin155" name="bbsbccshin155"/>
 	<span class="checkbox-custom"></span>
-	</label><br>
+	</label><br><br>
 	
 	16" - 17"
-	<label for="bbsbccshin165" class="checkbox-label">
+	<label for="bbsbcshin165" class="checkbox-label" onclick="showBbsbCshinResult()">
 	<input type="checkbox" id="bbsbccshin165" name="bbsbccshin165"/>
 	<span class="checkbox-custom"></span>
-	</label><br>
+	</label><br><br>
 	
 	17" - 18"
-	<label for="bbsbccshin175" class="checkbox-label">
+	<label for="bbsbcshin175" class="checkbox-label" onclick="showBbsbCshinResult()">
 	<input type="checkbox" id="bbsbccshin175" name="bbsbccshin175"/>
 	<span class="checkbox-custom"></span>
-	</label><br>
+	</label><br><br>
 	</form>
 	<br>
 	<hr>
@@ -1965,73 +1971,73 @@ include_once 'header.php';
 	<form>
 	
 	19" - 20"
-	<label for="bbsbcuppwreg" class="checkbox-label">
+	<label for="bbsbcuppwreg" class="checkbox-label" onclick="showBbsbCupResult()">
 	<input type="checkbox" id="bbsbcuppwreg" name="bbsbcuppwreg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	20" - 22"
-	<label for="bbsbcuppwlg" class="checkbox-label">
+	<label for="bbsbcuppwlg" class="checkbox-label" onclick="showBbsbCupResult()">
 	<input type="checkbox" id="bbsbcuppwlg" name="bbsbcuppwlg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	22" - 24"
-	<label for="bbsbcupythreg" class="checkbox-label">
+	<label for="bbsbcupythreg" class="checkbox-label" onclick="showBbsbCupResult()">
 	<input type="checkbox" id="bbsbcupythreg" name="bbsbcupythreg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	24" - 26"
-	<label for="bbsbcupythlg" class="checkbox-label">
+	<label for="bbsbcupythlg" class="checkbox-label" onclick="showBbsbCupResult()">
 	<input type="checkbox" id="bbsbcupythlg" name="bbsbcupythlg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	26" - 28"
-	<label for="bbsbcupteenreg" class="checkbox-label">
+	<label for="bbsbcupteenreg" class="checkbox-label" onclick="showBbsbCupResult()">
 	<input type="checkbox" id="bbsbcupteenreg" name="bbsbcupteenreg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	28" - 30"
-	<label for="bbsbcupteenlg" class="checkbox-label">
+	<label for="bbsbcupteenlg" class="checkbox-label" onclick="showBbsbCupResult()">
 	<input type="checkbox" id="bbsbcupteenlg" name="bbsbcupteenlg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	30" - 32"
-	<label for="bbsbcupsrsm" class="checkbox-label">
+	<label for="bbsbcupsrsm" class="checkbox-label" onclick="showBbsbCupResult()">
 	<input type="checkbox" id="bbsbcupsrsm" name="bbsbcupsrsm"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	32" - 34"
-	<label for="bbsbcupsrmd" class="checkbox-label">
+	<label for="bbsbcupsrmd" class="checkbox-label" onclick="showBbsbCupResult()">
 	<input type="checkbox" id="bbsbcupsrmd" name="bbsbcupsrmd"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	34" - 36"
-	<label for="bbsbcupsrlg" class="checkbox-label">
+	<label for="bbsbcupsrlg" class="checkbox-label" onclick="showBbsbCupResult()">
 	<input type="checkbox" id="bbsbcupsrlg" name="bbsbcupsrlg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	36" - 39"
-	<label for="bbsbcupsrxl" class="checkbox-label">
+	<label for="bbsbcupsrxl" class="checkbox-label" onclick="showBbsbCupResult()">
 	<input type="checkbox" id="bbsbcupsrxl" name="bbsbcupsrxl"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	39" - 43"
-	<label for="bbsbcupsrxxl" class="checkbox-label">
+	<label for="bbsbcupsrxxl" class="checkbox-label" onclick="showBbsbCupResult()">
 	<input type="checkbox" id="bbsbcupsrxxl" name="bbsbcupsrxxl"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	43" - 46"
-	<label for="bbsbcupsrxxxl" class="checkbox-label">
+	<label for="bbsbcupsrxxxl" class="checkbox-label" onclick="showBbsbCupResult()">
 	<input type="checkbox" id="bbsbcupsrxxxl" name="bbsbcupsrxxxl"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -2047,25 +2053,25 @@ include_once 'header.php';
 	<form>
 	
 	Under 7
-	<label for="bbsbc7" class="checkbox-label">
+	<label for="bbsbc7" class="checkbox-label" onclick="showBbsbglvResult()">
 	<input type="checkbox" id="bbsbc7" name="bbsbc7"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	8 - 10
-	<label for="bbsbc810" class="checkbox-label">
+	<label for="bbsbc810" class="checkbox-label" onclick="showBbsbglvResult()">
 	<input type="checkbox" id="bbsbc810" name="bbsbc810"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11 - 13
-	<label for="bbsbc1113" class="checkbox-label">
+	<label for="bbsbc1113" class="checkbox-label" onclick="showBbsbglvResult()">
 	<input type="checkbox" id="bbsbc1113" name="bbsbc1113"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	Over 14
-	<label for="bbsbc14" class="checkbox-label">
+	<label for="bbsbc14" class="checkbox-label" onclick="showBbsbglvResult()">
 	<input type="checkbox" id="bbsbc14" name="bbsbc14"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -2085,13 +2091,13 @@ include_once 'header.php';
 	<form>
 	
 	21" - 22.5"
-	<label for="lhlmxssm" class="checkbox-label">
+	<label for="lhlmxssm" class="checkbox-label" onclick="showLaxHlmResult()">
 	<input type="checkbox" id="lhlmxssm" name="lhlmxssm"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	22" - 24"
-	<label for="lhlmmdlg" class="checkbox-label">
+	<label for="lhlmmdlg" class="checkbox-label" onclick="showLaxHlmResult()">
 	<input type="checkbox" id="lhlmmdlg" name="lhlmmdlg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -2107,31 +2113,31 @@ include_once 'header.php';
 	<form>
 	
 	22" - 25"
-	<label for="lshoulderxs" class="checkbox-label">
+	<label for="lshoulderxs" class="checkbox-label" onclick="showLaxShouldResult()">
 	<input type="checkbox" id="lshoulderxs" name="lshoulderxs"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	25" - 29"
-	<label for="lshouldersm" class="checkbox-label">
+	<label for="lshouldersm" class="checkbox-label"  onclick="showLaxShouldResult()">
 	<input type="checkbox" id="lshouldersm" name="lshouldersm"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	30" - 34"
-	<label for="lshouldermd" class="checkbox-label">
+	<label for="lshouldermd" class="checkbox-label"  onclick="showLaxShouldResult()">
 	<input type="checkbox" id="lshouldermd" name="lshouldermd"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	34" - 36"
-	<label for="lshoulderlg" class="checkbox-label">
+	<label for="lshoulderlg" class="checkbox-label"  onclick="showLaxShouldResult()">
 	<input type="checkbox" id="lshoulderlg" name="lshoulderlg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	37" or greater
-	<label for="lshoulderxl" class="checkbox-label">
+	<label for="lshoulderxl" class="checkbox-label"  onclick="showLaxShouldResult()">
 	<input type="checkbox" id="lshoulderxl" name="lshoulderxl"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -2147,31 +2153,31 @@ include_once 'header.php';
 	<form>
 	
 	40" or under
-	<label for="lagxs" class="checkbox-label">
+	<label for="lagxs" class="checkbox-label" onclick="showLaxAgResult()">
 	<input type="checkbox" id="lagxs" name="lagxs"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	40" - 54"
-	<label for="lagsm" class="checkbox-label">
+	<label for="lagsm" class="checkbox-label" onclick="showLaxAgResult()">
 	<input type="checkbox" id="lagsm" name="lagsm"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	54" - 66"
-	<label for="lagmd" class="checkbox-label">
+	<label for="lagmd" class="checkbox-label" onclick="showLaxAgResult()">
 	<input type="checkbox" id="lagmd" name="lagmd"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	66" - 70"
-	<label for="laglg" class="checkbox-label">
+	<label for="laglg" class="checkbox-label" onclick="showLaxAgResult()">
 	<input type="checkbox" id="laglg" name="laglg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	70" or greater
-	<label for="lagxl" class="checkbox-label">
+	<label for="lagxl" class="checkbox-label" onclick="showLaxAgResult()">
 	<input type="checkbox" id="lagxl" name="lagxl"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -2187,25 +2193,25 @@ include_once 'header.php';
 	<form>
 	
 	5 or under
-	<label for="lglv8" class="checkbox-label">
+	<label for="lglv8" class="checkbox-label" onclick="showLaxGlvResult()">
 	<input type="checkbox" id="lglv8" name="lglv8"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	6 - 11
-	<label for="lglv10" class="checkbox-label">
+	<label for="lglv10" class="checkbox-label" onclick="showLaxGlvResult()">
 	<input type="checkbox" id="lglv10" name="lglv10"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9 - 13
-	<label for="lglv12" class="checkbox-label">
+	<label for="lglv12" class="checkbox-label" onclick="showLaxGlvResult()">
 	<input type="checkbox" id="lglv12" name="lglv12"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	14 or older
-	<label for="lglv13" class="checkbox-label">
+	<label for="lglv13" class="checkbox-label" onclick="showLaxGlvResult()">
 	<input type="checkbox" id="lglv13" name="lglv13"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -2223,49 +2229,49 @@ include_once 'header.php';
 	<h5>Youth</h5>
 	
 	6.0
-	<label for="lcleatyth6" class="checkbox-label">
+	<label for="lcleatyth6" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatyth6" name="lcleatyth6"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7.0
-	<label for="lcleatyth7" class="checkbox-label">
+	<label for="lcleatyth7" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatyth7" name="lcleatyth7"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	8.0
-	<label for="lcleatyth8" class="checkbox-label">
+	<label for="lcleatyth8" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatyth8" name="lcleatyth8"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9.0
-	<label for="lcleatyth9" class="checkbox-label">
+	<label for="lcleatyth9" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatyth9" name="lcleatyth9"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	10.0
-	<label for="lcleatyth10" class="checkbox-label">
+	<label for="lcleatyth10" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatyth10" name="lcleatyth10"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11.0
-	<label for="lcleatyth11" class="checkbox-label">
+	<label for="lcleatyth11" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatyth11" name="lcleatyth11"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	12.0
-	<label for="lcleatyth12" class="checkbox-label">
+	<label for="lcleatyth12" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatyth12" name="lcleatyth12"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	13.0
-	<label for="lcleatyth13" class="checkbox-label">
+	<label for="lcleatyth13" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatyth13" name="lcleatyth13"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -2274,61 +2280,61 @@ include_once 'header.php';
 	<h5>Junior</h5>
 	
 	1.0
-	<label for="lcleatjr1" class="checkbox-label">
+	<label for="lcleatjr1" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatjr1" name="lcleatjr1"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	1.5
-	<label for="lcleatjr15" class="checkbox-label">
+	<label for="lcleatjr15" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatjr15" name="lcleatjr15"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	2.0
-	<label for="lcleatjr2" class="checkbox-label">
+	<label for="lcleatjr2" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatjr2" name="lcleatjr2"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	2.5
-	<label for="lcleatjr25" class="checkbox-label">
+	<label for="lcleatjr25" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatjr25" name="lcleatjr25"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	3.0
-	<label for="lcleatjr3" class="checkbox-label">
+	<label for="lcleatjr3" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatjr3" name="lcleatjr3"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	3.5
-	<label for="lcleatjr35" class="checkbox-label">
+	<label for="lcleatjr35" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatjr35" name="lcleatjr35"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	4.0
-	<label for="lcleatjr4" class="checkbox-label">
+	<label for="lcleatjr4" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatjr4" name="lcleatjr4"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	4.5
-	<label for="lcleatjr45" class="checkbox-label">
+	<label for="lcleatjr45" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatjr45" name="lcleatjr45"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	5.0
-	<label for="lcleatjr5" class="checkbox-label">
+	<label for="lcleatjr5" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatjr5" name="lcleatjr5"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	5.5
-	<label for="lcleatjr55" class="checkbox-label">
+	<label for="lcleatjr55" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatjr55" name="lcleatjr55"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -2336,91 +2342,91 @@ include_once 'header.php';
 	<h5>Senior</h5>
 	
 	6.0
-	<label for="lcleatsr6" class="checkbox-label">
+	<label for="lcleatsr6" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatsr6" name="lcleatsr6"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	6.5
-	<label for="lcleatsr65" class="checkbox-label">
+	<label for="lcleatsr65" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatsr65" name="lcleatsr65"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7.0
-	<label for="lcleatsr7" class="checkbox-label">
+	<label for="lcleatsr7" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatsr7" name="lcleatsr7"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7.5
-	<label for="lcleatsr75" class="checkbox-label">
+	<label for="lcleatsr75" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatsr75" name="lcleatsr75"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	8.0
-	<label for="lcleatsr8" class="checkbox-label">
+	<label for="lcleatsr8" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatsr8" name="lcleatsr8"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	8.5
-	<label for="lcleatsr85" class="checkbox-label">
+	<label for="lcleatsr85" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatsr85" name="lcleatsr85"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9.0
-	<label for="lcleatsr9" class="checkbox-label">
+	<label for="lcleatsr9" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatsr9" name="lcleatsr9"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9.5
-	<label for="lcleatsr95" class="checkbox-label">
+	<label for="lcleatsr95" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatsr95" name="lcleatsr95"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	10.0
-	<label for="lcleatsr10" class="checkbox-label">
+	<label for="lcleatsr10" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatsr10" name="lcleatsr10"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	10.5
-	<label for="lcleatsr105" class="checkbox-label">
+	<label for="lcleatsr105" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatsr105" name="lcleatsr105"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11.0
-	<label for="lcleatsr11" class="checkbox-label">
+	<label for="lcleatsr11" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatsr11" name="lcleatsr11"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11.5
-	<label for="lcleatsr115" class="checkbox-label">
+	<label for="lcleatsr115" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatsr115" name="lcleatsr115"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	12.0
-	<label for="lcleatsr12" class="checkbox-label">
+	<label for="lcleatsr12" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatsr12" name="lcleatsr12"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	12.5
-	<label for="lcleatsr125" class="checkbox-label">
+	<label for="lcleatsr125" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatsr125" name="lcleatsr125"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	13.0
-	<label for="lcleatsr13" class="checkbox-label">
+	<label for="lcleatsr13" class="checkbox-label" onclick="showLaxCleatResult()">
 	<input type="checkbox" id="lcleatsr13" name="lcleatsr13"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -2436,13 +2442,13 @@ include_once 'header.php';
 	<form>
 	
 	10 and under
-	<label for="lstickyth" class="checkbox-label">
+	<label for="lstickyth" class="checkbox-label" onclick="showLaxStickResult()">
 	<input type="checkbox" id="lstickyth" name="lstickyth"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11 and over
-	<label for="lsticksr" class="checkbox-label">
+	<label for="lsticksr" class="checkbox-label" onclick="showLaxStickResult()">
 	<input type="checkbox" id="lsticksr" name="lsticksr"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -2458,13 +2464,13 @@ include_once 'header.php';
 	<form>
 	
 	10 and under
-	<label for="lmgyth" class="checkbox-label">
+	<label for="lmgyth" class="checkbox-label" onclick="showLaxMouthResult()">
 	<input type="checkbox" id="lmgyth" name="lmgyth"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11 and over
-	<label for="lmgsr" class="checkbox-label">
+	<label for="lmgsr" class="checkbox-label" onclick="showLaxMouthResult()">
 	<input type="checkbox" id="lmgsr" name="lmgsr"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -2480,73 +2486,73 @@ include_once 'header.php';
 	<form>
 	
 	19" - 20"
-	<label for="lcuppwreg" class="checkbox-label">
+	<label for="lcuppwreg" class="checkbox-label" onclick="showLaxCupResult()">
 	<input type="checkbox" id="lcuppwreg" name="lcuppwreg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	20" - 22"
-	<label for="lcuppwlg" class="checkbox-label">
+	<label for="lcuppwlg" class="checkbox-label" onclick="showLaxCupResult()">
 	<input type="checkbox" id="lcuppwlg" name="lcuppwlg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	22" - 24"
-	<label for="lcupythreg" class="checkbox-label">
+	<label for="lcupythreg" class="checkbox-label" onclick="showLaxCupResult()">
 	<input type="checkbox" id="lcupythreg" name="lcupythreg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	24" - 26"
-	<label for="lcupythlg" class="checkbox-label">
+	<label for="lcupythlg" class="checkbox-label" onclick="showLaxCupResult()">
 	<input type="checkbox" id="lcupythlg" name="lcupythlg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	26" - 28"
-	<label for="lcupteenreg" class="checkbox-label">
+	<label for="lcupteenreg" class="checkbox-label" onclick="showLaxCupResult()">
 	<input type="checkbox" id="lcupteenreg" name="lcupteenreg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	28" - 30"
-	<label for="lcupteenlg" class="checkbox-label">
+	<label for="lcupteenlg" class="checkbox-label" onclick="showLaxCupResult()">
 	<input type="checkbox" id="lcupteenlg" name="lcupteenlg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	30" - 32"
-	<label for="lcupsrsm" class="checkbox-label">
+	<label for="lcupsrsm" class="checkbox-label" onclick="showLaxCupResult()">
 	<input type="checkbox" id="lcupsrsm" name="lcupsrsm"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	32" - 34"
-	<label for="lcupsrmd" class="checkbox-label">
+	<label for="lcupsrmd" class="checkbox-label" onclick="showLaxCupResult()">
 	<input type="checkbox" id="lcupsrmd" name="lcupsrmd"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	34" - 36"
-	<label for="lcupsrlg" class="checkbox-label">
+	<label for="lcupsrlg" class="checkbox-label" onclick="showLaxCupResult()">
 	<input type="checkbox" id="lcupsrlg" name="lcupsrlg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	36" - 39"
-	<label for="lcupsrxl" class="checkbox-label">
+	<label for="lcupsrxl" class="checkbox-label" onclick="showLaxCupResult()">
 	<input type="checkbox" id="lcupsrxl" name="lcupsrxl"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	39" - 43"
-	<label for="lcupsrxxl" class="checkbox-label">
+	<label for="lcupsrxxl" class="checkbox-label" onclick="showLaxCupResult()">
 	<input type="checkbox" id="lcupsrxxl" name="lcupsrxxl"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	43" - 46"
-	<label for="lcupsrxxxl" class="checkbox-label">
+	<label for="lcupsrxxxl" class="checkbox-label" onclick="showLaxCupResult()">
 	<input type="checkbox" id="lcupsrxxxl" name="lcupsrxxxl"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -2566,79 +2572,79 @@ include_once 'header.php';
 	<form>
 	
 	50" - 52"
-	<label for="ski130" class="checkbox-label">
+	<label for="ski130" class="checkbox-label" onclick="showSkiResult()">
 	<input type="checkbox" id="ski130" name="ski130"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	52" - 54"
-	<label for="ski140" class="checkbox-label">
+	<label for="ski140" class="checkbox-label" onclick="showSkiResult()">
 	<input type="checkbox" id="ski140" name="ski140"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	54" - 56"
-	<label for="ski145" class="checkbox-label">
+	<label for="ski145" class="checkbox-label" onclick="showSkiResult()">
 	<input type="checkbox" id="ski145" name="ski145"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	56" - 58"
-	<label for="ski150" class="checkbox-label">
+	<label for="ski150" class="checkbox-label" onclick="showSkiResult()">
 	<input type="checkbox" id="ski150" name="ski150"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	58" - 60"
-	<label for="ski155" class="checkbox-label">
+	<label for="ski155" class="checkbox-label" onclick="showSkiResult()">
 	<input type="checkbox" id="ski155" name="ski155"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	60" - 62"
-	<label for="ski165" class="checkbox-label">
+	<label for="ski165" class="checkbox-label" onclick="showSkiResult()">
 	<input type="checkbox" id="ski165" name="ski165"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	62" - 64"
-	<label for="ski170" class="checkbox-label">
+	<label for="ski170" class="checkbox-label" onclick="showSkiResult()">
 	<input type="checkbox" id="ski170" name="ski170"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	64" - 66"
-	<label for="ski175" class="checkbox-label">
+	<label for="ski175" class="checkbox-label" onclick="showSkiResult()">
 	<input type="checkbox" id="ski175" name="ski175"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	66" - 68"
-	<label for="ski180" class="checkbox-label">
+	<label for="ski180" class="checkbox-label" onclick="showSkiResult()">
 	<input type="checkbox" id="ski180" name="ski180"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	68" - 70"
-	<label for="ski185" class="checkbox-label">
+	<label for="ski185" class="checkbox-label" onclick="showSkiResult()">
 	<input type="checkbox" id="ski185" name="ski185"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	70" - 72"
-	<label for="ski190" class="checkbox-label">
+	<label for="ski190" class="checkbox-label" onclick="showSkiResult()">
 	<input type="checkbox" id="ski190" name="ski190"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	72" - 74"
-	<label for="ski195" class="checkbox-label">
+	<label for="ski195" class="checkbox-label" onclick="showSkiResult()">
 	<input type="checkbox" id="ski195" name="ski195"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	74" or greater
-	<label for="ski200" class="checkbox-label">
+	<label for="ski200" class="checkbox-label" onclick="showSkiResult()">
 	<input type="checkbox" id="ski200" name="ski200"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -2656,43 +2662,43 @@ include_once 'header.php';
 	<h5>Youth</h5>
 	
 	8.0
-	<label for="sbootyth15" class="checkbox-label">
+	<label for="sbootyth15" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootyth15" name="sbootyth15"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9.0
-	<label for="sbootyth16" class="checkbox-label">
+	<label for="sbootyth16" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootyth16" name="sbootyth16"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	10.0
-	<label for="sbootyth17" class="checkbox-label">
+	<label for="sbootyth17" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootyth17" name="sbootyth17"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11.0
-	<label for="sbootyth175" class="checkbox-label">
+	<label for="sbootyth175" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootyth175" name="sbootyth175"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	12.0
-	<label for="sbootyth185" class="checkbox-label">
+	<label for="sbootyth185" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootyth185" name="sbootyth185"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	13.0
-	<label for="sbootyth195" class="checkbox-label">
+	<label for="sbootyth195" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootyth195" name="sbootyth195"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	13.5
-	<label for="sbootyth20" class="checkbox-label">
+	<label for="sbootyth20" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootyth20" name="sbootyth20"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -2700,43 +2706,43 @@ include_once 'header.php';
 	<h5>Junior</h5>
 	
 	1.0
-	<label for="sbootjr205" class="checkbox-label">
+	<label for="sbootjr205" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootjr205" name="sbootjr205"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	2.0
-	<label for="sbootjr21" class="checkbox-label">
+	<label for="sbootjr21" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootjr21" name="sbootjr21"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	3.0
-	<label for="sbootjr215" class="checkbox-label">
+	<label for="sbootjr215" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootjr215" name="sbootjr215"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	4.0
-	<label for="sbootjr22" class="checkbox-label">
+	<label for="sbootjr22" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootjr22" name="sbootjr22"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	4.5
-	<label for="sbootjr225" class="checkbox-label">
+	<label for="sbootjr225" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootjr225" name="sbootjr225"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	5.0
-	<label for="sbootjr23" class="checkbox-label">
+	<label for="sbootjr23" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootjr23" name="sbootjr23"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	5.5
-	<label for="sbootjr235" class="checkbox-label">
+	<label for="sbootjr235" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootjr235" name="sbootjr235"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -2744,91 +2750,91 @@ include_once 'header.php';
 	<h5>Senior</h5>
 	
 	6.0
-	<label for="sbootsr24" class="checkbox-label">
+	<label for="sbootsr24" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootsr24" name="sbootsr24"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	6.5
-	<label for="sbootsr245" class="checkbox-label">
+	<label for="sbootsr245" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootsr245" name="sbootsr245"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7.0
-	<label for="sbootsr25" class="checkbox-label">
+	<label for="sbootsr25" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootsr25" name="sbootsr25"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7.5
-	<label for="sbootsr255" class="checkbox-label">
+	<label for="sbootsr255" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootsr255" name="sbootsr255"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	8.0
-	<label for="sbootsr26" class="checkbox-label">
+	<label for="sbootsr26" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootsr26" name="sbootsr26"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	8.5
-	<label for="sbootsr265" class="checkbox-label">
+	<label for="sbootsr265" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootsr265" name="sbootsr265"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9.0
-	<label for="sbootsr27" class="checkbox-label">
+	<label for="sbootsr27" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootsr27" name="sbootsr27"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9.5
-	<label for="sbootsr275" class="checkbox-label">
+	<label for="sbootsr275" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootsr275" name="sbootsr275"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	10.0
-	<label for="sbootsr28" class="checkbox-label">
+	<label for="sbootsr28" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootsr28" name="sbootsr28"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	10.5
-	<label for="sbootsr285" class="checkbox-label">
+	<label for="sbootsr285" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootsr285" name="sbootsr285"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11.0
-	<label for="sbootsr29" class="checkbox-label">
+	<label for="sbootsr29" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootsr29" name="sbootsr29"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11.5
-	<label for="sbootsr295" class="checkbox-label">
+	<label for="sbootsr295" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootsr295" name="sbootsr295"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	12.0
-	<label for="sbootsr30" class="checkbox-label">
+	<label for="sbootsr30" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootsr30" name="sbootsr30"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	12.5
-	<label for="sbootsr305" class="checkbox-label">
+	<label for="sbootsr305" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootsr305" name="sbootsr305"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	13.0
-	<label for="sbootsr31" class="checkbox-label">
+	<label for="sbootsr31" class="checkbox-label" onclick="showSkiBootResult()">
 	<input type="checkbox" id="sbootsr31" name="sbootsr31"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -2844,79 +2850,79 @@ include_once 'header.php';
 	<form>
 	
 	40" or below
-	<label for="skipole32" class="checkbox-label">
+	<label for="skipole32" class="checkbox-label" onclick="showSkiPoleResult()">
 	<input type="checkbox" id="skipole32" name="skipole32"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	41" - 44"
-	<label for="skipole34" class="checkbox-label">
+	<label for="skipole34" class="checkbox-label" onclick="showSkiPoleResult()">
 	<input type="checkbox" id="skipole34" name="skipole34"/>
 	<span class="checkbox-custom"></span>
 	</label><br>
 	
 	45" - 48"
-	<label for="skipole36" class="checkbox-label">
+	<label for="skipole36" class="checkbox-label" onclick="showSkiPoleResult()">
 	<input type="checkbox" id="skipole36" name="skipole36"/>
 	<span class="checkbox-custom"></span>
 	</label><br>
 	
 	49" - 52"
-	<label for="skipole38" class="checkbox-label">
+	<label for="skipole38" class="checkbox-label" onclick="showSkiPoleResult()">
 	<input type="checkbox" id="skipole38" name="skipole38"/>
 	<span class="checkbox-custom"></span>
 	</label><br>
 	
 	53" - 56"
-	<label for="skipole40" class="checkbox-label">
+	<label for="skipole40" class="checkbox-label" onclick="showSkiPoleResult()">
 	<input type="checkbox" id="skipole40" name="skipole40"/>
 	<span class="checkbox-custom"></span>
 	</label><br>
 	
 	57" - 60"
-	<label for="skipole42" class="checkbox-label">
+	<label for="skipole42" class="checkbox-label" onclick="showSkiPoleResult()">
 	<input type="checkbox" id="skipole42" name="skipole42"/>
 	<span class="checkbox-custom"></span>
 	</label><br>
 	
 	61" - 63"
-	<label for="skipole44" class="checkbox-label">
+	<label for="skipole44" class="checkbox-label" onclick="showSkiPoleResult()">
 	<input type="checkbox" id="skipole44" name="skipole44"/>
 	<span class="checkbox-custom"></span>
 	</label><br>
 	
 	64" - 66"
-	<label for="skipole46" class="checkbox-label">
+	<label for="skipole46" class="checkbox-label" onclick="showSkiPoleResult()">
 	<input type="checkbox" id="skipole46" name="skipole46"/>
 	<span class="checkbox-custom"></span>
 	</label><br>
 	
 	67" - 69"
-	<label for="skipole48" class="checkbox-label">
+	<label for="skipole48" class="checkbox-label" onclick="showSkiPoleResult()">
 	<input type="checkbox" id="skipole48" name="skipole48"/>
 	<span class="checkbox-custom"></span>
 	</label><br>
 	
 	70" - 72"
-	<label for="skipole49" class="checkbox-label">
+	<label for="skipole49" class="checkbox-label" onclick="showSkiPoleResult()">
 	<input type="checkbox" id="skipole49" name="skipole49"/>
 	<span class="checkbox-custom"></span>
 	</label><br>
 	
 	73" - 75"
-	<label for="skipole52" class="checkbox-label">
+	<label for="skipole52" class="checkbox-label" onclick="showSkiPoleResult()">
 	<input type="checkbox" id="skipole52" name="skipole52"/>
 	<span class="checkbox-custom"></span>
 	</label><br>
 	
 	76" - 78"
-	<label for="skipole54" class="checkbox-label">
+	<label for="skipole54" class="checkbox-label" onclick="showSkiPoleResult()">
 	<input type="checkbox" id="skipole54" name="skipole54"/>
 	<span class="checkbox-custom"></span>
 	</label><br>
 	
 	79" or greater
-	<label for="skipole56" class="checkbox-label">
+	<label for="skipole56" class="checkbox-label" onclick="showSkiPoleResult()">
 	<input type="checkbox" id="skipole56" name="skipole56"/>
 	<span class="checkbox-custom"></span>
 	</label><br>
@@ -2932,31 +2938,31 @@ include_once 'header.php';
 	<form>
 	
 	19" - 20.5"
-	<label for="skihelmythxs" class="checkbox-label">
+	<label for="skihelmythxs" class="checkbox-label" onclick="showSkiHlmResult()">
 	<input type="checkbox" id="skihelmythxs" name="skihelmythxs"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	20.5" - 21.75"
-	<label for="skihelmsrsm" class="checkbox-label">
+	<label for="skihelmsrsm" class="checkbox-label" onclick="showSkiHlmResult()">
 	<input type="checkbox" id="skihelmsrsm" name="skihelmsrsm"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	21.75" - 23"
-	<label for="skihelmsrmd" class="checkbox-label">
+	<label for="skihelmsrmd" class="checkbox-label" onclick="showSkiHlmResult()">
 	<input type="checkbox" id="skihelmsrmd" name="skihelmsrmd"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	23" - 24.5"
-	<label for="skihelmsrlg" class="checkbox-label">
+	<label for="skihelmsrlg" class="checkbox-label" onclick="showSkiHlmResult()">
 	<input type="checkbox" id="skihelmsrlg" name="skihelmsrlg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	24.5" or greater
-	<label for="skihelmsrxl" class="checkbox-label">
+	<label for="skihelmsrxl" class="checkbox-label" onclick="showSkiHlmResult()">
 	<input type="checkbox" id="skihelmsrxl" name="skihelmsrxl"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -2972,13 +2978,13 @@ include_once 'header.php';
 	<form>
 	
 	8 or below
-	<label for="skigoggleyth" class="checkbox-label">
+	<label for="skigoggleyth" class="checkbox-label" onclick="showSkiGoggleResult()">
 	<input type="checkbox" id="skigoggleyth" name="skigoggleyth"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9 or older
-	<label for="skigogglesr" class="checkbox-label">
+	<label for="skigogglesr" class="checkbox-label" onclick="showSkiGoggleResult()">
 	<input type="checkbox" id="skigogglesr" name="skigogglesr"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -2999,49 +3005,49 @@ include_once 'header.php';
 	<form>
 	
 	110 - 120
-	<label for="sb136" class="checkbox-label">
+	<label for="sb136" class="checkbox-label" onclick="showSnowboardResult()">
 	<input type="checkbox" id="sb136" name="sb136"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	115 - 130
-	<label for="sb141" class="checkbox-label">
+	<label for="sb141" class="checkbox-label" onclick="showSnowboardResult()">
 	<input type="checkbox" id="sb141" name="sb141"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	125 - 135
-	<label for="sb147" class="checkbox-label">
+	<label for="sb147" class="checkbox-label" onclick="showSnowboardResult()">
 	<input type="checkbox" id="sb147" name="sb147"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	135 - 145
-	<label for="sb152" class="checkbox-label">
+	<label for="sb152" class="checkbox-label" onclick="showSnowboardResult()">
 	<input type="checkbox" id="sb152" name="sb152"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	140 - 155
-	<label for="sb157" class="checkbox-label">
+	<label for="sb157" class="checkbox-label" onclick="showSnowboardResult()">
 	<input type="checkbox" id="sb157" name="sb157"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	150 - 165
-	<label for="sb162" class="checkbox-label">
+	<label for="sb162" class="checkbox-label" onclick="showSnowboardResult()">
 	<input type="checkbox" id="sb162" name="sb162"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	160 - 175
-	<label for="sb167" class="checkbox-label">
+	<label for="sb167" class="checkbox-label" onclick="showSnowboardResult()">
 	<input type="checkbox" id="sb167" name="sb167"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	175 and above
-	<label for="sb170" class="checkbox-label">
+	<label for="sb170" class="checkbox-label" onclick="showSnowboardResult()">
 	<input type="checkbox" id="sb170" name="sb170"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -3059,43 +3065,43 @@ include_once 'header.php';
 	<h5>Youth</h5>
 	
 	8.0
-	<label for="sbbootyth15" class="checkbox-label">
+	<label for="sbbootyth15" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootyth15" name="sbbootyth15"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9.0
-	<label for="sbbootyth16" class="checkbox-label">
+	<label for="sbbootyth16" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootyth16" name="sbbootyth16"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	10.0
-	<label for="sbbootyth17" class="checkbox-label">
+	<label for="sbbootyth17" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootyth17" name="sbbootyth17"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11.0
-	<label for="sbbootyth175" class="checkbox-label">
+	<label for="sbbootyth175" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootyth175" name="sbbootyth175"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	12.0
-	<label for="sbbootyth185" class="checkbox-label">
+	<label for="sbbootyth185" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootyth185" name="sbbootyth185"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	13.0
-	<label for="sbbootyth195" class="checkbox-label">
+	<label for="sbbootyth195" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootyth195" name="sbbootyth195"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	13.5
-	<label for="sbbootyth20" class="checkbox-label">
+	<label for="sbbootyth20" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootyth20" name="sbbootyth20"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -3103,43 +3109,43 @@ include_once 'header.php';
 	<h5>Junior</h5>
 	
 	1.0
-	<label for="sbbootjr205" class="checkbox-label">
+	<label for="sbbootjr205" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootjr205" name="sbbootjr205"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	2.0
-	<label for="sbbootjr21" class="checkbox-label">
+	<label for="sbbootjr21" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootjr21" name="sbbootjr21"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	3.0
-	<label for="sbbootjr215" class="checkbox-label">
+	<label for="sbbootjr215" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootjr215" name="sbbootjr215"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	4.0
-	<label for="sbbootjr22" class="checkbox-label">
+	<label for="sbbootjr22" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootjr22" name="sbbootjr22"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	4.5
-	<label for="sbbootjr225" class="checkbox-label">
+	<label for="sbbootjr225" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootjr225" name="sbbootjr225"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	5.0
-	<label for="sbbootjr23" class="checkbox-label">
+	<label for="sbbootjr23" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootjr23" name="sbbootjr23"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	5.5
-	<label for="sbbootjr235" class="checkbox-label">
+	<label for="sbbootjr235" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootjr235" name="sbbootjr235"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -3147,91 +3153,91 @@ include_once 'header.php';
 	<h5>Senior</h5>
 	
 	6.0
-	<label for="sbbootsr24" class="checkbox-label">
+	<label for="sbbootsr24" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootsr24" name="sbbootsr24"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	6.5
-	<label for="sbbootsr245" class="checkbox-label">
+	<label for="sbbootsr245" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootsr245" name="sbbootsr245"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7.0
-	<label for="sbbootsr25" class="checkbox-label">
+	<label for="sbbootsr25" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootsr25" name="sbbootsr25"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7.5
-	<label for="sbbootsr255" class="checkbox-label">
+	<label for="sbbootsr255" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootsr255" name="sbbootsr255"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	8.0
-	<label for="sbbootsr26" class="checkbox-label">
+	<label for="sbbootsr26" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootsr26" name="sbbootsr26"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	8.5
-	<label for="sbbootsr265" class="checkbox-label">
+	<label for="sbbootsr265" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootsr265" name="sbbootsr265"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9.0
-	<label for="sbbootsr27" class="checkbox-label">
+	<label for="sbbootsr27" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootsr27" name="sbbootsr27"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9.5
-	<label for="sbbootsr275" class="checkbox-label">
+	<label for="sbbootsr275" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootsr275" name="sbbootsr275"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	10.0
-	<label for="sbbootsr28" class="checkbox-label">
+	<label for="sbbootsr28" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootsr28" name="sbbootsr28"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	10.5
-	<label for="sbbootsr285" class="checkbox-label">
+	<label for="sbbootsr285" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootsr285" name="sbbootsr285"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11.0
-	<label for="sbbootsr29" class="checkbox-label">
+	<label for="sbbootsr29" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootsr29" name="sbbootsr29"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11.5
-	<label for="sbbootsr295" class="checkbox-label">
+	<label for="sbbootsr295" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootsr295" name="sbbootsr295"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	12.0
-	<label for="sbbootsr30" class="checkbox-label">
+	<label for="sbbootsr30" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootsr30" name="sbbootsr30"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	12.5
-	<label for="sbbootsr305" class="checkbox-label">
+	<label for="sbbootsr305" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootsr305" name="sbbootsr305"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	13.0
-	<label for="sbbootsr31" class="checkbox-label">
+	<label for="sbbootsr31" class="checkbox-label" onclick="showSbBootResult()">
 	<input type="checkbox" id="sbbootsr31" name="sbbootsr31"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -3247,31 +3253,31 @@ include_once 'header.php';
 	<form>
 	
 	19" - 20.5"
-	<label for="sbhelmythxs" class="checkbox-label">
+	<label for="sbhelmythxs" class="checkbox-label" onclick="showSbHlmResult()">
 	<input type="checkbox" id="sbhelmythxs" name="sbhelmythxs"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	20.5" - 21.75"
-	<label for="sbhelmsrsm" class="checkbox-label">
+	<label for="sbhelmsrsm" class="checkbox-label" onclick="showSbHlmResult()">
 	<input type="checkbox" id="sbhelmsrsm" name="sbhelmsrsm"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	21.75" - 23"
-	<label for="sbhelmsrmd" class="checkbox-label">
+	<label for="sbhelmsrmd" class="checkbox-label" onclick="showSbHlmResult()">
 	<input type="checkbox" id="sbhelmsrmd" name="sbhelmsrmd"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	23" - 24.5"
-	<label for="sbhelmsrlg" class="checkbox-label">
+	<label for="sbhelmsrlg" class="checkbox-label" onclick="showSbHlmResult()">
 	<input type="checkbox" id="sbhelmsrlg" name="sbhelmsrlg"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	24.5" or greater
-	<label for="sbhelmsrxl" class="checkbox-label">
+	<label for="sbhelmsrxl" class="checkbox-label" onclick="showSbHlmResult()">
 	<input type="checkbox" id="sbhelmsrxl" name="sbhelmsrxl"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -3287,13 +3293,13 @@ include_once 'header.php';
 	<form>
 	
 	8 or below
-	<label for="sbgoggleyth" class="checkbox-label">
+	<label for="sbgoggleyth" class="checkbox-label" onclick="showSbGoggleResult()">
 	<input type="checkbox" id="sbgoggleyth" name="sbgoggleyth"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9 or older
-	<label for="sbgogglesr" class="checkbox-label">
+	<label for="sbgogglesr" class="checkbox-label" onclick="showSbGoggleResult()">
 	<input type="checkbox" id="sbgogglesr" name="sbgogglesr"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
@@ -4064,6 +4070,13 @@ include_once 'header.php';
 		<hr>
 	</div>
 	
+	<div id="scleatjr135result" style="display: none">
+		<br>
+		<h4>Your soccer cleat size is: 13.5 Youth</h4>
+		<br>
+		<hr>
+	</div>
+	
 	<div id="scleatjr1result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 1.0 Junior</h4>
@@ -4544,7 +4557,7 @@ include_once 'header.php';
 		<hr>
 	</div>
 	
-	<div id="bbsbbglvymdresult" style="display: none">
+	<div id="bbsbbglvymdresult" style="display: none" >
 		<br>
 		<h4>Your batting glove size is: Youth Medium</h4>
 		<hr>
@@ -4716,105 +4729,105 @@ include_once 'header.php';
 		<hr>
 	</div>
 	
-	<div id="bbsbcleats6result" style="display: none">
+	<div id="bbsbcleatsr6result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 6.0 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="bbsbcleats65result" style="display: none">
+	<div id="bbsbcleatsr65result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 6.5 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="bbsbcleats7result" style="display: none">
+	<div id="bbsbcleatsr7result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 7.0 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="bbsbcleats75result" style="display: none">
+	<div id="bbsbcleatsr75result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 7.5 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="bbsbcleats8result" style="display: none">
+	<div id="bbsbcleatsr8result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 8.0 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="bbsbcleats85result" style="display: none">
+	<div id="bbsbcleatsr85result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 8.5 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="bbsbcleats9result" style="display: none">
+	<div id="bbsbcleatsr9result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 9.0 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="bbsbcleats95result" style="display: none">
+	<div id="bbsbcleatsr95result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 9.5 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="bbsbcleats10result" style="display: none">
+	<div id="bbsbcleatsr10result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 10.0 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="bbsbcleats105result" style="display: none">
+	<div id="bbsbcleatsr105result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 10.5 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="bbsbcleats11result" style="display: none">
+	<div id="bbsbcleatsr11result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 11.0 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="bbsbcleats115result" style="display: none">
+	<div id="bbsbcleatsr115result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 11.5 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="bbsbcleats12result" style="display: none">
+	<div id="bbsbcleatsr12result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 12.0 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="bbsbcleats125result" style="display: none">
+	<div id="bbsbcleatsr125result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 12.5 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="bbsbcleats13result" style="display: none">
+	<div id="bbsbcleatsr13result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 13.0 Senior</h4>
 		<br>
@@ -4985,6 +4998,50 @@ include_once 'header.php';
 		<div id="bbsbcshin175result" style="display: none">
 		<br>
 		<h4>Your catcher's shin guard size is: 17.5"</h4>
+		<hr>
+	</div>
+  
+  </div>
+  
+  <div id="bbsbcglvresults">
+  
+  <div id="bbsbcglv7result" style="display: none">
+		<br>
+		<h4>Your infielder glove size is: 8-10"</h4>
+		<br>
+		<h4>Your outfielder glove size is: 9-10"</h4>
+		<br>
+		<h4>Your catcher's glove size is:  29.5-30"</h4>
+		<hr>
+	</div>
+	
+	<div id="bbsbcglv810result" style="display: none">
+		<br>
+		<h4>Your infielder glove size is: 10-11"</h4>
+		<br>
+		<h4>Your outfielder glove size is: 10-12"</h4>
+		<br>
+		<h4>Your catcher's glove size is:  30-31"</h4>
+		<hr>
+	</div>
+	
+	<div id="bbsbcglv1113result" style="display: none">
+		<br>
+		<h4>Your infielder glove size is: 11-11.5"</h4>
+		<br>
+		<h4>Your outfielder glove size is: 12-13"</h4>
+		<br>
+		<h4>Your catcher's glove size is:  30-32.5"</h4>
+		<hr>
+	</div>
+	
+	<div id="bbsbcglv14result" style="display: none">
+		<br>
+		<h4>Your infielder glove size is: 12-12.5"</h4>
+		<br>
+		<h4>Your outfielder glove size is: 13-14"</h4>
+		<br>
+		<h4>Your catcher's glove size is:  32-34.5"</h4>
 		<hr>
 	</div>
   
@@ -5311,105 +5368,105 @@ include_once 'header.php';
 		<hr>
 	</div>
 	
-	<div id="lcleats6result" style="display: none">
+	<div id="lcleatsr6result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 6.0 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="lcleats65result" style="display: none">
+	<div id="lcleatsr65result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 6.5 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="lcleats7result" style="display: none">
+	<div id="lcleatsr7result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 7.0 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="lcleats75result" style="display: none">
+	<div id="lcleatsr75result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 7.5 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="lcleats8result" style="display: none">
+	<div id="lcleatsr8result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 8.0 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="lcleats85result" style="display: none">
+	<div id="lcleatsr85result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 8.5 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="lcleats9result" style="display: none">
+	<div id="lcleatsr9result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 9.0 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="lcleats95result" style="display: none">
+	<div id="lcleatsr95result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 9.5 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="lcleats10result" style="display: none">
+	<div id="lcleatsr10result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 10.0 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="lcleats105result" style="display: none">
+	<div id="lcleatsr105result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 10.5 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="lcleats11result" style="display: none">
+	<div id="lcleatsr11result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 11.0 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="lcleats115result" style="display: none">
+	<div id="lcleatsr115result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 11.5 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="lcleats12result" style="display: none">
+	<div id="lcleatsr12result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 12.0 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="lcleats125result" style="display: none">
+	<div id="lcleatsr125result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 12.5 Senior</h4>
 		<br>
 		<hr>
 	</div>
 	
-	<div id="lcleats13result" style="display: none">
+	<div id="lcleatsr13result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 13.0 Senior</h4>
 		<br>
@@ -6513,7 +6570,7 @@ function showLaxMeas() {
 	var lshouldforms = document.getElementById("lshouldermeasure");
 	var larmChk = document.getElementById("larm");
 	var larmforms = document.getElementById("lagmeasure");
-	var lgloveChk = document.getElementById("lglove");
+	var lgloveChk = document.getElementById("lglv");
 	var lgloveforms = document.getElementById("lglvmeasure");
 	var lcleatChk = document.getElementById("lcleat");
 	var lcleatforms = document.getElementById("lcleatmeasure");
@@ -6621,7 +6678,7 @@ function showSkiMeas() {
 /*======================================Snowboard Equipment Functions================================================*/
 
 function showSbMeas() {
-	var sbChk = document.getElementById("sbboard");
+	var sbChk = document.getElementById("sboard");
 	var sbforms = document.getElementById("sbboardmeasure");
 	var sbbootChk = document.getElementById("sbboot");
 	var sbbootforms = document.getElementById("sbbootmeasure");
@@ -7454,6 +7511,2769 @@ function showHSktResult() {
 		hsktsr13rforms.style.display = "none";
 	}
 	
+}
+
+/*======================================Soccer Results Functions================================================*/
+
+/*Soccer cleat results*/
+function showScleatResult() {
+	var scleaty6Chk = document.getElementById("scleatyth6");
+	var scleaty6rforms = document.getElementById("scleaty6result");
+	var scleaty7Chk = document.getElementById("scleatyth7");
+	var scleaty7rforms = document.getElementById("scleaty7result")
+	var scleaty8Chk = document.getElementById("scleatyth8");
+	var scleaty8rforms = document.getElementById("scleaty8result")
+	var scleaty9Chk = document.getElementById("scleatyth9");
+	var scleaty9rforms = document.getElementById("scleaty9result")
+	var scleaty10Chk = document.getElementById("scleatyth10");
+	var scleaty10rforms = document.getElementById("scleaty10result")
+	var scleaty11Chk = document.getElementById("scleatyth11");
+	var scleaty11rforms = document.getElementById("scleaty11result")
+	var scleaty12Chk = document.getElementById("scleatyth12");
+	var scleaty12rforms = document.getElementById("scleaty12result")
+	var scleaty13Chk = document.getElementById("scleatyth13");
+	var scleaty13rforms = document.getElementById("scleaty13result")
+	
+	var scleatjr135Chk = document.getElementById("scleatjr135");
+	var scleatjr135rforms = document.getElementById("scleatjr135result")
+	var scleatjr1Chk = document.getElementById("scleatjr1");
+	var scleatjr1rforms = document.getElementById("scleatjr1result")
+	var scleatjr15Chk = document.getElementById("scleatjr15");
+	var scleatjr15rforms = document.getElementById("scleatjr15result")
+	var scleatjr2Chk = document.getElementById("scleatjr2");
+	var scleatjr2rforms = document.getElementById("scleatjr2result")
+	var scleatjr25Chk = document.getElementById("scleatjr25");
+	var scleatjr25rforms = document.getElementById("scleatjr25result")
+	var scleatjr3Chk = document.getElementById("scleatjr3");
+	var scleatjr3rforms = document.getElementById("scleatjr3result")
+	var scleatjr35Chk = document.getElementById("scleatjr35");
+	var scleatjr35rforms = document.getElementById("scleatjr35result")
+	var scleatjr4Chk = document.getElementById("scleatjr4");
+	var scleatjr4rforms = document.getElementById("scleatjr4result")
+	var scleatjr45Chk = document.getElementById("scleatjr45");
+	var scleatjr45rforms = document.getElementById("scleatjr45result")
+	var scleatjr5Chk = document.getElementById("scleatjr5");
+	var scleatjr5rforms = document.getElementById("scleatjr5result")
+	
+	var scleatsr55Chk = document.getElementById("scleatsr55");
+	var scleatsr55rforms = document.getElementById("scleatjr55result")
+	var scleatsr6Chk = document.getElementById("scleatsr6");
+	var scleatsr6rforms = document.getElementById("scleatsr6result")
+	var scleatsr65Chk = document.getElementById("scleatsr65");
+	var scleatsr65rforms = document.getElementById("scleatsr65result")
+	var scleatsr7Chk = document.getElementById("scleatsr7");
+	var scleatsr7rforms = document.getElementById("scleatsr7result")
+	var scleatsr75Chk = document.getElementById("scleatsr75");
+	var scleatsr75rforms = document.getElementById("scleatsr75result")
+	var scleatsr8Chk = document.getElementById("scleatsr8");
+	var scleatsr8rforms = document.getElementById("scleatsr8result")
+	var scleatsr85Chk = document.getElementById("scleatsr85");
+	var scleatsr85rforms = document.getElementById("scleatsr85result")
+	var scleatsr9Chk = document.getElementById("scleatsr9");
+	var scleatsr9rforms = document.getElementById("scleatsr9result")
+	var scleatsr95Chk = document.getElementById("scleatsr95");
+	var scleatsr95rforms = document.getElementById("scleatsr95result")
+	var scleatsr10Chk = document.getElementById("scleatsr10");
+	var scleatsr10rforms = document.getElementById("scleatsr10result")
+	var scleatsr105Chk = document.getElementById("scleatsr105");
+	var scleatsr105rforms = document.getElementById("scleatsr105result")
+	var scleatsr11Chk = document.getElementById("scleatsr11");
+	var scleatsr11rforms = document.getElementById("scleatsr11result")
+	var scleatsr115Chk = document.getElementById("scleatsr115");
+	var scleatsr115rforms = document.getElementById("scleatsr115result")
+	var scleatsr12Chk = document.getElementById("scleatsr12");
+	var scleatsr12rforms = document.getElementById("scleatsr12result")
+	var scleatsr125Chk = document.getElementById("scleatsr125");
+	var scleatsr125rforms = document.getElementById("scleatsr125result")
+	var scleatsr13Chk = document.getElementById("scleatsr13");
+	var scleatsr13rforms = document.getElementById("scleatsr13result")
+	
+	if (scleaty6Chk.checked == true){
+		scleaty6rforms.style.display = "inline";
+	} else {
+		scleaty6rforms.style.display = "none";
+	}
+	
+	if (scleaty7Chk.checked == true){
+		scleaty7rforms.style.display = "inline";
+	} else {
+		scleaty7rforms.style.display = "none";
+	}
+	
+	if (scleaty8Chk.checked == true){
+		scleaty8rforms.style.display = "inline";
+	} else {
+		scleaty8rforms.style.display = "none";
+	}
+	
+	if (scleaty9Chk.checked == true){
+		scleaty9rforms.style.display = "inline";
+	} else {
+		scleaty9rforms.style.display = "none";
+	}
+	
+	if (scleaty10Chk.checked == true){
+		scleaty10rforms.style.display = "inline";
+	} else {
+		scleaty10rforms.style.display = "none";
+	}
+	
+	if (scleaty11Chk.checked == true){
+		scleaty11rforms.style.display = "inline";
+	} else {
+		scleaty11rforms.style.display = "none";
+	}
+	
+	if (scleaty12Chk.checked == true){
+		scleaty12rforms.style.display = "inline";
+	} else {
+		scleaty12rforms.style.display = "none";
+	}
+	
+	if (scleaty13Chk.checked == true){
+		scleaty13rforms.style.display = "inline";
+	} else {
+		scleaty13rforms.style.display = "none";
+	}
+	
+	if (scleatjr135Chk.checked == true){
+		scleatjr135rforms.style.display = "inline";
+	} else {
+		scleatjr135rforms.style.display = "none";
+	}
+	
+	if (scleatjr1Chk.checked == true){
+		scleatjr1rforms.style.display = "inline";
+	} else {
+		scleatjr1rforms.style.display = "none";
+	}
+	
+	if (scleatjr15Chk.checked == true){
+		scleatjr15rforms.style.display = "inline";
+	} else {
+		scleatjr15rforms.style.display = "none";
+	}
+	
+	if (scleatjr2Chk.checked == true){
+		scleatjr2rforms.style.display = "inline";
+	} else {
+		scleatjr2rforms.style.display = "none";
+	}
+	
+	if (scleatjr25Chk.checked == true){
+		scleatjr25rforms.style.display = "inline";
+	} else {
+		scleatjr25rforms.style.display = "none";
+	}
+	
+	if (scleatjr3Chk.checked == true){
+		scleatjr3rforms.style.display = "inline";
+	} else {
+		scleatjr3rforms.style.display = "none";
+	}
+	
+	if (scleatjr35Chk.checked == true){
+		scleatjr35rforms.style.display = "inline";
+	} else {
+		scleatjr35rforms.style.display = "none";
+	}
+	
+	if (scleatjr4Chk.checked == true){
+		scleatjr4rforms.style.display = "inline";
+	} else {
+		scleatjr4rforms.style.display = "none";
+	}
+	
+	if (scleatjr45Chk.checked == true){
+		scleatjr45rforms.style.display = "inline";
+	} else {
+		scleatjr45rforms.style.display = "none";
+	}
+	
+	if (scleatjr5Chk.checked == true){
+		scleatjr5rforms.style.display = "inline";
+	} else {
+		scleatjr5rforms.style.display = "none";
+	}
+	
+	if (scleatsr55Chk.checked == true){
+		scleatsr55rforms.style.display = "inline";
+	} else {
+		scleatsr55rforms.style.display = "none";
+	}
+	
+	if (scleatsr6Chk.checked == true){
+		scleatsr6rforms.style.display = "inline";
+	} else {
+		scleatsr6rforms.style.display = "none";
+	}
+	
+	if (scleatsr65Chk.checked == true){
+		scleatsr65rforms.style.display = "inline";
+	} else {
+		scleatsr65rforms.style.display = "none";
+	}
+	
+	if (scleatsr7Chk.checked == true){
+		scleatsr7rforms.style.display = "inline";
+	} else {
+		scleatsr7rforms.style.display = "none";
+	}
+	
+	if (scleatsr75Chk.checked == true){
+		scleatsr75rforms.style.display = "inline";
+	} else {
+		scleatsr75rforms.style.display = "none";
+	}
+	
+	if (scleatsr8Chk.checked == true){
+		scleatsr8rforms.style.display = "inline";
+	} else {
+		scleatsr8rforms.style.display = "none";
+	}
+	
+	if (scleatsr85Chk.checked == true){
+		scleatsr85rforms.style.display = "inline";
+	} else {
+		scleatsr85rforms.style.display = "none";
+	}
+	
+	if (scleatsr9Chk.checked == true){
+		scleatsr9rforms.style.display = "inline";
+	} else {
+		scleatsr9rforms.style.display = "none";
+	}
+	
+	if (scleatsr95Chk.checked == true){
+		scleatsr95rforms.style.display = "inline";
+	} else {
+		scleatsr95rforms.style.display = "none";
+	}
+	
+	if (scleatsr10Chk.checked == true){
+		scleatsr10rforms.style.display = "inline";
+	} else {
+		scleatsr10rforms.style.display = "none";
+	}
+	
+	if (scleatsr105Chk.checked == true){
+		scleatsr105rforms.style.display = "inline";
+	} else {
+		scleatsr105rforms.style.display = "none";
+	}
+	
+	if (scleatsr11Chk.checked == true){
+		scleatsr11rforms.style.display = "inline";
+	} else {
+		scleatsr11rforms.style.display = "none";
+	}
+	
+	if (scleatsr115Chk.checked == true){
+		scleatsr115rforms.style.display = "inline";
+	} else {
+		scleatsr115rforms.style.display = "none";
+	}
+	
+	if (scleatsr12Chk.checked == true){
+		scleatsr12rforms.style.display = "inline";
+	} else {
+		scleatsr12rforms.style.display = "none";
+	}
+	
+	if (scleatsr125Chk.checked == true){
+		scleatsr125rforms.style.display = "inline";
+	} else {
+		scleatsr125rforms.style.display = "none";
+	}
+	
+	if (scleatsr13Chk.checked == true){
+		scleatsr13rforms.style.display = "inline";
+	} else {
+		scleatsr13rforms.style.display = "none";
+	}
+
+
+}
+
+/*Soccer Shin Guard Results*/
+function showSshinResult() {
+	var sshinysmChk = document.getElementById("sshinythsm");
+	var sshinysmrforms = document.getElementById("sshinysmresult")
+	var sshinymdChk = document.getElementById("sshinythmd");
+	var sshinymdrforms = document.getElementById("sshinymdresult")
+	var sshinylgChk = document.getElementById("sshinythlg");
+	var sshinylgrforms = document.getElementById("sshinylgresult")
+	var sshinsrxsChk = document.getElementById("sshinsrxs");
+	var sshinsrxsrforms = document.getElementById("sshinsrxsresult")
+	var sshinsrsmChk = document.getElementById("sshinsrsm");
+	var sshinsrsmrforms = document.getElementById("sshinsrsmresult")
+	var sshinsrmdChk = document.getElementById("sshinsrmd");
+	var sshinsrmdrforms = document.getElementById("sshinsrmdresult")
+	var sshinsrlgChk = document.getElementById("sshinsrlg");
+	var sshinsrlgrforms = document.getElementById("sshinsrlgresult")
+	var sshinsrxlChk = document.getElementById("sshinsrxl");
+	var sshinsrxlrforms = document.getElementById("sshinsrxlresult")
+	
+	
+	if (sshinysmChk.checked == true){
+		sshinysmrforms.style.display = "inline";
+	} else {
+		sshinysmrforms.style.display = "none";
+	}
+	
+	if (sshinymdChk.checked == true){
+		sshinymdrforms.style.display = "inline";
+	} else {
+		sshinymdrforms.style.display = "none";
+	}
+	
+	if (sshinylgChk.checked == true){
+		sshinylgrforms.style.display = "inline";
+	} else {
+		sshinylgrforms.style.display = "none";
+	}
+	
+	if (sshinsrxsChk.checked == true){
+		sshinsrxsrforms.style.display = "inline";
+	} else {
+		sshinsrxsrforms.style.display = "none";
+	}
+	
+	if (sshinsrsmChk.checked == true){
+		sshinsrsmrforms.style.display = "inline";
+	} else {
+		sshinsrsmrforms.style.display = "none";
+	}
+	
+	if (sshinsrmdChk.checked == true){
+		sshinsrmdrforms.style.display = "inline";
+	} else {
+		sshinsrmdrforms.style.display = "none";
+	}
+	
+	if (sshinsrlgChk.checked == true){
+		sshinsrlgrforms.style.display = "inline";
+	} else {
+		sshinsrlgrforms.style.display = "none";
+	}
+	
+	if (sshinsrxlChk.checked == true){
+		sshinsrxlrforms.style.display = "inline";
+	} else {
+		sshinsrxlrforms.style.display = "none";
+	}
+}
+
+/*Soccer Sock Results*/
+function showSsockResult() {
+	var ssockxsChk = document.getElementById("ssockxs");
+	var ssockxsrforms = document.getElementById("ssockxsresult")
+	var ssocksmChk = document.getElementById("ssocksm");
+	var ssocksmrforms = document.getElementById("ssocksmresult")
+	var ssockmdChk = document.getElementById("ssockmd");
+	var ssockmdrforms = document.getElementById("ssockmdresult")
+	var ssocklgChk = document.getElementById("ssocklg");
+	var ssocklgrforms = document.getElementById("ssocklgresult")
+	var ssockxlChk = document.getElementById("ssockxl");
+	var ssockxlrforms = document.getElementById("ssockxlresult")
+	
+	if (ssockxsChk.checked == true){
+		ssockxsrforms.style.display = "inline";
+	} else {
+		ssockxsrforms.style.display = "none";
+	}
+	
+	if (ssocksmChk.checked == true){
+		ssocksmrforms.style.display = "inline";
+	} else {
+		ssocksmrforms.style.display = "none";
+	}
+	
+	if (ssockmdChk.checked == true){
+		ssockmdrforms.style.display = "inline";
+	} else {
+		ssockmdrforms.style.display = "none";
+	}
+	
+	if (ssocklgChk.checked == true){
+		ssocklgrforms.style.display = "inline";
+	} else {
+		ssocklgrforms.style.display = "none";
+	}
+	
+	if (ssockxlChk.checked == true){
+		ssockxlrforms.style.display = "inline";
+	} else {
+		ssockxlrforms.style.display = "none";
+	}
+}
+
+/*Soccer Goalie Glove Results*/
+function showSgoalResult() {
+	var sgoal5Chk = document.getElementById("sgoal5");
+	var sgoal5rforms = document.getElementById("sgoal5result")
+	var sgoal6Chk = document.getElementById("sgoal6");
+	var sgoal6rforms = document.getElementById("sgoal6result")
+	var sgoal7Chk = document.getElementById("sgoal7");
+	var sgoal7rforms = document.getElementById("sgoal7result")
+	var sgoal8Chk = document.getElementById("sgoal8");
+	var sgoal8rforms = document.getElementById("sgoal8result")
+	var sgoal9Chk = document.getElementById("sgoal9");
+	var sgoal9rforms = document.getElementById("sgoal9result")
+	var sgoal10Chk = document.getElementById("sgoal10");
+	var sgoal10rforms = document.getElementById("sgoal10result")
+	var sgoal11Chk = document.getElementById("sgoal11");
+	var sgoal11rforms = document.getElementById("sgoal11result")
+	var sgoal12Chk = document.getElementById("sgoal12");
+	var sgoal12rforms = document.getElementById("sgoal12result")
+	
+	if (sgoal5Chk.checked == true){
+		sgoal5rforms.style.display = "inline";
+	} else {
+		sgoal5rforms.style.display = "none";
+	}
+	
+	if (sgoal6Chk.checked == true){
+		sgoal6rforms.style.display = "inline";
+	} else {
+		sgoal6rforms.style.display = "none";
+	}
+	
+	if (sgoal7Chk.checked == true){
+		sgoal7rforms.style.display = "inline";
+	} else {
+		sgoal7rforms.style.display = "none";
+	}
+	
+	if (sgoal8Chk.checked == true){
+		sgoal8rforms.style.display = "inline";
+	} else {
+		sgoal8rforms.style.display = "none";
+	}
+	
+	if (sgoal9Chk.checked == true){
+		sgoal9rforms.style.display = "inline";
+	} else {
+		sgoal9rforms.style.display = "none";
+	}
+	
+	if (sgoal10Chk.checked == true){
+		sgoal10rforms.style.display = "inline";
+	} else {
+		sgoal10rforms.style.display = "none";
+	}
+	
+	if (sgoal11Chk.checked == true){
+		sgoal11rforms.style.display = "inline";
+	} else {
+		sgoal11rforms.style.display = "none";
+	}
+	
+	if (sgoal12Chk.checked == true){
+		sgoal12rforms.style.display = "inline";
+	} else {
+		sgoal12rforms.style.display = "none";
+	}
+}
+
+/*======================================Baseball/Softball Results Functions================================================*/
+
+/*Baseball/Softball Glove Results*/
+function showBbsbglvResult() {
+	var bbsb7Chk = document.getElementById("bbsb7");
+	var bbsb7rforms = document.getElementById("bbsbglv7result")
+	var bbsbc7Chk = document.getElementById("bbsbc7");
+	var bbsbc7rforms = document.getElementById("bbsbcglv7result")
+	var bbsb810Chk = document.getElementById("bbsb810");
+	var bbsb810rforms = document.getElementById("bbsbglv810result")
+	var bbsbc810Chk = document.getElementById("bbsbc810");
+	var bbsbc810rforms = document.getElementById("bbsbcglv810result")
+	var bbsb1113Chk = document.getElementById("bbsb1113");
+	var bbsb1113rforms = document.getElementById("bbsbglv1113result")
+	var bbsbc1113Chk = document.getElementById("bbsbc1113");
+	var bbsbc1113rforms = document.getElementById("bbsbcglv1113result")
+	var bbsb14Chk = document.getElementById("bbsb14");
+	var bbsb14rforms = document.getElementById("bbsbglv14result")
+	var bbsbc14Chk = document.getElementById("bbsbc14");
+	var bbsbc14rforms = document.getElementById("bbsbcglv14result")
+	
+	if (bbsb7Chk.checked == true){
+		bbsb7rforms.style.display = "inline";
+	} else {
+		bbsb7rforms.style.display = "none";
+	}
+	
+	if (bbsbc7Chk.checked == true){
+		bbsbc7rforms.style.display = "inline";
+	} else {
+		bbsbc7rforms.style.display = "none";
+	}
+	
+	if (bbsb810Chk.checked == true){
+		bbsb810rforms.style.display = "inline";
+	} else {
+		bbsb810rforms.style.display = "none";
+	}
+	
+	if (bbsbc810Chk.checked == true){
+		bbsbc810rforms.style.display = "inline";
+	} else {
+		bbsbc810rforms.style.display = "none";
+	}
+	
+	if (bbsb1113Chk.checked == true){
+		bbsb1113rforms.style.display = "inline";
+	} else {
+		bbsb1113rforms.style.display = "none";
+	}
+	
+	if (bbsbc1113Chk.checked == true){
+		bbsbc1113rforms.style.display = "inline";
+	} else {
+		bbsbc1113rforms.style.display = "none";
+	}
+	
+	if (bbsb14Chk.checked == true){
+		bbsb14rforms.style.display = "inline";
+	} else {
+		bbsb14rforms.style.display = "none";
+	}
+	
+	if (bbsbc14Chk.checked == true){
+		bbsbc14rforms.style.display = "inline";
+	} else {
+		bbsbc14rforms.style.display = "none";
+	}
+}
+
+/*Baseball/Softball Bat Results*/
+function showBbsbBatResult(){
+	var bbsbbat27Chk = document.getElementById("bbsbbat27")
+	var bbsbbat27rforms = document.getElementById("bbsbbat27result");
+	var bbsbbat28Chk = document.getElementById("bbsbbat28")
+	var bbsbbat28rforms = document.getElementById("bbsbbat28result");
+	var bbsbbat29Chk = document.getElementById("bbsbbat29")
+	var bbsbbat29rforms = document.getElementById("bbsbbat29result");
+	var bbsbbat30Chk = document.getElementById("bbsbbat30")
+	var bbsbbat30rforms = document.getElementById("bbsbbat30result");
+	var bbsbbat31Chk = document.getElementById("bbsbbat31")
+	var bbsbbat31rforms = document.getElementById("bbsbbat31result");
+	var bbsbbat32Chk = document.getElementById("bbsbbat32")
+	var bbsbbat32rforms = document.getElementById("bbsbbat32result");
+	var bbsbbat33Chk = document.getElementById("bbsbbat33")
+	var bbsbbat33rforms = document.getElementById("bbsbbat33result");
+	var bbsbbat34Chk = document.getElementById("bbsbbat34")
+	var bbsbbat34rforms = document.getElementById("bbsbbat34result");
+	
+	if (bbsbbat27Chk.checked == true){
+		bbsbbat27rforms.style.display = "inline";
+	} else {
+		bbsbbat27rforms.style.display = "none";
+	}
+	
+	if (bbsbbat28Chk.checked == true){
+		bbsbbat28rforms.style.display = "inline";
+	} else {
+		bbsbbat28rforms.style.display = "none";
+	}
+	
+	if (bbsbbat29Chk.checked == true){
+		bbsbbat29rforms.style.display = "inline";
+	} else {
+		bbsbbat29rforms.style.display = "none";
+	}
+	
+	if (bbsbbat30Chk.checked == true){
+		bbsbbat30rforms.style.display = "inline";
+	} else {
+		bbsbbat30rforms.style.display = "none";
+	}
+	
+	if (bbsbbat31Chk.checked == true){
+		bbsbbat31rforms.style.display = "inline";
+	} else {
+		bbsbbat31rforms.style.display = "none";
+	}
+	
+	if (bbsbbat32Chk.checked == true){
+		bbsbbat32rforms.style.display = "inline";
+	} else {
+		bbsbbat32rforms.style.display = "none";
+	}
+	
+	if (bbsbbat33Chk.checked == true){
+		bbsbbat33rforms.style.display = "inline";
+	} else {
+		bbsbbat33rforms.style.display = "none";
+	}
+	
+	if (bbsbbat34Chk.checked == true){
+		bbsbbat34rforms.style.display = "inline";
+	} else {
+		bbsbbat34rforms.style.display = "none";
+	}
+}
+
+/*Baseball/Softball Helmet Results*/
+function showBbsbHlmResult(){
+	var bbsbhlmxsChk = document.getElementById("bbsbhlmxs")
+	var bbsbhlmxsrforms = document.getElementById("bbsbhlmxsresult");
+	var bbsbhlmsmChk = document.getElementById("bbsbhlmsm")
+	var bbsbhlmsmrforms = document.getElementById("bbsbhlmsmresult");
+	var bbsbhlmmdChk = document.getElementById("bbsbhlmmd")
+	var bbsbhlmmdrforms = document.getElementById("bbsbhlmmdresult");
+	var bbsbhlmlgChk = document.getElementById("bbsbhlmlg")
+	var bbsbhlmlgrforms = document.getElementById("bbsbhlmlgresult");
+	var bbsbhlmxlChk = document.getElementById("bbsbhlmxl")
+	var bbsbhlmxlrforms = document.getElementById("bbsbhlmxlresult");
+	
+	
+	if (bbsbhlmxsChk.checked == true){
+		bbsbhlmxsrforms.style.display = "inline";
+	} else {
+		bbsbhlmxsrforms.style.display = "none";
+	}
+	
+	if (bbsbhlmsmChk.checked == true){
+		bbsbhlmsmrforms.style.display = "inline";
+	} else {
+		bbsbhlmsmrforms.style.display = "none";
+	}
+	
+	if (bbsbhlmmdChk.checked == true){
+		bbsbhlmmdrforms.style.display = "inline";
+	} else {
+		bbsbhlmmdrforms.style.display = "none";
+	}
+	
+	if (bbsbhlmlgChk.checked == true){
+		bbsbhlmlgrforms.style.display = "inline";
+	} else {
+		bbsbhlmlgrforms.style.display = "none";
+	}
+	
+	if (bbsbhlmxlChk.checked == true){
+		bbsbhlmxlrforms.style.display = "inline";
+	} else {
+		bbsbhlmxlrforms.style.display = "none";
+	}
+}
+
+/*Baseball/Softball Batting Glove Results*/
+function showBbsbBatGlvResult(){
+	var bbsbbatglvysmChk = document.getElementById("bbsbbtglvythsm")
+	var bbsbbatglvysmrforms = document.getElementById("bbsbbglvysmresult");
+	var bbsbbatglvymdChk = document.getElementById("bbsbbtglvythmd")
+	var bbsbbatglvymdrforms = document.getElementById("bbsbbglvymdresult");
+	var bbsbbatglvylgChk = document.getElementById("bbsbbtglvythlg")
+	var bbsbbatglvylgrforms = document.getElementById("bbsbbglvylgresult");
+	var bbsbbatglvsrsmChk = document.getElementById("bbsbbtglvsrsm")
+	var bbsbbatglvsrsmrforms = document.getElementById("bbsbbglvsrsmresult");
+	var bbsbbatglvsrmdChk = document.getElementById("bbsbbtglvsrmd")
+	var bbsbbatglvsrmdrforms = document.getElementById("bbsbbglvsrmdresult");
+	var bbsbbatglvsrlgChk = document.getElementById("bbsbbtglvsrlg")
+	var bbsbbatglvsrlgrforms = document.getElementById("bbsbbglvsrlgresult");
+	var bbsbbatglvsrxlChk = document.getElementById("bbsbbtglvsrxl")
+	var bbsbbatglvsrxlrforms = document.getElementById("bbsbbglvsrxlresult");
+	var bbsbbatglvsrxxlChk = document.getElementById("bbsbbtglvsrxxl")
+	var bbsbbatglvsrxxlrforms = document.getElementById("bbsbbglvsrxxlresult");
+	
+	if (bbsbbatglvysmChk.checked == true){
+		bbsbbatglvysmrforms.style.display = "inline";
+	} else {
+		bbsbbatglvysmrforms.style.display = "none";
+	}
+	
+	if (bbsbbatglvymdChk.checked == true){
+		bbsbbatglvymdrforms.style.display = "inline";
+	} else {
+		bbsbbatglvymdrforms.style.display = "none";
+	}
+	
+	if (bbsbbatglvylgChk.checked == true){
+		bbsbbatglvylgrforms.style.display = "inline";
+	} else {
+		bbsbbatglvylgrforms.style.display = "none";
+	}
+	
+	if (bbsbbatglvsrsmChk.checked == true){
+		bbsbbatglvsrsmrforms.style.display = "inline";
+	} else {
+		bbsbbatglvsrsmrforms.style.display = "none";
+	}
+	
+	if (bbsbbatglvsrmdChk.checked == true){
+		bbsbbatglvsrmdrforms.style.display = "inline";
+	} else {
+		bbsbbatglvsrmdrforms.style.display = "none";
+	}
+	
+	if (bbsbbatglvsrlgChk.checked == true){
+		bbsbbatglvsrlgrforms.style.display = "inline";
+	} else {
+		bbsbbatglvsrlgrforms.style.display = "none";
+	}
+	
+	if (bbsbbatglvsrxlChk.checked == true){
+		bbsbbatglvsrxlrforms.style.display = "inline";
+	} else {
+		bbsbbatglvsrxlrforms.style.display = "none";
+	}
+	
+	if (bbsbbatglvsrxxlChk.checked == true){
+		bbsbbatglvsrxxlrforms.style.display = "inline";
+	} else {
+		bbsbbatglvsrxxlrforms.style.display = "none";
+	}
+}
+
+/*Baseball/Softball Cleat Results*/
+function showBbsbcleatResult() {
+	var bbsbcleaty6Chk = document.getElementById("bbsbcleatyth6");
+	var bbsbcleaty6rforms = document.getElementById("bbsbcleaty6result");
+	var bbsbcleaty7Chk = document.getElementById("bbsbcleatyth7");
+	var bbsbcleaty7rforms = document.getElementById("bbsbcleaty7result")
+	var bbsbcleaty8Chk = document.getElementById("bbsbcleatyth8");
+	var bbsbcleaty8rforms = document.getElementById("bbsbcleaty8result")
+	var bbsbcleaty9Chk = document.getElementById("bbsbcleatyth9");
+	var bbsbcleaty9rforms = document.getElementById("bbsbcleaty9result")
+	var bbsbcleaty10Chk = document.getElementById("bbsbcleatyth10");
+	var bbsbcleaty10rforms = document.getElementById("bbsbcleaty10result")
+	var bbsbcleaty11Chk = document.getElementById("bbsbcleatyth11");
+	var bbsbcleaty11rforms = document.getElementById("bbsbcleaty11result")
+	var bbsbcleaty12Chk = document.getElementById("bbsbcleatyth12");
+	var bbsbcleaty12rforms = document.getElementById("bbsbcleaty12result")
+	var bbsbcleaty13Chk = document.getElementById("bbsbcleatyth13");
+	var bbsbcleaty13rforms = document.getElementById("bbsbcleaty13result")
+	
+	var bbsbcleatjr1Chk = document.getElementById("bbsbcleatjr1");
+	var bbsbcleatjr1rforms = document.getElementById("bbsbcleatjr1result")
+	var bbsbcleatjr15Chk = document.getElementById("bbsbcleatjr15");
+	var bbsbcleatjr15rforms = document.getElementById("bbsbcleatjr15result")
+	var bbsbcleatjr2Chk = document.getElementById("bbsbcleatjr2");
+	var bbsbcleatjr2rforms = document.getElementById("bbsbcleatjr2result")
+	var bbsbcleatjr25Chk = document.getElementById("bbsbcleatjr25");
+	var bbsbcleatjr25rforms = document.getElementById("bbsbcleatjr25result")
+	var bbsbcleatjr3Chk = document.getElementById("bbsbcleatjr3");
+	var bbsbcleatjr3rforms = document.getElementById("bbsbcleatjr3result")
+	var bbsbcleatjr35Chk = document.getElementById("bbsbcleatjr35");
+	var bbsbcleatjr35rforms = document.getElementById("bbsbcleatjr35result")
+	var bbsbcleatjr4Chk = document.getElementById("bbsbcleatjr4");
+	var bbsbcleatjr4rforms = document.getElementById("bbsbcleatjr4result")
+	var bbsbcleatjr45Chk = document.getElementById("bbsbcleatjr45");
+	var bbsbcleatjr45rforms = document.getElementById("bbsbcleatjr45result")
+	var bbsbcleatjr5Chk = document.getElementById("bbsbcleatjr5");
+	var bbsbcleatjr5rforms = document.getElementById("bbsbcleatjr5result")
+	
+	var bbsbcleatsr55Chk = document.getElementById("bbsbcleatjr55");
+	var bbsbcleatsr55rforms = document.getElementById("bbsbcleatjr55result")
+	var bbsbcleatsr6Chk = document.getElementById("bbsbcleatsr6");
+	var bbsbcleatsr6rforms = document.getElementById("bbsbcleatsr6result")
+	var bbsbcleatsr65Chk = document.getElementById("bbsbcleatsr65");
+	var bbsbcleatsr65rforms = document.getElementById("bbsbcleatsr65result")
+	var bbsbcleatsr7Chk = document.getElementById("bbsbcleatsr7");
+	var bbsbcleatsr7rforms = document.getElementById("bbsbcleatsr7result")
+	var bbsbcleatsr75Chk = document.getElementById("bbsbcleatsr75");
+	var bbsbcleatsr75rforms = document.getElementById("bbsbcleatsr75result")
+	var bbsbcleatsr8Chk = document.getElementById("bbsbcleatsr8");
+	var bbsbcleatsr8rforms = document.getElementById("bbsbcleatsr8result")
+	var bbsbcleatsr85Chk = document.getElementById("bbsbcleatsr85");
+	var bbsbcleatsr85rforms = document.getElementById("bbsbcleatsr85result")
+	var bbsbcleatsr9Chk = document.getElementById("bbsbcleatsr9");
+	var bbsbcleatsr9rforms = document.getElementById("bbsbcleatsr9result")
+	var bbsbcleatsr95Chk = document.getElementById("bbsbcleatsr95");
+	var bbsbcleatsr95rforms = document.getElementById("bbsbcleatsr95result")
+	var bbsbcleatsr10Chk = document.getElementById("bbsbcleatsr10");
+	var bbsbcleatsr10rforms = document.getElementById("bbsbcleatsr10result")
+	var bbsbcleatsr105Chk = document.getElementById("bbsbcleatsr105");
+	var bbsbcleatsr105rforms = document.getElementById("bbsbcleatsr105result")
+	var bbsbcleatsr11Chk = document.getElementById("bbsbcleatsr11");
+	var bbsbcleatsr11rforms = document.getElementById("bbsbcleatsr11result")
+	var bbsbcleatsr115Chk = document.getElementById("bbsbcleatsr115");
+	var bbsbcleatsr115rforms = document.getElementById("bbsbcleatsr115result")
+	var bbsbcleatsr12Chk = document.getElementById("bbsbcleatsr12");
+	var bbsbcleatsr12rforms = document.getElementById("bbsbcleatsr12result")
+	var bbsbcleatsr125Chk = document.getElementById("bbsbcleatsr125");
+	var bbsbcleatsr125rforms = document.getElementById("bbsbcleatsr125result")
+	var bbsbcleatsr13Chk = document.getElementById("bbsbcleatsr13");
+	var bbsbcleatsr13rforms = document.getElementById("bbsbcleatsr13result")
+	
+	if (bbsbcleaty6Chk.checked == true){
+		bbsbcleaty6rforms.style.display = "inline";
+	} else {
+		bbsbcleaty6rforms.style.display = "none";
+	}
+	
+	if (bbsbcleaty7Chk.checked == true){
+		bbsbcleaty7rforms.style.display = "inline";
+	} else {
+		bbsbcleaty7rforms.style.display = "none";
+	}
+	
+	if (bbsbcleaty8Chk.checked == true){
+		bbsbcleaty8rforms.style.display = "inline";
+	} else {
+		bbsbcleaty8rforms.style.display = "none";
+	}
+	
+	if (bbsbcleaty9Chk.checked == true){
+		bbsbcleaty9rforms.style.display = "inline";
+	} else {
+		bbsbcleaty9rforms.style.display = "none";
+	}
+	
+	if (bbsbcleaty10Chk.checked == true){
+		bbsbcleaty10rforms.style.display = "inline";
+	} else {
+		bbsbcleaty10rforms.style.display = "none";
+	}
+	
+	if (bbsbcleaty11Chk.checked == true){
+		bbsbcleaty11rforms.style.display = "inline";
+	} else {
+		bbsbcleaty11rforms.style.display = "none";
+	}
+	
+	if (bbsbcleaty12Chk.checked == true){
+		bbsbcleaty12rforms.style.display = "inline";
+	} else {
+		bbsbcleaty12rforms.style.display = "none";
+	}
+	
+	if (bbsbcleaty13Chk.checked == true){
+		bbsbcleaty13rforms.style.display = "inline";
+	} else {
+		bbsbcleaty13rforms.style.display = "none";
+	}
+	
+	
+	if (bbsbcleatjr1Chk.checked == true){
+		bbsbcleatjr1rforms.style.display = "inline";
+	} else {
+		bbsbcleatjr1rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatjr15Chk.checked == true){
+		bbsbcleatjr15rforms.style.display = "inline";
+	} else {
+		bbsbcleatjr15rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatjr2Chk.checked == true){
+		bbsbcleatjr2rforms.style.display = "inline";
+	} else {
+		bbsbcleatjr2rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatjr25Chk.checked == true){
+		bbsbcleatjr25rforms.style.display = "inline";
+	} else {
+		bbsbcleatjr25rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatjr3Chk.checked == true){
+		bbsbcleatjr3rforms.style.display = "inline";
+	} else {
+		bbsbcleatjr3rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatjr35Chk.checked == true){
+		bbsbcleatjr35rforms.style.display = "inline";
+	} else {
+		bbsbcleatjr35rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatjr4Chk.checked == true){
+		bbsbcleatjr4rforms.style.display = "inline";
+	} else {
+		bbsbcleatjr4rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatjr45Chk.checked == true){
+		bbsbcleatjr45rforms.style.display = "inline";
+	} else {
+		bbsbcleatjr45rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatjr5Chk.checked == true){
+		bbsbcleatjr5rforms.style.display = "inline";
+	} else {
+		bbsbcleatjr5rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatsr55Chk.checked == true){
+		bbsbcleatsr55rforms.style.display = "inline";
+	} else {
+		bbsbcleatsr55rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatsr6Chk.checked == true){
+		bbsbcleatsr6rforms.style.display = "inline";
+	} else {
+		bbsbcleatsr6rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatsr65Chk.checked == true){
+		bbsbcleatsr65rforms.style.display = "inline";
+	} else {
+		bbsbcleatsr65rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatsr7Chk.checked == true){
+		bbsbcleatsr7rforms.style.display = "inline";
+	} else {
+		bbsbcleatsr7rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatsr75Chk.checked == true){
+		bbsbcleatsr75rforms.style.display = "inline";
+	} else {
+		bbsbcleatsr75rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatsr8Chk.checked == true){
+		bbsbcleatsr8rforms.style.display = "inline";
+	} else {
+		bbsbcleatsr8rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatsr85Chk.checked == true){
+		bbsbcleatsr85rforms.style.display = "inline";
+	} else {
+		bbsbcleatsr85rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatsr9Chk.checked == true){
+		bbsbcleatsr9rforms.style.display = "inline";
+	} else {
+		bbsbcleatsr9rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatsr95Chk.checked == true){
+		bbsbcleatsr95rforms.style.display = "inline";
+	} else {
+		bbsbcleatsr95rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatsr10Chk.checked == true){
+		bbsbcleatsr10rforms.style.display = "inline";
+	} else {
+		bbsbcleatsr10rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatsr105Chk.checked == true){
+		bbsbcleatsr105rforms.style.display = "inline";
+	} else {
+		bbsbcleatsr105rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatsr11Chk.checked == true){
+		bbsbcleatsr11rforms.style.display = "inline";
+	} else {
+		bbsbcleatsr11rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatsr115Chk.checked == true){
+		bbsbcleatsr115rforms.style.display = "inline";
+	} else {
+		bbsbcleatsr115rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatsr12Chk.checked == true){
+		bbsbcleatsr12rforms.style.display = "inline";
+	} else {
+		bbsbcleatsr12rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatsr125Chk.checked == true){
+		bbsbcleatsr125rforms.style.display = "inline";
+	} else {
+		bbsbcleatsr125rforms.style.display = "none";
+	}
+	
+	if (bbsbcleatsr13Chk.checked == true){
+		bbsbcleatsr13rforms.style.display = "inline";
+	} else {
+		bbsbcleatsr13rforms.style.display = "none";
+	}
+}
+
+/*Baseball/Softball Fielder's Mask Results*/
+function showBbsbFldResult() {
+	var bbsbfldythChk = document.getElementById("bbsbfldyth");
+	var bbsbfldythrforms = document.getElementById("bbsbfldythresult")
+	var bbsbfldsrChk = document.getElementById("bbsbfldsr");
+	var bbsbfldsrrforms = document.getElementById("bbsbfldsrresult")
+	
+	if (bbsbfldythChk.checked == true){
+		bbsbfldythrforms.style.display = "inline";
+	} else {
+		bbsbfldythrforms.style.display = "none";
+	}
+	
+	if (bbsbfldsrChk.checked == true){
+		bbsbfldsrrforms.style.display = "inline";
+	} else {
+		bbsbfldsrrforms.style.display = "none";
+	}
+}
+
+/*Baseball/Softball Catcher's Mask Results*/
+function showBbsbCmaskResult() {
+	var bbsbcmask614Chk = document.getElementById("bbsbcmask614");
+	var bbsbcmask614rforms = document.getElementById("bbsbcmask614result")
+	var bbsbcmask638Chk = document.getElementById("bbsbcmask638");
+	var bbsbcmask638rforms = document.getElementById("bbsbcmask638result")
+	var bbsbcmask612Chk = document.getElementById("bbsbcmask612");
+	var bbsbcmask612rforms = document.getElementById("bbsbcmask612result")
+	var bbsbcmask658Chk = document.getElementById("bbsbcmask658");
+	var bbsbcmask658rforms = document.getElementById("bbsbcmask658result")
+	var bbsbcmask634Chk = document.getElementById("bbsbcmask634");
+	var bbsbcmask634rforms = document.getElementById("bbsbcmask634result")
+	var bbsbcmask678Chk = document.getElementById("bbsbcmask678");
+	var bbsbcmask678rforms = document.getElementById("bbsbcmask678result")
+	var bbsbcmask7Chk = document.getElementById("bbsbcmask7");
+	var bbsbcmask7rforms = document.getElementById("bbsbcmask7result")
+	var bbsbcmask718Chk = document.getElementById("bbsbcmask718");
+	var bbsbcmask718rforms = document.getElementById("bbsbcmask718result")
+	var bbsbcmask714Chk = document.getElementById("bbsbcmask714");
+	var bbsbcmask714rforms = document.getElementById("bbsbcmask714result")
+	var bbsbcmask738Chk = document.getElementById("bbsbcmask738");
+	var bbsbcmask738rforms = document.getElementById("bbsbcmask738result")
+	var bbsbcmask712Chk = document.getElementById("bbsbcmask712");
+	var bbsbcmask712rforms = document.getElementById("bbsbcmask712result")
+	
+	if (bbsbcmask614Chk.checked == true){
+		bbsbcmask614rforms.style.display = "inline";
+	} else {
+		bbsbcmask614rforms.style.display = "none";
+	}
+	
+	if (bbsbcmask638Chk.checked == true){
+		bbsbcmask638rforms.style.display = "inline";
+	} else {
+		bbsbcmask638rforms.style.display = "none";
+	}
+	
+	if (bbsbcmask612Chk.checked == true){
+		bbsbcmask612rforms.style.display = "inline";
+	} else {
+		bbsbcmask612rforms.style.display = "none";
+	}
+	
+	if (bbsbcmask658Chk.checked == true){
+		bbsbcmask658rforms.style.display = "inline";
+	} else {
+		bbsbcmask658rforms.style.display = "none";
+	}
+	
+	if (bbsbcmask634Chk.checked == true){
+		bbsbcmask634rforms.style.display = "inline";
+	} else {
+		bbsbcmask634rforms.style.display = "none";
+	}
+	
+	if (bbsbcmask678Chk.checked == true){
+		bbsbcmask678rforms.style.display = "inline";
+	} else {
+		bbsbcmask678rforms.style.display = "none";
+	}
+	
+	if (bbsbcmask7Chk.checked == true){
+		bbsbcmask7rforms.style.display = "inline";
+	} else {
+		bbsbcmask7rforms.style.display = "none";
+	}
+	
+	if (bbsbcmask718Chk.checked == true){
+		bbsbcmask718rforms.style.display = "inline";
+	} else {
+		bbsbcmask718rforms.style.display = "none";
+	}
+	
+	if (bbsbcmask714Chk.checked == true){
+		bbsbcmask714rforms.style.display = "inline";
+	} else {
+		bbsbcmask714rforms.style.display = "none";
+	}
+	
+	if (bbsbcmask738Chk.checked == true){
+		bbsbcmask738rforms.style.display = "inline";
+	} else {
+		bbsbcmask738rforms.style.display = "none";
+	}
+	
+	if (bbsbcmask712Chk.checked == true){
+		bbsbcmask712rforms.style.display = "inline";
+	} else {
+		bbsbcmask712rforms.style.display = "none";
+	}
+}
+
+/*Baseball/Softball Catcher's Chest Protector Results*/
+function showBbsbCchestResult() {
+	var bbsbcchesttballChk = document.getElementById("bbsbcchesttball");
+	var bbsbcchesttballrforms = document.getElementById("bbsbcchesttballresult")
+	var bbsbcchestythChk = document.getElementById("bbsbcchestyth");
+	var bbsbcchestythrforms = document.getElementById("bbsbcchestythresult")
+	var bbsbcchestjrChk = document.getElementById("bbsbcchestjr");
+	var bbsbcchestjrrforms = document.getElementById("bbsbcchestjrresult")
+	var bbsbcchestsrChk = document.getElementById("bbsbcchestsr");
+	var bbsbcchestsrrforms = document.getElementById("bbsbcchestsrresult")
+	var bbsbcchestadChk = document.getElementById("bbsbcchestad");
+	var bbsbcchestadrforms = document.getElementById("bbsbcchestadresult")
+	
+	if (bbsbcchesttballChk.checked == true){
+		bbsbcchesttballrforms.style.display = "inline";
+	} else {
+		bbsbcchesttballrforms.style.display = "none";
+	}
+	
+	if (bbsbcchestythChk.checked == true){
+		bbsbcchestythrforms.style.display = "inline";
+	} else {
+		bbsbcchestythrforms.style.display = "none";
+	}
+	
+	if (bbsbcchestjrChk.checked == true){
+		bbsbcchestjrrforms.style.display = "inline";
+	} else {
+		bbsbcchestjrrforms.style.display = "none";
+	}
+	
+	if (bbsbcchestsrChk.checked == true){
+		bbsbcchestsrrforms.style.display = "inline";
+	} else {
+		bbsbcchestsrrforms.style.display = "none";
+	}
+	
+	if (bbsbcchestadChk.checked == true){
+		bbsbcchestadrforms.style.display = "inline";
+	} else {
+		bbsbcchestadrforms.style.display = "none";
+	}
+}
+
+/*Baseball/Softball Catcher's Shin Guard Results*/
+function showBbsbCshinResult() {
+	var bbsbcshin10Chk = document.getElementById("bbsbcshin10");
+	var bbsbcshin10rforms = document.getElementById("bbsbcshin10result")
+	var bbsbcshin115Chk = document.getElementById("bbsbcshin115");
+	var bbsbcshin115rforms = document.getElementById("bbsbcshin115result")
+	var bbsbcshin13Chk = document.getElementById("bbsbcshin13");
+	var bbsbcshin13rforms = document.getElementById("bbsbcshin13result")
+	var bbsbcshin145Chk = document.getElementById("bbsbcshin145");
+	var bbsbcshin145rforms = document.getElementById("bbsbcshin145result")
+	var bbsbcshin155Chk = document.getElementById("bbsbcshin155");
+	var bbsbcshin155rforms = document.getElementById("bbsbcshin155result")
+	var bbsbcshin165Chk = document.getElementById("bbsbcshin165");
+	var bbsbcshin165rforms = document.getElementById("bbsbcshin165result")
+	var bbsbcshin175Chk = document.getElementById("bbsbcshin175");
+	var bbsbcshin175rforms = document.getElementById("bbsbcshin175result")
+	
+	if (bbsbcshin10Chk.checked == true){
+		bbsbcshin10rforms.style.display = "inline";
+	} else {
+		bbsbcshin10rforms.style.display = "none";
+	}
+	
+	if (bbsbcshin115Chk.checked == true){
+		bbsbcshin115rforms.style.display = "inline";
+	} else {
+		bbsbcshin115rforms.style.display = "none";
+	}
+	
+	if (bbsbcshin13Chk.checked == true){
+		bbsbcshin13rforms.style.display = "inline";
+	} else {
+		bbsbcshin13rforms.style.display = "none";
+	}
+	
+	if (bbsbcshin145Chk.checked == true){
+		bbsbcshin145rforms.style.display = "inline";
+	} else {
+		bbsbcshin145rforms.style.display = "none";
+	}
+	
+	if (bbsbcshin155Chk.checked == true){
+		bbsbcshin155rforms.style.display = "inline";
+	} else {
+		bbsbcshin155rforms.style.display = "none";
+	}
+	
+	if (bbsbcshin165Chk.checked == true){
+		bbsbcshin165rforms.style.display = "inline";
+	} else {
+		bbsbcshin165rforms.style.display = "none";
+	}
+	
+	if (bbsbcshin175Chk.checked == true){
+		bbsbcshin175rforms.style.display = "inline";
+	} else {
+		bbsbcshin175rforms.style.display = "none";
+	}
+}
+
+/*Baseball/Softball Cup Results*/
+function showBbsbCupResult() {
+	var bbsbcuppwregChk = document.getElementById("bbsbcuppwreg");
+	var bbsbcuppwregrforms = document.getElementById("bbsbcuppwregresult")
+	var bbsbcuppwlgChk = document.getElementById("bbsbcuppwlg");
+	var bbsbcuppwlgrforms = document.getElementById("bbsbcuppwlgresult")
+	var bbsbcupythregChk = document.getElementById("bbsbcupythreg");
+	var bbsbcupythregrforms = document.getElementById("bbsbcupythregresult")
+	var bbsbcupythlgChk = document.getElementById("bbsbcupythlg");
+	var bbsbcupythlgrforms = document.getElementById("bbsbcupythlgresult")
+	var bbsbcupteenregChk = document.getElementById("bbsbcupteenreg");
+	var bbsbcupteenregrforms = document.getElementById("bbsbcupteenregresult")
+	var bbsbcupteenlgChk = document.getElementById("bbsbcupteenlg");
+	var bbsbcupteenlgrforms = document.getElementById("bbsbcupteenlgresult")
+	var bbsbcupsrsmChk = document.getElementById("bbsbcupsrsm");
+	var bbsbcupsrsmrforms = document.getElementById("bbsbcupsrsmresult")
+	var bbsbcupsrmdChk = document.getElementById("bbsbcupsrmd");
+	var bbsbcupsrmdrforms = document.getElementById("bbsbcupsrmdresult")
+	var bbsbcupsrlgChk = document.getElementById("bbsbcupsrlg");
+	var bbsbcupsrlgrforms = document.getElementById("bbsbcupsrlgresult")
+	var bbsbcupsrxlChk = document.getElementById("bbsbcupsrxl");
+	var bbsbcupsrxlrforms = document.getElementById("bbsbcupsrxlresult")
+	var bbsbcupsrxxlChk = document.getElementById("bbsbcupsrxxl");
+	var bbsbcupsrxxlrforms = document.getElementById("bbsbcupsrxxlresult")
+	var bbsbcupsrxxxlChk = document.getElementById("bbsbcupsrxxxl");
+	var bbsbcupsrxxxlrforms = document.getElementById("bbsbcupsrxxxlresult")
+	
+	if (bbsbcuppwregChk.checked == true){
+		bbsbcuppwregrforms.style.display = "inline";
+	} else {
+		bbsbcuppwregrforms.style.display = "none";
+	}
+	
+	if (bbsbcuppwlgChk.checked == true){
+		bbsbcuppwlgrforms.style.display = "inline";
+	} else {
+		bbsbcuppwlgrforms.style.display = "none";
+	}
+	
+	if (bbsbcupythregChk.checked == true){
+		bbsbcupythregrforms.style.display = "inline";
+	} else {
+		bbsbcupythregrforms.style.display = "none";
+	}
+	
+	if (bbsbcupythlgChk.checked == true){
+		bbsbcupythlgrforms.style.display = "inline";
+	} else {
+		bbsbcupythlgrforms.style.display = "none";
+	}
+	
+	if (bbsbcupteenregChk.checked == true){
+		bbsbcupteenregrforms.style.display = "inline";
+	} else {
+		bbsbcupteenregrforms.style.display = "none";
+	}
+	
+	if (bbsbcupteenlgChk.checked == true){
+		bbsbcupteenlgrforms.style.display = "inline";
+	} else {
+		bbsbcupteenlgrforms.style.display = "none";
+	}
+	
+	if (bbsbcupsrsmChk.checked == true){
+		bbsbcupsrsmrforms.style.display = "inline";
+	} else {
+		bbsbcupsrsmrforms.style.display = "none";
+	}
+	
+	if (bbsbcupsrmdChk.checked == true){
+		bbsbcupsrmdrforms.style.display = "inline";
+	} else {
+		bbsbcupsrmdrforms.style.display = "none";
+	}
+	
+	if (bbsbcupsrlgChk.checked == true){
+		bbsbcupsrlgrforms.style.display = "inline";
+	} else {
+		bbsbcupsrlgrforms.style.display = "none";
+	}
+	
+	if (bbsbcupsrxlChk.checked == true){
+		bbsbcupsrxlrforms.style.display = "inline";
+	} else {
+		bbsbcupsrxlrforms.style.display = "none";
+	}
+	
+	if (bbsbcupsrxxlChk.checked == true){
+		bbsbcupsrxxlrforms.style.display = "inline";
+	} else {
+		bbsbcupsrxxlrforms.style.display = "none";
+	}
+	
+	if (bbsbcupsrxxxlChk.checked == true){
+		bbsbcupsrxxxlrforms.style.display = "inline";
+	} else {
+		bbsbcupsrxxxlrforms.style.display = "none";
+	}
+}
+
+/*======================================Lacrosse Results Functions================================================*/
+
+/*Lacrosse Helmet Results*/
+
+function showLaxHlmResult() {
+	var laxhlmxssmChk = document.getElementById("lhlmxssm");
+	var laxhlmxssmrforms = document.getElementById("lhlmxssmresult")
+	var laxhlmmdlgChk = document.getElementById("lhlmmdlg");
+	var laxhlmmdlgrforms = document.getElementById("lhlmmdlgresult")
+	
+	if (laxhlmxssmChk.checked == true){
+		laxhlmxssmrforms.style.display = "inline";
+	} else {
+		laxhlmxssmrforms.style.display = "none";
+	}
+	
+	if (laxhlmmdlgChk.checked == true){
+		laxhlmmdlgrforms.style.display = "inline";
+	} else {
+		laxhlmmdlgrforms.style.display = "none";
+	}
+	
+}
+
+/*Lacrosse Should Pad Results*/
+function showLaxShouldResult() {
+	var laxshldxsChk = document.getElementById("lshoulderxs");
+	var laxshldxsrforms = document.getElementById("lshoulderxsresult")
+	var laxshldsmChk = document.getElementById("lshouldersm");
+	var laxshldsmrforms = document.getElementById("lshouldersmresult")
+	var laxshldmdChk = document.getElementById("lshouldermd");
+	var laxshldmdrforms = document.getElementById("lshouldermdresult")
+	var laxshldlgChk = document.getElementById("lshoulderlg");
+	var laxshldlgrforms = document.getElementById("lshoulderlgresult")
+	var laxshldxlChk = document.getElementById("lshoulderxs");
+	var laxshldxlrforms = document.getElementById("lshoulderxlresult")
+	
+	if (laxshldxsChk.checked == true){
+		laxshldxsrforms.style.display = "inline";
+	} else {
+		laxshldxsrforms.style.display = "none";
+	}
+	
+	if (laxshldsmChk.checked == true){
+		laxshldsmrforms.style.display = "inline";
+	} else {
+		laxshldsmrforms.style.display = "none";
+	}
+	
+	if (laxshldmdChk.checked == true){
+		laxshldmdrforms.style.display = "inline";
+	} else {
+		laxshldmdrforms.style.display = "none";
+	}
+	
+	if (laxshldlgChk.checked == true){
+		laxshldlgrforms.style.display = "inline";
+	} else {
+		laxshldlgrforms.style.display = "none";
+	}
+	
+	if (laxshldxlChk.checked == true){
+		laxshldxlrforms.style.display = "inline";
+	} else {
+		laxshldxlrforms.style.display = "none";
+	}
+}
+
+/*Lacrosse Arm Guard Results*/
+function showLaxAgResult() {
+	var laxagxsChk = document.getElementById("lagxs");
+	var laxagxsrforms = document.getElementById("lagxsresult")
+	var laxagsmChk = document.getElementById("lagsm");
+	var laxagsmrforms = document.getElementById("lagsmresult")
+	var laxagmdChk = document.getElementById("lagmd");
+	var laxagmdrforms = document.getElementById("lagmdresult")
+	var laxaglgChk = document.getElementById("laglg");
+	var laxaglgrforms = document.getElementById("laglgresult")
+	var laxagxlChk = document.getElementById("lagxs");
+	var laxagxlrforms = document.getElementById("lagxlresult")
+	
+	if (laxagxsChk.checked == true){ 
+		laxagxsrforms.style.display = "inline";
+	} else {
+		laxagxsrforms.style.display = "none";
+	}
+	
+	if (laxagsmChk.checked == true){
+		laxagsmrforms.style.display = "inline";
+	} else {
+		laxagsmrforms.style.display = "none";
+	}
+	
+	if (laxagmdChk.checked == true){
+		laxagmdrforms.style.display = "inline";
+	} else {
+		laxagmdrforms.style.display = "none";
+	}
+	
+	if (laxaglgChk.checked == true){
+		laxaglgrforms.style.display = "inline";
+	} else {
+		laxaglgrforms.style.display = "none";
+	}
+	
+	if (laxagxlChk.checked == true){
+		laxagxlrforms.style.display = "inline";
+	} else {
+		laxagxlrforms.style.display = "none";
+	}	
+}
+
+/*Lacrosse Glove Results*/
+function showLaxGlvResult() {
+	var laxglv8Chk = document.getElementById("lglv8");
+	var laxglv8rforms = document.getElementById("lglv8result")
+	var laxglv10Chk = document.getElementById("lglv10");
+	var laxglv10rforms = document.getElementById("lglv10result")
+	var laxglv12Chk = document.getElementById("lglv12");
+	var laxglv12rforms = document.getElementById("lglv12result")
+	var laxglv13Chk = document.getElementById("lglv13");
+	var laxglv13rforms = document.getElementById("lglv13result")
+	
+	if (laxglv8Chk.checked == true){
+		laxglv8rforms.style.display = "inline";
+	} else {
+		laxglv8rforms.style.display = "none";
+	}	
+	
+	if (laxglv10Chk.checked == true){
+		laxglv10rforms.style.display = "inline";
+	} else {
+		laxglv10rforms.style.display = "none";
+	}
+	
+	if (laxglv12Chk.checked == true){
+		laxglv12rforms.style.display = "inline";
+	} else {
+		laxglv12rforms.style.display = "none";
+	}
+	
+	if (laxglv13Chk.checked == true){
+		laxglv13rforms.style.display = "inline";
+	} else {
+		laxglv13rforms.style.display = "none";
+	}
+}
+
+/*Lacrosse Cleat Results*/
+function showLaxCleatResult() {
+	var lcleaty6Chk = document.getElementById("lcleatyth6");
+	var lcleaty6rforms = document.getElementById("lcleaty6result");
+	var lcleaty7Chk = document.getElementById("lcleatyth7");
+	var lcleaty7rforms = document.getElementById("lcleaty7result")
+	var lcleaty8Chk = document.getElementById("lcleatyth8");
+	var lcleaty8rforms = document.getElementById("lcleaty8result")
+	var lcleaty9Chk = document.getElementById("lcleatyth9");
+	var lcleaty9rforms = document.getElementById("lcleaty9result")
+	var lcleaty10Chk = document.getElementById("lcleatyth10");
+	var lcleaty10rforms = document.getElementById("lcleaty10result")
+	var lcleaty11Chk = document.getElementById("lcleatyth11");
+	var lcleaty11rforms = document.getElementById("lcleaty11result")
+	var lcleaty12Chk = document.getElementById("lcleatyth12");
+	var lcleaty12rforms = document.getElementById("lcleaty12result")
+	var lcleaty13Chk = document.getElementById("lcleatyth13");
+	var lcleaty13rforms = document.getElementById("lcleaty13result") 
+	
+	var lcleatjr1Chk = document.getElementById("lcleatjr1");
+	var lcleatjr1rforms = document.getElementById("lcleatjr1result")
+	var lcleatjr15Chk = document.getElementById("lcleatjr15");
+	var lcleatjr15rforms = document.getElementById("lcleatjr15result")
+	var lcleatjr2Chk = document.getElementById("lcleatjr2");
+	var lcleatjr2rforms = document.getElementById("lcleatjr2result")
+	var lcleatjr25Chk = document.getElementById("lcleatjr25");
+	var lcleatjr25rforms = document.getElementById("lcleatjr25result")
+	var lcleatjr3Chk = document.getElementById("lcleatjr3");
+	var lcleatjr3rforms = document.getElementById("lcleatjr3result")
+	var lcleatjr35Chk = document.getElementById("lcleatjr35");
+	var lcleatjr35rforms = document.getElementById("lcleatjr35result")
+	var lcleatjr4Chk = document.getElementById("lcleatjr4");
+	var lcleatjr4rforms = document.getElementById("lcleatjr4result")
+	var lcleatjr45Chk = document.getElementById("lcleatjr45");
+	var lcleatjr45rforms = document.getElementById("lcleatjr45result")
+	var lcleatjr5Chk = document.getElementById("lcleatjr5");
+	var lcleatjr5rforms = document.getElementById("lcleatjr5result")
+	
+	var lcleatsr55Chk = document.getElementById("lcleatjr55");
+	var lcleatsr55rforms = document.getElementById("lcleatjr55result")
+	var lcleatsr6Chk = document.getElementById("lcleatsr6");
+	var lcleatsr6rforms = document.getElementById("lcleatsr6result")
+	var lcleatsr65Chk = document.getElementById("lcleatsr65");
+	var lcleatsr65rforms = document.getElementById("lcleatsr65result")
+	var lcleatsr7Chk = document.getElementById("lcleatsr7");
+	var lcleatsr7rforms = document.getElementById("lcleatsr7result")
+	var lcleatsr75Chk = document.getElementById("lcleatsr75");
+	var lcleatsr75rforms = document.getElementById("lcleatsr75result")
+	var lcleatsr8Chk = document.getElementById("lcleatsr8");
+	var lcleatsr8rforms = document.getElementById("lcleatsr8result")
+	var lcleatsr85Chk = document.getElementById("lcleatsr85");
+	var lcleatsr85rforms = document.getElementById("lcleatsr85result")
+	var lcleatsr9Chk = document.getElementById("lcleatsr9");
+	var lcleatsr9rforms = document.getElementById("lcleatsr9result")
+	var lcleatsr95Chk = document.getElementById("lcleatsr95");
+	var lcleatsr95rforms = document.getElementById("lcleatsr95result")
+	var lcleatsr10Chk = document.getElementById("lcleatsr10");
+	var lcleatsr10rforms = document.getElementById("lcleatsr10result")
+	var lcleatsr105Chk = document.getElementById("lcleatsr105");
+	var lcleatsr105rforms = document.getElementById("lcleatsr105result")
+	var lcleatsr11Chk = document.getElementById("lcleatsr11");
+	var lcleatsr11rforms = document.getElementById("lcleatsr11result")
+	var lcleatsr115Chk = document.getElementById("lcleatsr115");
+	var lcleatsr115rforms = document.getElementById("lcleatsr115result")
+	var lcleatsr12Chk = document.getElementById("lcleatsr12");
+	var lcleatsr12rforms = document.getElementById("lcleatsr12result")
+	var lcleatsr125Chk = document.getElementById("lcleatsr125");
+	var lcleatsr125rforms = document.getElementById("lcleatsr125result")
+	var lcleatsr13Chk = document.getElementById("lcleatsr13");
+	var lcleatsr13rforms = document.getElementById("lcleatsr13result")
+	
+	if (lcleaty6Chk.checked == true){
+		lcleaty6rforms.style.display = "inline";
+	} else {
+		lcleaty6rforms.style.display = "none";
+	}
+	
+	if (lcleaty7Chk.checked == true){
+		lcleaty7rforms.style.display = "inline";
+	} else {
+		lcleaty7rforms.style.display = "none";
+	}
+	
+	if (lcleaty8Chk.checked == true){
+		lcleaty8rforms.style.display = "inline";
+	} else {
+		lcleaty8rforms.style.display = "none";
+	}
+	
+	if (lcleaty9Chk.checked == true){
+		lcleaty9rforms.style.display = "inline";
+	} else {
+		lcleaty9rforms.style.display = "none";
+	}
+	
+	if (lcleaty10Chk.checked == true){
+		lcleaty10rforms.style.display = "inline";
+	} else {
+		lcleaty10rforms.style.display = "none";
+	}
+	
+	if (lcleaty11Chk.checked == true){
+		lcleaty11rforms.style.display = "inline";
+	} else {
+		lcleaty11rforms.style.display = "none";
+	}
+	
+	if (lcleaty12Chk.checked == true){
+		lcleaty12rforms.style.display = "inline";
+	} else {
+		lcleaty12rforms.style.display = "none";
+	}
+	
+	if (lcleaty13Chk.checked == true){
+		lcleaty13rforms.style.display = "inline";
+	} else {
+		lcleaty13rforms.style.display = "none";
+	}
+	
+	
+	if (lcleatjr1Chk.checked == true){
+		lcleatjr1rforms.style.display = "inline";
+	} else {
+		lcleatjr1rforms.style.display = "none";
+	}
+	
+	if (lcleatjr15Chk.checked == true){
+		lcleatjr15rforms.style.display = "inline";
+	} else {
+		lcleatjr15rforms.style.display = "none";
+	}
+	
+	if (lcleatjr2Chk.checked == true){
+		lcleatjr2rforms.style.display = "inline";
+	} else {
+		lcleatjr2rforms.style.display = "none";
+	}
+	
+	if (lcleatjr25Chk.checked == true){
+		lcleatjr25rforms.style.display = "inline";
+	} else {
+		lcleatjr25rforms.style.display = "none";
+	}
+	
+	if (lcleatjr3Chk.checked == true){
+		lcleatjr3rforms.style.display = "inline";
+	} else {
+		lcleatjr3rforms.style.display = "none";
+	}
+	
+	if (lcleatjr35Chk.checked == true){
+		lcleatjr35rforms.style.display = "inline";
+	} else {
+		lcleatjr35rforms.style.display = "none";
+	}
+	
+	if (lcleatjr4Chk.checked == true){
+		lcleatjr4rforms.style.display = "inline";
+	} else {
+		lcleatjr4rforms.style.display = "none";
+	}
+	
+	if (lcleatjr45Chk.checked == true){
+		lcleatjr45rforms.style.display = "inline";
+	} else {
+		lcleatjr45rforms.style.display = "none";
+	}
+	
+	if (lcleatjr5Chk.checked == true){
+		lcleatjr5rforms.style.display = "inline";
+	} else {
+		lcleatjr5rforms.style.display = "none";
+	}
+	
+	if (lcleatsr55Chk.checked == true){
+		lcleatsr55rforms.style.display = "inline";
+	} else {
+		lcleatsr55rforms.style.display = "none";
+	}
+	
+	if (lcleatsr6Chk.checked == true){
+		lcleatsr6rforms.style.display = "inline";
+	} else {
+		lcleatsr6rforms.style.display = "none";
+	}
+	
+	if (lcleatsr65Chk.checked == true){
+		lcleatsr65rforms.style.display = "inline";
+	} else {
+		lcleatsr65rforms.style.display = "none";
+	}
+	
+	if (lcleatsr7Chk.checked == true){
+		lcleatsr7rforms.style.display = "inline";
+	} else {
+		lcleatsr7rforms.style.display = "none";
+	}
+	
+	if (lcleatsr75Chk.checked == true){
+		lcleatsr75rforms.style.display = "inline";
+	} else {
+		lcleatsr75rforms.style.display = "none";
+	}
+	
+	if (lcleatsr8Chk.checked == true){
+		lcleatsr8rforms.style.display = "inline";
+	} else {
+		lcleatsr8rforms.style.display = "none";
+	}
+	
+	if (lcleatsr85Chk.checked == true){
+		lcleatsr85rforms.style.display = "inline";
+	} else {
+		lcleatsr85rforms.style.display = "none";
+	}
+	
+	if (lcleatsr9Chk.checked == true){
+		lcleatsr9rforms.style.display = "inline";
+	} else {
+		lcleatsr9rforms.style.display = "none";
+	}
+	
+	if (lcleatsr95Chk.checked == true){
+		lcleatsr95rforms.style.display = "inline";
+	} else {
+		lcleatsr95rforms.style.display = "none";
+	}
+	
+	if (lcleatsr10Chk.checked == true){
+		lcleatsr10rforms.style.display = "inline";
+	} else {
+		lcleatsr10rforms.style.display = "none";
+	}
+	
+	if (lcleatsr105Chk.checked == true){
+		lcleatsr105rforms.style.display = "inline";
+	} else {
+		lcleatsr105rforms.style.display = "none";
+	}
+	
+	if (lcleatsr11Chk.checked == true){
+		lcleatsr11rforms.style.display = "inline";
+	} else {
+		lcleatsr11rforms.style.display = "none";
+	}
+	
+	if (lcleatsr115Chk.checked == true){
+		lcleatsr115rforms.style.display = "inline";
+	} else {
+		lcleatsr115rforms.style.display = "none";
+	}
+	
+	if (lcleatsr12Chk.checked == true){
+		lcleatsr12rforms.style.display = "inline";
+	} else {
+		lcleatsr12rforms.style.display = "none";
+	}
+	
+	if (lcleatsr125Chk.checked == true){
+		lcleatsr125rforms.style.display = "inline";
+	} else {
+		lcleatsr125rforms.style.display = "none";
+	}
+	
+	if (lcleatsr13Chk.checked == true){
+		lcleatsr13rforms.style.display = "inline";
+	} else {
+		lcleatsr13rforms.style.display = "none";
+	}
+	
+}
+
+/*Lacrosse Stick Results*/
+function showLaxStickResult() {
+	var lstickythChk = document.getElementById("lstickyth");
+	var lstickythrforms = document.getElementById("lstickythresult")
+	var lsticksrChk = document.getElementById("lsticksr");
+	var lsticksrrforms = document.getElementById("lsticksrresult")
+	
+	if (lstickythChk.checked == true){
+		lstickythrforms.style.display = "inline";
+	} else {
+		lstickythrforms.style.display = "none";
+	}
+	
+	if (lsticksrChk.checked == true){
+		lsticksrrforms.style.display = "inline";
+	} else {
+		lsticksrrforms.style.display = "none";
+	}
+}
+
+/*Lacrosse Stick Results*/
+function showLaxMouthResult() {
+	var lmouthythChk = document.getElementById("lmgyth");
+	var lmouthythrforms = document.getElementById("lmgythresult")
+	var lmouthsrChk = document.getElementById("lmgsr");
+	var lmouthrrforms = document.getElementById("lmgsrresult")
+	
+	if (lmouthythChk.checked == true){
+		lmouthythrforms.style.display = "inline";
+	} else {
+		lmouthythrforms.style.display = "none";
+	}
+	
+	if (lmouthsrChk.checked == true){
+		lmouthrrforms.style.display = "inline";
+	} else {
+		lmouthrrforms.style.display = "none";
+	}
+}
+
+/*Lacrosse Cup Results*/
+function showLaxCupResult() {
+	var lcuppwregChk = document.getElementById("lcuppwreg");
+	var lcuppwregrforms = document.getElementById("lcuppwregresult")
+	var lcuppwlgChk = document.getElementById("lcuppwlg");
+	var lcuppwlgrforms = document.getElementById("lcuppwlgresult")
+	var lcupythregChk = document.getElementById("lcupythreg");
+	var lcupythregrforms = document.getElementById("lcupythregresult")
+	var lcupythlgChk = document.getElementById("lcupythlg");
+	var lcupythlgrforms = document.getElementById("lcupythlgresult")
+	var lcupteenregChk = document.getElementById("lcupteenreg");
+	var lcupteenregrforms = document.getElementById("lcupteenregresult")
+	var lcupteenlgChk = document.getElementById("lcupteenlg");
+	var lcupteenlgrforms = document.getElementById("lcupteenlgresult")
+	var lcupsrsmChk = document.getElementById("lcupsrsm");
+	var lcupsrsmrforms = document.getElementById("lcupsrsmresult")
+	var lcupsrmdChk = document.getElementById("lcupsrmd");
+	var lcupsrmdrforms = document.getElementById("lcupsrmdresult")
+	var lcupsrlgChk = document.getElementById("lcupsrlg");
+	var lcupsrlgrforms = document.getElementById("lcupsrlgresult")
+	var lcupsrxlChk = document.getElementById("lcupsrxl");
+	var lcupsrxlrforms = document.getElementById("lcupsrxlresult")
+	var lcupsrxxlChk = document.getElementById("lcupsrxxl");
+	var lcupsrxxlrforms = document.getElementById("lcupsrxxlresult")
+	var lcupsrxxxlChk = document.getElementById("lcupsrxxxl");
+	var lcupsrxxxlrforms = document.getElementById("lcupsrxxxlresult")
+	
+	if (lcuppwregChk.checked == true){
+		lcuppwregrforms.style.display = "inline";
+	} else {
+		lcuppwregrforms.style.display = "none";
+	}
+	
+	if (lcuppwlgChk.checked == true){
+		lcuppwlgrforms.style.display = "inline";
+	} else {
+		lcuppwlgrforms.style.display = "none";
+	}
+	
+	if (lcupythregChk.checked == true){
+		lcupythregrforms.style.display = "inline";
+	} else {
+		lcupythregrforms.style.display = "none";
+	}
+	
+	if (lcupythlgChk.checked == true){
+		lcupythlgrforms.style.display = "inline";
+	} else {
+		lcupythlgrforms.style.display = "none";
+	}
+	
+	if (lcupteenregChk.checked == true){
+		lcupteenregrforms.style.display = "inline";
+	} else {
+		lcupteenregrforms.style.display = "none";
+	}
+	
+	if (lcupteenlgChk.checked == true){
+		lcupteenlgrforms.style.display = "inline";
+	} else {
+		lcupteenlgrforms.style.display = "none";
+	}
+	
+	if (lcupsrsmChk.checked == true){
+		lcupsrsmrforms.style.display = "inline";
+	} else {
+		lcupsrsmrforms.style.display = "none";
+	}
+	
+	if (lcupsrmdChk.checked == true){
+		lcupsrmdrforms.style.display = "inline";
+	} else {
+		lcupsrmdrforms.style.display = "none";
+	}
+	
+	if (lcupsrlgChk.checked == true){
+		lcupsrlgrforms.style.display = "inline";
+	} else {
+		lcupsrlgrforms.style.display = "none";
+	}
+	
+	if (lcupsrxlChk.checked == true){
+		lcupsrxlrforms.style.display = "inline";
+	} else {
+		lcupsrxlrforms.style.display = "none";
+	}
+	
+	if (lcupsrxxlChk.checked == true){
+		lcupsrxxlrforms.style.display = "inline";
+	} else {
+		lcupsrxxlrforms.style.display = "none";
+	}
+	
+	if (lcupsrxxxlChk.checked == true){
+		lcupsrxxxlrforms.style.display = "inline";
+	} else {
+		lcupsrxxxlrforms.style.display = "none";
+	}
+}
+
+/*======================================Downhill Ski Results Functions================================================*/
+
+/*Ski Results*/	
+function showSkiResult() {
+	var ski130Chk = document.getElementById("ski130");
+	var ski130rforms = document.getElementById("ski130result")
+	var ski140Chk = document.getElementById("ski140");
+	var ski140rforms = document.getElementById("ski140result")
+	var ski145Chk = document.getElementById("ski145");
+	var ski145rforms = document.getElementById("ski145result")
+	var ski150Chk = document.getElementById("ski150");
+	var ski150rforms = document.getElementById("ski150result")
+	var ski155Chk = document.getElementById("ski155");
+	var ski155rforms = document.getElementById("ski155result")
+	var ski165Chk = document.getElementById("ski165");
+	var ski165rforms = document.getElementById("ski165result")
+	var ski170Chk = document.getElementById("ski170");
+	var ski170rforms = document.getElementById("ski170result")
+	var ski175Chk = document.getElementById("ski175");
+	var ski175rforms = document.getElementById("ski175result")
+	var ski180Chk = document.getElementById("ski180");
+	var ski180rforms = document.getElementById("ski180result")
+	var ski185Chk = document.getElementById("ski185");
+	var ski185rforms = document.getElementById("ski185result")
+	var ski190Chk = document.getElementById("ski190");
+	var ski190rforms = document.getElementById("ski190result")
+	var ski195Chk = document.getElementById("ski195");
+	var ski195rforms = document.getElementById("ski195result")
+	var ski200Chk = document.getElementById("ski200");
+	var ski200rforms = document.getElementById("ski200result")
+
+	if (ski130Chk.checked == true){
+		ski130rforms.style.display = "inline";
+	} else {
+		ski130rforms.style.display = "none";
+	}
+	
+	if (ski140Chk.checked == true){
+		ski140rforms.style.display = "inline";
+	} else {
+		ski140rforms.style.display = "none";
+	}
+	
+	if (ski145Chk.checked == true){
+		ski145rforms.style.display = "inline";
+	} else {
+		ski145rforms.style.display = "none";
+	}
+	
+	if (ski150Chk.checked == true){
+		ski150rforms.style.display = "inline";
+	} else {
+		ski150rforms.style.display = "none";
+	}
+	
+	if (ski155Chk.checked == true){
+		ski155rforms.style.display = "inline";
+	} else {
+		ski155rforms.style.display = "none";
+	}
+	
+	if (ski165Chk.checked == true){
+		ski165rforms.style.display = "inline";
+	} else {
+		ski165rforms.style.display = "none";
+	}
+	
+	if (ski170Chk.checked == true){
+		ski170rforms.style.display = "inline";
+	} else {
+		ski170rforms.style.display = "none";
+	}
+	
+	if (ski175Chk.checked == true){
+		ski175rforms.style.display = "inline";
+	} else {
+		ski175rforms.style.display = "none";
+	}
+	
+	if (ski180Chk.checked == true){
+		ski180rforms.style.display = "inline";
+	} else {
+		ski180rforms.style.display = "none";
+	}
+	
+	if (ski185Chk.checked == true){
+		ski185rforms.style.display = "inline";
+	} else {
+		ski185rforms.style.display = "none";
+	}
+	
+	if (ski190Chk.checked == true){
+		ski190rforms.style.display = "inline";
+	} else {
+		ski190rforms.style.display = "none";
+	}
+	
+	if (ski195Chk.checked == true){
+		ski195rforms.style.display = "inline";
+	} else {
+		ski195rforms.style.display = "none";
+	}
+	
+	if (ski200Chk.checked == true){
+		ski200rforms.style.display = "inline";
+	} else {
+		ski200rforms.style.display = "none";
+	}
+}	
+
+/*Ski Boot Results*/
+function showSkiBootResult() {
+	var sboot15Chk = document.getElementById("sbootyth15");
+	var sboot15rforms = document.getElementById("sbootyth15result")
+	var sboot16Chk = document.getElementById("sbootyth16");
+	var sboot16rforms = document.getElementById("sbootyth16result")
+	var sboot17Chk = document.getElementById("sbootyth17");
+	var sboot17rforms = document.getElementById("sbootyth17result")
+	var sboot175Chk = document.getElementById("sbootyth175");
+	var sboot175rforms = document.getElementById("sbootyth175result")
+	var sboot185Chk = document.getElementById("sbootyth185");
+	var sboot185rforms = document.getElementById("sbootyth185result")
+	var sboot195Chk = document.getElementById("sbootyth195");
+	var sboot195rforms = document.getElementById("sbootyth195result")
+	var sboot20Chk = document.getElementById("sbootyth20");
+	var sboot20rforms = document.getElementById("sbootyth20result")
+	
+	var sboot205Chk = document.getElementById("sbootjr205");
+	var sboot205rforms = document.getElementById("sbootjr205result")
+	var sboot21Chk = document.getElementById("sbootjr21");
+	var sboot21rforms = document.getElementById("sbootjr21result")
+	var sboot215Chk = document.getElementById("sbootjr215");
+	var sboot215rforms = document.getElementById("sbootjr215result")
+	var sboot22Chk = document.getElementById("sbootjr22");
+	var sboot22rforms = document.getElementById("sbootjr22result")
+	var sboot225Chk = document.getElementById("sbootjr225");
+	var sboot225rforms = document.getElementById("sbootjr225result")
+	var sboot23Chk = document.getElementById("sbootjr23");
+	var sboot23rforms = document.getElementById("sbootjr23result")
+	var sboot235Chk = document.getElementById("sbootjr235");
+	var sboot235rforms = document.getElementById("sbootjr235result")
+	
+	var sboot24Chk = document.getElementById("sbootsr24");
+	var sboot24rforms = document.getElementById("sbootsr24result")
+	var sboot245Chk = document.getElementById("sbootsr245");
+	var sboot245rforms = document.getElementById("sbootsr245result")
+	var sboot25Chk = document.getElementById("sbootsr25");
+	var sboot25rforms = document.getElementById("sbootsr25result")
+	var sboot255Chk = document.getElementById("sbootsr255");
+	var sboot255rforms = document.getElementById("sbootsr255result")
+	var sboot26Chk = document.getElementById("sbootsr26");
+	var sboot26rforms = document.getElementById("sbootsr26result")
+	var sboot265Chk = document.getElementById("sbootsr265");
+	var sboot265rforms = document.getElementById("sbootsr265result")
+	var sboot27Chk = document.getElementById("sbootsr27");
+	var sboot27rforms = document.getElementById("sbootsr27result")
+	var sboot275Chk = document.getElementById("sbootsr275");
+	var sboot275rforms = document.getElementById("sbootsr275result")
+	var sboot28Chk = document.getElementById("sbootsr28");
+	var sboot28rforms = document.getElementById("sbootsr28result")
+	var sboot285Chk = document.getElementById("sbootsr285");
+	var sboot285rforms = document.getElementById("sbootsr285result")
+	var sboot29Chk = document.getElementById("sbootsr29");
+	var sboot29rforms = document.getElementById("sbootsr29result")
+	var sboot295Chk = document.getElementById("sbootsr295");
+	var sboot295rforms = document.getElementById("sbootsr295result")
+	var sboot30Chk = document.getElementById("sbootsr30");
+	var sboot30rforms = document.getElementById("sbootsr30result")
+	var sboot305Chk = document.getElementById("sbootsr305");
+	var sboot305rforms = document.getElementById("sbootsr305result")
+	var sboot31Chk = document.getElementById("sbootsr31");
+	var sboot31rforms = document.getElementById("sbootsr31result")
+
+	if (sboot15Chk.checked == true){
+		sboot15rforms.style.display = "inline";
+	} else {
+		sboot15rforms.style.display = "none";
+	}
+	
+	if (sboot16Chk.checked == true){
+		sboot16rforms.style.display = "inline";
+	} else {
+		sboot16rforms.style.display = "none";
+	}
+	
+	if (sboot17Chk.checked == true){
+		sboot17rforms.style.display = "inline";
+	} else {
+		sboot17rforms.style.display = "none";
+	}
+	
+	if (sboot175Chk.checked == true){
+		sboot175rforms.style.display = "inline";
+	} else {
+		sboot175rforms.style.display = "none";
+	}
+	
+	if (sboot185Chk.checked == true){
+		sboot185rforms.style.display = "inline";
+	} else {
+		sboot185rforms.style.display = "none";
+	}
+	
+	if (sboot195Chk.checked == true){
+		sboot195rforms.style.display = "inline";
+	} else {
+		sboot195rforms.style.display = "none";
+	}
+	
+	if (sboot20Chk.checked == true){
+		sboot20rforms.style.display = "inline";
+	} else {
+		sboot20rforms.style.display = "none";
+	}
+	
+	if (sboot205Chk.checked == true){
+		sboot205rforms.style.display = "inline";
+	} else {
+		sboot205rforms.style.display = "none";
+	}
+	
+	if (sboot21Chk.checked == true){
+		sboot21rforms.style.display = "inline";
+	} else {
+		sboot21rforms.style.display = "none";
+	}
+	
+	if (sboot215Chk.checked == true){
+		sboot215rforms.style.display = "inline";
+	} else {
+		sboot215rforms.style.display = "none";
+	}
+	
+	if (sboot22Chk.checked == true){
+		sboot22rforms.style.display = "inline";
+	} else {
+		sboot22rforms.style.display = "none";
+	}
+	
+	if (sboot225Chk.checked == true){
+		sboot225rforms.style.display = "inline";
+	} else {
+		sboot225rforms.style.display = "none";
+	}
+	
+	if (sboot23Chk.checked == true){
+		sboot23rforms.style.display = "inline";
+	} else {
+		sboot23rforms.style.display = "none";
+	}
+	
+	if (sboot235Chk.checked == true){
+		sboot235rforms.style.display = "inline";
+	} else {
+		sboot235rforms.style.display = "none";
+	}
+	
+	if (sboot24Chk.checked == true){
+		sboot24rforms.style.display = "inline";
+	} else {
+		sboot24rforms.style.display = "none";
+	}
+	
+	if (sboot245Chk.checked == true){
+		sboot245rforms.style.display = "inline";
+	} else {
+		sboot245rforms.style.display = "none";
+	}
+	
+	if (sboot25Chk.checked == true){
+		sboot25rforms.style.display = "inline";
+	} else {
+		sboot25rforms.style.display = "none";
+	}
+	
+	if (sboot255Chk.checked == true){
+		sboot255rforms.style.display = "inline";
+	} else {
+		sboot255rforms.style.display = "none";
+	}
+	
+	if (sboot26Chk.checked == true){
+		sboot26rforms.style.display = "inline";
+	} else {
+		sboot26rforms.style.display = "none";
+	}
+	
+	if (sboot265Chk.checked == true){
+		sboot265rforms.style.display = "inline";
+	} else {
+		sboot265rforms.style.display = "none";
+	}
+	
+	if (sboot27Chk.checked == true){
+		sboot27rforms.style.display = "inline";
+	} else {
+		sboot27rforms.style.display = "none";
+	}
+	
+	if (sboot275Chk.checked == true){
+		sboot275rforms.style.display = "inline";
+	} else {
+		sboot275rforms.style.display = "none";
+	}
+	
+	if (sboot28Chk.checked == true){
+		sboot28rforms.style.display = "inline";
+	} else {
+		sboot28rforms.style.display = "none";
+	}
+	
+	if (sboot285Chk.checked == true){
+		sboot285rforms.style.display = "inline";
+	} else {
+		sboot285rforms.style.display = "none";
+	}
+	
+	if (sboot29Chk.checked == true){
+		sboot29rforms.style.display = "inline";
+	} else {
+		sboot29rforms.style.display = "none";
+	}
+	
+	if (sboot295Chk.checked == true){
+		sboot295rforms.style.display = "inline";
+	} else {
+		sboot295rforms.style.display = "none";
+	}
+	
+	if (sboot30Chk.checked == true){
+		sboot30rforms.style.display = "inline";
+	} else {
+		sboot30rforms.style.display = "none";
+	}
+	
+	if (sboot305Chk.checked == true){
+		sboot305rforms.style.display = "inline";
+	} else {
+		sboot305rforms.style.display = "none";
+	}
+	
+	if (sboot31Chk.checked == true){
+		sboot31rforms.style.display = "inline";
+	} else {
+		sboot31rforms.style.display = "none";
+	}
+	
+}
+
+/*Ski Pole Results*/
+function showSkiPoleResult() {
+	var skipole32Chk = document.getElementById("skipole32");
+	var skipole32rforms = document.getElementById("skipole32result")
+	var skipole34Chk = document.getElementById("skipole34");
+	var skipole34rforms = document.getElementById("skipole34result")
+	var skipole36Chk = document.getElementById("skipole36");
+	var skipole36rforms = document.getElementById("skipole36result")
+	var skipole38Chk = document.getElementById("skipole38");
+	var skipole38rforms = document.getElementById("skipole38result")
+	var skipole40Chk = document.getElementById("skipole40");
+	var skipole40rforms = document.getElementById("skipole40result")
+	var skipole42Chk = document.getElementById("skipole42");
+	var skipole42rforms = document.getElementById("skipole42result")
+	var skipole44Chk = document.getElementById("skipole44");
+	var skipole44rforms = document.getElementById("skipole44result")
+	var skipole46Chk = document.getElementById("skipole46");
+	var skipole46rforms = document.getElementById("skipole46result")
+	var skipole48Chk = document.getElementById("skipole48");
+	var skipole48rforms = document.getElementById("skipole48result")
+	var skipole49Chk = document.getElementById("skipole49");
+	var skipole49rforms = document.getElementById("skipole49result")
+	var skipole52Chk = document.getElementById("skipole52");
+	var skipole52rforms = document.getElementById("skipole52result")
+	var skipole54Chk = document.getElementById("skipole54");
+	var skipole54rforms = document.getElementById("skipole54result")
+	var skipole56Chk = document.getElementById("skipole56");
+	var skipole56rforms = document.getElementById("skipole56result")
+	
+	
+	if (skipole32Chk.checked == true){
+		skipole32rforms.style.display = "inline";
+	} else {
+		skipole32rforms.style.display = "none";
+	}
+	
+	if (skipole34Chk.checked == true){
+		skipole34rforms.style.display = "inline";
+	} else {
+		skipole34rforms.style.display = "none";
+	}
+	
+	if (skipole36Chk.checked == true){
+		skipole36rforms.style.display = "inline";
+	} else {
+		skipole36rforms.style.display = "none";
+	}
+	
+	if (skipole38Chk.checked == true){
+		skipole38rforms.style.display = "inline";
+	} else {
+		skipole38rforms.style.display = "none";
+	}
+	
+	if (skipole40Chk.checked == true){
+		skipole40rforms.style.display = "inline";
+	} else {
+		skipole40rforms.style.display = "none";
+	}
+	
+	if (skipole42Chk.checked == true){
+		skipole42rforms.style.display = "inline";
+	} else {
+		skipole42rforms.style.display = "none";
+	}
+	
+	if (skipole44Chk.checked == true){
+		skipole44rforms.style.display = "inline";
+	} else {
+		skipole44rforms.style.display = "none";
+	}
+	
+	if (skipole46Chk.checked == true){
+		skipole46rforms.style.display = "inline";
+	} else {
+		skipole46rforms.style.display = "none";
+	}
+	
+	if (skipole48Chk.checked == true){
+		skipole48rforms.style.display = "inline";
+	} else {
+		skipole48rforms.style.display = "none";
+	}
+	
+	if (skipole49Chk.checked == true){
+		skipole49rforms.style.display = "inline";
+	} else {
+		skipole49rforms.style.display = "none";
+	}
+	
+	if (skipole52Chk.checked == true){
+		skipole52rforms.style.display = "inline";
+	} else {
+		skipole52rforms.style.display = "none";
+	}
+	
+	if (skipole54Chk.checked == true){
+		skipole54rforms.style.display = "inline";
+	} else {
+		skipole54rforms.style.display = "none";
+	}
+	
+	if (skipole56Chk.checked == true){
+		skipole56rforms.style.display = "inline";
+	} else {
+		skipole56rforms.style.display = "none";
+	}
+}
+
+/*======================================Snowboard Results Functions================================================*/
+
+/*Snowboard Results*/	
+function showSnowboardResult() {
+	var sb136Chk = document.getElementById("sb136");
+	var sb136rforms = document.getElementById("sb136result")
+	var sb141Chk = document.getElementById("sb141");
+	var sb141rforms = document.getElementById("sb141result")
+	var sb147Chk = document.getElementById("sb147");
+	var sb147rforms = document.getElementById("sb147result")
+	var sb152Chk = document.getElementById("sb152");
+	var sb152rforms = document.getElementById("sb152result")
+	var sb157Chk = document.getElementById("sb157");
+	var sb157rforms = document.getElementById("sb157result")
+	var sb162Chk = document.getElementById("sb162");
+	var sb162rforms = document.getElementById("sb162result")
+	var sb167Chk = document.getElementById("sb167");
+	var sb167rforms = document.getElementById("sb167result")
+	var sb170Chk = document.getElementById("sb170");
+	var sb170rforms = document.getElementById("sb170result")
+	
+	if (sb136Chk.checked == true){
+		sb136rforms.style.display = "inline";
+	} else {
+		sb136rforms.style.display = "none";
+	}
+	
+	if (sb141Chk.checked == true){
+		sb141rforms.style.display = "inline";
+	} else {
+		sb141rforms.style.display = "none";
+	}
+	
+	if (sb147Chk.checked == true){
+		sb147rforms.style.display = "inline";
+	} else {
+		sb147rforms.style.display = "none";
+	}
+	
+	if (sb152Chk.checked == true){
+		sb152rforms.style.display = "inline";
+	} else {
+		sb152rforms.style.display = "none";
+	}
+	
+	if (sb157Chk.checked == true){
+		sb157rforms.style.display = "inline";
+	} else {
+		sb157rforms.style.display = "none";
+	}
+	
+	if (sb162Chk.checked == true){
+		sb162rforms.style.display = "inline";
+	} else {
+		sb162rforms.style.display = "none";
+	}
+	
+	if (sb167Chk.checked == true){
+		sb167rforms.style.display = "inline";
+	} else {
+		sb167rforms.style.display = "none";
+	}
+	
+	if (sb170Chk.checked == true){
+		sb170rforms.style.display = "inline";
+	} else {
+		sb170rforms.style.display = "none";
+	}
+}
+
+/*Snowboard Boot Results*/
+function showSbBootResult() {
+	var sbboot15Chk = document.getElementById("sbbootyth15");
+	var sbboot15rforms = document.getElementById("sbbootyth15result")
+	var sbboot16Chk = document.getElementById("sbbootyth16");
+	var sbboot16rforms = document.getElementById("sbbootyth16result")
+	var sbboot17Chk = document.getElementById("sbbootyth17");
+	var sbboot17rforms = document.getElementById("sbbootyth17result")
+	var sbboot175Chk = document.getElementById("sbbootyth175");
+	var sbboot175rforms = document.getElementById("sbbootyth175result")
+	var sbboot185Chk = document.getElementById("sbbootyth185");
+	var sbboot185rforms = document.getElementById("sbbootyth185result")
+	var sbboot195Chk = document.getElementById("sbbootyth195");
+	var sbboot195rforms = document.getElementById("sbbootyth195result")
+	var sbboot20Chk = document.getElementById("sbbootyth20");
+	var sbboot20rforms = document.getElementById("sbbootyth20result")
+	
+	var sbboot205Chk = document.getElementById("sbbootjr205");
+	var sbboot205rforms = document.getElementById("sbbootjr205result")
+	var sbboot21Chk = document.getElementById("sbbootjr21");
+	var sbboot21rforms = document.getElementById("sbbootjr21result")
+	var sbboot215Chk = document.getElementById("sbbootjr215");
+	var sbboot215rforms = document.getElementById("sbbootjr215result")
+	var sbboot22Chk = document.getElementById("sbbootjr22");
+	var sbboot22rforms = document.getElementById("sbbootjr22result")
+	var sbboot225Chk = document.getElementById("sbbootjr225");
+	var sbboot225rforms = document.getElementById("sbbootjr225result")
+	var sbboot23Chk = document.getElementById("sbbootjr23");
+	var sbboot23rforms = document.getElementById("sbbootjr23result")
+	var sbboot235Chk = document.getElementById("sbbootjr235");
+	var sbboot235rforms = document.getElementById("sbbootjr235result")
+	
+	var sbboot24Chk = document.getElementById("sbbootsr24");
+	var sbboot24rforms = document.getElementById("sbbootsr24result")
+	var sbboot245Chk = document.getElementById("sbbootsr245");
+	var sbboot245rforms = document.getElementById("sbbootsr245result")
+	var sbboot25Chk = document.getElementById("sbbootsr25");
+	var sbboot25rforms = document.getElementById("sbbootsr25result")
+	var sbboot255Chk = document.getElementById("sbbootsr255");
+	var sbboot255rforms = document.getElementById("sbbootsr255result")
+	var sbboot26Chk = document.getElementById("sbbootsr26");
+	var sbboot26rforms = document.getElementById("sbbootsr26result")
+	var sbboot265Chk = document.getElementById("sbbootsr265");
+	var sbboot265rforms = document.getElementById("sbbootsr265result")
+	var sbboot27Chk = document.getElementById("sbbootsr27");
+	var sbboot27rforms = document.getElementById("sbbootsr27result")
+	var sbboot275Chk = document.getElementById("sbbootsr275");
+	var sbboot275rforms = document.getElementById("sbbootsr275result")
+	var sbboot28Chk = document.getElementById("sbbootsr28");
+	var sbboot28rforms = document.getElementById("sbbootsr28result")
+	var sbboot285Chk = document.getElementById("sbbootsr285");
+	var sbboot285rforms = document.getElementById("sbbootsr285result")
+	var sbboot29Chk = document.getElementById("sbbootsr29");
+	var sbboot29rforms = document.getElementById("sbbootsr29result")
+	var sbboot295Chk = document.getElementById("sbbootsr295");
+	var sbboot295rforms = document.getElementById("sbbootsr295result")
+	var sbboot30Chk = document.getElementById("sbbootsr30");
+	var sbboot30rforms = document.getElementById("sbbootsr30result")
+	var sbboot305Chk = document.getElementById("sbbootsr305");
+	var sbboot305rforms = document.getElementById("sbbootsr305result")
+	var sbboot31Chk = document.getElementById("sbbootsr31");
+	var sbboot31rforms = document.getElementById("sbbootsr31result")
+
+	if (sbboot15Chk.checked == true){
+		sbboot15rforms.style.display = "inline";
+	} else {
+		sbboot15rforms.style.display = "none";
+	}
+	
+	if (sbboot16Chk.checked == true){
+		sbboot16rforms.style.display = "inline";
+	} else {
+		sbboot16rforms.style.display = "none";
+	}
+	
+	if (sbboot17Chk.checked == true){
+		sbboot17rforms.style.display = "inline";
+	} else {
+		sbboot17rforms.style.display = "none";
+	}
+	
+	if (sbboot175Chk.checked == true){
+		sbboot175rforms.style.display = "inline";
+	} else {
+		sbboot175rforms.style.display = "none";
+	}
+	
+	if (sbboot185Chk.checked == true){
+		sbboot185rforms.style.display = "inline";
+	} else {
+		sbboot185rforms.style.display = "none";
+	}
+	
+	if (sbboot195Chk.checked == true){
+		sbboot195rforms.style.display = "inline";
+	} else {
+		sbboot195rforms.style.display = "none";
+	}
+	
+	if (sbboot20Chk.checked == true){
+		sbboot20rforms.style.display = "inline";
+	} else {
+		sbboot20rforms.style.display = "none";
+	}
+	
+	if (sbboot205Chk.checked == true){
+		sbboot205rforms.style.display = "inline";
+	} else {
+		sbboot205rforms.style.display = "none";
+	}
+	
+	if (sbboot21Chk.checked == true){
+		sbboot21rforms.style.display = "inline";
+	} else {
+		sbboot21rforms.style.display = "none";
+	}
+	
+	if (sbboot215Chk.checked == true){
+		sbboot215rforms.style.display = "inline";
+	} else {
+		sbboot215rforms.style.display = "none";
+	}
+	
+	if (sbboot22Chk.checked == true){
+		sbboot22rforms.style.display = "inline";
+	} else {
+		sbboot22rforms.style.display = "none";
+	}
+	
+	if (sbboot225Chk.checked == true){
+		sbboot225rforms.style.display = "inline";
+	} else {
+		sbboot225rforms.style.display = "none";
+	}
+	
+	if (sbboot23Chk.checked == true){
+		sbboot23rforms.style.display = "inline";
+	} else {
+		sbboot23rforms.style.display = "none";
+	}
+	
+	if (sbboot235Chk.checked == true){
+		sbboot235rforms.style.display = "inline";
+	} else {
+		sbboot235rforms.style.display = "none";
+	}
+	
+	if (sbboot24Chk.checked == true){
+		sbboot24rforms.style.display = "inline";
+	} else {
+		sbboot24rforms.style.display = "none";
+	}
+	
+	if (sbboot245Chk.checked == true){
+		sbboot245rforms.style.display = "inline";
+	} else {
+		sbboot245rforms.style.display = "none";
+	}
+	
+	if (sbboot25Chk.checked == true){
+		sbboot25rforms.style.display = "inline";
+	} else {
+		sbboot25rforms.style.display = "none";
+	}
+	
+	if (sbboot255Chk.checked == true){
+		sbboot255rforms.style.display = "inline";
+	} else {
+		sbboot255rforms.style.display = "none";
+	}
+	
+	if (sbboot26Chk.checked == true){
+		sbboot26rforms.style.display = "inline";
+	} else {
+		sbboot26rforms.style.display = "none";
+	}
+	
+	if (sbboot265Chk.checked == true){
+		sbboot265rforms.style.display = "inline";
+	} else {
+		sbboot265rforms.style.display = "none";
+	}
+	
+	if (sbboot27Chk.checked == true){
+		sbboot27rforms.style.display = "inline";
+	} else {
+		sbboot27rforms.style.display = "none";
+	}
+	
+	if (sbboot275Chk.checked == true){
+		sbboot275rforms.style.display = "inline";
+	} else {
+		sbboot275rforms.style.display = "none";
+	}
+	
+	if (sbboot28Chk.checked == true){
+		sbboot28rforms.style.display = "inline";
+	} else {
+		sbboot28rforms.style.display = "none";
+	}
+	
+	if (sbboot285Chk.checked == true){
+		sbboot285rforms.style.display = "inline";
+	} else {
+		sbboot285rforms.style.display = "none";
+	}
+	
+	if (sbboot29Chk.checked == true){
+		sbboot29rforms.style.display = "inline";
+	} else {
+		sbboot29rforms.style.display = "none";
+	}
+	
+	if (sbboot295Chk.checked == true){
+		sbboot295rforms.style.display = "inline";
+	} else {
+		sbboot295rforms.style.display = "none";
+	}
+	
+	if (sbboot30Chk.checked == true){
+		sbboot30rforms.style.display = "inline";
+	} else {
+		sbboot30rforms.style.display = "none";
+	}
+	
+	if (sbboot305Chk.checked == true){
+		sbboot305rforms.style.display = "inline";
+	} else {
+		sbboot305rforms.style.display = "none";
+	}
+	
+	if (sbboot31Chk.checked == true){
+		sbboot31rforms.style.display = "inline";
+	} else {
+		sbboot31rforms.style.display = "none";
+	}
+	
+}
+
+/*======================================Snow Helmet and Goggle Results Functions================================================*/
+
+/*Snow Helmet Results*/
+function showSkiHlmResult() {
+	var skihelmythChk = document.getElementById("skihelmythxs");
+	var skihelmythrforms = document.getElementById("snowhlmythresult")
+	var skihelmsrsmChk = document.getElementById("skihelmsrsm");
+	var skihelmsrsmrforms = document.getElementById("snowhlmsrsmresult")
+	var skihelmsrmdChk = document.getElementById("skihelmsrmd");
+	var skihelmsrmdrforms = document.getElementById("snowhlmsrmdresult")
+	var skihelmsrlgChk = document.getElementById("skihelmsrlg");
+	var skihelmsrlgrforms = document.getElementById("snowhlmsrlgresult")
+	var skihelmsrxlChk = document.getElementById("skihelmsrxl");
+	var skihelmsrxlrforms = document.getElementById("snowhlmsrxlresult")
+	
+
+	if (skihelmythChk.checked == true){
+		skihelmythrforms.style.display = "inline";
+	} else {
+		skihelmythrforms.style.display = "none";
+	}
+	
+	
+	if (skihelmsrsmChk.checked == true){
+		skihelmsrsmrforms.style.display = "inline";
+	} else {
+		skihelmsrsmrforms.style.display = "none";
+	}
+	
+	if (skihelmsrmdChk.checked == true){
+		skihelmsrmdrforms.style.display = "inline";
+	} else {
+		skihelmsrmdrforms.style.display = "none";
+	}
+	
+	if (skihelmsrlgChk.checked == true){
+		skihelmsrlgrforms.style.display = "inline";
+	} else {
+		skihelmsrlgrforms.style.display = "none";
+	}
+	
+	if (skihelmsrxlChk.checked == true){
+		skihelmsrxlrforms.style.display = "inline";
+	} else {
+		skihelmsrxlrforms.style.display = "none";
+	}
+
+
+}
+
+
+function showSbHlmResult() {
+	var sbhelmythChk = document.getElementById("sbhelmythxs");
+	var sbhelmythrforms = document.getElementById("snowhlmythresult")
+	var sbhelmsrsmChk = document.getElementById("sbhelmsrsm");
+	var sbhelmsrsmrforms = document.getElementById("snowhlmsrsmresult")
+	var sbhelmsrmdChk = document.getElementById("sbhelmsrmd");
+	var sbhelmsrmdrforms = document.getElementById("snowhlmsrmdresult")
+	var sbhelmsrlgChk = document.getElementById("sbhelmsrlg");
+	var sbhelmsrlgrforms = document.getElementById("snowhlmsrlgresult")
+	var sbhelmsrxlChk = document.getElementById("sbhelmsrxl");
+	var sbhelmsrxlrforms = document.getElementById("snowhlmsrxlresult")
+	
+	if (sbhelmythChk.checked == true){
+		sbhelmythrforms.style.display = "inline";
+	} else {
+		sbhelmythrforms.style.display = "none";
+	}
+	
+	if (sbhelmsrsmChk.checked == true){
+		sbhelmsrsmrforms.style.display = "inline";
+	} else {
+		sbhelmsrsmrforms.style.display = "none";
+	}
+	
+	if (sbhelmsrmdChk.checked == true){
+		sbhelmsrmdrforms.style.display = "inline";
+	} else {
+		sbhelmsrmdrforms.style.display = "none";
+	}
+	
+	if (sbhelmsrlgChk.checked == true){
+		sbhelmsrlgrforms.style.display = "inline";
+	} else {
+		sbhelmsrlgrforms.style.display = "none";
+	}
+	
+	if (sbhelmsrxlChk.checked == true){
+		sbhelmsrxlrforms.style.display = "inline";
+	} else {
+		sbhelmsrxlrforms.style.display = "none";
+	}
+}
+/*Snow Goggle Results*/
+function showSkiGoggleResult() {
+	var skigoggleythChk = document.getElementById("skigoggleyth");
+	var skigoggleythrforms = document.getElementById("snowgogythresult")
+	var skigogglesrChk = document.getElementById("skigogglesr");
+	var skigogglesrrforms = document.getElementById("snowgogsrresult")
+	
+
+	if (skigoggleythChk.checked == true){
+		skigoggleythrforms.style.display = "inline";
+	} else {
+		skigoggleythrforms.style.display = "none";
+	}
+	
+	if (skigogglesrChk.checked == true){
+		skigogglesrrforms.style.display = "inline";
+	} else {
+		skigogglesrrforms.style.display = "none";
+	}
+	
+	
+}
+
+function showSbGoggleResult() {
+	var sbgoggleythChk = document.getElementById("sbgoggleyth");
+	var sbgoggleythrforms = document.getElementById("snowgogythresult")
+	var sbgogglesrChk = document.getElementById("sbgogglesr");
+	var sbgogglesrrforms = document.getElementById("snowgogsrresult")
+	
+	if (sbgoggleythChk.checked == true){
+		sbgoggleythrforms.style.display = "inline";
+	} else {
+		sbgoggleythrforms.style.display = "none";
+	}
+	
+	if (sbgogglesrChk.checked == true){
+		sbgogglesrrforms.style.display = "inline";
+	} else {
+		sbgogglesrrforms.style.display = "none";
+	}
 }
 </script>
 </body>
