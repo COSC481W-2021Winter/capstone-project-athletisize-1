@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Work+Sans:ital,wght@1,900&display=swap');
+
 .back-image {
-  background-image: url("../images/night_city.JPG");
+  background-image: url("../images/boy_soccer3.JPG");
   background-color: #000000;
   height: 900px;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -10,37 +12,42 @@
 
 }
 .hero-text {
-  text-align: center;
+  text-align: left;
   position: absolute;
-  font-weight: bold;
+  font-weight: 1200;
   top: 50%;
-  left: 50%;
+  left: 25%;
+  right: 40%;
   transform: translate(-50%, -50%);
   color: white;
-  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
 }
 
 .button {
-  width: 150px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  width: 125px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   text-align: center;
   color: #000;
   text-transform: uppercase;
   font-weight: 600;
-  margin-left: 30px;
-  margin-bottom: 30px;
+/*  margin-left: 5px;*/
+  margin-bottom: 20px;
   cursor: pointer;
   display: inline-block;
-  border-radius: 150px
+  border-radius: 10px;
+  color: black;
 
 }
 
 .button-4 {
-  background-color: #009999;
+  background-color: #000;
   border: 3px solid #009999;
   color: white;
   transition: .3s;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, .2), 0 10px 10px rgba(0, 0, 0, .2);
 
 }
 .button-4:hover {
@@ -77,8 +84,9 @@ nav li {
   color: #000;
   padding: 25px 20px;
   text-decoration: none;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: white;
+  font-size: 25px;
   font-weight: bold;
   text-decoration: none
 }
@@ -90,34 +98,9 @@ nav li {
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
     background: #f6f5f7;
 
 }
 
-/*video--------------------------------------------------*/
-
-video {
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.viewport-header {
-  position: relative;
-  height: 100vh;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-h1{
-  font-size: 70px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-  margin-top: 50px;
-}
+/*--------------------------------------------------*/
