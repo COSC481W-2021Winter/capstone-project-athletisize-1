@@ -15,14 +15,66 @@ include_once 'header.php';
   <br>
   <br>
 
-  <div>
+  <div align=center>
     <?php
-    session_start();
-    if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true)
-    {
-      echo' <a href=""> <button class="addtosports"> <h2> Add to sports</h2></button></a> ';
-    }
-    ?> 
+				require_once "config.php";
+				session_start();
+				
+				//Update the Lacrosse boolean
+				function updateLacrosse($lacrosseValue, $idValue, $conn){
+					$sql = "UPDATE mysports SET lacrosse = (?) WHERE id = (?);";
+							
+					if($stmt = mysqli_prepare($conn, $sql)){
+						// Bind variables to the prepared statement as parameters
+						mysqli_stmt_bind_param($stmt, "ii", $lacrosseValue, $idValue);
+						
+						// Attempt to execute the prepared statement
+						if(mysqli_stmt_execute($stmt)){
+							// Redirect to login page
+							echo '<p style="color:white;" align=center>Updated Successfully </p>';
+						} else{
+							echo "Something went wrong. Please try again later.";
+						}
+
+						// Close statement
+						mysqli_stmt_close($stmt);
+					}
+				}
+				//Get the value for a given sport
+				function getValue($sport, $idValue, $conn){
+
+					$result = mysqli_fetch_array(mysqli_query($conn, "SELECT ($sport) FROM mysports WHERE id = ($idValue);"));
+					$value = $result[0];
+
+					return $value; 
+				}
+
+				//Get the user id for the session, and call the update database function when button is pressed
+				if(isset($_POST['btn-atms'])){
+					
+					$userID = $_SESSION["id"];
+					updateLacrosse(1, $userID, $link);
+					
+				}
+				if(isset($_POST['btn-rfms'])){
+					
+					$userID = $_SESSION["id"];
+					updateLacrosse(0, $userID, $link);
+					
+				}
+				
+				$value = getValue("lacrosse", $_SESSION["id"], $link);
+				
+				//Create 'add to my Sports' button if logged in, create a 'remove from my sports' button if you already have it added
+                if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true)
+                {
+					if($value == 0){
+						echo' <form method="post"> <input type="submit" name="btn-atms" value="Add to my Sports" class="button button-4"> </form> ';
+					} else {
+						echo' <form method="post"> <input type="submit" name="btn-rfms" value="Remove from my Sports" class="button button-4"> </form> ';
+					}
+                }
+            ?>
 
   </div>
   <div class="sports">
@@ -96,7 +148,7 @@ include_once 'header.php';
   <div class="button button-4" onclick ="document.location='../pdfs/lacrosse_equipment_checklist.pdf'" target="_blank"style="font-size: 20px">PDF VERSION</div> 
 </div>
   <div class ="col-1"><br>
-   <div class="button button-4" onclick ="document.location=#" target="_blank"style="font-size: 20px">ADD TO PROFILE</div>
+   
  </div>
 
 </div>
