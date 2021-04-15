@@ -125,8 +125,9 @@ include_once 'header.php';
       </div>
     </form>
      <div class="row">
-      <div class ="col-5"><br></div>
-      <div class ="col-8"><br>
+<div class ="col-6"><br></div>
+<div class ="col-3"><br>
+
         <div class="button button-4" onclick ="document.location='../pdfs/soccer_equipment_checklist.pdf'" target="_blank"style="font-size: 20px">PDF VERSION</div> 
       </div>
    </div>
