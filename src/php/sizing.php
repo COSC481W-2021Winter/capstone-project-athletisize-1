@@ -12,6 +12,13 @@ include_once 'header.php';
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../style/sizingstyle.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<style>
+	.image{
+        width:200px;
+        height:250px;
+        border-radius:20px;
+    }
+	</style>
 </head>
 
 
@@ -345,9 +352,12 @@ include_once 'header.php';
 	</div>
 </div></div>
 
+	
 <div class="tab" style="display: none">
 <h1>Measurements</h1>
+
 	<hr>
+
 	<div class="box">
 	<div id="hockeymeasurements">
 	
@@ -355,9 +365,12 @@ include_once 'header.php';
 	<h3>Helmet</h3>
 	<br>
 	<h4>Head circumference in inches:</h4>
-	<div class="grid">
-	<form>
 	
+	<table>
+	<tr>
+	<th width = '300'>
+	
+	<form>
 	19.2" or less
 	<label for="hhlmyth" class="checkbox-label" onclick="showHHlmResult()">
 	<input type="checkbox" id="hhlmyth" name="hhlmyth"/>
@@ -394,18 +407,30 @@ include_once 'header.php';
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	</form>
-	<br>
-
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/hockey/hockey_helmet.PNG" id="HelmetMeasureHockey">
+	
 	<p>How to measure your head circumference: Take a cm tape measure and hold it snugly, but not too tightly, around the widest part of the
 back of your head and over the centre of your forehead above your eyebrows. The tape
 measure should be around 1 cm above your ears</p> 
-	<hr></div>
+	
+	</th>
+	
+	</tr>
+	<br></table>
+
+	<hr>
 	</div>
 	
 	<div id="hsldmeasure" style="display: none">
 	<h3>Shoulder Pads</h3>
 	<br>
 	<h4>Chest circumference in inches:</h4>
+	
+	<table>
+	<tr>
+	<th width = '300'>
 	
 	<form>
 	
@@ -470,9 +495,18 @@ measure should be around 1 cm above your ears</p>
 	</label><br><br>
 	
 	</form>
-	<br>
-	<p>How to measure chest circumference: Place one end of the tape measure at the fullest part of your bust, wrap it around (under your
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/hockey/hockey_shoulder_pads.PNG" >
+	
+		<p>How to measure chest circumference: Place one end of the tape measure at the fullest part of your bust, wrap it around (under your
 armpits, around your shoulder blades, and back to the front) to get the measurement</p>
+<br>
+	
+	</th>
+	
+	</tr>
+</table>
 	<hr>
 	</div>
 	
@@ -480,6 +514,9 @@ armpits, around your shoulder blades, and back to the front) to get the measurem
 	<h3>Elbow Pads</h3>
 	<br>
 	<h4>Arm length in inches:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	6.5" - 7.5"
@@ -543,10 +580,18 @@ armpits, around your shoulder blades, and back to the front) to get the measurem
 	</label><br><br>
 	
 	</form>
-	<br>
-	<p>How to measure arm length: Measure from your shoulder to just past your wrist bone to where you would like your shirt cuff
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/hockey/hockey_elbow_pads.PNG" >
+	
+		<p>How to measure arm length: Measure from your shoulder to just past your wrist bone to where you would like your shirt cuff
 to sit. Always slightly bend the elbow when measuring to allow for extra ease. If you do not do
 this your sleeve length will be short because the natural position of your arm is slightly bent</p>
+	<br>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 	
@@ -554,6 +599,10 @@ this your sleeve length will be short because the natural position of your arm i
 	<h3>Gloves</h3>
 	<br>
 	<h4>Hand length in inches:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
+	
 	<form>
 	
 	3.5" - 4"
@@ -605,9 +654,17 @@ this your sleeve length will be short because the natural position of your arm i
 	</label><br><br>
 	
 	</form>
-	<br>
-	<p>How to measure hand length: Measure the distance from the fold in your wrist below the palm to the tip of your middle finger
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/hockey/hockey_gloves.PNG" >
+	
+		<p>How to measure hand length: Measure the distance from the fold in your wrist below the palm to the tip of your middle finger
 when your hand is flat. </p>
+	<br>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 	
@@ -615,6 +672,9 @@ when your hand is flat. </p>
 	<h3>Hockey Pants</h3>
 	<br>
 	<h4>Waist circumference in inches:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	20" - 22"
@@ -684,11 +744,19 @@ when your hand is flat. </p>
 	</label><br><br>
 	
 	</form>
-	<br>
-	<p>How to measure waist circumference: Using a flexible measuring tape with your feet slightly apart, place the measuring tape above
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/hockey/hockey_pants.PNG" >
+	
+		<p>How to measure waist circumference: Using a flexible measuring tape with your feet slightly apart, place the measuring tape above
 your belly button at the smallest part of your waist. Relax your stomach and wrap the tape
 around your waist. Make sure to keep the tape snug, but not tight, and ensure that the tape
 measure is parallel to the floor.</p>
+	<br>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 	
@@ -696,6 +764,9 @@ measure is parallel to the floor.</p>
 	<h3>Shin Guards</h3>
 	<br>
 	<h4>Knee cap to ankle length in inches:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	6" - 7"
@@ -771,9 +842,17 @@ measure is parallel to the floor.</p>
 	</label><br><br>
 	
 	</form>
-	<br>
-	<p>How to measure shin length: Measure the distance from your ankle joint to the bottom of your knee, measure the
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/hockey/hockey_shin_guards.PNG" >
+	
+		<p>How to measure shin length: Measure the distance from your ankle joint to the bottom of your knee, measure the
 circumference of both legs around the thickest part of your calf as well</p>
+	<br>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 	
@@ -781,6 +860,9 @@ circumference of both legs around the thickest part of your calf as well</p>
 	<h3>Skates</h3>
 	<br>
 	<h4>U.S. Shoe Size:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	<h5>Youth</h5>
@@ -1019,14 +1101,22 @@ circumference of both legs around the thickest part of your calf as well</p>
 	</label><br><br>
 	
 	</form>
-	<br>
-	<p>How to measure shoe size: Get a ruler, pen, and piece of paper. Place the piece of paper flat on the ground and stand on it.
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/hockey/hockey_skates.PNG" >
+	
+		<p>How to measure shoe size: Get a ruler, pen, and piece of paper. Place the piece of paper flat on the ground and stand on it.
 Make sure your foot is flat. Make a mark behind your heel and another in front of your longest
 toe. If one of your feet is larger than the other, use the longer foot to measure your size.
 Measure the distance between the two lines in inches or centimeters. Find your measurement
 on <a href="../images/measurement photos/shoesizechart.jpg" target="_blank">this</a> size chart to determine your correct size. If your measurement falls in between two
 sizes, round up.
 </p>
+	<br>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 	
@@ -1038,6 +1128,9 @@ sizes, round up.
 	<h3>Cleats</h3>
 	<br>
 	<h4>U.S. Shoe Size:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	
@@ -1246,14 +1339,22 @@ sizes, round up.
 	</label><br><br>
 	
 	</form>
-	<br>
-	<p>How to measure shoe size: Get a ruler, pen, and piece of paper. Place the piece of paper flat on the ground and stand on it.
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/hockey/hockey_skates.PNG" >
+	
+		<p>How to measure shoe size: Get a ruler, pen, and piece of paper. Place the piece of paper flat on the ground and stand on it.
 Make sure your foot is flat. Make a mark behind your heel and another in front of your longest
 toe. If one of your feet is larger than the other, use the longer foot to measure your size.
 Measure the distance between the two lines in inches or centimeters. Find your measurement
 on <a href="../images/measurement photos/shoesizechart.jpg" target="_blank">this</a> size chart to determine your correct size. If your measurement falls in between two
 sizes, round up.
 </p>
+	<br>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 	
@@ -1261,6 +1362,9 @@ sizes, round up.
 	<h3>Shin Guards</h3>
 	<br>
 	<h4>Height in inches:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	48" - 51"
@@ -1311,12 +1415,20 @@ sizes, round up.
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	</form>
-	<br>
-	<p>How to measure height: To measure height, the person helping can either place a flat straight object flat on the head and
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/soccer/Soccer_shin_guards.PNG" >
+	
+		<p>How to measure height: To measure height, the person helping can either place a flat straight object flat on the head and
 mark the wall, as before, or simply hold a pencil flat against the top of the person's head and
 mark the wall directly. Measure the distance from the floor to the spot on the wall to find out the
 height.
 </p>
+	<br>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 	
@@ -1324,6 +1436,9 @@ height.
 	<h3>Athletic Socks</h3>
 	<br>
 	<h4>U.S. Shoe Size:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	12.0T - 2.0
@@ -1356,14 +1471,22 @@ height.
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	</form>
-	<br>
-	<p>How to measure shoe size: Get a ruler, pen, and piece of paper. Place the piece of paper flat on the ground and stand on it.
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/soccer/soccer_socks.PNG" >
+	
+		<p>How to measure shoe size: Get a ruler, pen, and piece of paper. Place the piece of paper flat on the ground and stand on it.
 Make sure your foot is flat. Make a mark behind your heel and another in front of your longest
 toe. If one of your feet is larger than the other, use the longer foot to measure your size.
 Measure the distance between the two lines in inches or centimeters. Find your measurement
 on <a href="../images/measurement photos/shoesizechart.jpg" target="_blank">this</a> size chart to determine your correct size. If your measurement falls in between two
 sizes, round up.
 </p>
+	<br>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 	
@@ -1371,6 +1494,9 @@ sizes, round up.
 	<h3>Goalkeeper Gloves</h3>
 	<br>
 	<h4>Hand length in inches:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	5.5"
@@ -1421,9 +1547,17 @@ sizes, round up.
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	</form>
-	<br>
-	<p>How to measure hand length: Measure the distance from the fold in your wrist below the palm to the tip of your middle finger
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/soccer/soccer_gloves.PNG" >
+	
+		<p>How to measure hand length: Measure the distance from the fold in your wrist below the palm to the tip of your middle finger
 when your hand is flat. </p>
+	<br>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 	
@@ -1469,6 +1603,9 @@ when your hand is flat. </p>
 	<h3>Baseball/Softball Bat</h3>
 	<br>
 	<h4>Height in inches:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	36" - 41"
@@ -1519,12 +1656,20 @@ when your hand is flat. </p>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	</form>
-	<br>
-	<p>How to measure height: To measure height, the person helping can either place a flat straight object flat on the head and
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/baseball/baseball_bat.PNG" >
+	
+		<p>How to measure height: To measure height, the person helping can either place a flat straight object flat on the head and
 mark the wall, as before, or simply hold a pencil flat against the top of the person's head and
 mark the wall directly. Measure the distance from the floor to the spot on the wall to find out the
 height.
 </p>
+	<br>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 	
@@ -1532,6 +1677,9 @@ height.
 	<h3>Batting Helmet</h3>
 	<br>
 	<h4>Head circumference in inches:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	20" - 20.5"
@@ -1564,10 +1712,18 @@ height.
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	</form>
-	<br>
-	<p>How to measure your head circumference: Take a cm tape measure and hold it snugly, but not too tightly, around the widest part of the
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/baseball/baseball_batting_helmet2.PNG" >
+	
+		<p>How to measure your head circumference: Take a cm tape measure and hold it snugly, but not too tightly, around the widest part of the
 back of your head and over the centre of your forehead above your eyebrows. The tape
 measure should be around 1 cm above your ears</p> 
+	<br>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 	
@@ -1575,6 +1731,10 @@ measure should be around 1 cm above your ears</p>
 	<h3>Baseball/Softball Batting Glove</h3>
 	<br>
 	<h4>Hand length in inches:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
+	
 	<form>
 	
 	6" - 6.25"
@@ -1625,9 +1785,18 @@ measure should be around 1 cm above your ears</p>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	</form>
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/baseball/baseball_batting_gloves.PNG" >
+	
+		<p>How to measure your head circumference: Take a cm tape measure and hold it snugly, but not too tightly, around the widest part of the
+back of your head and over the centre of your forehead above your eyebrows. The tape
+measure should be around 1 cm above your ears</p> 
 	<br>
-	<p>How to measure hand length: Measure the distance from the fold in your wrist below the palm to the tip of your middle finger
-when your hand is flat. </p>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 	
@@ -1635,6 +1804,9 @@ when your hand is flat. </p>
 	<h3>Cleats</h3>
 	<br>
 	<h4>U.S. Shoe Size:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	<h5>Youth</h5>
@@ -1842,14 +2014,22 @@ when your hand is flat. </p>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	</form>
-	<br>
-	<p>How to measure shoe size: Get a ruler, pen, and piece of paper. Place the piece of paper flat on the ground and stand on it.
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/baseball/baseball_cleats.PNG" >
+	
+		<p>How to measure shoe size: Get a ruler, pen, and piece of paper. Place the piece of paper flat on the ground and stand on it.
 Make sure your foot is flat. Make a mark behind your heel and another in front of your longest
 toe. If one of your feet is larger than the other, use the longer foot to measure your size.
 Measure the distance between the two lines in inches or centimeters. Find your measurement
 on <a href="../images/measurement photos/shoesizechart.jpg" target="_blank">this</a> size chart to determine your correct size. If your measurement falls in between two
 sizes, round up.
 </p>
+	<br>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 	
@@ -1857,6 +2037,9 @@ sizes, round up.
 	<h3>Fielder's Mask</h3>
 	<br>
 	<h4>Chin to forehead in inches:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	4.5" - 5.5"
@@ -1871,9 +2054,17 @@ sizes, round up.
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	</form>
-	<br>
-	<p>How to measure chin to forehead: Using a flexible tape measure (or a piece of string). Measure from the bridge of your nose to
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/baseball/baseball_batting_helmet.PNG" >
+	
+		<p>How to measure chin to forehead: Using a flexible tape measure (or a piece of string). Measure from the bridge of your nose to
 under your chin (about 1-inch from under the tip of your chin).</p>
+	<br>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 	
@@ -1881,6 +2072,9 @@ under your chin (about 1-inch from under the tip of your chin).</p>
 	<h3>Catcher's Mask</h3>
 	<br>
 	<h4>Head circumference in inches:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	19 3/4"
@@ -1949,10 +2143,19 @@ under your chin (about 1-inch from under the tip of your chin).</p>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	</form>
-	<br>
-	<p>How to measure your head circumference: Take a cm tape measure and hold it snugly, but not too tightly, around the widest part of the
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/baseball/baseball_batting_helmet2.PNG" >
+	
+		<p>How to measure your head circumference: Take a cm tape measure and hold it snugly, but not too tightly, around the widest part of the
 back of your head and over the centre of your forehead above your eyebrows. The tape
-measure should be around 1 cm above your ears</p> 
+measure should be around 1 cm above your ears</p>
+	<br>
+	</th>
+	
+	</tr>
+	</table>
+
 	<hr>
 	</div>
 	
@@ -2052,6 +2255,9 @@ measure should be around 1 cm above your ears</p>
 	<h3>Protective Cup</h3>
 	<br>
 	<h4>Waist size in inches:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	19" - 20"
@@ -2126,11 +2332,19 @@ measure should be around 1 cm above your ears</p>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	</form>
-	<br>
-	<p>How to measure waist circumference: Using a flexible measuring tape with your feet slightly apart, place the measuring tape above
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/baseball/baseball_batting_gloves.PNG" >
+	
+		<p>How to measure waist circumference: Using a flexible measuring tape with your feet slightly apart, place the measuring tape above
 your belly button at the smallest part of your waist. Relax your stomach and wrap the tape
 around your waist. Make sure to keep the tape snug, but not tight, and ensure that the tape
 measure is parallel to the floor.</p>
+	<br>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 	
@@ -2176,6 +2390,9 @@ measure is parallel to the floor.</p>
 	<h3>Helmet</h3>
 	<br>
 	<h4>Head circumference in inches:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	21" - 22.5"
@@ -2190,10 +2407,18 @@ measure is parallel to the floor.</p>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	</form>
-	<br>
-	<p>How to measure your head circumference: Take a cm tape measure and hold it snugly, but not too tightly, around the widest part of the
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/lacrosse/lacrosse_helmet.PNG" >
+	
+		<p>How to measure your head circumference: Take a cm tape measure and hold it snugly, but not too tightly, around the widest part of the
 back of your head and over the centre of your forehead above your eyebrows. The tape
 measure should be around 1 cm above your ears</p> 
+	<br>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 	
@@ -2201,6 +2426,9 @@ measure should be around 1 cm above your ears</p>
 	<h3>Shoulder Pads</h3>
 	<br>
 	<h4>Chest size in inches:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	22" - 25"
@@ -2233,10 +2461,17 @@ measure should be around 1 cm above your ears</p>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	</form>
-	<br>
-	<p>How to measure chest circumference: Place one end of the tape measure at the fullest part of your bust, wrap it around (under your
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/lacrosse/lacrosse_shoulder_pads.PNG" >
+	
+		<p>How to measure chest circumference: Place one end of the tape measure at the fullest part of your bust, wrap it around (under your
 armpits, around your shoulder blades, and back to the front) to get the measurement</p>
-	<hr>
+	<br>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 	
@@ -2244,6 +2479,9 @@ armpits, around your shoulder blades, and back to the front) to get the measurem
 	<h3>Arm Guards</h3>
 	<br>
 	<h4>Height in inches:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	40" or under
@@ -2276,12 +2514,21 @@ armpits, around your shoulder blades, and back to the front) to get the measurem
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	</form>
-	<br>
-	<p>How to measure height: To measure height, the person helping can either place a flat straight object flat on the head and
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/lacrosse/lacrosse_armguards.PNG" >
+	
+		<p>How to measure height: To measure height, the person helping can either place a flat straight object flat on the head and
 mark the wall, as before, or simply hold a pencil flat against the top of the person's head and
 mark the wall directly. Measure the distance from the floor to the spot on the wall to find out the
 height.
 </p>
+	<br>
+	</th>
+	
+	</tr>
+	</table>
+
 	<hr>
 	</div>
 	
@@ -2323,6 +2570,9 @@ height.
 	<h3>Cleats</h3>
 	<br>
 	<h4>U.S. Shoe Size:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	<h5>Youth</h5>
@@ -2530,14 +2780,22 @@ height.
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	</form>
-	<br>
-	<p>How to measure shoe size: Get a ruler, pen, and piece of paper. Place the piece of paper flat on the ground and stand on it.
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/lacrosse/lacrosse_cleats.PNG" >
+	
+		<p>How to measure shoe size: Get a ruler, pen, and piece of paper. Place the piece of paper flat on the ground and stand on it.
 Make sure your foot is flat. Make a mark behind your heel and another in front of your longest
 toe. If one of your feet is larger than the other, use the longer foot to measure your size.
 Measure the distance between the two lines in inches or centimeters. Find your measurement
 on <a href="../images/measurement photos/shoesizechart.jpg" target="_blank">this</a> size chart to determine your correct size. If your measurement falls in between two
 sizes, round up.
 </p>
+	<br>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 	
@@ -2589,6 +2847,9 @@ sizes, round up.
 	<h3>Protective Cup</h3>
 	<br>
 	<h4>Waist size in inches:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	19" - 20"
@@ -2663,11 +2924,19 @@ sizes, round up.
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	</form>
-	<br>
-	<p>How to measure waist circumference: Using a flexible measuring tape with your feet slightly apart, place the measuring tape above
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/lacrosse/mens-measurement-guide-3.jpg" >
+	
+		<p>How to measure waist circumference: Using a flexible measuring tape with your feet slightly apart, place the measuring tape above
 your belly button at the smallest part of your waist. Relax your stomach and wrap the tape
 around your waist. Make sure to keep the tape snug, but not tight, and ensure that the tape
 measure is parallel to the floor.</p>
+	<br>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 	
@@ -2679,6 +2948,9 @@ measure is parallel to the floor.</p>
 	<h3>Skis</h3>
 	<br>
 	<h4>Height in inches:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	50" - 52"
@@ -2759,12 +3031,21 @@ measure is parallel to the floor.</p>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	</form>
-	<br>
-	<p>How to measure height: To measure height, the person helping can either place a flat straight object flat on the head and
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/lacrosse/mens-measurement-guide-3.jpg" >
+	
+		<p>How to measure height: To measure height, the person helping can either place a flat straight object flat on the head and
 mark the wall, as before, or simply hold a pencil flat against the top of the person's head and
 mark the wall directly. Measure the distance from the floor to the spot on the wall to find out the
 height.
 </p>
+	<br>
+	</th>
+	
+	</tr>
+	</table>
+
 	<hr>
 	</div>
 	
@@ -2772,6 +3053,9 @@ height.
 	<h3>Boots</h3>
 	<br>
 	<h4>U.S. Shoe Size:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	<h5>Youth</h5>
@@ -2954,14 +3238,22 @@ height.
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	</form>
-	<br>
-	<p>How to measure shoe size: Get a ruler, pen, and piece of paper. Place the piece of paper flat on the ground and stand on it.
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/lacrosse/lacrosse_cleats.PNG" >
+	
+		<p>How to measure shoe size: Get a ruler, pen, and piece of paper. Place the piece of paper flat on the ground and stand on it.
 Make sure your foot is flat. Make a mark behind your heel and another in front of your longest
 toe. If one of your feet is larger than the other, use the longer foot to measure your size.
 Measure the distance between the two lines in inches or centimeters. Find your measurement
 on <a href="../images/measurement photos/shoesizechart.jpg" target="_blank">this</a> size chart to determine your correct size. If your measurement falls in between two
 sizes, round up.
 </p>
+	<br>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 	
@@ -2969,6 +3261,9 @@ sizes, round up.
 	<h3>Ski Poles</h3>
 	<br>
 	<h4>Height in inches:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	40" or below
@@ -3049,12 +3344,20 @@ sizes, round up.
 	<span class="checkbox-custom"></span>
 	</label><br>
 	</form>
-	<br>
-	<p>How to measure height: To measure height, the person helping can either place a flat straight object flat on the head and
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/ski/Ski_poles2.PNG" >
+	
+		<p>How to measure height: To measure height, the person helping can either place a flat straight object flat on the head and
 mark the wall, as before, or simply hold a pencil flat against the top of the person's head and
 mark the wall directly. Measure the distance from the floor to the spot on the wall to find out the
 height.
 </p>
+	<br>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 	
@@ -3062,6 +3365,9 @@ height.
 	<h3>Ski Helmet</h3>
 	<br>
 	<h4>Head circumference in inches:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	19" - 20.5"
@@ -3094,10 +3400,18 @@ height.
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	</form>
-	<br>
-	<p>How to measure your head circumference: Take a cm tape measure and hold it snugly, but not too tightly, around the widest part of the
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/ski/ski_helmet.PNG" >
+	
+		<p>How to measure your head circumference: Take a cm tape measure and hold it snugly, but not too tightly, around the widest part of the
 back of your head and over the centre of your forehead above your eyebrows. The tape
 measure should be around 1 cm above your ears</p> 
+	<br>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 	
@@ -3190,6 +3504,9 @@ measure should be around 1 cm above your ears</p>
 	<h3>Boots</h3>
 	<br>
 	<h4>U.S. Shoe Size:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
 	<form>
 	
 	<h5>Youth</h5>
@@ -3372,14 +3689,22 @@ measure should be around 1 cm above your ears</p>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	</form>
-	<br>
-	<p>How to measure shoe size: Get a ruler, pen, and piece of paper. Place the piece of paper flat on the ground and stand on it.
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/ski/Ski_boots2.PNG" >
+	
+		<p>How to measure shoe size: Get a ruler, pen, and piece of paper. Place the piece of paper flat on the ground and stand on it.
 Make sure your foot is flat. Make a mark behind your heel and another in front of your longest
 toe. If one of your feet is larger than the other, use the longer foot to measure your size.
 Measure the distance between the two lines in inches or centimeters. Find your measurement
 on <a href="../images/measurement photos/shoesizechart.jpg" target="_blank">this</a> size chart to determine your correct size. If your measurement falls in between two
 sizes, round up.
 </p>
+	<br>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 		
@@ -3387,6 +3712,10 @@ sizes, round up.
 	<h3>Snowboard Helmet</h3>
 	<br>
 	<h4>Head circumference in inches:</h4>
+	<table>
+	<tr>
+	<th width = '300'>
+	
 	<form>
 	
 	19" - 20.5"
@@ -3419,10 +3748,18 @@ sizes, round up.
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	</form>
-	<br>
-	<p>How to measure your head circumference: Take a cm tape measure and hold it snugly, but not too tightly, around the widest part of the
+	</th>
+	<th>
+	<img class='image' src="../images/measurement%20photos/ski/ski_helmet.PNG" id="HelmetMeasureHockey" >
+	
+		<p>How to measure your head circumference: Take a cm tape measure and hold it snugly, but not too tightly, around the widest part of the
 back of your head and over the centre of your forehead above your eyebrows. The tape
 measure should be around 1 cm above your ears</p> 
+	<br>
+	</th>
+	
+	</tr>
+	</table>
 	<hr>
 	</div>
 	
@@ -6415,6 +6752,9 @@ function nextPrev(n) {
   x[currentTab].style.display = "none";
   // Increase or decrease the current tab by 1:
   currentTab = currentTab + n;
+  
+  if(n == -1) CancelAll()
+  
   // if you have reached the end of the form... :
   if (currentTab >= x.length) {
     //...the form gets submitted:
@@ -6455,6 +6795,105 @@ function fixStepIndicator(n) {
   }
   //... and adds the "active" class to the current step:
   x[n].className += " active";
+}
+
+function CancelAll() {
+	document.getElementById("hockey").checked = false;
+	document.getElementById("heqform").checked = false;
+	document.getElementById("soccer").checked = false;
+	document.getElementById("soceqform").checked = false;
+	document.getElementById("bbsb").checked = false;
+	document.getElementById("bbeqform").checked = false;
+	document.getElementById("lacrosse").checked = false;
+	document.getElementById("laxeqform").checked = false;
+	document.getElementById("ski").checked = false;
+	document.getElementById("skieqform").checked = false;
+	document.getElementById("snowboard").checked = false;
+	document.getElementById("sbeqform").checked = false;
+	
+	document.getElementById("hhelmet").style.display = 'none';
+	document.getElementById("hhlmmeasure").style.display = 'none';
+	document.getElementById("hshoulder").style.display = 'none';
+	document.getElementById("hsldmeasure").style.display = 'none';
+	document.getElementById("helbow").style.display = 'none';
+	document.getElementById("helbmeasure").style.display = 'none';
+	document.getElementById("hglove").style.display = 'none';
+	document.getElementById("hglvmeasure").style.display = 'none';
+	document.getElementById("hpant").style.display = 'none';
+	document.getElementById("hpantmeasure").style.display = 'none';
+	document.getElementById("hshin").style.display = 'none';
+	document.getElementById("hshinmeasure").style.display = 'none';
+	document.getElementById("hskates").style.display = 'none';
+	document.getElementById("hsktmeasure").style.display = 'none';
+	
+	document.getElementById("scleats").style.display = 'none';
+	document.getElementById("scleatmeasure").style.display = 'none';
+	document.getElementById("sgoal").style.display = 'none';
+	document.getElementById("sgoalmeasure").style.display = 'none';
+	document.getElementById("sshin").style.display = 'none';
+	document.getElementById("sshinmeasure").style.display = 'none';
+	document.getElementById("ssocks").style.display = 'none';
+	document.getElementById("ssockmeasure").style.display = 'none';
+	
+	document.getElementById("bglove").style.display = 'none';
+	document.getElementById("bbsbglvmeasure").style.display = 'none';
+	document.getElementById("bbat").style.display = 'none';
+	document.getElementById("bbsbbatmeasure").style.display = 'none';
+	document.getElementById("bhelm").style.display = 'none';
+	document.getElementById("bbsbhlmmeasure").style.display = 'none';
+	document.getElementById("bglovebat").style.display = 'none';
+	document.getElementById("bbsbbatglvmeasure").style.display = 'none';
+	document.getElementById("bcleat").style.display = 'none';
+	document.getElementById("bbsbcleatmeasure").style.display = 'none';
+	document.getElementById("bfieldmask").style.display = 'none';
+	document.getElementById("bbsbfldmeasure").style.display = 'none';
+	document.getElementById("bcatchmask").style.display = 'none';
+	document.getElementById("bbsbcmaskmeasure").style.display = 'none';
+	document.getElementById("bchestp").style.display = 'none';
+	document.getElementById("bbsbcchestmeasure").style.display = 'none';
+	document.getElementById("bshin").style.display = 'none';
+	document.getElementById("bbsbcshinmeasure").style.display = 'none';
+	document.getElementById("bcup").style.display = 'none';
+	document.getElementById("bbsbcupmeasure").style.display = 'none';
+	document.getElementById("bglovecatch").style.display = 'none';
+	document.getElementById("bbsbCglvmeasure").style.display = 'none';
+	
+	document.getElementById("lhelm").style.display = 'none';
+	document.getElementById("lhlmmeasure").style.display = 'none';
+	document.getElementById("lshoulder").style.display = 'none';
+	document.getElementById("lshouldermeasure").style.display = 'none';
+	document.getElementById("larm").style.display = 'none';
+	document.getElementById("lagmeasure").style.display = 'none';
+	document.getElementById("lglv").style.display = 'none';
+	document.getElementById("lglvmeasure").style.display = 'none';
+	document.getElementById("lcleat").style.display = 'none';
+	document.getElementById("lcleatmeasure").style.display = 'none';
+	document.getElementById("lstick").style.display = 'none';
+	document.getElementById("lstickmeasure").style.display = 'none';
+	document.getElementById("lmouth").style.display = 'none';
+	document.getElementById("lmgmeasure").style.display = 'none';
+	document.getElementById("lcup").style.display = 'none';
+	document.getElementById("lcupmeasure").style.display = 'none';
+	
+	document.getElementById("sski").style.display = 'none';
+	document.getElementById("skimeasure").style.display = 'none';
+	document.getElementById("sboot").style.display = 'none';
+	document.getElementById("skibootmeasure").style.display = 'none';
+	document.getElementById("spole").style.display = 'none';
+	document.getElementById("skipolemeasure").style.display = 'none';
+	document.getElementById("shelm").style.display = 'none';
+	document.getElementById("skihelmmeasure").style.display = 'none';
+	document.getElementById("sgoggle").style.display = 'none';
+	document.getElementById("skigogglemeasure").style.display = 'none';
+	
+	document.getElementById("sboard").style.display = 'none';
+	document.getElementById("sbboardmeasure").style.display = 'none';
+	document.getElementById("sbboot").style.display = 'none';
+	document.getElementById("sbbootmeasure").style.display = 'none';
+	document.getElementById("sbhelm").style.display = 'none';
+	document.getElementById("sbhelmmeasure").style.display = 'none';
+	document.getElementById("sbgoggle").style.display = 'none';
+	document.getElementById("sbgogglemeasure").style.display = 'none';
 }
 </script>
 
@@ -6513,6 +6952,7 @@ function showSportForm() {
 		sbeqforms.style.display = "none";
 	}
 }
+
 
 /*======================================Hockey Equipment Functions================================================*/
 
