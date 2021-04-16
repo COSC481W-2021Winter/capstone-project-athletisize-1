@@ -6826,6 +6826,21 @@ function CancelAll() {
 	document.getElementById("hskates").style.display = 'none';
 	document.getElementById("hsktmeasure").style.display = 'none';
 	
+	document.getElementById("hhelmet").checked = false;
+	document.getElementById("hhlmmeasure").checked = false;
+	document.getElementById("hshoulder").checked = false;
+	document.getElementById("hsldmeasure").checked = false;
+	document.getElementById("helbow").checked = false;
+	document.getElementById("helbmeasure").checked = false;
+	document.getElementById("hglove").checked = false;
+	document.getElementById("hglvmeasure").checked = false;
+	document.getElementById("hpant").checked = false;
+	document.getElementById("hpantmeasure").checked = false;
+	document.getElementById("hshin").checked = false;
+	document.getElementById("hshinmeasure").checked = false;
+	document.getElementById("hskates").checked = false;
+	document.getElementById("hsktmeasure").checked = false;
+	
 	document.getElementById("scleats").style.display = 'none';
 	document.getElementById("scleatmeasure").style.display = 'none';
 	document.getElementById("sgoal").style.display = 'none';
@@ -6834,6 +6849,15 @@ function CancelAll() {
 	document.getElementById("sshinmeasure").style.display = 'none';
 	document.getElementById("ssocks").style.display = 'none';
 	document.getElementById("ssockmeasure").style.display = 'none';
+	
+	document.getElementById("scleats").checked = false;
+	document.getElementById("scleatmeasure").checked = false;
+	document.getElementById("sgoal").checked = false;
+	document.getElementById("sgoalmeasure").checked = false;
+	document.getElementById("sshin").checked = false;
+	document.getElementById("sshinmeasure").checked = false;
+	document.getElementById("ssocks").checked = false;
+	document.getElementById("ssockmeasure").checked = false;
 	
 	document.getElementById("bglove").style.display = 'none';
 	document.getElementById("bbsbglvmeasure").style.display = 'none';
@@ -6858,6 +6882,29 @@ function CancelAll() {
 	document.getElementById("bglovecatch").style.display = 'none';
 	document.getElementById("bbsbCglvmeasure").style.display = 'none';
 	
+	document.getElementById("bglove").checked = false;
+	document.getElementById("bbsbglvmeasure").checked = false;
+	document.getElementById("bbat").checked = false;
+	document.getElementById("bbsbbatmeasure").checked = false;
+	document.getElementById("bhelm").checked = false;
+	document.getElementById("bbsbhlmmeasure").checked = false;
+	document.getElementById("bglovebat").checked = false;
+	document.getElementById("bbsbbatglvmeasure").checked = false;
+	document.getElementById("bcleat").checked = false;
+	document.getElementById("bbsbcleatmeasure").checked = false;
+	document.getElementById("bfieldmask").checked = false;
+	document.getElementById("bbsbfldmeasure").checked = false;
+	document.getElementById("bcatchmask").checked = false;
+	document.getElementById("bbsbcmaskmeasure").checked = false;
+	document.getElementById("bchestp").checked = false;
+	document.getElementById("bbsbcchestmeasure").checked = false;
+	document.getElementById("bshin").checked = false;
+	document.getElementById("bbsbcshinmeasure").checked = false;
+	document.getElementById("bcup").checked = false;
+	document.getElementById("bbsbcupmeasure").checked = false;
+	document.getElementById("bglovecatch").checked = false;
+	document.getElementById("bbsbCglvmeasure").checked = false;
+	
 	document.getElementById("lhelm").style.display = 'none';
 	document.getElementById("lhlmmeasure").style.display = 'none';
 	document.getElementById("lshoulder").style.display = 'none';
@@ -6875,6 +6922,23 @@ function CancelAll() {
 	document.getElementById("lcup").style.display = 'none';
 	document.getElementById("lcupmeasure").style.display = 'none';
 	
+	document.getElementById("lhelm").checked = false;
+	document.getElementById("lhlmmeasure").checked = false;
+	document.getElementById("lshoulder").checked = false;
+	document.getElementById("lshouldermeasure").checked = false;
+	document.getElementById("larm").checked = false;
+	document.getElementById("lagmeasure").checked = false;
+	document.getElementById("lglv").checked = false;
+	document.getElementById("lglvmeasure").checked = false;
+	document.getElementById("lcleat").checked = false;
+	document.getElementById("lcleatmeasure").checked = false;
+	document.getElementById("lstick").checked = false;
+	document.getElementById("lstickmeasure").checked = false;
+	document.getElementById("lmouth").checked = false;
+	document.getElementById("lmgmeasure").checked = false;
+	document.getElementById("lcup").checked = false;
+	document.getElementById("lcupmeasure").checked = false;
+	
 	document.getElementById("sski").style.display = 'none';
 	document.getElementById("skimeasure").style.display = 'none';
 	document.getElementById("sboot").style.display = 'none';
@@ -6886,6 +6950,18 @@ function CancelAll() {
 	document.getElementById("sgoggle").style.display = 'none';
 	document.getElementById("skigogglemeasure").style.display = 'none';
 	
+	document.getElementById("sski").checked = false;
+	document.getElementById("skimeasure").checked = false;
+	document.getElementById("sboot").checked = false;
+	document.getElementById("skibootmeasure").checked = false;
+	document.getElementById("spole").checked = false;
+	document.getElementById("skipolemeasure").checked = false;
+	document.getElementById("shelm").checked = false;
+	document.getElementById("skihelmmeasure").checked = false;
+	document.getElementById("sgoggle").checked = false;
+	document.getElementById("skigogglemeasure").checked = false;
+	
+	
 	document.getElementById("sboard").style.display = 'none';
 	document.getElementById("sbboardmeasure").style.display = 'none';
 	document.getElementById("sbboot").style.display = 'none';
@@ -6894,6 +6970,15 @@ function CancelAll() {
 	document.getElementById("sbhelmmeasure").style.display = 'none';
 	document.getElementById("sbgoggle").style.display = 'none';
 	document.getElementById("sbgogglemeasure").style.display = 'none';
+	
+	document.getElementById("sboard").checked = false;
+	document.getElementById("sbboardmeasure").checked = false;
+	document.getElementById("sbboot").checked = false;
+	document.getElementById("sbbootmeasure").checked = false;
+	document.getElementById("sbhelm").checked = false;
+	document.getElementById("sbhelmmeasure").checked = false;
+	document.getElementById("sbgoggle").checked = false;
+	document.getElementById("sbgogglemeasure").checked = false;
 }
 </script>
 
