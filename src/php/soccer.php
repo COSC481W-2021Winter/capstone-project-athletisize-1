@@ -33,7 +33,7 @@ include_once 'header.php';
          <div id="box">
       <div class="row">
         <div class ="col-1"><br></div>
-        <div class="col-6"> 
+        <div class="col-8"> 
 	    <form >
         <ul>
             <label class="container">
