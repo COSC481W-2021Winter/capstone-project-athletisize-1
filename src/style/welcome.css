@@ -33,120 +33,138 @@ nav li {
   text-decoration: none
 }
 
+body {
+    font-family: 'Oswald', sans-serif;
+    background: #000;
+
+}
+
  /***************/
-  body{
-    background-image: url('https://i.postimg.cc/RFcFWmfx/Emirates-UAE-Dubai-451666.jpg');
-    background-repeat: none;
-    background-size: cover;
-  }
- 
-  .btn-primary {
-    color: #fff;
-    background-color: #279e98;
-    border-color: #101111;
+h1{
+  font-size: 44px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  text-align: right;
+  color: #000;
+  margin-top: 50px;
+  text-transform: uppercase;
 }
-.btn-primary:hover {
-    background-color: #020202;
-    color: white;
-  }
-  
 
-.btn {
-    display: inline-block;
-    padding: 10px 12px;
-    margin-bottom: 0;
-    font-size: 20px;
-    font-weight: normal;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    margin: 0;
-    position: absolute;
-    
-    
-    
-    
+h2{
+  font-size: 24px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  text-align: left;
+  color: #000;
+  margin-top: 50px;
+  text-transform: uppercase;
 }
 
 
-.btn1 {
-    display: inline-block;
-    padding: 10px 12px;
-    margin-bottom: 0;
-    font-size: 10px;
-    font-weight: normal;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
+.button {
+  width: 130px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  position:relative;
+  cursor: pointer;
+  display: inline-block;s
+  border-radius: 10px;
+  color: black;
+
 }
 
-.help-block {
+.button {
+  background-color: #000;
+  border: 1px solid white;
+  color: white;
+  transition: .3s;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, .2), 0 10px 10px rgba(0, 0, 0, .2);
+
+}
+.button:hover {
+  animation: pulse 1s infinite;
+  transition: .3s;
+}
+.sports ul {
+  list-style-type: none;
+  color: white;
+  font-size: 24px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  position: relative;
+
+}
+
+.col-1 {width: 3.75%;}
+.col-2 {width: 17.66%;}
+.col-3 {width: 26%;}
+.col-4 {width: 37.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 43%;}
+.col-7 {width: 43.33%;}
+.col-8 {width: 10.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 55.66%;}
+.col-12 {width: 100%;}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+hr {
+  border: 1px solid white;
+  border-radius: 5px;
+  width:41%;
+  margin:auto;
+}
+
+#box {
+  box-sizing: border-box; 
+  width: 800px;
+  height: 500px;
+  padding: 12px;  
+  padding-top: 20px;
+  /*border: 5px solid white;*/
+  border-radius: 20px;
+  margin: auto;
+
+
+  background-image: -ms-linear-gradient(top, #7e8ce0  0%, #4acfac 100%);
+    background-image: -moz-linear-gradient(top, #7e8ce0  0%, #4acfac 100%);
+    background-image: -o-linear-gradient(top, #7e8ce0  0%, #4acfac 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #7e8ce0 ), color-stop(100, #ff9600));
+    background-image: -webkit-linear-gradient(top, #7e8ce0  0%, #4acfac 100%);
+    background-image: linear-gradient(to bottom, #7e8ce0  0%, #4acfac 100%);
+}
+  .profile {
+    position:relative;
     display: block;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    color: #737373;
+    margin-left: 25px;
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(255, 255, 255, .2), 0 10px 10px rgba(255, 255, 255, .2);
+  }
+  p, a {
+  font-size: 18px;
+  text-align: left;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
 }
-
-
- .page-header{
-    margin-top: 40px;
-    color: white;
-    font-weight: bolder;
-    border-radius: 5%;
-  }
-
- 
-  .page-header h1{
-    text-align: center;
-    font-size: 50px;
-    margin-top: 10px ;
-  }
-
-  .page-header h2{
-    text-align: right;
-    margin-right: 20px;
-    margin-top: 20px;
-    color: rgb(214, 229, 238);
-  }
-  
-  .page-header h3{
-    text-align: right;
-    margin-right: 175px;
-    
-  }
-
-  .page-header p{
-    text-align: right;
-    margin-right: 20px;
-    margin-top: 5px;
-    color: rgb(235, 242, 243);
-  }
-
-  
-
-  #sports{
-    text-align: center;
-  }
-

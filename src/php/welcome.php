@@ -2,30 +2,88 @@
 // Initialize the session and include header
 session_start();
 include_once "header.php";
- 
+
 // Check if the user is logged in, if not then redirect him to login page
 if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-    header("location: login.php");
-    exit;
+	header("location: login_signup.php");
+	exit;
 }
 ?>
- 
+
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Welcome</title>
-			<link rel="stylesheet" href="../style/welcome.css">
-			
-			<style type="text/css">
-				body{ color: white; }
-				.wrapper{ margin-left: 4em; }
-			</style>
-	</head>
-	<body>
+<head>
+	<meta charset="UTF-8">
+	<title>Welcome</title>
+	<link rel="stylesheet" href="../style/welcome.css">
+
+	<style type="text/css">
+		body{ color: white; }
+		.wrapper{ margin-left: 4em; }
+	</style>
+</head>
+<body>
+	<div id="box">
+		<div class="row">
+<!-- 			<div class ="col-1"><br></div> -->
+
+           <div class="col-4">
+            <img  class="profile" src="../images/placeholder.png">
+
+          </div>
+			<div class="col-11"> 
+
+				<div class="page-header">
+					<h1>Hi <b style="color:white"><?php echo htmlspecialchars($_SESSION["username"]); ?></b>, Welcome Back.</h1>
+				</div>
+				<br>
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-1"> <br></div>
+			<div class="col-5"> 
+				<h2>Your Sports</h2>
+				<?php
+				require "config.php";
+				
+				//Get the value for a given sport
+				function getValue($sport, $idValue, $conn){
+
+					$result = mysqli_fetch_array(mysqli_query($conn, "SELECT ($sport) FROM mysports WHERE id = ($idValue);"));
+					$value = $result[0];
+
+					return $value; 
+				}
+				
+				//Go through and check each sport, if they have that sport added, display the button
 	
-	<div class="page-header">
-			<h1>Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to our site.</h1>
+				if(getValue("soccer", $_SESSION['id'], $link) == 1){
+					echo '<a href="soccer.php" class="btn btn-primary">Soccer</a><br><br>';
+				}
+				if(getValue("hockey", $_SESSION['id'], $link) == 1){
+					echo '<a href="hockey.php" class="btn btn-primary">Hockey</a><br><br>';
+				}
+				if(getValue("ski", $_SESSION['id'], $link) == 1){
+					echo '<a href="ski.php" class="btn btn-primary">Ski</a><br><br>';
+				}
+				if(getValue("snowboard", $_SESSION['id'], $link) == 1){
+					echo '<a href="snowboard.php" class="btn btn-primary">Snowboard</a><br><br>';
+				}
+				if(getValue("baseball", $_SESSION['id'], $link) == 1){
+					echo '<a href="baseball_softball.php" class="btn btn-primary">Baseball</a><br><br>';
+				}
+				if(getValue("lacrosse", $_SESSION['id'], $link) == 1){
+					echo '<a href="lacrosse.php" class="btn btn-primary">Lacrosse</a><br><br>';
+				}
+		
+            ?> 
+			</div>
+				<div class="col-4">
+					<h2>Account Details</h2>
+					<p>Username, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b></p>
+				</div>
+			</div>
 		</div>
 		<br>
 		<h1>Here are your selected sports.</h1>

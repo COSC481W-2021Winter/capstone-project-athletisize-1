@@ -15,7 +15,7 @@ include_once 'header.php';
         <hr>
         <br>
         <br>
-    
+   
 	    <div class="sports">
         <div align=center>
             <?php
@@ -85,7 +85,7 @@ include_once 'header.php';
       <div class="row">
         <div class ="col-1"><br></div>
         <div class="col-6"> 
-	    <form >
+      <form >
         <ul>
             <label class="container">
               <li>
