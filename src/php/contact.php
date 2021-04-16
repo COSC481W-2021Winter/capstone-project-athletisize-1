@@ -51,7 +51,7 @@ include_once 'header.php';
 
 
 
-<iframe width="1920" height="399" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=1920&amp;height=399&amp;hl=en&amp;q=eastern%20michigan%20ypsilanti+()&amp;t=p&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.symptoma.ro/'>Symptom Checker Romanian</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=74725cf098982e2d173ce54aae6fecf3e5215c22'></script>
+<div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=900%20Oakwood%20St,%20Ypsilanti,%20MI%2048197+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
 
 
 
