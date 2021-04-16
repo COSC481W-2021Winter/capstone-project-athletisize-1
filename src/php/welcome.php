@@ -57,6 +57,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 				}
 				
 				//Go through and check each sport, if they have that sport added, display the button
+	
 				if(getValue("soccer", $_SESSION['id'], $link) == 1){
 					echo '<a href="soccer.php" class="btn btn-primary">Soccer</a><br><br>';
 				}
