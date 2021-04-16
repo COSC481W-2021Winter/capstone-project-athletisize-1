@@ -86,12 +86,46 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 			</div>
 		</div>
 		<br>
-<div class="row">
-	<div class ="col-6"><br></div> 
-	<div class ="col-3"><br> 
-		<div class="button button-4" onclick="document.location='reset-password.php'" style="font-size: 16px">RESET PASSWORD</div>
-		<div class="button button-4" onclick="document.location='logout.php'" style="font-size: 16px">SIGN OUT</div> 
-	</div>
-</div>
-</body>
+		<h1>Here are your selected sports.</h1>
+		<?php
+				require "config.php";
+				
+				//Get the value for a given sport
+				function getValue($sport, $idValue, $conn){
+
+					$result = mysqli_fetch_array(mysqli_query($conn, "SELECT ($sport) FROM mysports WHERE id = ($idValue);"));
+					$value = $result[0];
+
+					return $value; 
+				}
+				
+				//Go through and check each sport, if they have that sport added, display the button
+				if(getValue("soccer", $_SESSION['id'], $link) == 1){
+					echo '<a href="soccer.php" class="btn btn-primary">Soccer</a><br><br>';
+				}
+				if(getValue("hockey", $_SESSION['id'], $link) == 1){
+					echo '<a href="hockey.php" class="btn btn-primary">Hockey</a><br><br>';
+				}
+				if(getValue("ski", $_SESSION['id'], $link) == 1){
+					echo '<a href="ski.php" class="btn btn-primary">Ski</a><br><br>';
+				}
+				if(getValue("snowboard", $_SESSION['id'], $link) == 1){
+					echo '<a href="snowboard.php" class="btn btn-primary">Snowboard</a><br><br>';
+				}
+				if(getValue("baseball", $_SESSION['id'], $link) == 1){
+					echo '<a href="baseball_softball.php" class="btn btn-primary">Baseball</a><br><br>';
+				}
+				if(getValue("lacrosse", $_SESSION['id'], $link) == 1){
+					echo '<a href="lacrosse.php" class="btn btn-primary">Lacrosse</a><br><br>';
+				}
+		
+            ?> 
+		<br><br><br><br><br>
+		<h1>Account Details</h1>
+		<p>Username, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b></p>
+		<p>
+			<a href="reset-password.php" class="btn1 btn-primary">Reset Your Password</a>
+			<a href="logout.php" class="btn1 btn-primary">Sign Out of Your Account</a>
+		</p>
+	</body>
 </html>

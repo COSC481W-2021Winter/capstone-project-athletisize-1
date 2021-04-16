@@ -72,6 +72,7 @@ include_once 'header.php';
  <div class="box">
  <div id="heqform"  style="display: none">
   <form>
+	<h2>Hockey</h2>
 	Helmet
 	<label class="checkbox-label" for="hhelmet" onclick="showHockeyMeas()">
 	<input type="checkbox" id="hhelmet" name="hhelmet"/>
@@ -113,11 +114,13 @@ include_once 'header.php';
 	<input type="checkbox" id="hskates" name="hskates"/>
 	<span class="checkbox-custom"></span>
 	
-	</label><br></form>
+	</label><br><br><br><br></form>
 	</div>
 
  <div id="soceqform" style="display: none">
   <form>
+	  <h2>Soccer</h2>
+	  
 	 Cleats
 	<label class="checkbox-label" for="scleats" onclick="showSoccerMeas()" >
 	<input type="checkbox" id="scleats" name="scleats"/>
@@ -141,12 +144,13 @@ include_once 'header.php';
 	<input type="checkbox" id="sgoal" name="sgoal"/>
 	<span class="checkbox-custom"></span>
 	
-	</label><br><br>
+	</label><br><br><br><br><br>
 	</form>
 	</div>
 	
  <div id="bbeqform" style="display: none">
   <form>
+	  <h2>Baseball</h2>
 	  Glove
 	<label class="checkbox-label" for="bglove" onclick="showBbsbMeas()">
 	<input type="checkbox" id="bglove" name="bglove"/>
@@ -216,12 +220,13 @@ include_once 'header.php';
 	<input type="checkbox" id="bglovecatch" name="bglovecatch"/>
 	<span class="checkbox-custom"></span>
 	
-	</label><br>
+	</label><br><br><br><br>
 	</form>
 	</div>
 	
  <div id="laxeqform" style="display: none">
   <form>
+	  <h2>Lacrosse</h2>
 	  Helmet
 	<label class="checkbox-label" for="lhelm" onclick="showLaxMeas()">
 	<input type="checkbox" id="lhelm" name="lhelm"/>
@@ -269,12 +274,13 @@ include_once 'header.php';
 	<input type="checkbox" id="lcup" name="lcup"/>
     <span class="checkbox-custom"></span>
 	
-	</label><br>
+	</label><br><br><br><br>
 	</form>
 	</div>
 	
  <div id="skieqform" style="display: none">
   <form>
+	  <h2>Skiing</h2>
 	  Skis
 	<label class="checkbox-label" for="sski" onclick="showSkiMeas()">
 	<input type="checkbox" id="sski" name="sski"/>
@@ -303,13 +309,14 @@ include_once 'header.php';
 	<label class="checkbox-label" for="sgoggle" onclick="showSkiMeas()">
 	<input type="checkbox" id="sgoggle" name="sgoggle"/>
 	<span class="checkbox-custom"></span>
-	</label><br>
+	</label><br><br><br><br>
 	  
 	</form>
 	</div>
 	
  <div id="sbeqform" style="display: none">
   <form>
+	  <h2>Snowboarding</h2>
 	  Snowboard
 	<label class="checkbox-label" for="sboard" onclick="showSbMeas()">
 	<input type="checkbox" id="sboard" name="sboard"/>
