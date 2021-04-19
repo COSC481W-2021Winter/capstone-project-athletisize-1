@@ -3799,6 +3799,7 @@ measure should be around 1 cm above your ears</p>
 	<div id="hhlmythresult" style="display: none">
 	<br>
 	<h4>Your hockey helmet size is: Youth</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=Helmet#/filter:agegroup:Youth">Click here to see products in this size</a></p>
 	<br>
 	<hr>
 	</div>
@@ -3806,6 +3807,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hhlmxsresult" style="display: none">
 	<br>
 	<h4>Your hockey helmet size is: Adult Extra Small (XS)</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=+Helmet#/filter:agegroup:Junior">Click here to see products in this size</a></p>
+
 	<br>
 	<hr>
 	</div>
@@ -3813,6 +3816,7 @@ measure should be around 1 cm above your ears</p>
 	<div id="hhlmsmresult" style="display: none">
 	<br>
 	<h4>Your hockey helmet size is: Adult Small (SM)</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=+Helmet#/filter:agegroup:Junior">Click here to see products in this size</a></p>
 	<br>
 	<hr>
 	</div>
@@ -3820,6 +3824,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hhlmmdresult" style="display: none">
 	<br>
 	<h4>Your hockey helmet size is: Adult Medium (MD)</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=+Helmet#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 	<br>
 	<hr>
 	</div>
@@ -3827,6 +3833,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hhlmlgresult" style="display: none">
 	<br>
 	<h4>Your hockey helmet size is: Adult Large (LG)</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=+Helmet#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 	<br>
 	<hr>
 	</div>
@@ -3834,6 +3842,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hhlmxlresult" style="display: none">
 	<br>
 	<h4>Your hockey helmet size is: Adult Extra Large (XL)</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=+Helmet#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 	<br>
 	<hr>
 	</div>
@@ -3845,6 +3855,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hshldysmresult" style="display: none">
 	<br>
 	<h4>Your hockey shoulder pad size is: Youth Small</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=Shoulder+Pads#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 	<br>
 	<hr>
 	</div>
@@ -3852,6 +3864,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hshldymdresult" style="display: none">
 	<br>
 	<h4>Your hockey shoulder pad size is: Youth Medium</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=Shoulder+Pads#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 	<br>
 	<hr>
 	</div>
@@ -3859,6 +3873,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hshldylgresult" style="display: none">
 	<br>
 	<h4>Your hockey shoulder pad size is: Youth Large</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=Shoulder+Pads#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 	<br>
 	<hr>
 	</div>
@@ -3866,6 +3882,7 @@ measure should be around 1 cm above your ears</p>
 	<div id="hshldjrsmresult" style="display: none">
 	<br>
 	<h4>Your hockey shoulder pad size is: Junior Small</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=Shoulder+Pads#/filter:agegroup:Junior">Click here to see products in this size</a></p>
 	<br>
 	<hr>
 	</div>
@@ -3873,6 +3890,7 @@ measure should be around 1 cm above your ears</p>
 	<div id="hshldjrmdresult" style="display: none">
 	<br>
 	<h4>Your hockey shoulder pad size is: Junior Medium</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=Shoulder+Pads#/filter:agegroup:Junior">Click here to see products in this size</a></p>
 	<br>
 	<hr>
 	</div>
@@ -3880,6 +3898,7 @@ measure should be around 1 cm above your ears</p>
 	<div id="hshldjrlgresult" style="display: none">
 	<br>
 	<h4>Your hockey shoulder pad size is: Junior Large</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=Shoulder+Pads#/filter:agegroup:Junior">Click here to see products in this size</a></p>
 	<br>
 	<hr>
 	</div>
@@ -3887,6 +3906,7 @@ measure should be around 1 cm above your ears</p>
 	<div id="hshldsrsmresult" style="display: none">
 	<br>
 	<h4>Your hockey shoulder pad size is: Senior Small</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=Shoulder+Pads#/filter:agegroup:Senior">Click here to see products in this size</a></p>
 	<br>
 	<hr>
 	</div>
@@ -3894,6 +3914,7 @@ measure should be around 1 cm above your ears</p>
 	<div id="hshldsrmdresult" style="display: none">
 	<br>
 	<h4>Your hockey shoulder pad size is: Senior Medium</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=Shoulder+Pads#/filter:agegroup:Senior">Click here to see products in this size</a></p>
 	<br>
 	<hr>
 	</div>
@@ -3901,6 +3922,7 @@ measure should be around 1 cm above your ears</p>
 	<div id="hshldsrlgresult" style="display: none">
 	<br>
 	<h4>Your hockey shoulder pad size is: Senior Large</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=Shoulder+Pads#/filter:agegroup:Senior">Click here to see products in this size</a></p>
 	<br>
 	<hr>
 	</div>
@@ -3908,6 +3930,7 @@ measure should be around 1 cm above your ears</p>
 	<div id="hshldsrxlresult" style="display: none">
 	<br>
 	<h4>Your hockey shoulder pad size is: Senior Extra Large</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=Shoulder+Pads#/filter:agegroup:Senior">Click here to see products in this size</a></p>
 	<br>
 	<hr>
 	</div>
@@ -3919,6 +3942,7 @@ measure should be around 1 cm above your ears</p>
 	<div id="helbysmresult" style="display: none">
 	<br>
 	<h4>Your hockey elbow pad size is: Youth Small</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=Elbow+Pads#/filter:agegroup:Youth">Click here to see products in this size</a></p>
 	<br>
 	<hr>
 	</div>
@@ -3926,6 +3950,7 @@ measure should be around 1 cm above your ears</p>
 	<div id="helbymdresult" style="display: none">
 	<br>
 	<h4>Your hockey elbow pad size is: Youth Medium</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=Elbow+Pads#/filter:agegroup:Youth">Click here to see products in this size</a></p>
 	<br>
 	<hr>
 	</div>
@@ -3933,6 +3958,7 @@ measure should be around 1 cm above your ears</p>
 	<div id="helbylgresult" style="display: none">
 	<br>
 	<h4>Your hockey elbow pad size is: Youth Large</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=Elbow+Pads#/filter:agegroup:Youth">Click here to see products in this size</a></p>
 	<br>
 	<hr>
 	</div>
@@ -3940,6 +3966,7 @@ measure should be around 1 cm above your ears</p>
 	<div id="helbjrsmresult" style="display: none">
 	<br>
 	<h4>Your hockey elbow pad size is: Junior Small</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=Elbow+Pads#/filter:agegroup:Junior">Click here to see products in this size</a></p>
 	<br>
 	<hr>
 	</div>
@@ -3947,6 +3974,7 @@ measure should be around 1 cm above your ears</p>
 	<div id="helbjrmdresult" style="display: none">
 	<br>
 	<h4>Your hockey elbow pad size is: Junior Medium</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=Elbow+Pads#/filter:agegroup:Junior">Click here to see products in this size</a></p>
 	<br>
 	<hr>
 	</div>
@@ -3954,6 +3982,7 @@ measure should be around 1 cm above your ears</p>
 	<div id="helbjrlgresult" style="display: none">
 	<br>
 	<h4>Your hockey elbow pad size is: Junior Large</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=Elbow+Pads#/filter:agegroup:Junior">Click here to see products in this size</a></p>
 	<br>
 	<hr>
 	</div>
@@ -3961,6 +3990,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="helbsrsmresult" style="display: none">
 	<br>
 	<h4>Your hockey elbow pad size is: Senior Small</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=Elbow+Pads#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 	<br>
 	<hr>
 	</div>
@@ -3968,6 +3999,7 @@ measure should be around 1 cm above your ears</p>
 	<div id="helbsrmdresult" style="display: none">
 	<br>
 	<h4>Your hockey elbow pad size is: Senior Medium</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=Elbow+Pads#/filter:agegroup:Senior">Click here to see products in this size</a></p>
 	<br>
 	<hr>
 	</div>
@@ -3975,6 +4007,7 @@ measure should be around 1 cm above your ears</p>
 	<div id="helbsrlgresult" style="display: none">
 	<br>
 	<h4>Your hockey elbow pad size is: Senior Large</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=Elbow+Pads#/filter:agegroup:Senior">Click here to see products in this size</a></p>
 	<br>
 	<hr>
 	</div>
@@ -3982,6 +4015,7 @@ measure should be around 1 cm above your ears</p>
 	<div id="helbsrxlresult" style="display: none">
 	<br>
 	<h4>Your hockey elbow pad size is: Senior Extra Large</h4>
+	<p> <a href="https://www.hockeymonkey.com/search?q=Elbow+Pads#/filter:agegroup:Senior">Click here to see products in this size</a></p>
 	<br>
 	<hr>
 	</div>
@@ -3993,6 +4027,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hglv8result" style="display: none">
 		<br>
 		<h4>Your hockey glove size is: 8"</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Gloves#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4000,6 +4036,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hglv9result" style="display: none">
 		<br>
 		<h4>Your hockey glove size is: 9"</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Gloves#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4007,6 +4045,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hglv10result" style="display: none">
 		<br>
 		<h4>Your hockey glove size is: 10"</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Gloves#/filter:agegroup:Junior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4014,6 +4054,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hglv11result" style="display: none">
 		<br>
 		<h4>Your hockey glove size is: 11"</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Gloves#/filter:agegroup:Junior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4021,6 +4063,7 @@ measure should be around 1 cm above your ears</p>
 	<div id="hglv12result" style="display: none">
 		<br>
 		<h4>Your hockey glove size is: 12"</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Gloves#/filter:agegroup:Junior">Click here to see products in this size</a></p>
 		<br>
 		<hr>
 	</div>
@@ -4028,6 +4071,7 @@ measure should be around 1 cm above your ears</p>
 	<div id="hglv13result" style="display: none">
 		<br>
 		<h4>Your hockey glove size is: 13"</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Gloves#/filter:agegroup:Senior">Click here to see products in this size</a></p>
 		<br>
 		<hr>
 	</div>
@@ -4035,6 +4079,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hglv14result" style="display: none">
 		<br>
 		<h4>Your hockey glove size is: 14"</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Gloves#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4042,6 +4088,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hglv15result" style="display: none">
 		<br>
 		<h4>Your hockey glove size is: 15"</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Gloves#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4053,6 +4101,8 @@ measure should be around 1 cm above your ears</p>
   <div id="hpantysmresult" style="display: none">
 		<br>
 		<h4>Your hockey pant size is: Youth Small</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Hockey+Pants#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4060,6 +4110,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hpantymdresult" style="display: none">
 		<br>
 		<h4>Your hockey pant size is: Youth Medium</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Hockey+Pants#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4067,6 +4119,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hpantylgresult" style="display: none">
 		<br>
 		<h4>Your hockey pant size is: Youth Large</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Hockey+Pants#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4074,6 +4128,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hpantjrsmresult" style="display: none">
 		<br>
 		<h4>Your hockey pant size is: Junior Small</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Hockey+Pants#/filter:agegroup:Junior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4081,6 +4137,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hpantjrmdresult" style="display: none">
 		<br>
 		<h4>Your hockey pant size is: Junior Medium</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Hockey+Pants#/filter:agegroup:Junior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4088,6 +4146,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hpantjrlgresult" style="display: none">
 		<br>
 		<h4>Your hockey pant size is: Junior Large</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Hockey+Pants#/filter:agegroup:Junior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4095,6 +4155,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hpantjrxlresult" style="display: none">
 		<br>
 		<h4>Your hockey pant size is: Junior Extra Large</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Hockey+Pants#/filter:agegroup:Junior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4102,6 +4164,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hpantsrsmresult" style="display: none">
 		<br>
 		<h4>Your hockey pant size is: Senior Small</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Hockey+Pants#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4109,6 +4173,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hpantsrmdresult" style="display: none">
 		<br>
 		<h4>Your hockey pant size is: Senior Medium</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Hockey+Pants#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4116,6 +4182,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hpantsrlgresult" style="display: none">
 		<br>
 		<h4>Your hockey pant size is: Senior Large</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Hockey+Pants#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4123,6 +4191,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hpantsrxlresult" style="display: none">
 		<br>
 		<h4>Your hockey pant size is: Senior Extra Large</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Hockey+Pants#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4134,6 +4204,8 @@ measure should be around 1 cm above your ears</p>
   <div id="hshin7result" style="display: none">
 		<br>
 		<h4>Your hockey shin guard size is: 7"</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Shin+Guards#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4141,6 +4213,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hshin8result" style="display: none">
 		<br>
 		<h4>Your hockey shin guard size is: 8"</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Shin+Guards#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4148,6 +4222,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hshin9result" style="display: none">
 		<br>
 		<h4>Your hockey shin guard size is: 9"</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Shin+Guards#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4155,6 +4231,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hshin10result" style="display: none">
 		<br>
 		<h4>Your hockey shin guard size is: 10"</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Shin+Guards#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4162,6 +4240,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hshin11result" style="display: none">
 		<br>
 		<h4>Your hockey shin guard size is: 11"</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Shin+Guards#/filter:agegroup:Junior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4169,6 +4249,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hshin12result" style="display: none">
 		<br>
 		<h4>Your hockey shin guard size is: 12"</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Shin+Guards#/filter:agegroup:Junior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4176,6 +4258,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hshin13result" style="display: none">
 		<br>
 		<h4>Your hockey shin guard size is: 13"</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Shin+Guards#/filter:agegroup:Junior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4183,6 +4267,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hshin14result" style="display: none">
 		<br>
 		<h4>Your hockey shin guard size is: 14"</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Shin+Guards#/filter:agegroup:Junior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4190,6 +4276,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hshin15result" style="display: none">
 		<br>
 		<h4>Your hockey shin guard size is: 15"</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Shin+Guards#/filter:agegroup:Junior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4197,6 +4285,7 @@ measure should be around 1 cm above your ears</p>
 	<div id="hshin16result" style="display: none">
 		<br>
 		<h4>Your hockey shin guard size is: 16"</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Shin+Guards#/filter:agegroup:Senior">Click here to see products in this size</a></p>
 		<br>
 		<hr>
 	</div>
@@ -4204,6 +4293,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hshin17result" style="display: none">
 		<br>
 		<h4>Your hockey shin guard size is: 17"</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Shin+Guards#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4211,6 +4302,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hshin18result" style="display: none">
 		<br>
 		<h4>Your hockey shin guard size is: 18"</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Shin+Guards#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4222,6 +4315,8 @@ measure should be around 1 cm above your ears</p>
   <div id="hskty6result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 6.0</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4229,6 +4324,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hskty7result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 7.0 Youth</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4236,6 +4333,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hskty8result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 8.0 Youth</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4243,6 +4342,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hskty9result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 9.0 Youth</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4250,6 +4351,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hskty95result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 9.5 Youth</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4257,6 +4360,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hskty10result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 10.0 Youth</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4264,6 +4369,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hskty105result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 10.5 Youth</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4271,6 +4378,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hskty11result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 11.0 Youth</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4278,6 +4387,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hskty115result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 11.5 Youth</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4285,6 +4396,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hskty12result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 12.0 Youth</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4292,6 +4405,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hskty125result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 12.5 Youth</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4299,6 +4414,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hskty13result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 13.0 Youth</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4306,6 +4423,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hskty135result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 13.5 Youth</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Youth">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4313,6 +4432,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktjr1result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 1.0 Junior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Junior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4320,6 +4441,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktjr15result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 1.5 Junior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Junior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4327,6 +4450,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktjr2result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 2.0 Junior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Junior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4334,6 +4459,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktjr25result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 2.5 Junior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Junior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4341,6 +4468,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktjr3result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 3.0 Junior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Junior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4348,6 +4477,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktjr35result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 3.5 Junior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Junior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4355,6 +4486,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktjr4result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 4.0 Junior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Junior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4362,6 +4495,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktjr45result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 4.5 Junior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Junior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4369,6 +4504,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktjr5result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 5.0 Junior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Junior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4376,6 +4513,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktjr55result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 5.5 Junior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Junior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4383,6 +4522,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktsr6result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 6.0 Senior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4390,6 +4531,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktsr65result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 6.5 Senior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4397,6 +4540,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktsr7result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 7.0 Senior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4404,6 +4549,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktsr75result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 7.5 Senior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4411,6 +4558,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktsr8result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 8.0 Senior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4418,6 +4567,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktsr85result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 8.5 Senior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4425,6 +4576,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktsr9result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 9.0 Senior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4432,6 +4585,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktsr95result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 9.5 Senior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4439,6 +4594,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktsr10result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 10.0 Senior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4446,6 +4603,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktsr105result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 10.5 Senior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4453,6 +4612,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktsr11result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 11.0 Senior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4460,6 +4621,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktsr115result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 11.5 Senior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4467,6 +4630,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktsr12result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 12.0 Senior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4474,6 +4639,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktsr125result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 12.5 Senior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4481,6 +4648,8 @@ measure should be around 1 cm above your ears</p>
 	<div id="hsktsr13result" style="display: none">
 		<br>
 		<h4>Your hockey skate size is: 13.0 Senior</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Skates#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4496,6 +4665,12 @@ measure should be around 1 cm above your ears</p>
   <div id="scleaty6result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 6.0 Youth</h4>
+		<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets
+=facetStore%3AISA%2CSHIP%3B5213%3A7.0%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0
+&pageNumber=0
+ ">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4503,6 +4678,12 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleaty7result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 7.0 Youth</h4>
+		<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets
+=facetStore%3AISA%2CSHIP%3B5213%3A7.0%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0
+&pageNumber=0
+ ">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4510,6 +4691,12 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleaty8result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 8.0 Youth</h4>
+		<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets
+=facetStore%3AISA%2CSHIP%3B5213%3A7.0%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0
+&pageNumber=0
+ ">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4517,6 +4704,12 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleaty9result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 9.0 Youth</h4>
+		<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets
+=facetStore%3AISA%2CSHIP%3B5213%3A7.0%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0
+&pageNumber=0
+ ">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4524,6 +4717,12 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleaty10result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 10.0 Youth</h4>
+		<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets
+=facetStore%3AISA%2CSHIP%3B5213%3A7.0%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0
+&pageNumber=0
+ ">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4531,6 +4730,12 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleaty11result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 11.0 Youth</h4>
+		<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets
+=facetStore%3AISA%2CSHIP%3B5213%3A7.0%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0
+&pageNumber=0
+ ">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4538,6 +4743,12 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleaty12result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 12.0 Youth</h4>
+		<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets
+=facetStore%3AISA%2CSHIP%3B5213%3A7.0%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0
+&pageNumber=0
+ ">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4545,6 +4756,12 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleaty13result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 13.0 Youth</h4>
+		<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets
+=facetStore%3AISA%2CSHIP%3B5213%3A7.0%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0
+&pageNumber=0
+ ">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4552,6 +4769,12 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatjr135result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 13.5 Youth</h4>
+		<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets
+=facetStore%3AISA%2CSHIP%3B5213%3A7.0%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0
+&pageNumber=0
+ ">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4559,6 +4782,11 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatjr1result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 1.0 Junior</h4>
+				<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5214%3A1.0%2C1.5%2C2.0%2C2.5%2C3.0%2C3.5%2C4.0%2C4.
+5%2C5.0%2C5.5&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4566,6 +4794,11 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatjr15result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 1.5 Junior</h4>
+				<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5214%3A1.0%2C1.5%2C2.0%2C2.5%2C3.0%2C3.5%2C4.0%2C4.
+5%2C5.0%2C5.5&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4573,6 +4806,11 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatjr2result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 2.0 Junior</h4>
+				<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5214%3A1.0%2C1.5%2C2.0%2C2.5%2C3.0%2C3.5%2C4.0%2C4.
+5%2C5.0%2C5.5&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4580,6 +4818,11 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatjr25result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 2.5 Junior</h4>
+				<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5214%3A1.0%2C1.5%2C2.0%2C2.5%2C3.0%2C3.5%2C4.0%2C4.
+5%2C5.0%2C5.5&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4587,6 +4830,11 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatjr3result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 3.0 Junior</h4>
+				<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5214%3A1.0%2C1.5%2C2.0%2C2.5%2C3.0%2C3.5%2C4.0%2C4.
+5%2C5.0%2C5.5&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4594,6 +4842,11 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatjr35result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 3.5 Junior</h4>
+				<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5214%3A1.0%2C1.5%2C2.0%2C2.5%2C3.0%2C3.5%2C4.0%2C4.
+5%2C5.0%2C5.5&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4601,6 +4854,11 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatjr4result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 4.0 Junior</h4>
+				<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5214%3A1.0%2C1.5%2C2.0%2C2.5%2C3.0%2C3.5%2C4.0%2C4.
+5%2C5.0%2C5.5&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4608,6 +4866,11 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatjr45result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 4.5 Junior</h4>
+				<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5214%3A1.0%2C1.5%2C2.0%2C2.5%2C3.0%2C3.5%2C4.0%2C4.
+5%2C5.0%2C5.5&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4615,6 +4878,11 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatjr5result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 5.0 Junior</h4>
+				<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5214%3A1.0%2C1.5%2C2.0%2C2.5%2C3.0%2C3.5%2C4.0%2C4.
+5%2C5.0%2C5.5&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4622,6 +4890,11 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatjr55result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 5.5 Junior</h4>
+				<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5214%3A1.0%2C1.5%2C2.0%2C2.5%2C3.0%2C3.5%2C4.0%2C4.
+5%2C5.0%2C5.5&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4629,6 +4902,11 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatsr6result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 6.0 Senior</h4>
+			<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.5%2C6.0%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0=0">Click here to see products in this size</a></p>
+
+		
 		<br>
 		<hr>
 	</div>
@@ -4636,6 +4914,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatsr65result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 6.5 Senior</h4>
+			<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.5%2C6.0%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0=0">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4643,6 +4925,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatsr7result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 7.0 Senior</h4>
+			<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.5%2C6.0%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0=0">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4650,6 +4936,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatsr75result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 7.5 Senior</h4>
+			<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.5%2C6.0%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0=0">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4657,6 +4947,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatsr8result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 8.0 Senior</h4>
+			<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.5%2C6.0%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0=0">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4664,6 +4958,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatsr85result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 8.5 Senior</h4>
+			<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.5%2C6.0%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0=0">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4671,6 +4969,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatsr9result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 9.0 Senior</h4>
+			<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.5%2C6.0%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0=0">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4678,6 +4980,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatsr95result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 9.5 Senior</h4>
+			<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.5%2C6.0%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0=0">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4685,6 +4991,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatsr10result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 10.0 Senior</h4>
+			<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.5%2C6.0%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0=0">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4692,6 +5002,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatsr105result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 10.5 Senior</h4>
+			<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.5%2C6.0%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0=0">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4699,6 +5013,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatsr11result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 11.0 Senior</h4>
+			<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.5%2C6.0%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0=0">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4706,6 +5024,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatsr115result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 11.5 Senior</h4>
+			<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.5%2C6.0%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0=0">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4713,6 +5035,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatsr12result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 12.0 Senior</h4>
+			<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.5%2C6.0%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0=0">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4720,6 +5046,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatsr125result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 12.5 Senior</h4>
+			<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.5%2C6.0%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0=0">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4727,6 +5057,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="scleatsr13result" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: 13.0 Senior</h4>
+			<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.5%2C6.0%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0=0">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4738,6 +5072,12 @@ measure should be around 1 cm above your ears</p>
    <div id="sshinysmresult" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: Youth Small</h4>
+		<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets
+=facetStore%3AISA%2CSHIP%3B5213%3A7.0%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0
+&pageNumber=0
+ ">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4745,6 +5085,12 @@ measure should be around 1 cm above your ears</p>
 	<div id="sshinymdresult" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: Youth Medium</h4>
+		<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets
+=facetStore%3AISA%2CSHIP%3B5213%3A7.0%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0
+&pageNumber=0
+ ">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4752,6 +5098,12 @@ measure should be around 1 cm above your ears</p>
 	<div id="sshinylgresult" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: Youth Large</h4>
+		<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets
+=facetStore%3AISA%2CSHIP%3B5213%3A7.0%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0
+&pageNumber=0
+ ">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4759,6 +5111,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="sshinsrxsresult" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: Senior Extra Small</h4>
+			<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.5%2C6.0%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0=0">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4766,6 +5122,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="sshinsrsmresult" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: Senior Small</h4>
+			<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.5%2C6.0%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0=0">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4773,6 +5133,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="sshinsrmdresult" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: Senior Medium</h4>
+			<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.5%2C6.0%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0=0">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4780,6 +5144,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="sshinsrlgresult" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: Senior Large</h4>
+			<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.5%2C6.0%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0=0">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4787,6 +5155,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="sshinsrxlresult" style="display: none">
 		<br>
 		<h4>Your soccer cleat size is: Senior Extra Large</h4>
+			<p> <a href=" https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.5%2C6.0%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0=0">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4798,6 +5170,9 @@ measure should be around 1 cm above your ears</p>
   <div id="ssockxsresult" style="display: none">
 		<br>
 		<h4>Your soccer sock size is: Senior Extra Small</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Athletic+Socks#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
+
 		<br>
 		<hr>
 	</div>
@@ -4805,6 +5180,8 @@ measure should be around 1 cm above your ears</p>
 	 <div id="ssocksmresult" style="display: none">
 		<br>
 		<h4>Your soccer sock size is: Senior Small</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Athletic+Socks#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4812,6 +5189,8 @@ measure should be around 1 cm above your ears</p>
 	 <div id="ssockmdresult" style="display: none">
 		<br>
 		<h4>Your soccer sock size is: Senior Medium</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Athletic+Socks#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4819,6 +5198,8 @@ measure should be around 1 cm above your ears</p>
 	 <div id="ssocklgresult" style="display: none">
 		<br>
 		<h4>Your soccer sock size is: Senior Large</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Athletic+Socks#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4826,6 +5207,8 @@ measure should be around 1 cm above your ears</p>
 	 <div id="ssockxlresult" style="display: none">
 		<br>
 		<h4>Your soccer sock size is: Senior Extra Large</h4>
+		<p> <a href="https://www.hockeymonkey.com/search?q=Athletic+Socks#/filter:agegroup:Senior">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4837,6 +5220,11 @@ measure should be around 1 cm above your ears</p>
   <div id="sgoal5result" style="display: none">
 		<br>
 		<h4>Your soccer goalie glove size is: 5</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Goalkeeper+
+Gloves&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B299%3A5%2C6%2C7%2C8%2C9&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4844,6 +5232,11 @@ measure should be around 1 cm above your ears</p>
 	<div id="sgoal6result" style="display: none">
 		<br>
 		<h4>Your soccer goalie glove size is: 6</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Goalkeeper+
+Gloves&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B299%3A5%2C6%2C7%2C8%2C9&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4851,6 +5244,11 @@ measure should be around 1 cm above your ears</p>
 	<div id="sgoal7result" style="display: none">
 		<br>
 		<h4>Your soccer goalie glove size is: 7</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Goalkeeper+
+Gloves&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B299%3A5%2C6%2C7%2C8%2C9&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4858,6 +5256,11 @@ measure should be around 1 cm above your ears</p>
 	<div id="sgoal8result" style="display: none">
 		<br>
 		<h4>Your soccer goalie glove size is: 8</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Goalkeeper+
+Gloves&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B299%3A5%2C6%2C7%2C8%2C9&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4865,6 +5268,11 @@ measure should be around 1 cm above your ears</p>
 	<div id="sgoal9result" style="display: none">
 		<br>
 		<h4>Your soccer goalie glove size is: 9</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Goalkeeper+
+Gloves&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B299%3A5%2C6%2C7%2C8%2C9&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4872,6 +5280,11 @@ measure should be around 1 cm above your ears</p>
 	<div id="sgoal10result" style="display: none">
 		<br>
 		<h4>Your soccer goalie glove size is: 10</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Goalkeeper+
+Gloves&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B299%3A5%2C6%2C7%2C8%2C9&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4879,6 +5292,11 @@ measure should be around 1 cm above your ears</p>
 	<div id="sgoal11result" style="display: none">
 		<br>
 		<h4>Your soccer goalie glove size is: 11</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Goalkeeper+
+Gloves&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B299%3A5%2C6%2C7%2C8%2C9&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4886,6 +5304,11 @@ measure should be around 1 cm above your ears</p>
 	<div id="sgoal12result" style="display: none">
 		<br>
 		<h4>Your soccer goalie glove size is: 12</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=soccer+Goalkeeper+
+Gloves&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B299%3A5%2C6%2C7%2C8%2C9&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -4902,40 +5325,107 @@ measure should be around 1 cm above your ears</p>
   <div id="bbsbglv7result" style="display: none">
 		<br>
 		<h4>Your infielder glove size is: 8-10"</h4>
+		
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Softball++Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5112%3A9%22%2C9.5%22%2C10%22%2C10.5%22%2C11%22%
+2C11.5%22%2C11.75%22%2C12%22%2C12.25%22%2C12.5%22%2C12.75%22%2C13%22%2C13
+.5%22%2C14%22%2C15%22%2C31.5%22%2C32.5%22%2C33%22%2C33.5%22%2C34%22%2C3
+4.5%22%3B4285%3ABaseball%2CSoftball&pageNumber=0
+">Click here to see products in this size</a></p>
 		<br>
 		<h4>Your outfielder glove size is: 9-10"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Softball++Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5112%3A9%22%2C9.5%22%2C10%22%2C10.5%22%2C11%22%
+2C11.5%22%2C11.75%22%2C12%22%2C12.25%22%2C12.5%22%2C12.75%22%2C13%22%2C13
+.5%22%2C14%22%2C15%22%2C31.5%22%2C32.5%22%2C33%22%2C33.5%22%2C34%22%2C3
+4.5%22%3B4285%3ABaseball%2CSoftball&pageNumber=0
+">Click here to see products in this size</a></p>
 		<br>
 		<h4>Your catcher's glove size is:  29.5-30"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?categoryId=&storeId=15108&catalogId=12301&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&pageSize=48&searchTerm=catchers+glove&DSGsearchType=Keyword&advsearch=true&SearchType=Keyword">Click here to see products in this size</a></p>
+
+
 		<hr>
 	</div>
 	
 	<div id="bbsbglv810result" style="display: none">
 		<br>
 		<h4>Your infielder glove size is: 10-11"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Softball++Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5112%3A9%22%2C9.5%22%2C10%22%2C10.5%22%2C11%22%
+2C11.5%22%2C11.75%22%2C12%22%2C12.25%22%2C12.5%22%2C12.75%22%2C13%22%2C13
+.5%22%2C14%22%2C15%22%2C31.5%22%2C32.5%22%2C33%22%2C33.5%22%2C34%22%2C3
+4.5%22%3B4285%3ABaseball%2CSoftball&pageNumber=0
+">Click here to see products in this size</a></p>
 		<br>
 		<h4>Your outfielder glove size is: 10-12"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Softball++Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5112%3A9%22%2C9.5%22%2C10%22%2C10.5%22%2C11%22%
+2C11.5%22%2C11.75%22%2C12%22%2C12.25%22%2C12.5%22%2C12.75%22%2C13%22%2C13
+.5%22%2C14%22%2C15%22%2C31.5%22%2C32.5%22%2C33%22%2C33.5%22%2C34%22%2C3
+4.5%22%3B4285%3ABaseball%2CSoftball&pageNumber=0
+">Click here to see products in this size</a></p>
 		<br>
-		<h4>Your catcher's glove size is:  30-31"</h4>
+		<h4>Your     size is:  30-31"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Softball++Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5112%3A9%22%2C9.5%22%2C10%22%2C10.5%22%2C11%22%
+2C11.5%22%2C11.75%22%2C12%22%2C12.25%22%2C12.5%22%2C12.75%22%2C13%22%2C13
+.5%22%2C14%22%2C15%22%2C31.5%22%2C32.5%22%2C33%22%2C33.5%22%2C34%22%2C3
+4.5%22%3B4285%3ABaseball%2CSoftball&pageNumber=0
+">Click here to see products in this size</a></p>
 		<hr>
 	</div>
 	
 	<div id="bbsbglv1113result" style="display: none">
 		<br>
 		<h4>Your infielder glove size is: 11-11.5"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Softball++Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5112%3A9%22%2C9.5%22%2C10%22%2C10.5%22%2C11%22%
+2C11.5%22%2C11.75%22%2C12%22%2C12.25%22%2C12.5%22%2C12.75%22%2C13%22%2C13
+.5%22%2C14%22%2C15%22%2C31.5%22%2C32.5%22%2C33%22%2C33.5%22%2C34%22%2C3
+4.5%22%3B4285%3ABaseball%2CSoftball&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<h4>Your outfielder glove size is: 12-13"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Softball++Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5112%3A9%22%2C9.5%22%2C10%22%2C10.5%22%2C11%22%
+2C11.5%22%2C11.75%22%2C12%22%2C12.25%22%2C12.5%22%2C12.75%22%2C13%22%2C13
+.5%22%2C14%22%2C15%22%2C31.5%22%2C32.5%22%2C33%22%2C33.5%22%2C34%22%2C3
+4.5%22%3B4285%3ABaseball%2CSoftball&pageNumber=0
+">Click here to see products in this size</a></p>
 		<br>
 		<h4>Your catcher's glove size is:  30-32.5"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?categoryId=&storeId=15108&catalogId=12301&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&pageSize=48&searchTerm=catchers+glove&DSGsearchType=Keyword&advsearch=true&SearchType=Keyword">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="bbsbglv14result" style="display: none">
 		<br>
 		<h4>Your infielder glove size is: 12-12.5"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Softball++Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5112%3A9%22%2C9.5%22%2C10%22%2C10.5%22%2C11%22%
+2C11.5%22%2C11.75%22%2C12%22%2C12.25%22%2C12.5%22%2C12.75%22%2C13%22%2C13
+.5%22%2C14%22%2C15%22%2C31.5%22%2C32.5%22%2C33%22%2C33.5%22%2C34%22%2C3
+4.5%22%3B4285%3ABaseball%2CSoftball&pageNumber=0
+">Click here to see products in this size</a></p>
 		<br>
 		<h4>Your outfielder glove size is: 13-14"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Softball++Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5112%3A9%22%2C9.5%22%2C10%22%2C10.5%22%2C11%22%
+2C11.5%22%2C11.75%22%2C12%22%2C12.25%22%2C12.5%22%2C12.75%22%2C13%22%2C13
+.5%22%2C14%22%2C15%22%2C31.5%22%2C32.5%22%2C33%22%2C33.5%22%2C34%22%2C3
+4.5%22%3B4285%3ABaseball%2CSoftball&pageNumber=0
+">Click here to see products in this size</a></p>
 		<br>
 		<h4>Your catcher's glove size is:  32-34.5"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/f/baseball-
+bats?filterFacets=facetStore%3AISA%2CSHIP%3B1918%3A24%22%2C25%22%2C26%22%2C27%
+22%2C28%22%2C29%22%2C30%22%2C31%22%2C31.5%22%2C32%22%2C32.5%22%2C33%22
+%2C33.5%22%2C34%22%2C36%22%2C37%22%2C21%22&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
   
@@ -4947,48 +5437,97 @@ measure should be around 1 cm above your ears</p>
   <div id="bbsbbat27result" style="display: none">
 		<br>
 		<h4>Your bat size is: 27"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/f/baseball-
+bats?filterFacets=facetStore%3AISA%2CSHIP%3B1918%3A24%22%2C25%22%2C26%22%2C27%
+22%2C28%22%2C29%22%2C30%22%2C31%22%2C31.5%22%2C32%22%2C32.5%22%2C33%22
+%2C33.5%22%2C34%22%2C36%22%2C37%22%2C21%22&pageNumber=0
+">Click here to see products in this size</a></p>
+
+
 		<hr>
 	</div>
 	
 	 <div id="bbsbbat28result" style="display: none">
 		<br>
 		<h4>Your bat size is: 28"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/f/baseball-
+bats?filterFacets=facetStore%3AISA%2CSHIP%3B1918%3A24%22%2C25%22%2C26%22%2C27%
+22%2C28%22%2C29%22%2C30%22%2C31%22%2C31.5%22%2C32%22%2C32.5%22%2C33%22
+%2C33.5%22%2C34%22%2C36%22%2C37%22%2C21%22&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="bbsbbat29result" style="display: none">
 		<br>
 		<h4>Your bat size is: 29"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/f/baseball-
+bats?filterFacets=facetStore%3AISA%2CSHIP%3B1918%3A24%22%2C25%22%2C26%22%2C27%
+22%2C28%22%2C29%22%2C30%22%2C31%22%2C31.5%22%2C32%22%2C32.5%22%2C33%22
+%2C33.5%22%2C34%22%2C36%22%2C37%22%2C21%22&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="bbsbbat30result" style="display: none">
 		<br>
 		<h4>Your bat size is: 30"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/f/baseball-
+bats?filterFacets=facetStore%3AISA%2CSHIP%3B1918%3A24%22%2C25%22%2C26%22%2C27%
+22%2C28%22%2C29%22%2C30%22%2C31%22%2C31.5%22%2C32%22%2C32.5%22%2C33%22
+%2C33.5%22%2C34%22%2C36%22%2C37%22%2C21%22&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="bbsbbat31result" style="display: none">
 		<br>
 		<h4>Your bat size is: 31"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/f/baseball-
+bats?filterFacets=facetStore%3AISA%2CSHIP%3B1918%3A24%22%2C25%22%2C26%22%2C27%
+22%2C28%22%2C29%22%2C30%22%2C31%22%2C31.5%22%2C32%22%2C32.5%22%2C33%22
+%2C33.5%22%2C34%22%2C36%22%2C37%22%2C21%22&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="bbsbbat32result" style="display: none">
 		<br>
 		<h4>Your bat size is: 32"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/f/baseball-
+bats?filterFacets=facetStore%3AISA%2CSHIP%3B1918%3A24%22%2C25%22%2C26%22%2C27%
+22%2C28%22%2C29%22%2C30%22%2C31%22%2C31.5%22%2C32%22%2C32.5%22%2C33%22
+%2C33.5%22%2C34%22%2C36%22%2C37%22%2C21%22&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="bbsbbat33result" style="display: none">
 		<br>
 		<h4>Your bat size is: 33"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/f/baseball-
+bats?filterFacets=facetStore%3AISA%2CSHIP%3B1918%3A24%22%2C25%22%2C26%22%2C27%
+22%2C28%22%2C29%22%2C30%22%2C31%22%2C31.5%22%2C32%22%2C32.5%22%2C33%22
+%2C33.5%22%2C34%22%2C36%22%2C37%22%2C21%22&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="bbsbbat34result" style="display: none">
 		<br>
 		<h4>Your bat size is: 34"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/f/baseball-
+bats?filterFacets=facetStore%3AISA%2CSHIP%3B1918%3A24%22%2C25%22%2C26%22%2C27%
+22%2C28%22%2C29%22%2C30%22%2C31%22%2C31.5%22%2C32%22%2C32.5%22%2C33%22
+%2C33.5%22%2C34%22%2C36%22%2C37%22%2C21%22&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
   
@@ -4999,30 +5538,57 @@ measure should be around 1 cm above your ears</p>
   <div id="bbsbhlmxsresult" style="display: none">
 		<br>
 		<h4>Your batting helmet size is: Extra Small</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Batting+Helmet&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&pageNumber=0
+">Click here to see products in this size</a></p>
+
+		
 		<hr>
 	</div>
 	
 	 <div id="bbsbhlmsmresult" style="display: none">
 		<br>
 		<h4>Your batting helmet size is: Small</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Batting+Helmet&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AYouth&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="bbsbhlmmdresult" style="display: none">
 		<br>
 		<h4>Your batting helmet size is: Medium</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Batting+Helmet&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AYouth&pageNumber=0
+">Click here to see products in this size</a></p>
+
+
 		<hr>
 	</div>
 	
 	 <div id="bbsbhlmlgresult" style="display: none">
 		<br>
 		<h4>Your batting helmet size is: Large</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Batting+Helmet&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="bbsbhlmxlresult" style="display: none">
 		<br>
 		<h4>Your batting helmet size is: Extra Large</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Batting+Helmet&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
@@ -5033,48 +5599,105 @@ measure should be around 1 cm above your ears</p>
    <div id="bbsbbglvysmresult" style="display: none">
 		<br>
 		<h4>Your batting glove size is: Youth Small</h4>
+		
+<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Baseball%2FSoftball+
+Batting+Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP
+">Click here to see products in this size</a></p>
+
+		
 		<hr>
 	</div>
 	
 	<div id="bbsbbglvymdresult" style="display: none" >
 		<br>
 		<h4>Your batting glove size is: Youth Medium</h4>
+		
+<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Baseball%2FSoftball+
+Batting+Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="bbsbbglvylgresult" style="display: none">
 		<br>
 		<h4>Your batting glove size is: Youth Large</h4>
+		
+<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Baseball%2FSoftball+
+Batting+Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="bbsbbglvsrsmresult" style="display: none">
 		<br>
 		<h4>Your batting glove size is: Senior Small</h4>
+		
+<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Baseball%2FSoftball+
+Batting+Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="bbsbbglvsrmdresult" style="display: none">
 		<br>
 		<h4>Your batting glove size is: Senior Medium</h4>
+		
+<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Baseball%2FSoftball+
+Batting+Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="bbsbbglvsrlgresult" style="display: none">
 		<br>
 		<h4>Your batting glove size is: Senior Large</h4>
+		
+<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Baseball%2FSoftball+
+Batting+Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="bbsbbglvsrxlresult" style="display: none">
 		<br>
 		<h4>Your batting glove size is: Senior Extra Large</h4>
+		
+<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Baseball%2FSoftball+
+Batting+Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="bbsbbglvsrxxlresult" style="display: none">
 		<br>
 		<h4>Your batting glove size is: Senior Extra Extra Large</h4>
+		
+<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Baseball%2FSoftball+
+Batting+Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
   
@@ -5085,6 +5708,11 @@ measure should be around 1 cm above your ears</p>
   <div id="bbsbcleaty6result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 6.0 Youth</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.0%2C7.0
+%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5092,6 +5720,11 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleaty7result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 7.0 Youth</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.0%2C7.0
+%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5099,6 +5732,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleaty8result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 8.0 Youth</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.0%2C7.0
+%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0&pageNumber=0
+">Click here to see products in this size</a></p>
 		<br>
 		<hr>
 	</div>
@@ -5106,6 +5743,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleaty9result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 9.0 Youth</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.0%2C7.0
+%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0&pageNumber=0
+">Click here to see products in this size</a></p>
 		<br>
 		<hr>
 	</div>
@@ -5113,6 +5754,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleaty10result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 10.0 Youth</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.0%2C7.0
+%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0&pageNumber=0
+">Click here to see products in this size</a></p>
 		<br>
 		<hr>
 	</div>
@@ -5120,6 +5765,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleaty11result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 11.0 Youth</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.0%2C7.0
+%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0&pageNumber=0
+">Click here to see products in this size</a></p>
 		<br>
 		<hr>
 	</div>
@@ -5127,6 +5776,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleaty12result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 12.0 Youth</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.0%2C7.0
+%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0&pageNumber=0
+">Click here to see products in this size</a></p>
 		<br>
 		<hr>
 	</div>
@@ -5134,6 +5787,10 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleaty13result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 13.0 Youth</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.0%2C7.0
+%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0&pageNumber=0
+">Click here to see products in this size</a></p>
 		<br>
 		<hr>
 	</div>
@@ -5141,6 +5798,12 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatjr1result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 1.0 Junior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&pageNumber=0&filterFacets=5214%3A1.0%2C1.5%2C2.0%2C2.5
+%2C3.0%2C3.5%2C4.0%2C4.5%2C5.0%2C5.5
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5148,6 +5811,12 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatjr15result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 1.5 Junior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&pageNumber=0&filterFacets=5214%3A1.0%2C1.5%2C2.0%2C2.5
+%2C3.0%2C3.5%2C4.0%2C4.5%2C5.0%2C5.5
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5155,6 +5824,12 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatjr2result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 2.0 Junior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&pageNumber=0&filterFacets=5214%3A1.0%2C1.5%2C2.0%2C2.5
+%2C3.0%2C3.5%2C4.0%2C4.5%2C5.0%2C5.5
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5162,6 +5837,12 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatjr25result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 2.5 Junior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&pageNumber=0&filterFacets=5214%3A1.0%2C1.5%2C2.0%2C2.5
+%2C3.0%2C3.5%2C4.0%2C4.5%2C5.0%2C5.5
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5169,6 +5850,12 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatjr3result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 3.0 Junior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&pageNumber=0&filterFacets=5214%3A1.0%2C1.5%2C2.0%2C2.5
+%2C3.0%2C3.5%2C4.0%2C4.5%2C5.0%2C5.5
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5176,6 +5863,12 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatjr35result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 3.5 Junior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&pageNumber=0&filterFacets=5214%3A1.0%2C1.5%2C2.0%2C2.5
+%2C3.0%2C3.5%2C4.0%2C4.5%2C5.0%2C5.5
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5183,6 +5876,12 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatjr4result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 4.0 Junior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&pageNumber=0&filterFacets=5214%3A1.0%2C1.5%2C2.0%2C2.5
+%2C3.0%2C3.5%2C4.0%2C4.5%2C5.0%2C5.5
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5190,6 +5889,12 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatjr45result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 4.5 Junior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&pageNumber=0&filterFacets=5214%3A1.0%2C1.5%2C2.0%2C2.5
+%2C3.0%2C3.5%2C4.0%2C4.5%2C5.0%2C5.5
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5197,6 +5902,12 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatjr5result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 5.0 Junior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&pageNumber=0&filterFacets=5214%3A1.0%2C1.5%2C2.0%2C2.5
+%2C3.0%2C3.5%2C4.0%2C4.5%2C5.0%2C5.5
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5204,6 +5915,12 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatjr55result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 5.5 Junior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&pageNumber=0&filterFacets=5214%3A1.0%2C1.5%2C2.0%2C2.5
+%2C3.0%2C3.5%2C4.0%2C4.5%2C5.0%2C5.5
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5211,6 +5928,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatsr6result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 6.0 Senior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&store
+Id=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5218,6 +5942,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatsr65result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 6.5 Senior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&store
+Id=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5225,6 +5956,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatsr7result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 7.0 Senior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&store
+Id=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5232,6 +5970,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatsr75result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 7.5 Senior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&store
+Id=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5239,6 +5984,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatsr8result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 8.0 Senior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&store
+Id=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5246,6 +5998,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatsr85result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 8.5 Senior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&store
+Id=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5253,6 +6012,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatsr9result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 9.0 Senior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&store
+Id=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5260,6 +6026,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatsr95result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 9.5 Senior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&store
+Id=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5267,6 +6040,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatsr10result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 10.0 Senior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&store
+Id=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5274,6 +6054,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatsr105result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 10.5 Senior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&store
+Id=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5281,6 +6068,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatsr11result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 11.0 Senior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&store
+Id=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5288,6 +6082,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatsr115result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 11.5 Senior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&store
+Id=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5295,6 +6096,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatsr12result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 12.0 Senior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&store
+Id=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5302,6 +6110,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatsr125result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 12.5 Senior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&store
+Id=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5309,6 +6124,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcleatsr13result" style="display: none">
 		<br>
 		<h4>Your baseball/softball cleat size is: 13.0 Senior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Cleats+softball&store
+Id=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5212%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.
+5%2C10.0%2C10.5%2C11.0%2C11.5%2C12.0%2C12.5%2C13.0&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5321,12 +6143,25 @@ measure should be around 1 cm above your ears</p>
   <div id="bbsbfldythresult" style="display: none">
 		<br>
 		<h4>Your fielder's mask size is: Youth</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Fielders
++Mask&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AYouth&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="bbsbfldsrresult" style="display: none">
 		<br>
 		<h4>Your fielder's mask size is: Senior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Fielders
++Mask&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&page
+Number=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
   
@@ -5337,66 +6172,123 @@ measure should be around 1 cm above your ears</p>
   <div id="bbsbcmask614result" style="display: none">
 		<br>
 		<h4>Your catcher's mask size is: 6 1/4</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Catchers+Mask&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AYouth&pageNumber=0">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="bbsbcmask638result" style="display: none">
 		<br>
 		<h4>Your catcher's mask size is: 6 3/8</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Catchers+Mask&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AYouth&pageNumber=0">Click here to see products in this size</a></p>
+
 		<hr>
+
 	</div>
 	
 	 <div id="bbsbcmask612result" style="display: none">
 		<br>
 		<h4>Your catcher's mask size is: 6 1/2</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Catchers+Mask&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AYouth&pageNumber=0">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="bbsbcmask658result" style="display: none">
 		<br>
 		<h4>Your catcher's mask size is: 6 5/8</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Catchers+Mask&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AYouth&pageNumber=0">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="bbsbcmask634result" style="display: none">
 		<br>
 		<h4>Your catcher's mask size is: 6 3/4</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Catchers+Mask&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AYouth&pageNumber=0">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="bbsbcmask678result" style="display: none">
 		<br>
 		<h4>Your catcher's mask size is: 6 7/8</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Catchers+Mask&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&page
+Number=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="bbsbcmask7result" style="display: none">
 		<br>
 		<h4>Your catcher's mask size is: 7</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Catchers+Mask&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&page
+Number=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="bbsbcmask718result" style="display: none">
 		<br>
 		<h4>Your catcher's mask size is: 7 1/8</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Catchers+Mask&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&page
+Number=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="bbsbcmask714result" style="display: none">
 		<br>
 		<h4>Your catcher's mask size is: 7 1/4</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Catchers+Mask&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&page
+Number=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="bbsbcmask738result" style="display: none">
 		<br>
 		<h4>Your catcher's mask size is: 7 3/8</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Catchers+Mask&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&page
+Number=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="bbsbcmask712result" style="display: none">
 		<br>
 		<h4>Your catcher's mask size is: 7 1/2</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Catchers+Mask&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&page
+Number=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
   
@@ -5407,30 +6299,54 @@ measure should be around 1 cm above your ears</p>
   <div id="bbsbcchesttballresult" style="display: none">
 		<br>
 		<h4>Your catcher's chest protector size is: T-Ball</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Catchers+Chest+Protector&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AYouth&pageNumber=0
+">Click here to see products in this size</a></p>
 		<hr>
 	</div>
 	
 	<div id="bbsbcchestythresult" style="display: none">
 		<br>
 		<h4>Your catcher's chest protector size is: Youth</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Catchers+Chest+Protector&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AYouth&pageNumber=0
+">Click here to see products in this size</a></p>
 		<hr>
 	</div>
 	
 	<div id="bbsbcchestjrresult" style="display: none">
 		<br>
 		<h4>Your catcher's chest protector size is: Junior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Catchers+Chest+Protector&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AYouth&pageNumber=0
+">Click here to see products in this size</a></p>
 		<hr>
 	</div>
 	
 	<div id="bbsbcchestsrresult" style="display: none">
 		<br>
 		<h4>Your catcher's chest protector size is: Senior</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Catchers+Chest+Protector&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&page
+Number=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="bbsbcchestadresult" style="display: none">
 		<br>
 		<h4>Your catcher's chest protector size is: Adult</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Catchers+Chest+Protector&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&page
+Number=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
   
@@ -5441,42 +6357,78 @@ measure should be around 1 cm above your ears</p>
   	<div id="bbsbcshin10result" style="display: none">
 		<br>
 		<h4>Your catcher's shin guard size is: 10"</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Catchers+Shin+Guards&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AYouth&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 		<div id="bbsbcshin115result" style="display: none">
 		<br>
 		<h4>Your catcher's shin guard size is: 11.5"</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Catchers+Shin+Guards&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AYouth&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 		<div id="bbsbcshin13result" style="display: none">
 		<br>
 		<h4>Your catcher's shin guard size is: 13"</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Catchers+Shin+Guards&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AYouth&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 		<div id="bbsbcshin145result" style="display: none">
 		<br>
 		<h4>Your catcher's shin guard size is: 14.5"</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Catchers+Shin+Guards&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AYouth&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 		<div id="bbsbcshin155result" style="display: none">
 		<br>
 		<h4>Your catcher's shin guard size is: 15.5"</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Catchers+Shin+Guards&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&page
+Number=0
+">Click here to see products in this size</a></p>
+		
 		<hr>
 	</div>
 	
 		<div id="bbsbcshin165result" style="display: none">
 		<br>
 		<h4>Your catcher's shin guard size is: 16.5"</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Catchers+Shin+Guards&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&page
+Number=0
+">Click here to see products in this size</a></p>
 		<hr>
 	</div>
 	
 		<div id="bbsbcshin175result" style="display: none">
 		<br>
 		<h4>Your catcher's shin guard size is: 17.5"</h4>
+		<p> <a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Catchers+Shin+Guards&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&page
+Number=0
+">Click here to see products in this size</a></p>
 		<hr>
 	</div>
   
@@ -5487,40 +6439,96 @@ measure should be around 1 cm above your ears</p>
   <div id="bbsbcglv7result" style="display: none">
 		<br>
 		<h4>Your infielder glove size is: 8-10"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Softball++Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5112%3A9%22%2C9.5%22%2C10%22%2C10.5%22%2C11%22%
+2C11.5%22%2C11.75%22%2C12%22%2C12.25%22%2C12.5%22%2C12.75%22%2C13%22%2C13
+.5%22%2C14%22%2C15%22%2C31.5%22%2C32.5%22%2C33%22%2C33.5%22%2C34%22%2C3
+4.5%22%3B4285%3ABaseball%2CSoftball&pageNumber=0
+">Click here to see products in this size</a></p>
 		<br>
 		<h4>Your outfielder glove size is: 9-10"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Softball++Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5112%3A9%22%2C9.5%22%2C10%22%2C10.5%22%2C11%22%
+2C11.5%22%2C11.75%22%2C12%22%2C12.25%22%2C12.5%22%2C12.75%22%2C13%22%2C13
+.5%22%2C14%22%2C15%22%2C31.5%22%2C32.5%22%2C33%22%2C33.5%22%2C34%22%2C3
+4.5%22%3B4285%3ABaseball%2CSoftball&pageNumber=0
+">Click here to see products in this size</a></p>
 		<br>
 		<h4>Your catcher's glove size is:  29.5-30"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?categoryId=&storeId=15108&catalogId=12301&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&pageSize=48&searchTerm=catchers+glove&DSGsearchType=Keyword&advsearch=true&SearchType=Keyword">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="bbsbcglv810result" style="display: none">
 		<br>
 		<h4>Your infielder glove size is: 10-11"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Softball++Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5112%3A9%22%2C9.5%22%2C10%22%2C10.5%22%2C11%22%
+2C11.5%22%2C11.75%22%2C12%22%2C12.25%22%2C12.5%22%2C12.75%22%2C13%22%2C13
+.5%22%2C14%22%2C15%22%2C31.5%22%2C32.5%22%2C33%22%2C33.5%22%2C34%22%2C3
+4.5%22%3B4285%3ABaseball%2CSoftball&pageNumber=0
+">Click here to see products in this size</a></p>
 		<br>
 		<h4>Your outfielder glove size is: 10-12"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Softball++Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5112%3A9%22%2C9.5%22%2C10%22%2C10.5%22%2C11%22%
+2C11.5%22%2C11.75%22%2C12%22%2C12.25%22%2C12.5%22%2C12.75%22%2C13%22%2C13
+.5%22%2C14%22%2C15%22%2C31.5%22%2C32.5%22%2C33%22%2C33.5%22%2C34%22%2C3
+4.5%22%3B4285%3ABaseball%2CSoftball&pageNumber=0
+">Click here to see products in this size</a></p>
 		<br>
 		<h4>Your catcher's glove size is:  30-31"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?categoryId=&storeId=15108&catalogId=12301&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&pageSize=48&searchTerm=catchers+glove&DSGsearchType=Keyword&advsearch=true&SearchType=Keyword">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="bbsbcglv1113result" style="display: none">
 		<br>
 		<h4>Your infielder glove size is: 11-11.5"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Softball++Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5112%3A9%22%2C9.5%22%2C10%22%2C10.5%22%2C11%22%
+2C11.5%22%2C11.75%22%2C12%22%2C12.25%22%2C12.5%22%2C12.75%22%2C13%22%2C13
+.5%22%2C14%22%2C15%22%2C31.5%22%2C32.5%22%2C33%22%2C33.5%22%2C34%22%2C3
+4.5%22%3B4285%3ABaseball%2CSoftball&pageNumber=0
+">Click here to see products in this size</a></p>
 		<br>
 		<h4>Your outfielder glove size is: 12-13"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Softball++Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5112%3A9%22%2C9.5%22%2C10%22%2C10.5%22%2C11%22%
+2C11.5%22%2C11.75%22%2C12%22%2C12.25%22%2C12.5%22%2C12.75%22%2C13%22%2C13
+.5%22%2C14%22%2C15%22%2C31.5%22%2C32.5%22%2C33%22%2C33.5%22%2C34%22%2C3
+4.5%22%3B4285%3ABaseball%2CSoftball&pageNumber=0
+">Click here to see products in this size</a></p>
 		<br>
 		<h4>Your catcher's glove size is:  30-32.5"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?categoryId=&storeId=15108&catalogId=12301&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&pageSize=48&searchTerm=catchers+glove&DSGsearchType=Keyword&advsearch=true&SearchType=Keyword">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="bbsbcglv14result" style="display: none">
 		<br>
 		<h4>Your infielder glove size is: 12-12.5"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Softball++Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5112%3A9%22%2C9.5%22%2C10%22%2C10.5%22%2C11%22%
+2C11.5%22%2C11.75%22%2C12%22%2C12.25%22%2C12.5%22%2C12.75%22%2C13%22%2C13
+.5%22%2C14%22%2C15%22%2C31.5%22%2C32.5%22%2C33%22%2C33.5%22%2C34%22%2C3
+4.5%22%3B4285%3ABaseball%2CSoftball&pageNumber=0
+">Click here to see products in this size</a></p>
 		<br>
 		<h4>Your outfielder glove size is: 13-14"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Softball++Glove&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5112%3A9%22%2C9.5%22%2C10%22%2C10.5%22%2C11%22%
+2C11.5%22%2C11.75%22%2C12%22%2C12.25%22%2C12.5%22%2C12.75%22%2C13%22%2C13
+.5%22%2C14%22%2C15%22%2C31.5%22%2C32.5%22%2C33%22%2C33.5%22%2C34%22%2C3
+4.5%22%3B4285%3ABaseball%2CSoftball&pageNumber=0
+">Click here to see products in this size</a></p>
 		<br>
 		<h4>Your catcher's glove size is:  32-34.5"</h4>
+		<p> <a href="https://www.dickssportinggoods.com/search/SearchDisplay?categoryId=&storeId=15108&catalogId=12301&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&pageSize=48&searchTerm=catchers+glove&DSGsearchType=Keyword&advsearch=true&SearchType=Keyword">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
   
@@ -5532,72 +6540,131 @@ measure should be around 1 cm above your ears</p>
 	<div id="bbsbcuppwregresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Peewee Regular</h4>
+		
+<p> <a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Youth
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="bbsbcuppwlgresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Peewee Large</h4>
+		
+<p> <a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Youth
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="bbsbcupythregresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Youth Regular</h4>
+		
+<p> <a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Youth
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="bbsbcupythlgresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Youth Large</h4>
+		
+<p> <a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Youth
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="bbsbcupteenregresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Teen Regular</h4>
+		<p> <a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Junior
+
+">Click here to see products in this size</a></p>
 		<hr>
 	</div>
 	
 	<div id="bbsbcupteenlgresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Teen Large</h4>
+		<p> <a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Junior
+
+">Click here to see products in this size</a></p>
 		<hr>
 	</div>
 	
 	<div id="bbsbcupsrsmresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Senior Small</h4>
+		
+<p> <a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Senior
+">Click here to see products in this size</a></p>
+
+
 		<hr>
 	</div>
 	
 	<div id="bbsbcupsrmdresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Senior Medium</h4>
+		
+<p> <a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Senior
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="bbsbcupsrlgresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Senior Large</h4>
+		
+<p> <a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Senior
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="bbsbcupsrxlresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Senior Extra Large (XL)</h4>
+		
+<p> <a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Senior
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="bbsbcupsrxxlresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Senior Extra Extra Large (XXL)</h4>
+		
+<p> <a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Senior
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="bbsbcupsrxxxlresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Senior Extra Extra Extra Large (XXXL)</h4>
+		
+<p> <a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Senior
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
   
@@ -5612,12 +6679,22 @@ measure should be around 1 cm above your ears</p>
   	<div id="lhlmxssmresult" style="display: none">
 		<br>
 		<h4>Your lacrosse helmet size is: Extra Small/Small (XS/SM)</h4>
+		<p><a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Helmet&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AYouth&pageNumber=0
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="lhlmmdlgresult" style="display: none">
 		<br>
 		<h4>Your lacrosse helmet size is: Medium/Large (M/L)</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Helmet&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult%2CYouth&pageNumber=0
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
   
@@ -5628,30 +6705,65 @@ measure should be around 1 cm above your ears</p>
   <div id="lshoulderxsresult" style="display: none">
 		<br>
 		<h4>Your lacrosse shoulder pad size is: Extra Small</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Shoulder+Pads&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AYouth&pageNumber=0
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="lshouldersmresult" style="display: none">
 		<br>
 		<h4>Your lacrosse shoulder pad size is: Small</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Shoulder+Pads&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AYouth&pageNumber=0
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="lshouldermdresult" style="display: none">
 		<br>
 		<h4>Your lacrosse shoulder pad size is: Medium</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Shoulder+Pads&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&page
+Number=0
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="lshoulderlgresult" style="display: none">
 		<br>
 		<h4>Your lacrosse shoulder pad size is: Large</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Shoulder+Pads&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&page
+Number=0
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="lshoulderxlresult" style="display: none">
 		<br>
 		<h4>Your lacrosse shoulder pad size is: Extra Large</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Shoulder+Pads&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&page
+Number=0
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
   
@@ -5662,30 +6774,69 @@ measure should be around 1 cm above your ears</p>
   <div id="lagxsresult" style="display: none">
 		<br>
 		<h4>Your lacrosse arm guard size is: Extra Small</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Arm+Guards&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&page
+Number=0
+
+
+">Click here to see products in this size</a></p>
+
+
 		<hr>
 	</div>
 	
 	<div id="lagsmresult" style="display: none">
 		<br>
 		<h4>Your lacrosse arm guard size is: Small</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Arm+Guards&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&page
+Number=0
+
+
+">Click here to see products in this size</a></p>
+
+
 		<hr>
 	</div>
 	
 	<div id="lagmdresult" style="display: none">
 		<br>
 		<h4>Your lacrosse arm guard size is: Medium</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Arm+Guards&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&page
+Number=0
+">Click here to see products in this size</a></p>
+
+
 		<hr>
 	</div>
 	
 	<div id="laglgresult" style="display: none">
 		<br>
 		<h4>Your lacrosse arm guard size is: Large</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Arm+Guards&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&page
+Number=0
+
+
+">Click here to see products in this size</a></p>
+
+
 		<hr>
 	</div>
 	
 	<div id="lagxlresult" style="display: none">
 		<br>
 		<h4>Your lacrosse arm guard size is: Extra Large</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Arm+Guards&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&page
+Number=0
+">Click here to see products in this size</a></p>
 		<hr>
 	</div>
   
@@ -5696,24 +6847,36 @@ measure should be around 1 cm above your ears</p>
   	<div id="lglv8result" style="display: none">
 		<br>
 		<h4>Your lacrosse glove size is: 8"</h4>
+		<p><a href="
+		https://www.dickssportinggoods.com/search/SearchDisplay?categoryId=&storeId=15108&catalogId=12301&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&pageSize=48&searchTerm=Lacrosse+Gloves&selectedStore=1023&DSGsearchType=Keyword&advsearch=true&SearchType=Keyword
+">Click here to see products in this size</a></p>
 		<hr>
 	</div>
 	
 	<div id="lglv10result" style="display: none">
 		<br>
 		<h4>Your lacrosse glove size is: 10"</h4>
+		<p><a href="
+		https://www.dickssportinggoods.com/search/SearchDisplay?categoryId=&storeId=15108&catalogId=12301&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&pageSize=48&searchTerm=Lacrosse+Gloves&selectedStore=1023&DSGsearchType=Keyword&advsearch=true&SearchType=Keyword
+">Click here to see products in this size</a></p>
 		<hr>
 	</div>
 	
 	<div id="lglv12result" style="display: none">
 		<br>
 		<h4>Your lacrosse glove size is: 12"</h4>
+		<p><a href="
+		https://www.dickssportinggoods.com/search/SearchDisplay?categoryId=&storeId=15108&catalogId=12301&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&pageSize=48&searchTerm=Lacrosse+Gloves&selectedStore=1023&DSGsearchType=Keyword&advsearch=true&SearchType=Keyword
+">Click here to see products in this size</a></p>
 		<hr>
 	</div>
 	
 	<div id="lglv13result" style="display: none">
 		<br>
 		<h4>Your lacrosse glove size is: 13"</h4>
+		<p><a href="
+		https://www.dickssportinggoods.com/search/SearchDisplay?categoryId=&storeId=15108&catalogId=12301&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&pageSize=48&searchTerm=Lacrosse+Gloves&selectedStore=1023&DSGsearchType=Keyword&advsearch=true&SearchType=Keyword
+">Click here to see products in this size</a></p>
 		<hr>
 	</div>
   
@@ -5724,6 +6887,13 @@ measure should be around 1 cm above your ears</p>
   <div id="lcleaty6result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 6.0 Youth</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5213%3A6.0%2C7.0%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0&pageNumber=0
+
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5731,6 +6901,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleaty7result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 7.0 Youth</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5213%3A6.0%2C7.0%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0&pageNumber=0
+
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5738,6 +6915,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleaty8result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 8.0 Youth</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5213%3A6.0%2C7.0%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0&pageNumber=0
+
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5745,6 +6929,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleaty9result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 9.0 Youth</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5213%3A6.0%2C7.0%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0&pageNumber=0
+
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5752,6 +6943,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleaty10result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 10.0 Youth</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5213%3A6.0%2C7.0%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0&pageNumber=0
+
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5759,6 +6957,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleaty11result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 11.0 Youth</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5213%3A6.0%2C7.0%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0&pageNumber=0
+
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5766,6 +6971,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleaty12result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 12.0 Youth</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5213%3A6.0%2C7.0%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0&pageNumber=0
+
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5773,6 +6985,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleaty13result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 13.0 Youth</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5213%3A6.0%2C7.0%2C8.0%2C9.0%2C10.0%2C11.0%2C12.0%2C13.0&pageNumber=0
+
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5780,6 +6999,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatjr1result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 1.0 Junior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&pageNumber=0&filterFacets=5214%3A1.0%2C1.5%2C2.0%2C2.5
+%2C3.0%2C3.5%2C4.0%2C4.5%2C5.0%2C5.5
+
+
+">Click here to see products in this size</a></p>
 		<br>
 		<hr>
 	</div>
@@ -5787,6 +7013,14 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatjr15result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 1.5 Junior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&pageNumber=0&filterFacets=5214%3A1.0%2C1.5%2C2.0%2C2.5
+%2C3.0%2C3.5%2C4.0%2C4.5%2C5.0%2C5.5
+
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5794,6 +7028,14 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatjr2result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 2.0 Junior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&pageNumber=0&filterFacets=5214%3A1.0%2C1.5%2C2.0%2C2.5
+%2C3.0%2C3.5%2C4.0%2C4.5%2C5.0%2C5.5
+
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5801,6 +7043,14 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatjr25result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 2.5 Junior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&pageNumber=0&filterFacets=5214%3A1.0%2C1.5%2C2.0%2C2.5
+%2C3.0%2C3.5%2C4.0%2C4.5%2C5.0%2C5.5
+
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5808,6 +7058,14 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatjr3result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 3.0 Junior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&pageNumber=0&filterFacets=5214%3A1.0%2C1.5%2C2.0%2C2.5
+%2C3.0%2C3.5%2C4.0%2C4.5%2C5.0%2C5.5
+
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5815,6 +7073,14 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatjr35result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 3.5 Junior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&pageNumber=0&filterFacets=5214%3A1.0%2C1.5%2C2.0%2C2.5
+%2C3.0%2C3.5%2C4.0%2C4.5%2C5.0%2C5.5
+
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5822,6 +7088,14 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatjr4result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 4.0 Junior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&pageNumber=0&filterFacets=5214%3A1.0%2C1.5%2C2.0%2C2.5
+%2C3.0%2C3.5%2C4.0%2C4.5%2C5.0%2C5.5
+
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5829,6 +7103,14 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatjr45result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 4.5 Junior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&pageNumber=0&filterFacets=5214%3A1.0%2C1.5%2C2.0%2C2.5
+%2C3.0%2C3.5%2C4.0%2C4.5%2C5.0%2C5.5
+
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5836,6 +7118,14 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatjr5result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 5.0 Junior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&pageNumber=0&filterFacets=5214%3A1.0%2C1.5%2C2.0%2C2.5
+%2C3.0%2C3.5%2C4.0%2C4.5%2C5.0%2C5.5
+
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5843,6 +7133,14 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatjr55result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 5.5 Junior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&pageNumber=0&filterFacets=5214%3A1.0%2C1.5%2C2.0%2C2.5
+%2C3.0%2C3.5%2C4.0%2C4.5%2C5.0%2C5.5
+
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5850,6 +7148,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatsr6result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 6.0 Senior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5213%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.5%2C10.0%2C10.5%2C11.0%2C11.5%
+2C12.0%2C12.5%2C13.0&pageNumber=0
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5857,6 +7162,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatsr65result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 6.5 Senior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5213%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.5%2C10.0%2C10.5%2C11.0%2C11.5%
+2C12.0%2C12.5%2C13.0&pageNumber=0
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5864,6 +7176,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatsr7result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 7.0 Senior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5213%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.5%2C10.0%2C10.5%2C11.0%2C11.5%
+2C12.0%2C12.5%2C13.0&pageNumber=0
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5871,6 +7190,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatsr75result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 7.5 Senior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5213%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.5%2C10.0%2C10.5%2C11.0%2C11.5%
+2C12.0%2C12.5%2C13.0&pageNumber=0
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5878,6 +7204,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatsr8result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 8.0 Senior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5213%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.5%2C10.0%2C10.5%2C11.0%2C11.5%
+2C12.0%2C12.5%2C13.0&pageNumber=0
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5885,6 +7218,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatsr85result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 8.5 Senior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5213%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.5%2C10.0%2C10.5%2C11.0%2C11.5%
+2C12.0%2C12.5%2C13.0&pageNumber=0
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5892,6 +7232,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatsr9result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 9.0 Senior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5213%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.5%2C10.0%2C10.5%2C11.0%2C11.5%
+2C12.0%2C12.5%2C13.0&pageNumber=0
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5899,6 +7246,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatsr95result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 9.5 Senior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5213%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.5%2C10.0%2C10.5%2C11.0%2C11.5%
+2C12.0%2C12.5%2C13.0&pageNumber=0
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5906,6 +7260,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatsr10result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 10.0 Senior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5213%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.5%2C10.0%2C10.5%2C11.0%2C11.5%
+2C12.0%2C12.5%2C13.0&pageNumber=0
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5913,6 +7274,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatsr105result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 10.5 Senior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5213%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.5%2C10.0%2C10.5%2C11.0%2C11.5%
+2C12.0%2C12.5%2C13.0&pageNumber=0
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5920,6 +7288,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatsr11result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 11.0 Senior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5213%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.5%2C10.0%2C10.5%2C11.0%2C11.5%
+2C12.0%2C12.5%2C13.0&pageNumber=0
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5927,6 +7302,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatsr115result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 11.5 Senior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5213%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.5%2C10.0%2C10.5%2C11.0%2C11.5%
+2C12.0%2C12.5%2C13.0&pageNumber=0
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5934,6 +7316,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatsr12result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 12.0 Senior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5213%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.5%2C10.0%2C10.5%2C11.0%2C11.5%
+2C12.0%2C12.5%2C13.0&pageNumber=0
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5941,6 +7330,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatsr125result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 12.5 Senior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5213%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.5%2C10.0%2C10.5%2C11.0%2C11.5%
+2C12.0%2C12.5%2C13.0&pageNumber=0
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5948,6 +7344,13 @@ measure should be around 1 cm above your ears</p>
 	<div id="lcleatsr13result" style="display: none">
 		<br>
 		<h4>Your lacrosse cleat size is: 13.0 Senior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Cleats&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5213%3A6.0%2C6.5%2C7.0%2C7.5%2C8.0%2C8.5%2C9.0%2C9.5%2C10.0%2C10.5%2C11.0%2C11.5%
+2C12.0%2C12.5%2C13.0&pageNumber=0
+
+">Click here to see products in this size</a></p>
+
 		<br>
 		<hr>
 	</div>
@@ -5960,12 +7363,28 @@ measure should be around 1 cm above your ears</p>
   <div id="lstickythresult" style="display: none">
 		<br>
 		<h4>Your lacrosse stick size is: Youth</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Stick&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP
+
+
+">Click here to see products in this size</a></p>
+
+
 		<hr>
 	</div>
 	
 	<div id="lsticksrresult" style="display: none">
 		<br>
 		<h4>Your lacrosse stick size is: Senior</h4>
+		<p><a href="
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Lacrosse+Stick&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP
+
+
+">Click here to see products in this size</a></p>
+
+
 		<hr>
 	</div>
   
@@ -5976,12 +7395,21 @@ measure should be around 1 cm above your ears</p>
    <div id="lmgythresult" style="display: none">
 		<br>
 		<h4>Your mouth guard size is: Youth</h4>
+		<p><a href="
+https://www.hockeymonkey.com/search?q=Mouth+Guard#/filter:agegroup:Adult$252FYouth
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	  <div id="lmgsrresult" style="display: none">
 		<br>
 		<h4>Your mouth guard size is: Senior</h4>
+		<p><a href="
+https://www.hockeymonkey.com/search?q=Mouth+Guard#/filter:agegroup:Senior
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
   
@@ -5992,72 +7420,138 @@ measure should be around 1 cm above your ears</p>
   <div id="lcuppwregresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Peewee Regular</h4>
+		<p><a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Youth
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="lcuppwlgresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Peewee Large</h4>
+		<p><a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Youth
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="lcupythregresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Youth Regular</h4>
+		<p><a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Youth
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="lcupythlgresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Youth Large</h4>
+		<p><a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Youth
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="lcupteenregresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Teen Regular</h4>
+		<p><a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Youth
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="lcupteenlgresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Teen Large</h4>
+		<p><a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Youth
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="lcupsrsmresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Senior Small</h4>
+		<p><a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Senior
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="lcupsrmdresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Senior Medium</h4>
+		<p><a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Senior
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="lcupsrlgresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Senior Large</h4>
+		<p><a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Senior
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="lcupsrxlresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Senior Extra Large (XL)</h4>
+		<p><a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Senior
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="lcupsrxxlresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Senior Extra Extra Large (XXL)</h4>
+		<p><a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Senior
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="lcupsrxxxlresult" style="display: none">
 		<br>
 		<h4>Your protective cup size is: Senior Extra Extra Extra Large (XXXL)</h4>
+		<p><a href="
+https://www.hockeymonkey.com/search?q=Flex+Cup#/filter:agegroup:Senior
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 
@@ -6073,78 +7567,156 @@ measure should be around 1 cm above your ears</p>
    <div id="ski130result" style="display: none">
 		<br>
 		<h4>Your ski size is: 130cm</h4>
+		<p><a href="
+https://www.evo.com/shop/ski/skis
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="ski140result" style="display: none">
 		<br>
 		<h4>Your ski size is: 140cm</h4>
+		<p><a href="
+https://www.evo.com/shop/ski/skis
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="ski145result" style="display: none">
 		<br>
 		<h4>Your ski size is: 145cm</h4>
+		<p><a href="
+https://www.evo.com/shop/ski/skis
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="ski150result" style="display: none">
 		<br>
 		<h4>Your ski size is: 150cm</h4>
+		<p><a href="
+https://www.evo.com/shop/ski/skis
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="ski155result" style="display: none">
 		<br>
 		<h4>Your ski size is: 155cm</h4>
+		<p><a href="
+https://www.evo.com/shop/ski/skis
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="ski165result" style="display: none">
 		<br>
 		<h4>Your ski size is: 165cm</h4>
+		<p><a href="
+https://www.evo.com/shop/ski/skis
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="ski170result" style="display: none">
 		<br>
 		<h4>Your ski size is: 170cm</h4>
+		<p><a href="
+https://www.evo.com/shop/ski/skis
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="ski175result" style="display: none">
 		<br>
 		<h4>Your ski size is: 175cm</h4>
+		<p><a href="
+https://www.evo.com/shop/ski/skis
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="ski180result" style="display: none">
 		<br>
 		<h4>Your ski size is: 180cm</h4>
+		<p><a href="
+https://www.evo.com/shop/ski/skis
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="ski185result" style="display: none">
 		<br>
 		<h4>Your ski size is: 185cm</h4>
+		<p><a href="
+https://www.evo.com/shop/ski/skis
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="ski190result" style="display: none">
 		<br>
 		<h4>Your ski size is: 190cm</h4>
+		<p><a href="
+https://www.evo.com/shop/ski/skis
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="ski195result" style="display: none">
 		<br>
 		<h4>Your ski size is: 195cm</h4>
+		<p><a href="
+https://www.evo.com/shop/ski/skis
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="ski200result" style="display: none">
 		<br>
 		<h4>Your ski size is: 200cm</h4>
+		<p><a href="
+https://www.evo.com/shop/ski/skis
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
   
@@ -6155,174 +7727,354 @@ measure should be around 1 cm above your ears</p>
   <div id="sbootyth15result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 15.0</h4>
+		<p><a href="
+https://www.evo.com/shop/shipsto_us/f-footwidth_youth?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootyth16result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 16.0</h4>
+		<p><a href="
+https://www.evo.com/shop/shipsto_us/f-footwidth_youth?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootyth17result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 17.0</h4>
+		<p><a href="
+https://www.evo.com/shop/shipsto_us/f-footwidth_youth?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootyth175result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 17.5</h4>
+		<p><a href="
+https://www.evo.com/shop/shipsto_us/f-footwidth_youth?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootyth185result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 18.5</h4>
+		<p><a href="
+https://www.evo.com/shop/shipsto_us/f-footwidth_youth?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootyth195result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 19.5</h4>
+		<p><a href="
+https://www.evo.com/shop/shipsto_us/f-footwidth_youth?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootyth20result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 20.0</h4>
+		<p><a href="
+https://www.evo.com/shop/shipsto_us/f-footwidth_youth?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootjr205result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 20.5</h4>
+		<p><a href="
+https://www.evo.com/shop/shipsto_us/f-footwidth_youth?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootjr21result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 21.0</h4>
+		<p><a href="
+https://www.evo.com/shop/shipsto_us/f-footwidth_youth?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootjr215result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 21.5</h4>
+		<p><a href="
+https://www.evo.com/shop/shipsto_us/f-footwidth_youth?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootjr22result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 22.0</h4>
+		<p><a href="
+https://www.evo.com/shop/shipsto_us/f-footwidth_youth?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootjr225result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 22.5</h4>
+		<p><a href="
+https://www.evo.com/shop/shipsto_us/f-footwidth_youth?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootjr23result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 23.0</h4>
+		<p><a href="
+https://www.evo.com/shop/shipsto_us/f-footwidth_youth?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootjr235result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 23.5</h4>
+		<p><a href="
+https://www.evo.com/shop/shipsto_us/f-footwidth_youth?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootsr24result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 24.0</h4>
+		<p><a href="
+https://www.evo.com/shop/mens/womens/shipsto_us?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootsr245result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 24.5</h4>
+		<p><a href="
+https://www.evo.com/shop/mens/womens/shipsto_us?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootsr25result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 25.0</h4>
+		<p><a href="
+https://www.evo.com/shop/mens/womens/shipsto_us?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootsr255result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 25.5</h4>
+		<p><a href="
+https://www.evo.com/shop/mens/womens/shipsto_us?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootsr26result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 26.0</h4>
+		<p><a href="
+https://www.evo.com/shop/mens/womens/shipsto_us?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootsr265result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 26.5</h4>
+		<p><a href="
+https://www.evo.com/shop/mens/womens/shipsto_us?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootsr27result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 27.0</h4>
+		<p><a href="
+https://www.evo.com/shop/mens/womens/shipsto_us?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootsr275result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 27.5</h4>
+		<p><a href="
+https://www.evo.com/shop/mens/womens/shipsto_us?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootsr28result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 28.0</h4>
+		<p><a href="
+https://www.evo.com/shop/mens/womens/shipsto_us?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootsr285result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 28.5</h4>
+		
+<p><a href="
+https://www.evo.com/shop/mens/womens/shipsto_us?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootsr29result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 29.0</h4>
+		
+<p><a href="
+https://www.evo.com/shop/mens/womens/shipsto_us?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootsr295result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 29.5</h4>
+		
+<p><a href="
+https://www.evo.com/shop/mens/womens/shipsto_us?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootsr30result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 30.0</h4>
+		
+<p><a href="
+https://www.evo.com/shop/mens/womens/shipsto_us?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootsr305result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 30.5</h4>
+		
+<p><a href="
+https://www.evo.com/shop/mens/womens/shipsto_us?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbootsr31result" style="display: none">
 		<br>
 		<h4>Your ski boot size (in mondopoint) is: 31.0</h4>
+		
+<p><a href="
+https://www.evo.com/shop/mens/womens/shipsto_us?text=ski+%09boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
   
@@ -6333,78 +8085,158 @@ measure should be around 1 cm above your ears</p>
   <div id="skipole32result" style="display: none">
 		<br>
 		<h4>Your ski pole size is: 32"</h4>
+		<p><a href="
+https://www.evo.com/shop/size_30-in/size_31-49-in/size_32-42-in/size_32in/size_34-in/size_36-in/size_38-55-in/size_38-in/size_40-in?text=ski+poles
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="skipole34result" style="display: none">
 		<br>
 		<h4>Your ski pole size is: 34"</h4>
+		<p><a href="
+https://www.evo.com/shop/size_30-in/size_31-49-in/size_32-42-in/size_32in/size_34-in/size_36-in/size_38-55-in/size_38-in/size_40-in?text=ski+poles
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="skipole36result" style="display: none">
 		<br>
 		<h4>Your ski pole size is: 36"</h4>
+		<p><a href="
+https://www.evo.com/shop/size_30-in/size_31-49-in/size_32-42-in/size_32in/size_34-in/size_36-in/size_38-55-in/size_38-in/size_40-in?text=ski+poles
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="skipole38result" style="display: none">
 		<br>
 		<h4>Your ski pole size is: 38"</h4>
+		<p><a href="
+https://www.evo.com/shop/size_30-in/size_31-49-in/size_32-42-in/size_32in/size_34-in/size_36-in/size_38-55-in/size_38-in/size_40-in?text=ski+poles
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="skipole40result" style="display: none">
 		<br>
 		<h4>Your ski pole size is: 40"</h4>
+		<p><a href="
+https://www.evo.com/shop/size_30-in/size_31-49-in/size_32-42-in/size_32in/size_34-in/size_36-in/size_38-55-in/size_38-in/size_40-in?text=ski+poles
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="skipole42result" style="display: none">
 		<br>
+	
 		<h4>Your ski pole size is: 42"</h4>
+		<p><a href="
+https://www.evo.com/shop/size_30-in/size_31-49-in/size_32-42-in/size_32in/size_34-in/size_36-in/size_38-55-in/size_38-in/size_40-in?text=ski+poles
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="skipole44result" style="display: none">
 		<br>
 		<h4>Your ski pole size is: 44"</h4>
+		<p><a href="
+https://www.evo.com/shop/size_30-in/size_31-49-in/size_32-42-in/size_32in/size_34-in/size_36-in/size_38-55-in/size_38-in/size_40-in?text=ski+poles
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="skipole46result" style="display: none">
 		<br>
 		<h4>Your ski pole size is: 46"</h4>
+		<p><a href="
+https://www.evo.com/shop/size_30-in/size_31-49-in/size_32-42-in/size_32in/size_34-in/size_36-in/size_38-55-in/size_38-in/size_40-in?text=ski+poles
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="skipole48result" style="display: none">
 		<br>
 		<h4>Your ski pole size is: 48"</h4>
+		<p><a href="
+https://www.evo.com/shop/size_41-61-in/size_42-58-in/size_42-in/size_4456-in/size_44-in/size_46-in/size_48-in/size_50-2/size_50-in/size_52-3/size_52in/size_54-3/size_54-in/size_66- /size_75-cm/size_80-cm?text=ski+poles
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="skipole49result" style="display: none">
 		<br>
 		<h4>Your ski pole size is: 49"</h4>
+		<p><a href="
+https://www.evo.com/shop/size_41-61-in/size_42-58-in/size_42-in/size_4456-in/size_44-in/size_46-in/size_48-in/size_50-2/size_50-in/size_52-3/size_52in/size_54-3/size_54-in/size_66- /size_75-cm/size_80-cm?text=ski+poles
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="skipole52result" style="display: none">
 		<br>
+
 		<h4>Your ski pole size is: 52"</h4>
+		<p><a href="
+https://www.evo.com/shop/size_41-61-in/size_42-58-in/size_42-in/size_4456-in/size_44-in/size_46-in/size_48-in/size_50-2/size_50-in/size_52-3/size_52in/size_54-3/size_54-in/size_66- /size_75-cm/size_80-cm?text=ski+poles
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="skipole54result" style="display: none">
 		<br>
 		<h4>Your ski pole size is: 54"</h4>
+		<p><a href="
+https://www.evo.com/shop/size_41-61-in/size_42-58-in/size_42-in/size_4456-in/size_44-in/size_46-in/size_48-in/size_50-2/size_50-in/size_52-3/size_52in/size_54-3/size_54-in/size_66- /size_75-cm/size_80-cm?text=ski+poles
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	 <div id="skipole56result" style="display: none">
 		<br>
 		<h4>Your ski pole size is: 56"</h4>
+		<p><a href="
+https://www.evo.com/shop/size_41-61-in/size_42-58-in/size_42-in/size_4456-in/size_44-in/size_46-in/size_48-in/size_50-2/size_50-in/size_52-3/size_52in/size_54-3/size_54-in/size_66- /size_75-cm/size_80-cm?text=ski+poles
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
   
@@ -6420,6 +8252,7 @@ measure should be around 1 cm above your ears</p>
    <div id="sb136result" style="display: none">
 		<br>
 		<h4>Your snowboard size is: 136cm</h4>
+		
 		<hr>
 	</div>
 	
@@ -6472,174 +8305,352 @@ measure should be around 1 cm above your ears</p>
   <div id="sbbootyth15result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 15.0</h4>
+		<p><a href="
+
+https://www.evo.com/shop/boys/girls?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootyth16result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 16.0</h4>
+		<p><a href="
+
+https://www.evo.com/shop/boys/girls?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootyth17result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 17.0</h4>
+		<p><a href="
+
+https://www.evo.com/shop/boys/girls?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootyth175result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 17.5</h4>
+		<p><a href="
+
+https://www.evo.com/shop/boys/girls?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootyth185result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 18.5</h4>
+		<p><a href="
+
+https://www.evo.com/shop/boys/girls?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootyth195result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 19.5</h4>
+		<p><a href="
+
+https://www.evo.com/shop/boys/girls?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootyth20result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 20.0</h4>
+		<p><a href="
+
+https://www.evo.com/shop/kids?text=snowboard++boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootjr205result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 20.5</h4>
+		<p><a href="
+
+https://www.evo.com/shop/kids?text=snowboard++boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootjr21result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 21.0</h4>
+		<p><a href="
+
+https://www.evo.com/shop/kids?text=snowboard++boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootjr215result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 21.5</h4>
+		<p><a href="
+
+https://www.evo.com/shop/kids?text=snowboard++boots
+
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootjr22result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 22.0</h4>
+		<p><a href="
+
+https://www.evo.com/shop/mens/womens?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootjr225result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 22.5</h4>
+		<p><a href="
+
+https://www.evo.com/shop/mens/womens?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootjr23result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 23.0</h4>
+		<p><a href="
+
+https://www.evo.com/shop/mens/womens?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootjr235result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 23.5</h4>
+		<p><a href="
+
+https://www.evo.com/shop/mens/womens?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootsr24result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 24.0</h4>
+		<p><a href="
+
+https://www.evo.com/shop/mens/womens?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootsr245result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 24.5</h4>
+		<p><a href="
+
+https://www.evo.com/shop/mens/womens?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootsr25result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 25.0</h4>
+		<p><a href="
+
+https://www.evo.com/shop/mens/womens?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootsr255result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 25.5</h4>
+		<p><a href="
+
+https://www.evo.com/shop/mens/womens?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootsr26result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 26.0</h4>
+		<p><a href="
+
+https://www.evo.com/shop/mens/womens?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootsr265result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 26.5</h4>
+		<p><a href="
+
+https://www.evo.com/shop/mens/womens?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootsr27result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 27.0</h4>
+		<p><a href="
+
+https://www.evo.com/shop/mens/womens?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootsr275result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 27.5</h4>
+		<p><a href="
+
+https://www.evo.com/shop/mens/womens?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootsr28result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 28.0</h4>
+		<p><a href="
+
+https://www.evo.com/shop/mens/womens?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootsr285result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 28.5</h4>
+		<p><a href="
+
+https://www.evo.com/shop/mens/womens?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootsr29result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 29.0</h4>
+		<p><a href="
+
+https://www.evo.com/shop/mens/womens?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootsr295result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 29.5</h4>
+		<p><a href="
+
+https://www.evo.com/shop/mens/womens?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootsr30result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 30.0</h4>
+		<p><a href="
+
+https://www.evo.com/shop/mens/womens?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootsr305result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 30.5</h4>
+		<p><a href="
+
+https://www.evo.com/shop/mens/womens?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="sbbootsr31result" style="display: none">
 		<br>
 		<h4>Your snowboard boot size (in mondopoint) is: 31.0</h4>
+		<p><a href="
+
+https://www.evo.com/shop/mens/womens?text=snowboard++boots
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 
@@ -6655,30 +8666,70 @@ measure should be around 1 cm above your ears</p>
   <div id="snowhlmythresult" style="display: none">
 		<br>
 		<h4>Your snow sport helmet size is: Youth</h4>
+		<p><a href="
+
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Snowboard+Helmet&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B550
+1%3AYouth&pageNumber=0
+">Click here to see products in this size</a></p>
+
+
 		<hr>
 	</div>
 	
 	 <div id="snowhlmsrsmresult" style="display: none">
 		<br>
 		<h4>Your snow sport helmet size is: Small</h4>
+		<p><a href="
+
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Snowboard+Helmet&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B550
+1%3AYouth&pageNumber=0
+">Click here to see products in this size</a></p>
+
+
 		<hr>
 	</div>
 	
 	 <div id="snowhlmsrmdresult" style="display: none">
 		<br>
 		<h4>Your snow sport helmet size is: Medium</h4>
+		<p><a href="
+
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Snowboard+Helmet&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B550
+1%3AYouth&pageNumber=0
+">Click here to see products in this size</a></p>
+
+
 		<hr>
 	</div>
 	
 	 <div id="snowhlmsrlgresult" style="display: none">
 		<br>
 		<h4>Your snow sport helmet size is: Large</h4>
+		<p><a href="
+
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Snowboard+Helmet&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B550
+1%3AYouth&pageNumber=0
+">Click here to see products in this size</a></p>
+
+
 		<hr>
 	</div>
 	
 	 <div id="snowhlmsrxlresult" style="display: none">
 		<br>
 		<h4>Your snow sport helmet size is: Extra Large</h4>
+		<p><a href="
+
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Snowboard+Helmet&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B550
+1%3AYouth&pageNumber=0
+">Click here to see products in this size</a></p>
+
+
 		<hr>
 	</div>
   
@@ -6689,12 +8740,27 @@ measure should be around 1 cm above your ears</p>
    <div id="snowgogythresult" style="display: none">
 		<br>
 		<h4>Your snow sport goggle size is: Youth</h4>
+		<p><a href="
+
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Snowboard+Goggles&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AYouth&pageNumber=0
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
 	
 	<div id="snowgogsrresult" style="display: none">
 		<br>
 		<h4>Your snow sport goggle size is: Senior</h4>
+		<p><a href="
+
+https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=Snowboard+Goggles&storeId=15108&catalogId=12301&langId=-
+1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&filterFacets=facetStore%3AISA%2CSHIP%3B5501%3AAdult&page
+Number=0
+
+">Click here to see products in this size</a></p>
+
 		<hr>
 	</div>
   
