@@ -1,6 +1,9 @@
 
 <?php
 include_once 'header.php';
+
+
+
 ?>
 
 <!doctype html>
@@ -373,37 +376,37 @@ include_once 'header.php';
 	<form>
 	19.2" or less
 	<label for="hhlmyth" class="checkbox-label" onclick="showHHlmResult()">
-	<input type="checkbox" id="hhlmyth" name="hhlmyth"/>
+	<input type="checkbox" id="hhlmyth" name="hhy" value="Hockey Helmet: Youth"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	19.3" - 21.4"
 	<label for="hhlmxs" class="checkbox-label" onclick="showHHlmResult()">
-	<input type="checkbox" id="hhlmxs" name="hhlmxs"/>
+	<input type="checkbox" id="hhlmxs" name="eq[]" value="Hockey Helmet: Extra Small"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	20.6" - 22.2"
 	<label for="hhlmsm" class="checkbox-label" onclick="showHHlmResult()">
-	<input type="checkbox" id="hhlmsm" name="hhlmsm"/>
+	<input type="checkbox" id="hhlmsm" name="eq[]" value="Hockey Helmet: Small"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	21.9" - 23.3"
 	<label for="hhlmmd" class="checkbox-label" onclick="showHHlmResult()">
-	<input type="checkbox" id="hhlmmd" name="hhlmmd"/>
+	<input type="checkbox" id="hhlmmd" name="eq[]" value="Hockey Helmet: Medium"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	22.7" - 24.5"
 	<label for="hhlmlg" class="checkbox-label" onclick="showHHlmResult()">
-	<input type="checkbox" id="hhlmlg" name="hhlmlg"/>
+	<input type="checkbox" id="hhlmlg" name="eq[]" value="Hockey Helmet: Large"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	24.6" or greater
 	<label for="hhlmxl" class="checkbox-label" onclick="showHHlmResult()">
-	<input type="checkbox" id="hhlmxl" name="hhlmxl"/>
+	<input type="checkbox" id="hhlmxl" name="eq[]" value="Hockey Helmet: Extra Large"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	</form>
@@ -6736,6 +6739,7 @@ function showTab(n) {
   }
   if (n == (x.length - 1)) {
     document.getElementById("nextBtn").innerHTML = "Submit";
+	document.getElementById("nextBtn").name = "submit";
   } else {
     document.getElementById("nextBtn").innerHTML = "Next";
   }
