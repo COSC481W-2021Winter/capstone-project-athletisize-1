@@ -67,7 +67,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         
         // Prepare insert statements
         $sql = "INSERT INTO users (username, password) VALUES (?, ?)";
-        $sql2 = "INSERT INTO profile (imagePath) VALUES(?);";
+        $sql2 = "INSERT INTO profile (Image) VALUES ('../images/default_profile_picture.png')";
 		$sql3 = "INSERT INTO mysports (baseball, hockey, lacrosse, ski, snowboard, soccer) VALUES(?, ?, ?, ?, ?, ?);";
 		
 		//Add user to users table
@@ -92,13 +92,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         }
 		
 		//Add image path to the profile table
-		if($stmt = mysqli_prepare($link, $sql2)){
-            // Bind variables to the prepared statement as parameters
-            mysqli_stmt_bind_param($stmt, "s", $imagePath);
-            
-            // Set parameters
-            $imagePath = "../images/default_profile_picture.png";
-            
+		if($stmt = mysqli_prepare($link, $sql2)){            
             // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)){
                 // Redirect to login page
@@ -117,12 +111,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             mysqli_stmt_bind_param($stmt, "iiiiii", $baseball, $hockey, $lacrosse, $ski, $snowboard, $soccer);
             
             // Set parameters
-            $baseball = 1;
-			$hockey = 1; 
-			$lacrosse = 1;
-			$ski = 1;
-			$snowboard = 1;
-			$soccer = 1;
+            $baseball = 0;
+			$hockey = 0; 
+			$lacrosse = 0;
+			$ski = 0;
+			$snowboard = 0;
+			$soccer = 0;
             
             // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)){
