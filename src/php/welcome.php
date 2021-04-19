@@ -1,7 +1,8 @@
 <?php
 // Initialize the session and include header
-session_start();
 include_once "header.php";
+require_once "config.php";
+session_start();
 
 // Check if the user is logged in, if not then redirect him to login page
 if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
@@ -25,11 +26,59 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <body>
 	<div id="box">
 		<div class="row">
-<!-- 			<div class ="col-1"><br></div> -->
-
            <div class="col-4">
-            <img  class="profile" src="../images/placeholder.png">
+            <div id="content">
+				<?php
+					// Initialize message variable
+					$msg = "";
 
+					// If upload button is clicked ...
+					if (isset($_POST['upload'])) {
+						// Get image name
+						$image = $_FILES['image']['name']; 
+
+						// image file directory
+						$target = "../images/".basename($image);
+
+						$sql = "UPDATE profile SET Image = (?) WHERE id = (?);";
+
+						if($stmt = mysqli_prepare($link, $sql)){
+							// Bind variables to the prepared statement as parameters
+							mysqli_stmt_bind_param($stmt, "si", $target, $_SESSION["id"]);
+							
+							// Attempt to execute the prepared statement
+							mysqli_stmt_execute($stmt);
+
+							// Close statement
+							mysqli_stmt_close($stmt);
+						}
+					
+					if (move_uploaded_file($_FILES['image']['tmp_name'], $target)) {
+							$msg = "Image uploaded successfully";
+						}else{
+							$msg = "Failed to upload image";
+						}
+					}
+					
+					$uid = $_SESSION["id"];
+					$result = mysqli_query($link, "SELECT Image FROM profile WHERE id = ('$uid');");
+					  
+					if($row = mysqli_fetch_array($result)){
+						echo "<div>";
+						echo "<img class='profile' src='../images/".$row[0]."' >";
+						echo "</div>";
+					}
+					
+				?>
+				
+			  <form method="POST" enctype="multipart/form-data">
+				<input class="button button-4" type="hidden" name="size" value="1000000">
+				<div>
+				  <input type="file" name="image"><br><br>
+				  <button class="button button-4" type="submit" name="upload">Upload Image</button>
+				</div>
+			  </form>
+			</div>
           </div>
 			<div class="col-11"> 
 
@@ -45,7 +94,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 			<div class="col-5"> 
 				<h2>Your Sports</h2>
 				<?php
-				require "config.php";
 				
 				//Get the value for a given sport
 				function getValue($sport, $idValue, $conn){
