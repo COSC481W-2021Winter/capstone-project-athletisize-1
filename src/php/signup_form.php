@@ -69,6 +69,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $sql = "INSERT INTO users (username, password) VALUES (?, ?)";
         $sql2 = "INSERT INTO profile (Image) VALUES ('../images/default_profile_picture.png')";
 		$sql3 = "INSERT INTO mysports (baseball, hockey, lacrosse, ski, snowboard, soccer) VALUES(?, ?, ?, ?, ?, ?);";
+		$sql4 = "INSERT INTO equipment (eq) VALUES (?)";
 		
 		//Add user to users table
         if($stmt = mysqli_prepare($link, $sql)){
@@ -117,6 +118,26 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 			$ski = 0;
 			$snowboard = 0;
 			$soccer = 0;
+            
+            // Attempt to execute the prepared statement
+            if(mysqli_stmt_execute($stmt)){
+                // Redirect to login page
+                header("location: login_signup.php");
+            } else{
+                echo "Something went wrong. Please try again later.";
+            }
+
+            // Close statement
+            mysqli_stmt_close($stmt);
+        }
+		
+		//Add default equipment history to equipment table
+		if($stmt = mysqli_prepare($link, $sql4)){
+            // Bind variables to the prepared statement as parameters
+            mysqli_stmt_bind_param($stmt, "s", $eq);
+            
+            // Set parameters
+            $eq = "test";
             
             // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)){

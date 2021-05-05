@@ -28,7 +28,7 @@ include_once 'header.php';
 <body>
 	
 
-<form id="regForm" action=""> 
+<form id="regForm"> 
 	
 
 <!-- One "tab" for each step in the form: -->
@@ -362,6 +362,7 @@ include_once 'header.php';
 	<hr>
 
 	<div class="box">
+	<form method="post" action="results.php">
 	<div id="hockeymeasurements">
 	
 	<div id="hhlmmeasure" style="display: none">
@@ -373,10 +374,10 @@ include_once 'header.php';
 	<tr>
 	<th width = '300'>
 	
-	<form>
+	
 	19.2" or less
 	<label for="hhlmyth" class="checkbox-label" onclick="showHHlmResult()">
-	<input type="checkbox" id="hhlmyth" name="hhy" value="Hockey Helmet: Youth"/>
+	<input type="checkbox" id="hhlmyth" name="eq[]" value="Hockey Helmet: Youth"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
@@ -421,10 +422,9 @@ measure should be around 1 cm above your ears</p>
 	</th>
 	
 	</tr>
-	<br></table>
+	<br></table></div>
 
-	<hr>
-	</div>
+	
 	
 	<div id="hsldmeasure" style="display: none">
 	<h3>Shoulder Pads</h3>
@@ -435,65 +435,65 @@ measure should be around 1 cm above your ears</p>
 	<tr>
 	<th width = '300'>
 	
-	<form>
+	
 	
 	20" - 23"
 	<label for="hshlythsm" class="checkbox-label" onclick="showHShldResult()">
-	<input type="checkbox" id="hshlythsm" name="hshlythsm"/>
+	<input type="checkbox" id="hshlythsm" name="eq[]" value="Hockey Shoulder Pads: Youth Small"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	22" - 25"
 	<label for="hshlythmd" class="checkbox-label" onclick="showHShldResult()">
-	<input type="checkbox" id="hshlythmd" name="hshlythmd"/>
+	<input type="checkbox" id="hshlythmd" name="eq[]" value="Hockey Shoulder Pads: Youth Medium"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	24" - 27"
 	<label for="hshlythlg" class="checkbox-label" onclick="showHShldResult()">
-	<input type="checkbox" id="hshlythlg" name="hshlythlg"/>
+	<input type="checkbox" id="hshlythlg" name="eq[]" value="Hockey Shoulder Pads: Youth Large"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	26" - 29"
 	<label for="hshljrsm" class="checkbox-label" onclick="showHShldResult()">
-	<input type="checkbox" id="hshljrsm" name="hshljrsm"/>
+	<input type="checkbox" id="hshljrsm" name="eq[]" value="Hockey Shoulder Pads: Junior Small"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	28" - 31"
 	<label for="hshljrmd" class="checkbox-label" onclick="showHShldResult()">
-	<input type="checkbox" id="hshljrmd" name="hshljrmd"/>
+	<input type="checkbox" id="hshljrmd" name="eq[]" value="Hockey Shoulder Pads: Junior Medium"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	30" - 34"
 	<label for="hshljrlg" class="checkbox-label" onclick="showHShldResult()">
-	<input type="checkbox" id="hshljrlg" name="hshljrlg"/>
+	<input type="checkbox" id="hshljrlg" name="eq[]" value="Hockey Shoulder Pads: Junior Large"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	32" - 38"
 	<label for="hshlsrsm" class="checkbox-label" onclick="showHShldResult()">
-	<input type="checkbox" id="hshlsrsm" name="hshlsrsm"/>
+	<input type="checkbox" id="hshlsrsm" name="eq[]" value="Hockey Shoulder Pads: Senior Small"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	36" - 41"
 	<label for="hshlsrmd" class="checkbox-label" onclick="showHShldResult()">
-	<input type="checkbox" id="hshlsrmd" name="hshlsrmd"/>
+	<input type="checkbox" id="hshlsrmd" name="eq[]" value="Hockey Shoulder Pads: Senior Medium"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	39" - 43"
 	<label for="hshlsrlg" class="checkbox-label" onclick="showHShldResult()">
-	<input type="checkbox" id="hshlsrlg" name="hshlsrlg"/>
+	<input type="checkbox" id="hshlsrlg" name="eq[]" value="Hockey Shoulder Pads: Senior Large"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	44" or greater
 	<label for="hshlsrxl" class="checkbox-label" onclick="showHShldResult()">
-	<input type="checkbox" id="hshlsrxl" name="hshlsrxl"/>
+	<input type="checkbox" id="hshlsrxl" name="eq[]" value="Hockey Shoulder Pads: Senior Extra Large"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
@@ -509,9 +509,8 @@ armpits, around your shoulder blades, and back to the front) to get the measurem
 	</th>
 	
 	</tr>
-</table>
-	<hr>
-	</div>
+</table></div>
+	
 	
 	<div id="helbmeasure" style="display: none">
 	<h3>Elbow Pads</h3>
@@ -520,65 +519,65 @@ armpits, around your shoulder blades, and back to the front) to get the measurem
 	<table>
 	<tr>
 	<th width = '300'>
-	<form>
+	
 	
 	6.5" - 7.5"
 	<label for="helbythsm" class="checkbox-label" onclick="showHElbResult()">
-	<input type="checkbox" id="helbythsm" name="helbythsm"/>
+	<input type="checkbox" id="helbythsm" name="eq[]" value="Hockey Elbow Pads: Youth Small"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7" - 8"
 	<label for="helbythmd" class="checkbox-label" onclick="showHElbResult()">
-	<input type="checkbox" id="helbythmd" name="helbythmd"/>
+	<input type="checkbox" id="helbythmd" name="eq[]" value="Hockey Elbow Pads: Youth Medium"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7.5" - 8.5"
 	<label for="helbythlg" class="checkbox-label" onclick="showHElbResult()">
-	<input type="checkbox" id="helbythlg" name="helbythlg"/>
+	<input type="checkbox" id="helbythlg" name="eq[]" value="Hockey Elbow Pads: Youth Large"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	8.5" - 10.5"
 	<label for="helbjrsm" class="checkbox-label" onclick="showHElbResult()">
-	<input type="checkbox" id="helbjrsm" name="helbjrsm"/>
+	<input type="checkbox" id="helbjrsm" name="eq[]" value="Hockey Elbow Pads: Junior Small"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9" - 10"
 	<label for="helbjrmd" class="checkbox-label" onclick="showHElbResult()">
-	<input type="checkbox" id="helbjrmd" name="helbjrmd"/>
+	<input type="checkbox" id="helbjrmd" name="eq[]" value="Hockey Elbow Pads: Junior Medium"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9.5" - 11.5"
 	<label for="helbjrlg" class="checkbox-label" onclick="showHElbResult()">
-	<input type="checkbox" id="helbjrlg" name="helbjrlg"/>
+	<input type="checkbox" id="helbjrlg" name="eq[]" value="Hockey Elbow Pads: Junior Large"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11.5" - 13"
 	<label for="helbsrsm" class="checkbox-label" onclick="showHElbResult()">
-	<input type="checkbox" id="helbsrsm" name="helbsrsm"/>
+	<input type="checkbox" id="helbsrsm" name="eq[]" value="Hockey Elbow Pads: Senior Small"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	13" - 14"
 	<label for="helbsrmd" class="checkbox-label" onclick="showHElbResult()">
-	<input type="checkbox" id="helbsrmd" name="helbsrmd"/>
+	<input type="checkbox" id="helbsrmd" name="eq[]" value="Hockey Elbow Pads: Senior Medium"/>
 	<span class="checkbox-custom"></span>
 	</label><br>
 	
 	14" - 15"
 	<label for="helbsrlg" class="checkbox-label" onclick="showHElbResult()">
-	<input type="checkbox" id="helbsrlg" name="helbsrlg"/>
+	<input type="checkbox" id="helbsrlg" name="eq[]" value="Hockey Elbow Pads: Senior Large"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	15" or greater
 	<label for="helbsrxl" class="checkbox-label" onclick="showHElbResult()">
-	<input type="checkbox" id="helbsrxl" name="helbsrxl"/>
+	<input type="checkbox" id="helbsrxl" name="eq[]" value="Hockey Elbow Pads: Senior Extra Large"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
@@ -594,9 +593,8 @@ this your sleeve length will be short because the natural position of your arm i
 	</th>
 	
 	</tr>
-	</table>
-	<hr>
-	</div>
+	</table> </div>
+	
 	
 	<div id="hglvmeasure" style="display: none">
 	<h3>Gloves</h3>
@@ -606,57 +604,56 @@ this your sleeve length will be short because the natural position of your arm i
 	<tr>
 	<th width = '300'>
 	
-	<form>
+	
 	
 	3.5" - 4"
 	<label for="hglv8" class="checkbox-label" onclick="showHGlvResult()">
-	<input type="checkbox" id="hglv8" name="hglv8"/>
+	<input type="checkbox" id="hglv8" name="eq[]" value="Hockey Gloves: 8 inches"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	4" - 4.5"
 	<label for="hglv9" class="checkbox-label" onclick="showHGlvResult()">
-	<input type="checkbox" id="hglv9" name="hglv9"/>
+	<input type="checkbox" id="hglv9" name="eq[]" value="Hockey Gloves: 9 inches"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	4.5" - 5"
 	<label for="hglv10" class="checkbox-label" onclick="showHGlvResult()">
-	<input type="checkbox" id="hglv10" name="hglv10"/>
+	<input type="checkbox" id="hglv10" name="eq[]" value="Hockey Gloves: 10 inches"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	5" - 5.5"
 	<label for="hglv11" class="checkbox-label" onclick="showHGlvResult()">
-	<input type="checkbox" id="hglv11" name="hglv11"/>
+	<input type="checkbox" id="hglv11" name="eq[]" value="Hockey Gloves: 11 inches"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	5.5" - 6"
 	<label for="hglv12" class="checkbox-label" onclick="showHGlvResult()">
-	<input type="checkbox" id="hglv12" name="hglv12"/>
+	<input type="checkbox" id="hglv12" name="eq[]" value="Hockey Gloves: 12 inches"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	6" - 6.5"
 	<label for="hglv13" class="checkbox-label" onclick="showHGlvResult()">
-	<input type="checkbox" id="hglv13" name="hglv13"/>
+	<input type="checkbox" id="hglv13" name="eq[]" value="Hockey Gloves: 13 inches"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	6.5" - 7"
 	<label for="hglv14" class="checkbox-label" onclick="showHGlvResult()">
-	<input type="checkbox" id="hglv14" name="hglv14"/>
+	<input type="checkbox" id="hglv14" name="eq[]" value="Hockey Gloves: 14 inches"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7" - 7.5"
 	<label for="hglv15" class="checkbox-label" onclick="showHGlvResult()">
-	<input type="checkbox" id="hglv15" name="hglv15"/>
+	<input type="checkbox" id="hglv15" name="eq[]" value="Hockey Gloves: 15 inches"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
-	</form>
 	</th>
 	<th>
 	<img class='image' src="../images/measurement%20photos/hockey/hockey_gloves.PNG" >
@@ -678,75 +675,74 @@ when your hand is flat. </p>
 	<table>
 	<tr>
 	<th width = '300'>
-	<form>
+	
 	
 	20" - 22"
 	<label for="hpantythsm" class="checkbox-label" onclick="showHPantResult()">
-	<input type="checkbox" id="hpantythsm" name="hpantythsm"/>
+	<input type="checkbox" id="hpantythsm" name="eq[]" value="Hockey Pants: Youth Small"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	21" - 23"
 	<label for="hpantythmd" class="checkbox-label" onclick="showHPantResult()">
-	<input type="checkbox" id="hpantythmd" name="hpantythmd"/>
+	<input type="checkbox" id="hpantythmd" name="eq[]" value="Hockey Pants: Youth Medium"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	22" - 24"
 	<label for="hpantythlg" class="checkbox-label" onclick="showHPantResult()">
-	<input type="checkbox" id="hpantythlg" name="hpantythlg"/>
+	<input type="checkbox" id="hpantythlg" name="eq[]" value="Hockey Pants: Youth Large"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	23" - 25"
 	<label for="hpantjrsm" class="checkbox-label" onclick="showHPantResult()">
-	<input type="checkbox" id="hpantjrsm" name="hpantjrsm"/>
+	<input type="checkbox" id="hpantjrsm" name="eq[]" value="Hockey Pants: Junior Small"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	24" - 27"
 	<label for="hpantjrmd" class="checkbox-label" onclick="showHPantResult()">
-	<input type="checkbox" id="hpantjrmd" name="hpantjrmd"/>
+	<input type="checkbox" id="hpantjrmd" name="eq[]" value="Hockey Pants: Junior Medium"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	26" - 28"
 	<label for="hpantjrlg" class="checkbox-label" onclick="showHPantResult()">
-	<input type="checkbox" id="hpantjrlg" name="hpantjrlg"/>
+	<input type="checkbox" id="hpantjrlg" name="eq[]" value="Hockey Pants: Junior Large"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	27" - 30"
 	<label for="hpantjrxl" class="checkbox-label" onclick="showHPantResult()">
-	<input type="checkbox" id="hpantjrxl" name="hpantjrxl"/>
+	<input type="checkbox" id="hpantjrxl" name="eq[]" value="Hockey Pants: Junior Extra Large"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	28" - 32"
 	<label for="hpantsrsm" class="checkbox-label" onclick="showHPantResult()">
-	<input type="checkbox" id="hpantsrsm" name="hpantsrsm"/>
+	<input type="checkbox" id="hpantsrsm" name="eq[]" value="Hockey Pants: Senior Small"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	32" - 36"
 	<label for="hpantsrmd" class="checkbox-label" onclick="showHPantResult()">
-	<input type="checkbox" id="hpantsrmd" name="hpantsrmd"/>
+	<input type="checkbox" id="hpantsrmd" name="eq[]" value="Hockey Pants: Senior Medium"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	34" - 38"
 	<label for="hpantsrlg" class="checkbox-label" onclick="showHPantResult()">
-	<input type="checkbox" id="hpantsrlg" name="hpantsrlg"/>
+	<input type="checkbox" id="hpantsrlg" name="eq[]" value="Hockey Pants: Senior Large"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	38" or greater
 	<label for="hpantsrxl" class="checkbox-label" onclick="showHPantResult()">
-	<input type="checkbox" id="hpantsrxl" name="hpantsrxl"/>
+	<input type="checkbox" id="hpantsrxl" name="eq[]" value="Hockey Pants: Senior Extra Large"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
-	</form>
 	</th>
 	<th>
 	<img class='image' src="../images/measurement%20photos/hockey/hockey_pants.PNG" >
@@ -770,81 +766,80 @@ measure is parallel to the floor.</p>
 	<table>
 	<tr>
 	<th width = '300'>
-	<form>
+	
 	
 	6" - 7"
 	<label for="hshin7" class="checkbox-label" onclick="showHShinResult()">
-	<input type="checkbox" id="hshin7" name="hshin7"/>
+	<input type="checkbox" id="hshin7" name="eq[]" value="Hockey Shin Guards: 7 inches"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7" - 8"
 	<label for="hshin8" class="checkbox-label" onclick="showHShinResult()">
-	<input type="checkbox" id="hshin8" name="hshin8"/>
+	<input type="checkbox" id="hshin8" name="eq[]" value="Hockey Shin Guards: 8 inches"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	8" - 9"
 	<label for="hshin9" class="checkbox-label" onclick="showHShinResult()">
-	<input type="checkbox" id="hshin9" name="hshin9"/>
+	<input type="checkbox" id="hshin9" name="eq[]" value="Hockey Shin Guards: 9 inches"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9" - 10.5"
 	<label for="hshin10" class="checkbox-label" onclick="showHShinResult()">
-	<input type="checkbox" id="hshin10" name="hshin10"/>
+	<input type="checkbox" id="hshin10" name="eq[]" value="Hockey Shin Guards: 10 inches"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	10.5" - 11.5"
 	<label for="hshin11" class="checkbox-label" onclick="showHShinResult()">
-	<input type="checkbox" id="hshin11" name="hshin11"/>
+	<input type="checkbox" id="hshin11" name="eq[]" value="Hockey Shin Guards: 11 inches"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11.5" - 12.5"
 	<label for="hshin12" class="checkbox-label" onclick="showHShinResult()">
-	<input type="checkbox" id="hshin12" name="hshin12"/>
+	<input type="checkbox" id="hshin12" name="eq[]" value="Hockey Shin Guards: 12 inches"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	12.5" - 13.5"
 	<label for="hshin13" class="checkbox-label" onclick="showHShinResult()">
-	<input type="checkbox" id="hshin13" name="hshin13"/>
+	<input type="checkbox" id="hshin13" name="eq[]" value="Hockey Shin Guards: 13 inches"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	13.5" - 14.5"
 	<label for="hshin14" class="checkbox-label" onclick="showHShinResult()">
-	<input type="checkbox" id="hshin14" name="hshin14"/>
+	<input type="checkbox" id="hshin14" name="eq[]" value="Hockey Shin Guards: 14 inches"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	14.5" - 15.5"
 	<label for="hshin15" class="checkbox-label" onclick="showHShinResult()">
-	<input type="checkbox" id="hshin15" name="hshin15"/>
+	<input type="checkbox" id="hshin15" name="eq[]" value="Hockey Shin Guards: 15 inches"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	15.5" - 16.5"
 	<label for="hshin16" class="checkbox-label" onclick="showHShinResult()">
-	<input type="checkbox" id="hshin16" name="hshin16"/>
+	<input type="checkbox" id="hshin16" name="eq[]" value="Hockey Shin Guards: 16 inches"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	16.5" - 17.5"
 	<label for="hshin17" class="checkbox-label" onclick="showHShinResult()">
-	<input type="checkbox" id="hshin17" name="hshin17"/>
+	<input type="checkbox" id="hshin17" name="eq[]" value="Hockey Shin Guards: 17 inches"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	17.5" - 18.5"
 	<label for="hshin18" class="checkbox-label" onclick="showHShinResult()">
-	<input type="checkbox" id="hshin18" name="hshin18"/>
+	<input type="checkbox" id="hshin18" name="eq[]" value="Hockey Shin Guards: 18 inches"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
-	</form>
 	</th>
 	<th>
 	<img class='image' src="../images/measurement%20photos/hockey/hockey_shin_guards.PNG" >
@@ -866,73 +861,73 @@ circumference of both legs around the thickest part of your calf as well</p>
 	<table>
 	<tr>
 	<th width = '300'>
-	<form>
+
 	
 	<h5>Youth</h5>
 	
 	7.0
 	<label for="hsktyth6" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktyth6" name="hsktyth6"/>
+	<input type="checkbox" id="hsktyth6" name="eq[]" value="Hockey Skates: 6.0 Youth"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	8.0
 	<label for="hsktyth7" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktyth7" name="hsktyth7"/>
+	<input type="checkbox" id="hsktyth7" name="eq[]" value="Hockey Skates: 7.0 Youth"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9.0
 	<label for="hsktyth8" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktyth8" name="hsktyth8"/>
+	<input type="checkbox" id="hsktyth8" name="eq[]" value="Hockey Skates: 8.0 Youth"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	10.0
 	<label for="hsktyth9" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktyth9" name="hsktyth9"/>
+	<input type="checkbox" id="hsktyth9" name="eq[]" value="Hockey Skates: 9.0 Youth"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	10.5
 	<label for="hsktyth95" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktyth95" name="hsktyth95"/>
+	<input type="checkbox" id="hsktyth95" name="eq[]" value="Hockey Skates: 9.5 Youth"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11.0
 	<label for="hsktyth10" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktyth10" name="hsktyth10"/>
+	<input type="checkbox" id="hsktyth10" name="eq[]" value="Hockey Skates: 10.0 Youth"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11.5
 	<label for="hsktyth105" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktyth105" name="hsktyth105"/>
+	<input type="checkbox" id="hsktyth105" name="eq[]" value="Hockey Skates: 10.5 Youth"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	12.0
 	<label for="hsktyth11" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktyth11" name="hsktyth11"/>
+	<input type="checkbox" id="hsktyth11" name="eq[]" value="Hockey Skates: 11.0 Youth"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	12.5
 	<label for="hsktyth115" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktyth115" name="hsktyth115"/>
+	<input type="checkbox" id="hsktyth115" name="eq[]" value="Hockey Skates: 11.5 Youth"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	13.0
 	<label for="hsktyth12" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktyth12" name="hsktyth12"/>
+	<input type="checkbox" id="hsktyth12" name="eq[]" value="Hockey Skates: 12.0 Youth"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	13.5
 	<label for="hsktyth125" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktyth125" name="hsktyth125"/>
+	<input type="checkbox" id="hsktyth125" name="eq[]" value="Hockey Skates: 12.5 Youth"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
@@ -940,62 +935,62 @@ circumference of both legs around the thickest part of your calf as well</p>
 	
 	1.0
 	<label for="hsktyth13" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktyth13" name="hsktyth13"/>
+	<input type="checkbox" id="hsktyth13" name="eq[]" value="Hockey Skates: 13.0 Youth"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	1.5
 	<label for="hsktyth135" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktyth135" name="hsktyth135"/>
+	<input type="checkbox" id="hsktyth135" name="eq[]" value="Hockey Skates: 13.5 Youth"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	
 	2.0
 	<label for="hsktjr1" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktjr1" name="hsktjr1"/>
+	<input type="checkbox" id="hsktjr1" name="eq[]" value="Hockey Skates: 1.0 Junior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	2.5
 	<label for="hsktjr15" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktjr15" name="hsktjr15"/>
+	<input type="checkbox" id="hsktjr15" name="eq[]" value="Hockey Skates: 1.5 Junior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	3.0
 	<label for="hsktjr2" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktjr2" name="hsktjr2"/>
+	<input type="checkbox" id="hsktjr2" name="eq[]" value="Hockey Skates: 2.0 Junior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	3.5
 	<label for="hsktjr25" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktjr25" name="hsktjr25"/>
+	<input type="checkbox" id="hsktjr25" name="eq[]" value="Hockey Skates: 2.5 Junior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	4.0
 	<label for="hsktjr3" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktjr3" name="hsktjr3"/>
+	<input type="checkbox" id="hsktjr3" name="eq[]" value="Hockey Skates: 3.0 Junior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	4.5
 	<label for="hsktjr35" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktjr35" name="hsktjr35"/>
+	<input type="checkbox" id="hsktjr35" name="eq[]" value="Hockey Skates: 3.5 Junior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	5.0
 	<label for="hsktjr4" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktjr4" name="hsktjr4"/>
+	<input type="checkbox" id="hsktjr4" name="eq[]" value="Hockey Skates: 4.0 Junior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	5.5
 	<label for="hsktjr45" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktjr45" name="hsktjr45"/>
+	<input type="checkbox" id="hsktjr45" name="eq[]" value="Hockey Skates: 4.5 Junior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
@@ -1003,107 +998,106 @@ circumference of both legs around the thickest part of your calf as well</p>
 	
 	6.0
 	<label for="hsktjr5" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktjr5" name="hsktjr5"/>
+	<input type="checkbox" id="hsktjr5" name="eq[]" value="Hockey Skates: 5.0 Junior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	6.5
 	<label for="hsktjr55" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktjr55" name="hsktjr55"/>
+	<input type="checkbox" id="hsktjr55" name="eq[]" value="Hockey Skates: 5.5 Junior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7.0
 	<label for="hsktsr6" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktsr6" name="hsktsr6"/>
+	<input type="checkbox" id="hsktsr6" name="eq[]" value="Hockey Skates: 6.0 Senior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	7.5
 	<label for="hsktsr65" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktsr65" name="hsktsr65"/>
+	<input type="checkbox" id="hsktsr65" name="eq[]" value="Hockey Skates: 6.5 Senior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	8.0
 	<label for="hsktsr7" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktsr7" name="hsktsr7"/>
+	<input type="checkbox" id="hsktsr7" name="eq[]" value="Hockey Skates: 7.0 Senior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	8.5
 	<label for="hsktsr75" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktsr75" name="hsktsr75"/>
+	<input type="checkbox" id="hsktsr75" name="eq[]" value="Hockey Skates: 7.5 Senior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9.0
 	<label for="hsktsr8" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktsr8" name="hsktsr8"/>
+	<input type="checkbox" id="hsktsr8" name="eq[]" value="Hockey Skates: 8.0 Senior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	9.5
 	<label for="hsktsr85" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktsr85" name="hsktsr85"/>
+	<input type="checkbox" id="hsktsr85" name="eq[]" value="Hockey Skates: 8.5 Senior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	10.0
 	<label for="hsktsr9" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktsr9" name="hsktsr9"/>
+	<input type="checkbox" id="hsktsr9" name="eq[]" value="Hockey Skates: 9.0 Senior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	10.5
 	<label for="hsktsr95" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktsr95" name="hsktsr95"/>
+	<input type="checkbox" id="hsktsr95" name="eq[]" value="Hockey Skates: 9.5 Senior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11.0
 	<label for="hsktsr10" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktsr10" name="hsktsr10"/>
+	<input type="checkbox" id="hsktsr10" name="eq[]" value="Hockey Skates: 10.0 Senior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	11.5
 	<label for="hsktsr105" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktsr105" name="hsktsr105"/>
+	<input type="checkbox" id="hsktsr105" name="eq[]" value="Hockey Skates: 10.5 Senior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	12.0
 	<label for="hsktsr11" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktsr11" name="hsktsr11"/>
+	<input type="checkbox" id="hsktsr11" name="eq[]" value="Hockey Skates: 11.0 Senior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	12.5
 	<label for="hsktsr115" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktsr115" name="hsktsr115"/>
+	<input type="checkbox" id="hsktsr115" name="eq[]" value="Hockey Skates: 11.5 Senior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	13.0
 	<label for="hsktsr12" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktsr12" name="hsktsr12"/>
+	<input type="checkbox" id="hsktsr12" name="eq[]" value="Hockey Skates: 12.0 Senior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	13.5
 	<label for="hsktsr125" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktsr125" name="hsktsr125"/>
+	<input type="checkbox" id="hsktsr125" name="eq[]" value="Hockey Skates: 12.5 Senior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
 	14.0
 	<label for="hsktsr13" class="checkbox-label" onclick="showHSktResult()">
-	<input type="checkbox" id="hsktsr13" name="hsktsr13"/>
+	<input type="checkbox" id="hsktsr13" name="eq[]" value="Hockey Skates: 13.0 Senior"/>
 	<span class="checkbox-custom"></span>
 	</label><br><br>
 	
-	</form>
 	</th>
 	<th>
 	<img class='image' src="../images/measurement%20photos/hockey/hockey_skates.PNG" >
@@ -3788,8 +3782,9 @@ measure should be around 1 cm above your ears</p>
 	<hr>
 	</div>
 	</div>
-	
-</div></div>
+	<input type="submit" name="submit" class="myButton"></input>
+	</form>
+</div></div></div>
 
 <div class="tab" style="display: none">
 <h1>Results</h1>
@@ -8776,6 +8771,7 @@ Number=0
   <div style="float:right;">
     <button type="button" class="myButton" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
     <button type="button" class="myButton" id="nextBtn" onclick="nextPrev(1)">Next</button>
+	
   </div>
 </div>
 
@@ -8804,8 +8800,8 @@ function showTab(n) {
     document.getElementById("prevBtn").style.display = "";
   }
   if (n == (x.length - 1)) {
-    document.getElementById("nextBtn").innerHTML = "Submit";
-	document.getElementById("nextBtn").name = "submit";
+    document.getElementById("nextBtn").name = "submit";
+	document.getElementById("nextBtn").type = "submit";
   } else {
     document.getElementById("nextBtn").innerHTML = "Next";
   }

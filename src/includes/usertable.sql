@@ -8,7 +8,7 @@ id int AUTO_INCREMENT NOT NULL,
 image varchar(200) NOT NULL,
 FOREIGN KEY (id) REFERENCES users(id)
 );
-CREATE TABLE mySports (
+CREATE TABLE mysports (
 id int AUTO_INCREMENT NOT NULL,
 baseball int NOT NULL,
 hockey int NOT NULL,
